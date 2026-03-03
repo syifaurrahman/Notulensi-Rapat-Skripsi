@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.db
+db.sqlite3
+.DS_Store
+whispertranscription/.git/
+whispertranscription/rapat1jam.mp4
+whispertranscription/Video lucu singkat.untuk story wa.mp4
+whispertranscription/hasil/
+whispertranscription/transkrip_*.txt
+.env

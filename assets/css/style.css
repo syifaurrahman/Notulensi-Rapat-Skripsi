@@ -1,0 +1,8 @@
+/* assets/css/style.css */
+@import 'base.css';
+@import 'sidebar.css';
+@import 'dashboard.css';
+@import 'notulensi.css';
+@import 'report.css';
+@import 'pengaturan.css';
+@import 'login.css';

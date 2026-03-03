@@ -1,0 +1,39 @@
+# Virtual Environment
+.env/
+venv/
+env/
+*.env
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Whisper model cache
+~/.cache/whisper/
+
+# File audio/video (jangan push ke GitHub, terlalu besar)
+*.mp3
+*.mp4
+*.wav
+*.mov
+*.avi
+*.mkv
+*.webm
+*.flv
+*.wmv
+*.m4v
+
+# Hasil transkripsi (opsional — boleh dihapus baris ini jika ingin push hasil)
+hasil/
+transkrip_*.txt
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/

@@ -1,0 +1,348 @@
+/* =======================================================
+   SIDEBAR.CSS — Style khusus komponen Sidebar
+   Komponen: sidebar wrapper, logo, nav-menu, nav-item,
+             sidebar-footer, user-info, logout button
+   ======================================================= */
+
+/* ---- SIDEBAR WRAPPER ---- */
+.sidebar {
+    width: 260px;
+    background: #ffffff;
+    box-shadow: 4px 0 20px rgba(0, 0, 0, 0.02);
+    padding: 24px 16px;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid #eef2f6;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    left: 0;
+    overflow-y: auto;
+    flex-shrink: 0;
+}
+
+.sidebar::-webkit-scrollbar {
+    width: 4px;
+}
+
+.sidebar::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+    background: #c1c1c1;
+    border-radius: 4px;
+}
+
+/* ---- LOGO ---- */
+.logo-area {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-left: 8px;
+    margin-bottom: 36px;
+}
+
+.logo-icon {
+    background: #2463eb;
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    box-shadow: 0 10px 18px -8px rgba(36, 99, 235, 0.4);
+    flex-shrink: 0;
+}
+
+.logo-text {
+    font-weight: 700;
+    font-size: 1.3rem;
+    letter-spacing: -0.02em;
+    color: #0a2540;
+    white-space: nowrap;
+}
+
+/* ---- NAV MENU ---- */
+.nav-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    flex: 1;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 16px;
+    border-radius: 14px;
+    font-weight: 500;
+    font-size: 0.95rem;
+    color: #4a5568;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    position: relative;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.nav-item:hover {
+    background: #f0f4fe;
+    color: #2463eb;
+}
+
+.nav-item:hover i {
+    color: #2463eb;
+}
+
+.nav-item.active {
+    background: #2463eb;
+    color: white;
+    box-shadow: 0 8px 16px -6px rgba(36, 99, 235, 0.4);
+}
+
+.nav-item.active i {
+    color: white;
+}
+
+.nav-item.active::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 4px;
+    height: 60%;
+    background: white;
+    border-radius: 0 4px 4px 0;
+    animation: slideIn 0.3s ease;
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateY(-50%) translateX(-10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(-50%) translateX(0);
+    }
+}
+
+.nav-item i {
+    width: 20px;
+    font-size: 1.1rem;
+    color: #718096;
+    transition: all 0.3s ease;
+    flex-shrink: 0;
+}
+
+/* ---- SIDEBAR FOOTER ---- */
+.sidebar-footer {
+    margin-top: auto;
+    border-top: 1px solid #e6ecf3;
+    padding-top: 16px;
+}
+
+/* ---- USER INFO ---- */
+.user-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 10px;
+    background: #f9fcff;
+    border-radius: 30px;
+    margin-bottom: 12px;
+}
+
+.user-avatar {
+    width: 40px;
+    height: 40px;
+    background: #d9e5ff;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    color: #2463eb;
+    font-size: 1rem;
+    flex-shrink: 0;
+}
+
+.user-details {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    min-width: 0;
+}
+
+.user-name {
+    font-weight: 600;
+    color: #172c44;
+    font-size: 0.9rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.user-role {
+    font-size: 0.7rem;
+    color: #74869c;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* ---- LOGOUT BUTTON ---- */
+.logout-btn {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 16px;
+    border-radius: 12px;
+    font-weight: 500;
+    font-size: 0.95rem;
+    color: #dc2626;
+    background: #fee2e2;
+    border: 1px solid #fecaca;
+    transition: all 0.3s ease;
+}
+
+.logout-btn i {
+    width: 20px;
+    font-size: 1.1rem;
+    color: #dc2626;
+    transition: all 0.3s ease;
+}
+
+.logout-btn:hover {
+    background: #dc2626;
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 16px -6px rgba(220, 38, 38, 0.4);
+}
+
+.logout-btn:hover i {
+    color: white;
+}
+
+.logout-btn:active {
+    transform: translateY(0);
+    box-shadow: 0 4px 8px -4px rgba(220, 38, 38, 0.4);
+}
+
+/* ---- RESPONSIVE ---- */
+@media (max-width: 1024px) {
+    .sidebar {
+        width: 240px;
+        padding: 20px 12px;
+    }
+
+    .logo-text {
+        font-size: 1.2rem;
+    }
+
+    .nav-item {
+        padding: 10px 14px;
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+        border-right: none;
+        border-bottom: 1px solid #eef2f6;
+        padding: 16px 12px;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        overflow-y: visible;
+    }
+
+    .logo-area {
+        margin-bottom: 0;
+    }
+
+    .nav-menu {
+        display: none;
+    }
+
+    .sidebar-footer {
+        margin-top: 0;
+        border-top: none;
+        padding-top: 0;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .user-info {
+        margin-bottom: 0;
+    }
+
+    .logout-btn {
+        padding: 10px 14px;
+        font-size: 0.9rem;
+        justify-content: center;
+        white-space: nowrap;
+    }
+}
+
+@media (max-width: 480px) {
+    .sidebar {
+        padding: 12px 8px;
+        flex-wrap: wrap;
+    }
+
+    .logo-icon {
+        width: 36px;
+        height: 36px;
+        font-size: 18px;
+    }
+
+    .logo-text {
+        font-size: 1.1rem;
+    }
+
+    .user-avatar {
+        width: 32px;
+        height: 32px;
+        font-size: 0.9rem;
+    }
+
+    .user-name {
+        font-size: 0.8rem;
+    }
+
+    .user-role {
+        font-size: 0.65rem;
+    }
+
+    .logout-btn {
+        padding: 8px 12px;
+        font-size: 0.85rem;
+    }
+
+    .logout-btn i {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 360px) {
+    .sidebar-footer {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .logout-btn {
+        justify-content: center;
+    }
+}

@@ -1,0 +1,401 @@
+/* =======================================================
+   NOTULENSI.CSS — Style khusus halaman Notulensi
+   Komponen: Meeting Setup, Audio Control, Live Transcription
+   Catatan: .btn, .btn-primary, .btn-outline ada di base.css
+   ======================================================= */
+
+/* ---- MEETING SETUP CARD ---- */
+.setup-card {
+    background: #ffffff;
+    border-radius: 24px;
+    border: 1px solid #ecf2f9;
+    box-shadow: 0 8px 22px -10px rgba(0, 45, 85, 0.08);
+    padding: 24px 28px;
+    margin-bottom: 24px;
+}
+
+.section-label {
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: #142c44;
+    margin-bottom: 18px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.section-label i {
+    color: #2463eb;
+    background: #e9f0fc;
+    padding: 6px;
+    border-radius: 12px;
+    font-size: 1rem;
+}
+
+.setup-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 28px;
+}
+
+/* ---- MEETING INFO INNER CARD ---- */
+.meeting-info-card {
+    background: #f4f8ff;
+    border: 1.5px solid #dce9fa;
+    border-radius: 20px;
+    padding: 20px 22px;
+}
+
+/* ---- INPUT GROUP ---- */
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-label {
+    font-weight: 600;
+    font-size: 0.85rem;
+    color: #3f556e;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.input-field {
+    width: 100%;
+    padding: 12px 16px;
+    background: #f8fcff;
+    border: 1.5px solid #e2ebf5;
+    border-radius: 18px;
+    font-size: 0.95rem;
+    font-family: 'Inter', sans-serif;
+    transition: 0.15s;
+}
+
+.input-field:focus {
+    outline: none;
+    border-color: #2463eb;
+    background: #ffffff;
+}
+
+.automatic-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: #edf5ff;
+    padding: 6px 16px;
+    border-radius: 36px;
+    color: #1d4c9a;
+    font-weight: 600;
+    font-size: 0.85rem;
+    margin-top: 8px;
+    border: 1px solid #c1daff;
+    white-space: nowrap;
+}
+
+/* ---- AUDIO CONTROL ---- */
+.audio-section {
+    background: #f8fcff;
+    border-radius: 22px;
+    padding: 20px;
+    border: 1px solid #e2ebf5;
+}
+
+.status-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 18px;
+    padding-bottom: 10px;
+    border-bottom: 1px dashed #cbd9ec;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.status-label {
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: #425c78;
+}
+
+.status-value {
+    background: #eef4fa;
+    padding: 5px 14px;
+    border-radius: 36px;
+    font-weight: 600;
+    font-size: 0.85rem;
+    color: #606f84;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.status-value.idle {
+    background: #f1f3f5;
+    color: #5f6f86;
+}
+
+.microphone-selector {
+    background: #ffffff;
+    border-radius: 18px;
+    padding: 14px;
+    margin-bottom: 20px;
+    border: 1px solid #deeaf5;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.microphone-selector span {
+    font-size: 0.85rem;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.microphone-selector select {
+    background: #f2f7ff;
+    border: 1px solid #ccddef;
+    border-radius: 36px;
+    padding: 8px 18px;
+    font-weight: 500;
+    font-size: 0.85rem;
+    color: #1a3b5e;
+    width: 70%;
+    min-width: 160px;
+    font-family: 'Inter', sans-serif;
+    outline: none;
+    cursor: pointer;
+}
+
+.action-buttons {
+    display: flex;
+    gap: 14px;
+    flex-wrap: wrap;
+}
+
+/* ---- LIVE TRANSCRIPTION CARD ---- */
+.transcript-card {
+    background: #ffffff;
+    border-radius: 24px;
+    border: 1px solid #ecf2f9;
+    box-shadow: 0 8px 22px -10px rgba(0, 45, 85, 0.08);
+    padding: 24px 28px;
+}
+
+.transcript-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.transcript-header h2 {
+    font-weight: 700;
+    font-size: 1.3rem;
+    color: #11263e;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.live-badge {
+    background: #ff3b3b10;
+    color: #d13b3b;
+    font-weight: 700;
+    font-size: 0.7rem;
+    padding: 4px 10px;
+    border-radius: 60px;
+    border: 1px solid #ffc9c9;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.live-badge i {
+    font-size: 0.5rem;
+    color: #e03030;
+}
+
+.transcript-content {
+    background: #f8fbfe;
+    padding: 24px;
+    border-radius: 24px;
+    border: 1px solid #e3edf8;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: #24425f;
+    max-height: 260px;
+    overflow-y: auto;
+    box-shadow: inset 0 2px 8px rgba(0, 0, 0, 0.02);
+}
+
+.transcript-content p {
+    margin-bottom: 14px;
+}
+
+.transcript-content p:last-child {
+    margin-bottom: 0;
+}
+
+.footnote {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+    color: #6f8aac;
+    font-size: 0.8rem;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.action-footer {
+    margin-top: 24px;
+    display: flex;
+    gap: 14px;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+/* ---- UPLOAD VIDEO CARD ---- */
+.upload-video-card {
+    margin-bottom: 24px;
+}
+
+.upload-video-body {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+/* Dropzone wrapper — klik seluruh area */
+.upload-dropzone-label {
+    display: block;
+    cursor: pointer;
+}
+
+.upload-dropzone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    border: 2px dashed #b8d0f0;
+    border-radius: 20px;
+    background: linear-gradient(145deg, #f7fbff 0%, #eef5fe 100%);
+    padding: 52px 32px;
+    text-align: center;
+    transition: border-color 0.2s ease, background 0.2s ease, box-shadow 0.2s ease;
+    user-select: none;
+}
+
+.upload-dropzone-label:hover .upload-dropzone,
+.upload-dropzone.dragover {
+    border-color: #2463eb;
+    background: linear-gradient(145deg, #eaf3ff 0%, #ddeeff 100%);
+    box-shadow: 0 0 0 4px rgba(36, 99, 235, 0.08);
+}
+
+.upload-dropzone-icon {
+    width: 80px;
+    height: 80px;
+    background: #e3edfb;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.2rem;
+    color: #2463eb;
+    flex-shrink: 0;
+    transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.upload-dropzone-label:hover .upload-dropzone-icon {
+    background: #cfe0fa;
+    transform: translateY(-3px);
+}
+
+.upload-dropzone-title {
+    display: block;
+    font-weight: 700;
+    font-size: 1.05rem;
+    color: #142c44;
+    margin-bottom: 3px;
+}
+
+.upload-dropzone-sub {
+    display: block;
+    font-size: 0.85rem;
+    color: #6d8ab0;
+}
+
+.upload-browse-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    margin-top: 6px;
+    pointer-events: none;
+    /* klik ditangani label parent */
+}
+
+.upload-format-info {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.8rem;
+    color: #7a95b4;
+    background: #f0f6ff;
+    border: 1px solid #d6e8f8;
+    border-radius: 12px;
+    padding: 10px 18px;
+}
+
+/* ---- RESPONSIVE ---- */
+@media (max-width: 900px) {
+    .setup-grid {
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+}
+
+@media (max-width: 768px) {
+    .microphone-selector {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .microphone-selector select {
+        width: 100%;
+    }
+
+    .action-buttons {
+        width: 100%;
+        justify-content: stretch;
+    }
+
+    .action-buttons .btn {
+        flex: 1;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .setup-card,
+    .transcript-card {
+        padding: 18px 16px;
+    }
+
+    .transcript-content {
+        padding: 16px;
+        max-height: 200px;
+    }
+
+    .footnote {
+        flex-direction: column;
+        gap: 6px;
+        align-items: flex-end;
+    }
+}
