@@ -1,0 +1,34 @@
+=== RINGKASAN RAPAT (LexRank 6-Step) ===
+Sumber    : transkrip_Rekaman Zoom Sesi 1 tanggal 17 September 2020 - Mata Kuliah  Dasar Manajemen dan Bisnis - Lapaq Dosen 360p h264_20260427_112252.txt
+Dibuat    : 27 April 2026, 11:24:17
+Model     : Whisper small
+========================================
+
+adalah ringkasan notulensi rapat berdasarkan transkrip:
+
+Pembukaan
+- Rapat ini diadakan untuk membahas tentang organisasi dan manajemen.
+- Penyampaian informasi tentang e-learning system yang sedang dalam tahap perbaikan dan penggunaannya.
+
+Definisi Organisasi
+- Definisi organisasi: sistem yang terdiri dari sumber daya manusia, sumber daya panggai, dan sumber daya lainnya.
+- Tujuan organisasi: mencapai tujuan-tujuan tertentu dengan menggunakan sumber daya secara efektif.
+
+Sistem Organisasi
+- Sistem organiasi: perpaduan antara efisiensi dan efektivitas dalam mengolah sumber daya.
+- Efisiensi: penggunaan sumber daya manusia, panggai, dan lainnya untuk mencapai output yang tinggi dengan limbah rendah.
+
+Manajemen
+- Manajemen adalah proses perencanaan, organisasi, dan pengarahan dalam mengolah sumber daya.
+- Tujuan manajemen: mencapai tujuan-tujuan tertentu dengan menggunakan sumber daya secara efektif.
+
+Karakter Organisasi
+- Karakter organisasi: orang-orang yang terlibat dalam sistem organiasi, struktur, dan proses pengarahan.
+- Struktur organisasi: peraturan-peraturan yang mengatur bagaimana sistem organiasi beroperasi.
+
+Pertanyaan dan Diskusi
+- Pertanyaan tentang efisiensi dan efektivitas dalam mengolah sumber daya.
+- Diskusi tentang cara meningkatkan efisiensi dan efektivitas dalam pengarahan sumber daya.
+
+Penutup
+- Rapat ini diakhiri dengan break dan penjanjian untuk melakukan tugas-tugas yang telah disebutkan.

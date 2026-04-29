@@ -13,6 +13,8 @@ from typing import TYPE_CHECKING
 import numpy as np
 from scipy import signal as scipy_signal
 
+from noise_filter import NoiseFilter
+
 if TYPE_CHECKING:
     from config import Config
 
@@ -26,8 +28,10 @@ class AudioProcessor:
     """
 
     def __init__(self, cfg: "Config"):
-        self._nr_stationary    = cfg.nr_stationary
-        self._nr_prop_decrease = cfg.nr_prop_decrease
+        self.noise_filter = NoiseFilter(
+            stationary=cfg.nr_stationary,
+            prop_decrease=cfg.nr_prop_decrease
+        )
 
     # ── Pipeline utama ─────────────────────────────────
 
@@ -37,7 +41,7 @@ class AudioProcessor:
           resample → noise reduction → normalisasi
         """
         audio = self.resample(audio, from_sr, to_sr)
-        audio = self.denoise(audio, to_sr)
+        audio = self.noise_filter.apply(audio, to_sr)
         audio = self.normalize(audio)
         return audio
 
@@ -54,23 +58,6 @@ class AudioProcessor:
         up     = to_sr   // common
         down   = from_sr // common
         return scipy_signal.resample_poly(audio, up, down).astype(np.float32)
-
-    def denoise(self, audio: np.ndarray, sr: int) -> np.ndarray:
-        """
-        Noise reduction menggunakan library noisereduce.
-        Jika library tidak terinstall, audio dikembalikan tanpa perubahan.
-        """
-        try:
-            import noisereduce as nr
-            reduced = nr.reduce_noise(
-                y=audio,
-                sr=sr,
-                stationary=self._nr_stationary,
-                prop_decrease=self._nr_prop_decrease,
-            )
-            return reduced.astype(np.float32)
-        except ImportError:
-            return audio
 
     def normalize(self, audio: np.ndarray) -> np.ndarray:
         """Normalisasi amplitude audio ke rentang [-1, 1]."""

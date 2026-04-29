@@ -117,6 +117,7 @@ class FileTranscriber:
             # 2. Baca audio
             audio, sr = extractor.read_audio(tmp_wav)
             duration_min = len(audio) / sr / 60
+            self.last_duration_sec = int(len(audio) / sr)
             self._console.print(
                 f"[dim]  Durasi audio: {duration_min:.1f} menit | "
                 f"Sample rate: {sr} Hz[/dim]"

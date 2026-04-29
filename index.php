@@ -1,3 +1,14 @@
+<?php
+session_start();
+// Jika sudah login, arahkan ke dashboard
+if (isset($_SESSION['id'])) {
+    header("Location: dashboard.php");
+    exit();
+}
+// Jika belum login, arahkan ke login
+header("Location: login.php");
+exit();
+?>
 <!DOCTYPE html>
 <html lang="en">
 

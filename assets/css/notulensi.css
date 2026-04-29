@@ -135,6 +135,126 @@
     color: #5f6f86;
 }
 
+.status-value.connecting,
+.status-value.loading {
+    background: #fff7ed;
+    color: #c2410c;
+}
+
+.status-value.listening {
+    background: #dcfce7;
+    color: #15803d;
+    animation: statusGlow 2s ease-in-out infinite;
+}
+
+.status-value.stopping {
+    background: #fef3c7;
+    color: #a16207;
+}
+
+.status-value.stopped {
+    background: #dbeafe;
+    color: #1d4ed8;
+}
+
+.status-value.error {
+    background: #fee2e2;
+    color: #dc2626;
+}
+
+/* Pulse dot animation for listening state */
+.pulse-dot {
+    font-size: 0.55rem;
+    animation: pulseDot 1.2s ease-in-out infinite;
+    color: #16a34a;
+}
+
+@keyframes pulseDot {
+    0%, 100% { opacity: 1; transform: scale(1); }
+    50% { opacity: 0.4; transform: scale(0.7); }
+}
+
+@keyframes statusGlow {
+    0%, 100% { box-shadow: 0 0 0 0 rgba(22, 163, 74, 0); }
+    50% { box-shadow: 0 0 0 4px rgba(22, 163, 74, 0.15); }
+}
+
+/* Live badge active animation */
+.live-badge.live-active {
+    background: #fee2e2;
+    border-color: #f87171;
+    animation: livePulse 1.5s ease-in-out infinite;
+}
+
+.live-badge.live-active i {
+    animation: pulseDot 1s ease-in-out infinite;
+}
+
+@keyframes livePulse {
+    0%, 100% { box-shadow: 0 0 0 0 rgba(239, 68, 68, 0); }
+    50% { box-shadow: 0 0 0 6px rgba(239, 68, 68, 0.12); }
+}
+
+/* Transcript placeholder */
+.transcript-placeholder {
+    color: #94a3b8;
+    font-style: italic;
+    text-align: center;
+    padding: 40px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.transcript-placeholder i {
+    font-size: 1.1rem;
+}
+
+/* Transcript current text (being transcribed) */
+.transcript-current {
+    color: #16a34a;
+    font-weight: 500;
+    border-left: 3px solid #16a34a;
+    padding-left: 12px;
+    margin-left: 4px;
+}
+
+/* Transcript cursor blinking */
+.transcript-cursor {
+    display: inline-block;
+    width: 2px;
+    height: 1em;
+    background: #2463eb;
+    margin-left: 2px;
+    animation: cursorBlink 1s step-end infinite;
+    vertical-align: text-bottom;
+}
+
+@keyframes cursorBlink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+}
+
+/* Transcript error */
+.transcript-error {
+    color: #dc2626;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+/* Disabled button */
+.btn-disabled {
+    opacity: 0.5;
+    cursor: not-allowed !important;
+    pointer-events: none;
+}
+
 .microphone-selector {
     background: #ffffff;
     border-radius: 18px;
@@ -352,6 +472,70 @@
     padding: 10px 18px;
 }
 
+/* ---- FILE PREVIEW (Upload page) ---- */
+.file-preview-body {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.file-preview-info {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    background: #f0f6ff;
+    border: 1.5px solid #d3e4fa;
+    border-radius: 16px;
+    padding: 16px 20px;
+}
+
+.file-preview-icon {
+    width: 54px;
+    height: 54px;
+    background: #dce9fb;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.6rem;
+    color: #2463eb;
+    flex-shrink: 0;
+}
+
+.file-preview-details {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    min-width: 0;
+}
+
+.file-preview-name {
+    font-weight: 600;
+    font-size: 0.95rem;
+    color: #142c44;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.file-preview-size {
+    font-size: 0.8rem;
+    color: #6d8ab0;
+}
+
+.file-remove-btn {
+    flex-shrink: 0;
+    color: #dc2626 !important;
+    border-color: #fecaca !important;
+    background: #fef2f2 !important;
+}
+
+.file-remove-btn:hover {
+    background: #dc2626 !important;
+    color: white !important;
+}
+
 /* ---- RESPONSIVE ---- */
 @media (max-width: 900px) {
     .setup-grid {
@@ -379,6 +563,11 @@
         flex: 1;
         justify-content: center;
     }
+
+    .file-preview-info {
+        flex-direction: column;
+        text-align: center;
+    }
 }
 
 @media (max-width: 480px) {
@@ -399,3 +588,42 @@
         align-items: flex-end;
     }
 }
+
+/* ---- HOT-PLUG MIC TOAST & SWITCH INDICATOR ---- */
+
+/* Animasi masuk dari bawah untuk toast notifikasi */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(16px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Highlight select mic saat perangkat baru terdeteksi */
+@keyframes micHighlight {
+    0%, 100% { box-shadow: none; border-color: #ccddef; }
+    50%       { box-shadow: 0 0 0 3px rgba(36, 99, 235, 0.20); border-color: #2463eb; }
+}
+
+.microphone-selector select.mic-new-device {
+    animation: micHighlight 1.2s ease-in-out 2;
+}
+
+/* Indikator kecil "beralih mic" di dalam selector area */
+.mic-switching-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #2463eb;
+    background: #e9f0fc;
+    border-radius: 20px;
+    padding: 3px 10px;
+    margin-left: 6px;
+    animation: fadeInUp 0.2s ease;
+}

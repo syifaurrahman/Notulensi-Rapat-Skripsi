@@ -1,0 +1,9 @@
+=== RINGKASAN RAPAT (LexRank 6-Step) ===
+Sumber    : transkrip_rapat1jam_20260414_161449.txt
+Dibuat    : 14 April 2026, 16:14:57
+Model     : Whisper small
+========================================
+
+Ini yang mempunyai web, ya harus kita buka menggunakan web browser. Harus jadi setiap orang ya, harus bisa membuat halaman web ini. Web server, web server itu udah ada di XAMPP tadi ya nanti.
+
+Kalau install browser, kayaknya di semua komputer udah ada browser, VS Code, bagaimana kalian install VS Code? Saya ingin kalian cari di internet bagaimana menginstall web server, menginstall VS Code dan web server.

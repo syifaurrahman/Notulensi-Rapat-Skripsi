@@ -1,0 +1,16 @@
+=== RINGKASAN RAPAT (LexRank 6-Step) ===
+Sumber    : transkrip_rapat1jam_20260414_165322.txt
+Dibuat    : 14 April 2026, 16:53:51
+Model     : Whisper small
+========================================
+
+adalah ringkasan rapat dalam Bahasa Indonesia:
+
+Pembukaan Topik
+Rapat ini membahas tentang pembuatan halaman web. Sebagai prasyarat, kita perlu memahami dasar-dasar programan dan telah menemukan sumber daya yang dapat digunakan untuk belajar lebih lanjut.
+
+Penjelasan Isi
+Untuk membuat halaman web, setiap orang harus bisa membuatnya sendiri menggunakan browser. Web server juga diperlukan, yang sudah tersedia di XAMPP. Selain itu, kita perlu memahami cara menginstall VS Code dan web server melalui internet.
+
+Kesimpulan/Tindak Lanjut
+Untuk mendapatkan informasi lebih lanjut tentang penggunaan web server, menginstal browser, dan menginstal VS Code, kita dapat mencari di internet. Selain itu, untuk membuat halaman web yang menarik, kita dapat menggunakan HTML dengan framework seperti Laravel atau WordPress.

@@ -1,29 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pengaturan · Notulensi Rapat</title>
-    <!-- Font Awesome 6 -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <!-- Google Font: Inter -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700&display=swap"
-        rel="stylesheet">
-    <!-- CSS Files -->
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/sidebar.css">
-</head>
-
-<body>
-
     <aside class="sidebar">
         <div class="logo-area">
             <span class="logo-icon"><i class="fas fa-pen-to-square"></i></span>
             <span class="logo-text">Notulensia</span>
+            <button class="sidebar-close-btn" onclick="toggleSidebarMaster()" title="Sembunyikan Sidebar"><i class="fas fa-times"></i></button>
         </div>
 
         <div class="nav-menu">
@@ -33,12 +12,28 @@
                 <span>Dashboard</span>
             </a>
 
-            <!-- Notulensi - hanya Admin (level = 1) -->
+            <!-- Notulensi Dropdown - hanya Admin (level = 1) -->
             <?php if ($level_user == 1): ?>
-                <a href="notulensi.php" class="nav-item <?php echo isActive('notulensi.php'); ?>">
-                    <i class="fas fa-file-alt"></i>
-                    <span>Notulensi</span>
-                </a>
+                <?php
+                    $notulensiActive = in_array(basename($_SERVER['PHP_SELF']), ['notulensi.php', 'notulensi_upload.php']);
+                ?>
+                <div class="nav-dropdown <?php echo $notulensiActive ? 'open' : ''; ?>">
+                    <div class="nav-item nav-dropdown-toggle <?php echo $notulensiActive ? 'active' : ''; ?>" onclick="toggleDropdown(this)">
+                        <i class="fas fa-file-alt"></i>
+                        <span>Notulensi</span>
+                        <i class="fas fa-chevron-down dropdown-chevron"></i>
+                    </div>
+                    <div class="nav-dropdown-menu">
+                        <a href="notulensi.php" class="nav-sub-item <?php echo isActive('notulensi.php'); ?>">
+                            <i class="fas fa-broadcast-tower"></i>
+                            <span>Live</span>
+                        </a>
+                        <a href="notulensi_upload.php" class="nav-sub-item <?php echo isActive('notulensi_upload.php'); ?>">
+                            <i class="fas fa-cloud-arrow-up"></i>
+                            <span>Upload</span>
+                        </a>
+                    </div>
+                </div>
             <?php endif; ?>
 
             <!-- Report - semua level -->
@@ -68,6 +63,59 @@
         </div>
     </aside>
     <script src="assets/js/realtime-clock.js"></script>
-</body>
+    <script>
+        function toggleDropdown(el) {
+            const dropdown = el.closest('.nav-dropdown');
+            const toggle = dropdown.querySelector('.nav-dropdown-toggle');
+            const allNavItems = document.querySelectorAll('.nav-menu > a.nav-item');
 
-</html>
+            dropdown.classList.toggle('open');
+
+            if (dropdown.classList.contains('open')) {
+                allNavItems.forEach(item => item.classList.remove('active'));
+                toggle.classList.add('active');
+            } else {
+                toggle.classList.remove('active');
+                const currentPage = window.location.pathname.split('/').pop();
+                allNavItems.forEach(item => {
+                    const href = item.getAttribute('href');
+                    if (href === currentPage) {
+                        item.classList.add('active');
+                    }
+                });
+            }
+        }
+
+        // --- Sidebar Toggle Logic ---
+        function toggleSidebarMaster() {
+            document.body.classList.toggle('sidebar-hidden');
+            const isHidden = document.body.classList.contains('sidebar-hidden');
+            localStorage.setItem('notulensi_sidebar_hidden', isHidden);
+        }
+
+        // Initialize and inject hamburger
+        document.addEventListener("DOMContentLoaded", () => {
+            // Restore state from localStorage
+            if (localStorage.getItem('notulensi_sidebar_hidden') === 'true') {
+                document.body.classList.add('sidebar-hidden');
+            }
+
+            // Inject Hamburger to top-bar
+            const topBar = document.querySelector(".top-bar");
+            const pageTitle = document.querySelector(".page-title");
+            if (topBar && pageTitle) {
+                const toggleBtn = document.createElement("button");
+                toggleBtn.className = "header-toggle-btn";
+                toggleBtn.innerHTML = '<i class="fas fa-bars"></i>';
+                toggleBtn.title = "Tampilkan Sidebar";
+                toggleBtn.onclick = toggleSidebarMaster;
+                
+                const wrapper = document.createElement("div");
+                wrapper.className = "top-bar-left-wrapper";
+                
+                topBar.insertBefore(wrapper, pageTitle);
+                wrapper.appendChild(toggleBtn);
+                wrapper.appendChild(pageTitle);
+            }
+        });
+    </script>

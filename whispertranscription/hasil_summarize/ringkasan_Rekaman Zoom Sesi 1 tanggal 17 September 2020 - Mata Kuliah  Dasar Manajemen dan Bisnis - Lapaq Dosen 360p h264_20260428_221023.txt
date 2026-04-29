@@ -1,0 +1,37 @@
+=== RINGKASAN RAPAT (LexRank 6-Step) ===
+Sumber    : transkrip_Rekaman Zoom Sesi 1 tanggal 17 September 2020 - Mata Kuliah  Dasar Manajemen dan Bisnis - Lapaq Dosen 360p h264_20260428_221023.txt
+Dibuat    : 28 April 2026, 22:12:45
+Model     : Whisper small
+========================================
+
+adalah ringkasan notulensi rapat yang komprehensif, padat, dan akurat:
+
+Pembukaan
+- Rapat ini diadakan untuk membahas tentang organisasi dan manajemen.
+- Penutup rapat akan memperkenalkan diri dan menjelaskan tujuan rapat.
+
+Definisi Organisasi
+- Definisi organisasi: perusahaan atau lembaga yang memiliki tujuan, sasaran, dan struktur untuk mencapai tujuannya.
+- Tujuan organisasi: mencapai kesuksesan dan keuntungan.
+- Struktur organisasi: sistematisasi pekerjaan dan pengelolaan sumber daya manusia.
+
+Manajemen
+- Definisi manajemen: proses perencanaan, pengorganisasi, dan pengarahan untuk mencapai tujuan organisasi.
+- Tujuan manajemen: meningkatkan efisiensi dan efektifitas dalam mengelola sumber daya manusia dan sumber daya lainnya.
+
+Efisiensi dan Efektivitas
+- Definisi efisiensi: penggunaan sumber daya secara optimal untuk mencapai tujuan.
+- Definisi efektivitas: kemampuan organisasi dalam mencapai hasil akhir yang diinginkan dengan efektif.
+- Perbedaan antara efisiensi dan efektivitas: efisiensi adalah tentang menggunakan sumber daya secara optimal, sedangkan efektivitas adalah tentang mencapai hasil akhir yang diinginkan.
+
+Struktur Organisasi
+- Struktur organisasi dapat berupa sistematisasi pekerjaan dan pengelolaan sumber daya manusia.
+- Contoh struktur organisasi: perusahaan dengan struktur hierarki, tim manajemen, departemen, dll.
+
+Tugas-Tugas
+- Tugas-tugas yang harus dilakukan oleh anggota organisasi:
+ + Meningkatkan efisiensi dan efektifitas dalam mengelola sumber daya manusia.
+ + Menyediakan informasi yang akurat dan terkini untuk memfasilitasikan keputusan manajemen.
+
+Penutup
+- Rapat ini diakhiri dengan penutup rapat, di mana penutup akan memberitahukan bahwa rapat telah selesai.

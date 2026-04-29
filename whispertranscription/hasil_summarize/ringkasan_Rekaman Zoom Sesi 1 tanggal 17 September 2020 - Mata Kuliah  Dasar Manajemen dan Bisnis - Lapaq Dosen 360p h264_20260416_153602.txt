@@ -1,0 +1,30 @@
+=== RINGKASAN RAPAT (LexRank 6-Step) ===
+Sumber    : transkrip_Rekaman Zoom Sesi 1 tanggal 17 September 2020 - Mata Kuliah  Dasar Manajemen dan Bisnis - Lapaq Dosen 360p h264_20260416_153602.txt
+Dibuat    : 16 April 2026, 15:37:01
+Model     : Whisper small
+========================================
+
+adalah ringkasan notulensi rapat berdasarkan teks yang Anda berikan:
+
+**Ringkasan Notulensi Rapat**
+
+1. **Pembicaraan**: Rapat ini merupakan diskusi santai dengan tujuan untuk memahami konsep dasar manajemen dan bisnis.
+2. **Konsep Dasar Manajemen dan Bisnis**
+ * Definisi organisasi: Melalui kematifatan sumber daya manusia, ataupun sumber-sumber daya lainnya.
+ * Definisi manajemen: Proses pengarahan, pemberian facility, dan kerja sama untuk mencapai tujuan organisasi.
+3. **Tujuan Masing-Masing**: 
+ * Kita diskusi dulu aja lagi dulu.
+ * Berarti ada sekelompok orang dengan tujuan yang sama.
+4. **Pertumbuhan Organisasi**:
+ * Pertumbuhan organisasi berhubungan dengan pertumbuhan keunggulan.
+5. **Tugas dan Fungsi**: 
+ * Tugas: Menentukan, menginterpretasikan, dan mencapai tujuan organisasi melalui fungsi-fungsi yang mulai dari perencanaan hingga pengarahan.
+6. **Sumber Daya**:
+ * Sumber daya manusia adalah salah satu sumber daya utama organisasi.
+7. **Penggunaan Sumber Daya**: Efektifisiansi penggunaan sumber daya baik itu sumber daya manusia, sumber daya panggai, atau sumber daya lainnya.
+8. **Kesimpulan**:
+ * Rapat ini berfokus pada konsep dasar manajemen dan bisnis.
+ * Tujuan rapat adalah untuk memahami definisi organisasi dan manajemen serta tujuan masing-masing.
+
+**Daftar Tugas**: 
+* Kita harus melakukan tugas-tugas yang telah ditetapkan dalam rapat ini.

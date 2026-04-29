@@ -159,8 +159,21 @@ $migrations = [
         ],
     ],
 
-    // ── (Tambahkan tabel baru di sini jika diperlukan) ────────
-    // 'nama_tabel' => [ 'create' => "CREATE TABLE IF NOT EXISTS ...", 'seed' => [] ],
+    // ── Tabel notulensi_hasil ────────────────────────────────────────────
+    'notulensi_hasil' => [
+        'create' => "CREATE TABLE IF NOT EXISTS `notulensi_hasil` (
+            `id`               INT(11)      NOT NULL AUTO_INCREMENT,
+            `judul_rapat`      VARCHAR(255) NOT NULL,
+            `waktu_rapat`      DATETIME     NOT NULL,
+            `tipe_transkripsi` ENUM('Live','Upload') NOT NULL DEFAULT 'Live',
+            `transkrip_txt`    VARCHAR(500) DEFAULT NULL COMMENT 'nama file .txt hasil transkripsi',
+            `ringkasan`        TEXT         DEFAULT NULL COMMENT 'ringkasan LexRank',
+            `file_pdf`         VARCHAR(255) DEFAULT NULL COMMENT 'path file PDF (fitur lama)',
+            `created_at`       TIMESTAMP    NOT NULL DEFAULT CURRENT_TIMESTAMP,
+            PRIMARY KEY (`id`)
+        ) ENGINE=InnoDB DEFAULT CHARSET=" . DB_CHARSET . " COLLATE=" . DB_CHARSET . "_unicode_ci",
+        'seed' => []
+    ],
 
 ];
 
@@ -197,6 +210,39 @@ foreach ($migrations as $table => $def) {
                 log_msg('ERROR', "Gagal seed `{$row['label']}`: " . mysqli_error($conn));
                 $totalError++;
             }
+        }
+    }
+}
+
+// ════════════════════════════════════════════════════════════
+//  LANGKAH 4b – ALTER TABLE: Tambah kolom baru jika belum ada
+// ════════════════════════════════════════════════════════════
+log_msg('INFO', "Mengecek dan menambah kolom baru di tabel notulensi_hasil ...");
+
+$alter_columns = [
+    'transkrip_txt' => "ALTER TABLE `notulensi_hasil` ADD COLUMN `transkrip_txt` VARCHAR(500) DEFAULT NULL COMMENT 'nama file .txt hasil transkripsi' AFTER `tipe_transkripsi`",
+    'durasi_detik'  => "ALTER TABLE `notulensi_hasil` ADD COLUMN `durasi_detik` INT(11) DEFAULT 0 COMMENT 'durasi video/audio dalam detik' AFTER `transkrip_txt`",
+    'ringkasan'     => "ALTER TABLE `notulensi_hasil` ADD COLUMN `ringkasan` TEXT DEFAULT NULL COMMENT 'ringkasan LexRank' AFTER `durasi_detik`",
+];
+
+// Re-connect jika sudah close di loop sebelumnya (aman jika masih terbuka)
+if (!$conn || mysqli_ping($conn) === false) {
+    $conn = @mysqli_connect(DB_HOST, DB_USER, DB_PASS, DB_NAME);
+    mysqli_set_charset($conn, DB_CHARSET);
+}
+
+foreach ($alter_columns as $colName => $alterSql) {
+    // Cek apakah kolom sudah ada
+    $check = mysqli_query($conn, "SHOW COLUMNS FROM `notulensi_hasil` LIKE '$colName'");
+    if ($check && mysqli_num_rows($check) > 0) {
+        log_msg('SKIP', "Kolom `$colName` sudah ada.");
+    } else {
+        if (mysqli_query($conn, $alterSql)) {
+            log_msg('OK', "Kolom `$colName` berhasil ditambahkan.");
+            $totalOk++;
+        } else {
+            log_msg('ERROR', "Gagal tambah kolom `$colName`: " . mysqli_error($conn));
+            $totalError++;
         }
     }
 }

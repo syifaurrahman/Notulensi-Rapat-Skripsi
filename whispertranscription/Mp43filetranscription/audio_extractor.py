@@ -21,6 +21,8 @@ from rich.console import Console
 if TYPE_CHECKING:
     from .config import Config
 
+from .noise_filter import NoiseFilter
+
 
 class AudioExtractor:
     """Mengelola ekstraksi dan pra-pemrosesan audio dari file video/audio."""
@@ -28,6 +30,11 @@ class AudioExtractor:
     def __init__(self, cfg: "Config", console: Console | None = None):
         self._cfg = cfg
         self._console = console or Console()
+        self._noise_filter = NoiseFilter(
+            stationary=cfg.nr_stationary,
+            prop_decrease=cfg.nr_prop_decrease,
+            console=self._console
+        )
 
     # ── FFmpeg ─────────────────────────────────────────
 
@@ -71,25 +78,8 @@ class AudioExtractor:
         return audio, sr
 
     def apply_noise_reduction(self, audio: np.ndarray, sr: int) -> np.ndarray:
-        """
-        Terapkan noise reduction menggunakan noisereduce.
-        Jika library tidak tersedia, kembalikan audio asli.
-        """
-        try:
-            import noisereduce as nr
-            reduced = nr.reduce_noise(
-                y=audio,
-                sr=sr,
-                stationary=self._cfg.nr_stationary,
-                prop_decrease=self._cfg.nr_prop_decrease,
-            )
-            return reduced.astype(np.float32)
-        except ImportError:
-            self._console.print(
-                "[yellow]⚠ Library 'noisereduce' tidak ditemukan. Noise reduction dilewati.[/yellow]"
-            )
-            self._console.print("[dim]  Install dengan: pip install noisereduce[/dim]")
-            return audio
+        """Terapkan noise reduction menggunakan class eksternal NoiseFilter."""
+        return self._noise_filter.apply(audio, sr)
 
     def normalize_audio(self, audio: np.ndarray) -> np.ndarray:
         """Normalisasi amplitude audio ke rentang [-1, 1]."""

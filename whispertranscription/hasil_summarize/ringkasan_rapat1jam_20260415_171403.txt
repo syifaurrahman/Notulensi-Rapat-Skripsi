@@ -1,0 +1,32 @@
+=== RINGKASAN RAPAT (LexRank 6-Step) ===
+Sumber    : transkrip_rapat1jam_20260415_171403.txt
+Dibuat    : 15 April 2026, 17:14:53
+Model     : Whisper small
+========================================
+
+adalah ringkasan notulensi rapat yang telah diperoleh:
+
+**Pembukaan**
+- Prasyarat: Kepemahaman dasar-dasar programan, penggasa dasar programan, dan sistem basis data.
+- Tujuan: Mempelajari tentang web, sejarah web, persiapan tools, HTML dasar, sintaks HTML.
+
+**Pertanyaan**
+- Bagaimana membuat layout dari Halaman Web?
+ - Ada layout, header, bagian kontennya, footer, sidebar.
+- Semua jaringan global menggunakan protokol sama.
+- Kalau sekarang banyak mengarbitasi yang kita gunakan adalah yang kita gunakan saja.
+
+**Kesimpulan**
+- Untuk bisa mengakses atau menggunakan website, kita harus Terima ka dan menggunakan web browser.
+- Harus menjadi setiap orang ya harus bisa membuat halaman web ini.
+- Kita lanjut disini untuk mengakses web, kita tentunya harus menggunakan web browser dan tahu alamat dari website-nya.
+
+**Daftar Tugas**
+1. Install PS Code dan web server.
+2. Bawa laptop jika memang ada.
+3. Persiapkan lab masing-masing sebelum minggu depan.
+4. Mengerjakan tugas minggu depan di lab atau mengajukan permohonan untuk menggunakan lab.
+
+**Penutup**
+- Terima kasih atas hadiran kembali, persiapkanlah labnya di laptop masing-masing.
+- Wassalamu'alaikum warahmatullahi wabarakatuh.

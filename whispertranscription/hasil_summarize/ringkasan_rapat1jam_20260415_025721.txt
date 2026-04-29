@@ -1,0 +1,15 @@
+=== RINGKASAN RAPAT (LexRank 6-Step) ===
+Sumber    : transkrip_rapat1jam_20260415_025721.txt
+Dibuat    : 15 April 2026, 02:58:06
+Model     : Whisper small
+========================================
+
+adalah ringkasan rapat berdasarkan poin-poin penting:
+
+Rapat hari ini membahas tentang pembuatan halaman web. Pertama-tama, kita perlu memahami bahwa setiap orang harus memiliki kemampuan membuat halaman web yang sesuai dengan kebutuhan tim. Untuk mencapai hal ini, kita dapat menggunakan XAMPP sebagai server web dan VS Code sebagai browser.
+
+Untuk memulai, kita perlu menginstal XAMPP di komputer kita sendiri. Setelah itu, kita dapat mencari informasi tentang cara menginstall web server dan VS Code melalui internet. Dengan demikian, setiap orang dalam tim akan memiliki kemampuan membuat halaman web yang sesuai dengan kebutuhan.
+
+Selain itu, perlu diingat bahwa ada beberapa prasyarat dasar yang harus dipahami sebelum memulai pembuatan halaman web. Prinsip-prinsip ini dapat ditemukan melalui internet dan YouTube, serta dapat dipelajari secara menyeluruh dalam materi kuliah.
+
+Dalam membuat layout dari sebuah halaman web, kita perlu mempertimbangkan elemen-elemen seperti header, kontennya, footer, dan sidebar. Dengan menggunakan HTML biasa saja, kita dapat menciptakan desain yang menarik dan sesuai dengan kebutuhan tim.

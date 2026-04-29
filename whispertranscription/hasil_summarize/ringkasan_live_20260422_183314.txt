@@ -1,0 +1,22 @@
+=== RINGKASAN RAPAT (LIVE — LexRank) ===
+Sumber    : transkrip_20260422_183215.txt
+Dibuat    : 22 April 2026, 18:33:14
+Model     : Whisper small
+========================================
+
+PEMBUKAAN
+Rapat ini diadakan untuk membahas tentang Undang-Undang Dasar Negara Republik Indonesia Tahun 1945 dan bagaimana Pertahanan Indonesia terasa berlaku pada saat ini.
+
+DAFTAR KEPUTUSAN FINAL:
+1. Undang-undang dasar negara republik Indonesia tahun 1945 diakui sebagai landasan hukum yang penting dalam mempertahankan kemerdekaan Indonesia.
+2. Pertahanan Indonesia terasa berlaku pada saat ini, dan perlu dilakukan upaya untuk melindungi dan meningkatkan kekuatan pertahanan.
+
+DAFTAR ACTION ITEMS:
+1. Buat laporan tentang implementasi Undang-Undang Dasar Negara Republik Indonesia Tahun 1945 dalam mempertahankan kemerdekaan Indonesia.
+2. Persiapkan rencana untuk melindungi dan meningkatkan kekuatan pertahanan Indonesia.
+
+DAFTAR KENDALA:
+Tidak ada kendala yang signifikan pada saat rapat ini.
+
+KONKLUSI
+Rapat ini berhasil membahas tentang Undang-Undang Dasar Negara Republik Indonesia Tahun 1945 dan bagaimana Pertahanan Indonesia terasa berlaku pada saat ini. Diperlukan upaya untuk melindungi dan meningkatkan kekuatan pertahanan Indonesia, serta membuat laporan tentang implementasi Undang-Undang Dasar Negara Republik Indonesia Tahun 1945 dalam mempertahankan kemerdekaan Indonesia.

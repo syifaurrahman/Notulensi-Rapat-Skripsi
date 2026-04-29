@@ -1,0 +1,40 @@
+=== RINGKASAN RAPAT (LexRank 6-Step) ===
+Sumber    : transkrip_Mentoring Digital Marketing Melalui Zoom Meeting PENS SKY Venture - PENS SKY Venture 1080p h264_2_20260416_220836.txt
+Dibuat    : 16 April 2026, 22:10:01
+Model     : Whisper small
+========================================
+
+adalah ringkasan notulensi rapat dalam format adaptif (RAPAT PROYEK) :
+
+Judul: Analisis Digital Marketing untuk Startup
+Tujuan: Meningkatkan kesadaran dan pemahaman tentang digital marketing bagi startup.
+
+Poin Utama:
+
+1. Konsep Digital Marketing: Digital marketing adalah proses pemasaran yang menggunakan teknologi informasi dan komunikasi untuk mencapai target audiens.
+2. Sosial Media Empowerment: Sosial media dapat digunakan sebagai alat untuk meningkatkan kesadaran dan pemahaman tentang produk atau layanan startup.
+3. Organik vs Berbayar: Fokus pada organik karena masih fokus ke konten yang baik, kemudian setelah itu boleh menggunakan berbayar jika sudah kuat.
+
+Action Items:
+
+1. Buat konten yang berkualitas dan relevan dengan target audiens.
+2. Gunakan algoritma untuk meningkatkan visibilitas konten di media sosial.
+3. Analisis data untuk menentukan efektivitas kampanye digital marketing.
+
+Kendala:
+
+1. Kurangnya pengalaman dalam menggunakan teknologi digital marketing.
+2. Keterbatasan waktu dan sumber daya untuk menciptakan konten yang berkualitas.
+
+Keputusan Final:
+
+1. Fokus pada organik karena masih fokus ke konten yang baik, kemudian setelah itu boleh menggunakan berbayar jika sudah kuat.
+2. Buat rencana strategis untuk meningkatkan kesadaran dan pemahaman tentang produk atau layanan startup.
+
+Daftar Tugas:
+
+1. Ciptakan konten yang berkualitas dan relevan dengan target audiens.
+2. Analisis data untuk menentukan efektivitas kampanye digital marketing.
+3. Buat rencana strategis untuk meningkatkan kesadaran dan pemahaman tentang produk atau layanan startup.
+
+Kepala Rapat: [Nama Anda]
