@@ -1,0 +1,41 @@
+========================================
+   RINGKASAN ABSTRAKTIF (LLM ONLY)
+   Sistem Notulensia — Tanpa LexRank
+========================================
+Berikut adalah notulensi rapat berdasarkan transkrip yang diberikan:
+
+**Pembukaan**
+
+- Siapa yang membuka: Tidak disebutkan
+- Kapan: Tidak disebutkan
+- Apa agenda rapat/kuliah, siapa yang hadir jika disebutkan: Tidak disebutkan
+
+**Sejarah Psikologi Sosial**
+
+- Definisi psikologi sosial menurut Alport: Psikologi sosial adalah ilmu pengetahuan yang menggunakan metode ilmiah untuk memahami bagaimana pikiran, perasaan, dan perilaku individu dipengaruhi oleh kehadiran orang lain.
+- Tiga jenis kehadiran:
+  - Kehadiran aktual: Keberadaan fisik orang lain
+  - Kehadiran imaging: Bayangan atau gambaran orang lain yang tidak nyata
+  - Kehadiran implied: Norma-norma sosial yang tidak tertulis dan mempengaruhi perilaku individu
+
+**Perbedaan Psikologi Sosial dengan Ilmu Lain**
+
+- Perbandingan psikologi sosial dengan sosiologi:
+  - Unit analisis: Masyarakat (sosiologi) vs. Individu (psikologi sosial)
+- Perbandingan psikologi sosial dengan antropologi:
+  - Fokus: Budaya dan kebudayaan (antropologi) vs. Aspek fisik manusia (biologi)
+
+**Pertanyaan dan Diskusi**
+
+- Pertanyaan: Bagaimana perbedaan psikologi sosial dengan ilmu lain?
+- Jawaban: Psikologi sosial memiliki fokus pada individu dan kehadiran orang lain, sedangkan sosiologi lebih fokus pada sistem masyarakat. Antropologi juga memiliki fokus pada budaya dan kebudayaan.
+
+**Kesimpulan**
+
+- Poin simpulan utama:
+  - Psikologi sosial perlu menggunakan pendekatan ilmiah untuk memahami perilaku individu.
+  - Pengalaman individu unik dan tidak bisa dijadikan dasar informasi yang konsisten.
+
+**Penutup**
+
+- Bagaimana rapat/kuliah ditutup: Tidak disebutkan

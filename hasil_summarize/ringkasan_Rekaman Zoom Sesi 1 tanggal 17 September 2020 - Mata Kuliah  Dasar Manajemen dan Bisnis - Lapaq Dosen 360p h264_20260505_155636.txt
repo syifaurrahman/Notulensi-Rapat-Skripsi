@@ -1,0 +1,31 @@
+=== RINGKASAN RAPAT (LexRank 6-Step) ===
+Sumber    : transkrip_Rekaman Zoom Sesi 1 tanggal 17 September 2020 - Mata Kuliah  Dasar Manajemen dan Bisnis - Lapaq Dosen 360p h264_20260505_155636.txt
+Dibuat    : 05 May 2026, 15:57:49
+Model     : Whisper small
+========================================
+
+adalah notulensi rapat berdasarkan transkrip:
+
+TOPIK UTAMA
+Topik utama dari rapat ini adalah manajemen dan bisnis, khususnya efisiensi dan efektifitas dalam mengelola organisasi.
+
+DEFINISI MANAJEMEN DAN BISNIS
+Manajemen adalah proses perencanaan, pengorganisasi, dan pengawasan untuk mencapai tujuan-tujuan bisnis. Bisnis adalah kegiatan ekonomi yang bertujuan untuk memproduksi dan menjual produk atau jasa.
+
+EFISIENSI DAN EFektivitas
+Efisiensi adalah kemampuan organisasi dalam menggunakan sumber daya secara efektif, yaitu mencapai output tertinggi dengan jumlah input terkecil. Efektifitas adalah kemampuan organisasi untuk mencapai hasil akhir yang diinginkan.
+
+STRUKTUR ORGANISASI
+Struktur organisasi adalah sistematis peraturan dan prosedur yang digunakan dalam mengelola organisasi, termasuk posisi jabatan, tanggung jawab, dan hubungan antara anggota tim.
+
+KARAKTERISTIK MANAJER
+Manajer memiliki karakteristik sebagai berikut:
+- Mampu membuat keputusan dengan informasi yang terbatas
+- Memiliki kemampuan analisis dan pengambilan keputusan
+- Mampu mengelola konflik dan kesepakatan tim
+
+TUGAS KULIAH
+Tugas kuliah ini adalah untuk menganalisis efisiensi dan efektifitas dalam mengelola organisasi, serta membuat rekomendasi perbaikan.
+
+WAKTU RAPAT
+Rapat berlangsung selama 60 menit.

@@ -116,13 +116,11 @@ _NON_INFORMATIVE_PATTERNS = [
     re.compile(r'boleh\s+(langsung\s+)?(unmute|tanya|sampaikan)', re.IGNORECASE),
     # Filler transisi tanpa konten
     re.compile(r'^(oke|baik|nah)\s*,?\s*(kita\s+)?(lanjut|lanjutkan|mulai)', re.IGNORECASE),
-    # Komentar personal dosen (bukan materi)
+    # Komentar personal dosen
     re.compile(r'laptop\s+saya', re.IGNORECASE),
     re.compile(r'saya\s+(baru\s+)?lahir', re.IGNORECASE),
-    # Artefak recording — hanya jika kalimat HANYA berisi kata recording/streaming
-    re.compile(r'^(recording|streaming|live\s+stream)(\s+(in\s+)?(progress|stop|started|ended))?[.,!?\s]*$', re.IGNORECASE),
-    # Instruksi install generik yang tidak terkait pembahasan (non-spesifik)
-    re.compile(r'^(silakan\s+)?(install|unduh|download)\s+(vs\s*code|visual\s+studio\s+code|notepad|chrome|browser)[.,!?\s]*$', re.IGNORECASE),
+    # Artefak recording
+    re.compile(r'recording', re.IGNORECASE),
 ]
 
 # ── Koreksi typo Whisper umum (Bahasa Indonesia) ──────────────
@@ -212,56 +210,96 @@ class LexRankSummarizer:
         Ringkas teks Whisper menggunakan 6-step pipeline.
         Return string ringkasan dalam format paragraf yang bersih.
         """
+        return self.summarize_with_debug(text)['ringkasan']
+
+    def summarize_with_debug(self, text: str) -> dict:
+        """
+        Sama dengan summarize(), tapi juga mengembalikan data debug
+        perangkingan LexRank untuk ditampilkan di frontend.
+
+        Return:
+            {
+              'ringkasan': str,
+              'ranked_sentences': [
+                  {'rank': 1, 'score': 0.92, 'sentence': '...'},
+                  ...
+              ]
+            }
+        """
         if not text or len(text.strip()) < 50:
-            return text.strip()
+            return {'ringkasan': text.strip(), 'ranked_sentences': []}
 
         # ── Step 1: Text Cleaning ─────────────────────────────
         cleaned = self._step1_text_cleaning(text)
 
         if len(cleaned.strip()) < 50:
-            return cleaned.strip()
+            return {'ringkasan': cleaned.strip(), 'ranked_sentences': []}
 
         # ── Step 2: Sentence Segmentation ─────────────────────
         raw_sentences = self._step2_sentence_segmentation(cleaned)
 
         if not raw_sentences:
-            return self._polish_sentence(cleaned[:500])
+            return {'ringkasan': self._polish_sentence(cleaned[:500]), 'ranked_sentences': []}
 
         # ── Step 3: Sentence Filtering ────────────────────────
         filtered = self._step3_sentence_filtering(raw_sentences)
 
         if not filtered:
-            # Fallback: ambil kalimat terpanjang dari raw
             raw_sentences.sort(key=len, reverse=True)
-            # Hitung target dinamis sederhana untuk fallback
             target = max(self.cfg.min_sentences, min(8, len(raw_sentences)))
             filtered = raw_sentences[:target]
 
         # ── HITUNG TARGET DINAMIS (Dynamic Adaptation) ───────
-        # target = 20% dari total pembicaraan, dibatasi Min/Max dari config
         target_sentences = int(len(filtered) * self.cfg.compression_ratio)
         target_sentences = max(self.cfg.min_sentences, min(target_sentences, self.cfg.max_sentences))
 
+        # ── Debug: perangkingan LexRank ───────────────────────
+        ranked_sentences = []
+
         if len(filtered) <= target_sentences:
-            # Jika teks terlalu pendek, tidak perlu LexRank, seluruh kalimat dianggap penting
             organized = filtered
+            # Semua kalimat dianggap sama penting
+            for i, s in enumerate(filtered):
+                ranked_sentences.append({'rank': i + 1, 'score': 1.0, 'sentence': s})
         else:
-            # ── Step 4: Key Point Extraction (LexRank) ────────────
+            # ── Step 4: Key Point Extraction (LexRank) ────────
             top_sentences, top_indices = self._step4_lexrank_extraction(filtered, target=target_sentences)
 
-            # ── Step 5: Reorganization ────────────────────────────
+            # Hitung ulang skor seluruh kalimat untuk debug panel
+            try:
+                tfidf_matrix = self._build_tfidf_matrix(filtered)
+                if tfidf_matrix is not None:
+                    sim_matrix = self._build_similarity_matrix(tfidf_matrix)
+                    scores = self._power_iteration(sim_matrix)
+                    # Urutkan semua kalimat dari skor tertinggi
+                    sorted_idx = np.argsort(scores)[::-1].tolist()
+                    for rank, idx in enumerate(sorted_idx):
+                        ranked_sentences.append({
+                            'rank': rank + 1,
+                            'score': round(float(scores[idx]), 4),
+                            'sentence': filtered[idx],
+                        })
+                else:
+                    for i, s in enumerate(top_sentences):
+                        ranked_sentences.append({'rank': i + 1, 'score': 0.0, 'sentence': s})
+            except Exception:
+                for i, s in enumerate(top_sentences):
+                    ranked_sentences.append({'rank': i + 1, 'score': 0.0, 'sentence': s})
+
+            # ── Step 5: Reorganization ────────────────────────
             organized = self._step5_reorganize(top_sentences, top_indices, len(filtered))
 
         # ── Step 6: Final Summarization ───────────────────────
         if self.ollama.is_available():
             print("[LexRank] Memanggil Ollama untuk abstractive rewriting...", flush=True)
-            # Pass seluruh cleaned text agar rewriter bisa mengambil awal & akhir yang presisi
             rewritten = self.ollama.rewrite(organized, full_context=cleaned)
             if rewritten:
-                return rewritten
+                return {'ringkasan': rewritten, 'ranked_sentences': ranked_sentences}
 
         # Fallback jika Ollama down/gagal
-        return self._step6_final_format(organized)
+        ringkasan = self._step6_final_format(organized)
+        return {'ringkasan': ringkasan, 'ranked_sentences': ranked_sentences}
+
 
     # ══════════════════════════════════════════════════════════
     # Step 1: TEXT CLEANING

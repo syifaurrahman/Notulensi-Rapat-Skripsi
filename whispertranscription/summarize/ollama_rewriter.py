@@ -64,29 +64,21 @@ class OllamaRewriter:
         return ""
 
     def _build_prompt(self, sentences: list[str], context: str = "") -> str:
-        """Bangun prompt yang optimal untuk summarization Bahasa Indonesia."""
+        """Bangun prompt yang menghasilkan notulensi rapat berstruktur per bagian."""
 
         joined = "\n".join(f"- {s}" for s in sentences)
 
-        # Berikan konteks seluas mungkin agar LLM bisa menangkap detail spesifik
-        # seperti tugas, nama, angka, keputusan yang mungkin tidak ter-ekstrak LexRank
         context_section = ""
         if context:
-            max_ctx = 12000  # ~3000 token, cukup untuk llama3.2:3b (context 8k)
+            max_ctx = 20000  # ~5000 token — lebih banyak konteks, hasil lebih baik
             if len(context) <= max_ctx:
-                # Teks cukup pendek — berikan seluruhnya
-                context_section = f"""
-
-TRANSKRIP LENGKAP RAPAT (gunakan ini sebagai sumber utama):
-{context}
-"""
+                context_section = f"\n\nTRANSKRIP LENGKAP RAPAT (gunakan sebagai sumber utama):\n{context}\n"
             else:
-                # Teks terlalu panjang — ambil awal, tengah, dan akhir
                 chunk = max_ctx // 3
                 ctx_start = context[:chunk].strip()
                 mid_point = len(context) // 2
-                ctx_mid = context[mid_point - chunk//2 : mid_point + chunk//2].strip()
-                ctx_end = context[-chunk:].strip()
+                ctx_mid   = context[mid_point - chunk//2 : mid_point + chunk//2].strip()
+                ctx_end   = context[-chunk:].strip()
                 context_section = f"""
 
 TRANSKRIP RAPAT (potongan awal, tengah, dan akhir):
@@ -101,41 +93,58 @@ Bagian akhir:
 {ctx_end}
 """
 
-        prompt = f"""Anda adalah sekretaris profesional yang merangkum notulensi rapat atau catatan kuliah.
+        prompt = f"""Anda adalah sekretaris akademik profesional yang bertugas membuat notulensi rapat atau catatan perkuliahan yang lengkap, terstruktur, dan informatif.
 
-LANGKAH 1 — IDENTIFIKASI TOPIK UTAMA:
-Sebelum menulis, baca seluruh transkrip dan tentukan: Apa TOPIK UTAMA yang paling banyak dibahas?
-Contoh: Jika topik utama adalah "LexRank" atau "Sistem Notulensi", maka SELURUH ringkasan harus berfokus pada topik itu.
+TUGAS ANDA:
+Baca transkrip rapat berikut dengan cermat, lalu susun NOTULENSI RAPAT yang komprehensif. Notulensi harus mampu dipahami oleh orang yang tidak hadir dalam rapat tersebut.
 
-LANGKAH 2 — TULIS RINGKASAN BERDASARKAN TOPIK UTAMA:
-Buat ringkasan notulensi yang KOMPREHENSIF, PADAT, dan AKURAT berdasarkan topik utama yang Anda identifikasi.
+=== ATURAN KONTEN (WAJIB) ===
+1. HANYA gunakan informasi dari transkrip yang diberikan di bawah. JANGAN mengarang atau menggunakan contoh.
+2. JELASKAN SETIAP KONSEP SECARA LENGKAP dari isi transkrip. Jangan hanya menyebut nama konsep.
+3. TANGKAP SEMUA POIN PENTING dari transkrip. Jangan melewatkan informasi substansial.
+4. Setiap poin harus SPESIFIK dan INFORMATIF sesuai isi transkrip.
+5. SINTESIS pertanyaan dan diskusi. Tulis pertanyaan apa yang diajukan dan jawaban apa yang diberikan.
+6. Gunakan Bahasa Indonesia baku. Hapus kata filler (ya, gitu, nah, kan, oke, eee).
 
-FORMAT ADAPTIF:
-- Jika KULIAH/PRESENTASI: Jelaskan materi, konsep, cara kerja, dan contoh yang diajarkan secara detail.
-- Jika RAPAT PROYEK: Fokus pada keputusan, action items, dan kendala.
-- Jika DISKUSI: Fokus pada ide-ide pokok dan kesepakatan.
+=== ATURAN FORMAT OUTPUT (WAJIB DIIKUTI PERSIS) ===
+1. Mulai langsung dengan bagian pertama. JANGAN tulis pengantar seperti "Berikut notulensi..." atau "Di bawah ini adalah...".
+2. Setiap JUDUL BAGIAN ditulis dengan format: **Judul Bagian:** (diapit dua bintang, diakhiri titik dua).
+3. Di bawah setiap judul, tulis poin-poin menggunakan tanda strip: - poin
+4. Pisahkan setiap bagian dengan SATU baris kosong.
+5. HANYA tanda ** boleh digunakan — hanya untuk judul bagian. DILARANG menggunakan ##, *, _, atau ` dalam output.
+6. DILARANG menggunakan angka di depan poin (1. 2. 3.) — gunakan hanya tanda strip (-).
 
-ATURAN KRITIS (WAJIB DIPATUHI):
-1. FOKUS pada TOPIK UTAMA. Jika ada 10 menit membahas LexRank dan 1 menit menyebut install software, RINGKASAN harus didominasi LexRank, bukan install software.
-2. Hal yang hanya DISEBUTKAN SEKILAS (bukan topik utama) TIDAK PERLU dimasukkan ke ringkasan.
-3. JANGAN mengarang. Hanya tulis yang ada di transkrip.
-4. JANGAN tulis kalimat generik seperti "Rapat ini membahas...", "Tujuan rapat adalah...". Langsung ke isi.
-5. Setiap poin harus SPESIFIK dan INFORMATIF (nama algoritma, cara kerja, langkah-langkah, dll).
-6. Gunakan Bahasa Indonesia baku. Hapus filler (ya, gitu, nah, kan, sih).
+=== STRUKTUR BAGIAN (sesuaikan dengan isi transkrip yang diberikan) ===
 
-ATURAN FORMAT OUTPUT (WAJIB):
-1. DILARANG markdown (**, ##, *, _). Jangan gunakan tanda bintang.
-2. Judul bagian: HURUF KAPITAL diikuti baris baru.
-3. Daftar: gunakan tanda strip (- item) atau angka (1. item).
-4. Pisahkan bagian dengan baris kosong.
-5. Langsung sajikan ringkasan. Jangan jelaskan proses analisis Anda.
+**Pembukaan:**
+- [Isi berdasarkan transkrip: siapa yang membuka, apa agenda, siapa yang hadir]
 
-POIN-POIN KUNCI HASIL EKSTRAKSI:
+**[Topik Utama 1 dari transkrip]:**
+- [Poin penting dari transkrip terkait topik ini]
+- [Poin lainnya dari transkrip]
+
+**[Topik Utama 2 dari transkrip — jika ada]:**
+- [Isi dari transkrip]
+
+**Pertanyaan dan Diskusi:**
+- Pertanyaan: [isi dari transkrip] — Jawaban: [isi dari transkrip]
+
+**Kesimpulan:**
+- [Simpulan dari transkrip]
+- [Tindak lanjut dari transkrip jika disebutkan]
+
+**Penutup:**
+- [Penutupan sesuai transkrip]
+
+=== DATA TRANSKRIP YANG HARUS DIRINGKAS (SUMBER UTAMA — WAJIB DIGUNAKAN) ===
+
+POIN-POIN KUNCI DARI TRANSKRIP:
 {joined}
 {context_section}
-NOTULENSI RAPAT:"""
+NOTULENSI RAPAT (berdasarkan data di atas):"""
 
         return prompt
+
 
     def _call_ollama(self, prompt: str) -> str:
         """Panggil Ollama API untuk generate teks."""
@@ -146,11 +155,12 @@ NOTULENSI RAPAT:"""
             "prompt": prompt,
             "stream": False,
             "options": {
-                "temperature": 0.25,      # Lebih rendah untuk akurasi
-                "top_p": 0.85,
-                "num_predict": 3072,       # Lebih banyak token untuk detail
-                "num_ctx": 8192,           # Context window penuh
-                "repeat_penalty": 1.2,     # Lebih tinggi, hindari pengulangan
+                "temperature": 0.15,       # Sangat rendah = format konsisten, tidak keluar jalur
+                "top_p": 0.90,
+                "num_predict": 4096,       # Lebih besar agar notulensi tidak terpotong
+                "num_ctx": 8192,
+                "repeat_penalty": 1.15,
+                "top_k": 40,
             },
         }).encode("utf-8")
 
@@ -168,36 +178,57 @@ NOTULENSI RAPAT:"""
             return body.get("response", "")
 
     def _clean_response(self, text: str) -> str:
-        """Bersihkan output LLM dari artefak markdown dan formatting."""
+        """
+        Bersihkan output LLM.
+        Format **Judul:** pada baris judul DIPERTAHANKAN (untuk render bold di frontend).
+        Bold di dalam kalimat biasa dihapus.
+        """
         # Hapus tag HTML yang mungkin muncul
         text = re.sub(r'<[^>]+>', '', text)
 
-        # Hapus "Ringkasan:" atau header serupa di awal
+        # Hapus pengantar generik di awal (sebelum konten notulensi dimulai)
         text = re.sub(
-            r'^(ringkasan|summary|hasil|berikut|di bawah ini)[:\s]*',
+            r'^(ringkasan|summary|hasil|berikut|di bawah ini|adalah notulensi[^:]*|'
+            r'notulensi rapat[^:]*|berdasarkan transkrip[^:]*|'
+            r'tentu[,\s]+berikut[^:]*|baik[,\s]+berikut[^:]*)[:\s\n]*',
             '', text, flags=re.IGNORECASE
         )
 
-        # ── Hapus semua formatting markdown ──
-        # Hapus **bold** dan __bold__
-        text = re.sub(r'\*\*(.+?)\*\*', r'\1', text)
-        text = re.sub(r'__(.+?)__', r'\1', text)
-
-        # Hapus *italic* dan _italic_
-        text = re.sub(r'(?<!\*)\*(?!\*)(.+?)(?<!\*)\*(?!\*)', r'\1', text)
-        text = re.sub(r'(?<!_)_(?!_)(.+?)(?<!_)_(?!_)', r'\1', text)
-
-        # Hapus heading markdown (## Header → Header)
+        # Hapus heading markdown (## Header → hapus, akan diganti **Judul:**)
         text = re.sub(r'^#{1,6}\s*', '', text, flags=re.MULTILINE)
 
         # Hapus backtick code formatting
         text = re.sub(r'`([^`]+)`', r'\1', text)
 
-        # Bersihkan bullet point markdown (  * item → - item)
+        # Bersihkan bullet point markdown (*  item → - item)
         text = re.sub(r'^\s*\*\s+', '- ', text, flags=re.MULTILINE)
 
-        # Hapus tanda bintang yang tersisa tanpa pasangan
-        text = re.sub(r'\*', '', text)
+        # Proses baris per baris:
+        # - Baris yang merupakan judul bagian (**Judul:**) → PERTAHANKAN bold
+        # - Baris lain → hapus ** agar tidak ada bold di kalimat biasa
+        cleaned_lines = []
+        for line in text.split('\n'):
+            stripped = line.strip()
+            # Deteksi baris judul: **...: ** atau **...:** (format yang diminta)
+            is_heading = bool(re.match(r'^\*\*.+:\*\*\s*$', stripped) or
+                              re.match(r'^\*\*.+?\*\*\s*:?\s*$', stripped))
+            if is_heading:
+                # Normalisasi: pastikan format persis **Judul:**
+                # Contoh: **Definisi Organisasi:** atau **Definisi Organisasi**:
+                line = re.sub(r'^\*\*(.+?)\*\*:?\s*$',
+                              lambda m: f'**{m.group(1).rstrip(":")}:**',
+                              stripped)
+            else:
+                # Bukan judul → hapus bold/italic
+                line = re.sub(r'\*\*(.+?)\*\*', r'\1', line)
+                line = re.sub(r'__(.+?)__', r'\1', line)
+                line = re.sub(r'(?<!\*)\*(?!\*)(.+?)(?<!\*)\*(?!\*)', r'\1', line)
+                line = re.sub(r'(?<!_)_(?!_)(.+?)(?<!_)_(?!_)', r'\1', line)
+                # Hapus * tersisa
+                line = re.sub(r'\*', '', line)
+            cleaned_lines.append(line)
+
+        text = '\n'.join(cleaned_lines)
 
         # Normalisasi whitespace
         text = re.sub(r'\n{3,}', '\n\n', text)

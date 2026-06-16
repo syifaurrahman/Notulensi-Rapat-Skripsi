@@ -1,0 +1,29 @@
+============================================================
+  HASIL PENGUJIAN AKURASI WHISPER
+  Sistem Notulensia — Transkripsi Rapat
+============================================================
+  Tanggal     : 09 June 2026, 21:43:48
+  Metode      : jiwer (library)
+  File Ref    : Manual akurasi transkrip.txt
+  File Hyp    : whisper transkrip psikologi.txt
+------------------------------------------------------------
+
+  METRIK UTAMA
+  ─────────────────────────────────────────
+  WER   (Word Error Rate)     :    6.96%
+  WAcc  (Word Accuracy)       :   93.04%
+  CER   (Character Error Rate):    4.89%
+
+  PENILAIAN
+  ─────────────────────────────────────────
+  Kualitas WER  :  Baik ✓
+  Kualitas CER  :  Sangat Baik ✓✓
+
+============================================================
+  CATATAN:
+  - WER ideal untuk speech-to-text: < 10%
+  - WAcc = 100% - WER
+  - CER lebih ketat karena dihitung per karakter
+  - Normalisasi: lowercase, hapus tanda baca,
+    hapus frasa halusinasi Whisper
+============================================================

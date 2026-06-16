@@ -1,0 +1,37 @@
+=== RINGKASAN RAPAT (LexRank 6-Step) ===
+Sumber    : transkrip_Zoom Meeting   Psikologi Sosial I C 2022 02 23 13 15 57_20260506_160938.txt
+Dibuat    : 06 May 2026, 16:11:47
+Model     : Whisper small
+========================================
+
+adalah ringkasan notulensi rapat berdasarkan topik utama psikologi sosial:
+
+Topik Utama: Psikologi Sosial dan Definisi yang Dibahas
+
+Psikologi sosial adalah ilmu yang mempelajari bagaimana pikiran, perasaan, dan perilaku individu dipengaruhi oleh kehadiran orang lain. Ilmwan Jerman seperti Alport dan William MacDougall telah membantu mengembangkan teori-teori psikologi sosial.
+
+Definisi Psikologi Sosial:
+
+Psikologi sosial melibatkan penggunaan metode ilmiah untuk memahami bagaimana pikiran, perasaan, dan perilaku individu dipengaruhi oleh kehadiran orang lain. Tiga jenis kehadiran yang dipelajari dalam psikologi sosial adalah:
+
+1. Kehadiran aktual: Kejadian nyata yang dapat mempengaruhi perilaku individu.
+2. Kehadiran imajinasi: Pikiran dan bayangan yang tidak nyata, tetapi dapat memengaruhi perilaku individu.
+3. Kehadiran implied present: Norma-norma sosial yang tidak tertulis, tetapi dapat mempengaruhi perilaku individu.
+
+Perbedaan Psikologi Sosial dengan Ilmu Lain:
+
+Psikologi sosial berbeda dari ilmu lain seperti sosiologi dan antropologi dalam hal unit analisis. Psikologi sosial fokus pada perilaku individu, sedangkan sosiologi dan antropologi lebih fokus pada sistem masyarakat.
+
+Pendekatan Ilmiah dalam Psikologi Sosial:
+
+Psikologi sosial menggunakan metode penelitian yang ilmiah untuk memahami bagaimana pikiran, perasaan, dan perilaku individu dipengaruhi oleh kehadiran orang lain. Prosesnya melibatkan:
+
+1. Teori
+2. Hipotesis
+3. Metode pengujian
+4. Data analisis
+5. Interpretasi hasil
+
+Kesimpulan:
+
+Psikologi sosial adalah ilmu yang mempelajari bagaimana pikiran, perasaan, dan perilaku individu dipengaruhi oleh kehadiran orang lain. Dengan menggunakan metode penelitian yang ilmiah, psikologi sosial dapat membantu kita memahami bagaimana norma-norma sosial dan kehadiran orang lain mempengaruhi perilaku individu.

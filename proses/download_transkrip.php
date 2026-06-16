@@ -24,7 +24,7 @@ if (pathinfo($filename, PATHINFO_EXTENSION) !== 'txt') {
     exit('Tipe file tidak diizinkan');
 }
 
-$filePath = 'C:\\laragon\\www\\notulensi_rapat\\whispertranscription\\hasil\\' . $filename;
+$filePath = 'C:\\laragon\\www\\notulensi_rapat\\hasil\\' . $filename;
 
 if (!file_exists($filePath)) {
     http_response_code(404);

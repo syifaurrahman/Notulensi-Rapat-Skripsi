@@ -1,0 +1,21 @@
+=== RINGKASAN RAPAT (LexRank 6-Step) ===
+Sumber    : transkrip_Mentoring Digital Marketing Melalui Zoom Meeting PENS SKY Venture - PENS SKY Venture 1080p h264_2_20260610_214445.txt
+Dibuat    : 10 June 2026, 21:45:28
+Model     : Whisper small
+========================================
+
+adalah notulensi rapat berdasarkan transkrip rapat yang Anda berikan:
+
+**Pembukaan:**
+- Perkuliahan dibuka oleh dosen pengampu pada sesi pertama mata kuliah Dasar Manajemen dan Bisnis.
+- Agenda sesi ini adalah membahas definisi organisasi, struktur, efisiensi, dan efektivitas.
+
+**Definisi Organisasi:**
+- Organisasi adalah kumpulan orang yang bekerja secara terkoordinasi untuk mencapai tujuan bersama yang telah ditetapkan.
+- Tujuan organisasi dapat berupa profit (keuntungan finansial), pertumbuhan bisnis, atau peningkatan pelayanan kepada masyarakat.
+
+**Pertanyaan dan Diskusi:**
+- Pertanyaan: Apa perbedaan antara efisiensi dan efektivitas?
+- Jawaban: Efisiensi berfokus pada cara penggunaan sumber daya (hemat, tanpa pemborosan), sedangkan efektivitas berfokus pada ketercapaian tujuan akhir yang telah ditetapkan organisasi.
+
+Kesimp

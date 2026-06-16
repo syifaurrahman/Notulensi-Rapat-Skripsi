@@ -76,20 +76,17 @@ if (isset($_SESSION['login_error'])) {
                     </label>
                     <div class="password-wrapper">
                         <input type="password" class="form-input" id="password" name="password"
-                            placeholder="Masukkan password Anda" required>
-                        <button type="button" class="password-toggle" id="togglePassword">
-                            <i class="far fa-eye"></i>
-                        </button>
+                            placeholder="Masukkan password Anda" required
+                            autocomplete="current-password">
                     </div>
                 </div>
 
-                <!-- Remember Me & Forgot Password -->
+                <!-- Remember Me -->
                 <div class="form-options">
                     <label class="checkbox-label">
                         <input type="checkbox" class="checkbox" name="remember" checked>
                         <span>Ingat saya</span>
                     </label>
-                    <a href="#" class="forgot-link">Lupa Password?</a>
                 </div>
 
                 <!-- Login Button -->
@@ -106,11 +103,7 @@ if (isset($_SESSION['login_error'])) {
                 </div>
                 <?php endif; ?>
 
-                <!-- Demo Info -->
-                <div class="demo-info">
-                    <i class="fas fa-info-circle"></i>
-                    <span>Demo: Admin@admin.com / admin123 &nbsp;|&nbsp; user@user.com / user123</span>
-                </div>
+
             </form>
 
             <div class="login-footer">
@@ -119,22 +112,7 @@ if (isset($_SESSION['login_error'])) {
         </div>
     </div>
 
-    <script>
-        // Toggle Password Visibility
-        document.getElementById('togglePassword').addEventListener('click', function () {
-            const passwordInput = document.getElementById('password');
-            const icon = this.querySelector('i');
-            if (passwordInput.type === 'password') {
-                passwordInput.type = 'text';
-                icon.classList.remove('fa-eye');
-                icon.classList.add('fa-eye-slash');
-            } else {
-                passwordInput.type = 'password';
-                icon.classList.remove('fa-eye-slash');
-                icon.classList.add('fa-eye');
-            }
-        });
-    </script>
+
 
     <!-- Popup Alert JS -->
     <script src="assets/js/popup-alert.js"></script>

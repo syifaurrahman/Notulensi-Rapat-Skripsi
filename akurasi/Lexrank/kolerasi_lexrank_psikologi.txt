@@ -1,0 +1,72 @@
+====================================================================
+   HASIL KORELASI: LexRank <-> Transkripsi Whisper
+====================================================================
+
+FILE LEXRANK   : c:\laragon\www\notulensi_rapat\hasil_summarize\Lexrank.txt
+FILE TRANSKRIP : c:\laragon\www\notulensi_rapat\hasil\transkrip_Zoom Meeting   Psikologi Sosial I C 2022 02 23 13 15 57_20260609_222504.txt
+
+--------------------------------------------------------------------
+  STATISTIK DOKUMEN
+--------------------------------------------------------------------
+  Token LexRank (raw)                      : 477
+  Token Transkrip (raw)                    : 4214
+  Token LexRank (tanpa stopword)           : 251
+  Token Transkrip (tanpa stopword)         : 2128
+  Kosakata unik LexRank                    : 138
+  Kosakata unik Transkrip                  : 839
+  Kosakata overlap (irisan)                : 136
+  Jumlah kalimat LexRank                   : 25
+
+--------------------------------------------------------------------
+  METRIK KORELASI
+--------------------------------------------------------------------
+  1. Cosine Similarity (TF-IDF)              :  67.94%
+  2. Jaccard Similarity (kosakata unik)      :  16.17%
+  3. Token Retention Rate                    :  11.70%
+  4. Sentence Coverage                       : 100.00%
+  5. Compression Ratio (lex/transkrip)       :  11.32%
+
+--------------------------------------------------------------------
+  INTERPRETASI SETIAP METRIK
+--------------------------------------------------------------------
+  Cosine Similarity  : TINGGI [OK]
+  Jaccard Similarity : RENDAH  [!]
+  Token Retention    : RENDAH  [!]
+  Sentence Coverage  : TINGGI [OK]
+  Compression Ratio  : BAIK (ringkasan padat, 11.3% panjang transkrip)
+
+--------------------------------------------------------------------
+  DETAIL COVERAGE PER KALIMAT LEXRANK
+--------------------------------------------------------------------
+  [ 1] [EXACT] Jaccard=1.000  "Disini psikologi sosial mungkin udah saya bahas sebenarnya minggu lalu..."
+  [ 2] [EXACT] Jaccard=1.000  "Ini membahas psikologi sosial, tapi dari perspektif yang berbeda..."
+  [ 3] [EXACT] Jaccard=1.000  "Sedangkan Edward Ross atau ini sosialok Amerika, dia melihat bahwa psi..."
+  [ 4] [EXACT] Jaccard=1.000  "Dia mengatakan bahwa bagaimana individu di penghari oleh lingkungan ya..."
+  [ 5] [EXACT] Jaccard=1.000  "Atau perilaku kalian dipengaruh oleh adanya saya disini, Itu aktual, a..."
+  [ 6] [EXACT] Jaccard=1.000  "Hmm, oke dia belum pernah ketemu tapi seperti benar-benar ketemu gitu ..."
+  [ 7] [EXACT] Jaccard=1.000  "Betul, kayak norma-norma yang kita udah sama-sama tahu gitu yang jadi ..."
+  [ 8] [EXACT] Jaccard=1.000  "Situasi sosial ini memang ilmu, bukan common sense ya, Nanti kita baha..."
+  [ 9] [EXACT] Jaccard=1.000  "Teman-teman tahu kira-kira apa situasi, tampoh situasi sosial, Yang se..."
+  [10] [EXACT] Jaccard=1.000  "Betul, ya ketika ada interaksi antar dua atau lebih orang, itu benar-b..."
+  [11] [EXACT] Jaccard=1.000  "Disini menurut Lewin, psikologi sosial itu untuk mempelajari tentang p..."
+  [12] [EXACT] Jaccard=1.000  "Ibu, lainnya sih berkanya, Ibu, tentang yang implied, implied presence..."
+  [13] [EXACT] Jaccard=1.000  "Dia tidak ada tapi kita membayangkan dia ada di sini..."
+  [14] [EXACT] Jaccard=1.000  "Itu kalau itu aja inget aja yang lebih ke normal-normal atau aturan-at..."
+  [15] [EXACT] Jaccard=1.000  "Dia ngomong-ngomong depan kaca akibat adanya kehadiran orang lainnya, ..."
+  [16] [EXACT] Jaccard=1.000  "Karena ada kehadiran orang lain, menurut sih Alport ya, menurut Alport..."
+  [17] [EXACT] Jaccard=1.000  "Kalau psikologi sosial, dia individu, gitu, lebih kepada perilaku indi..."
+  [18] [EXACT] Jaccard=1.000  "Tapi kepada perilaku individu, tapi dipelengaruhi oleh masyarakat sosi..."
+  [19] [EXACT] Jaccard=1.000  "Kita lanjut ke, ini, psikologi sosial sebagai ilmu..."
+  [20] [EXACT] Jaccard=1.000  "Ijin Bu, kalau menurut Rani yang lebih, ya benar-benar itu yang itu bu..."
+  [21] [EXACT] Jaccard=1.000  "Ini beda-beda nih ya pendapat sekar, menapa Lani, Andra, Ivana semua b..."
+  [22] [EXACT] Jaccard=1.000  "Ini kan salah satu konteks teamwork ya, ini kerja kelompok..."
+  [23] [EXACT] Jaccard=1.000  "Kerja kelompok ini kan salah satu kelasi sosial ya, ketika kita harus ..."
+  [24] [MATCH] Jaccard=0.571  "Bahwa yang sejenis itu akan, nah Andra kenapa, Kira-kira Andra lebih r..."
+  [25] [EXACT] Jaccard=1.000  "Karena menurut saya kalau misalnya terlalu banyak kesamaan, jadi nggak..."
+
+====================================================================
+  KESIMPULAN
+====================================================================
+  Rata-rata korelasi (4 metrik utama) : 48.95%
+  Kesimpulan                          : LexRank CUKUP BERKORELASI dengan transkripsi Whisper.
+====================================================================

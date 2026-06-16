@@ -1,0 +1,29 @@
+=== RINGKASAN RAPAT (LexRank 6-Step) ===
+Sumber    : transkrip_Rekaman Zoom Sesi 1 tanggal 17 September 2020 - Mata Kuliah  Dasar Manajemen dan Bisnis - Lapaq Dosen 360p h264_20260505_180739.txt
+Dibuat    : 05 May 2026, 18:08:59
+Model     : Whisper small
+========================================
+
+adalah ringkasan notulensi rapat berdasarkan transkrip:
+
+TOPIK UTAMA: Manajemen dan Bisnis
+
+RINGKASAN:
+
+1. Definisi Organisasi:
+- Organisasi memiliki tujuan untuk mencapai sasarannya hasil akhir yang sudah ditetapkan secara tepat.
+2. Struktur Organisasi:
+- Struktur organisasi terdiri dari dua orang (pemimpin dan pekerja) dan struktur kelompok.
+3. Efisiensi dan Efektivitas:
+- Efisiensi: kemampuan organisasi dalam menggunakan sumber daya secara benar tanpa adanya pemborosan.
+- Efektivitas: kemampuan organisasi untuk mencapai hasil akhir yang diinginkan dengan efektif.
+
+PERTANYAN TEMAN-TEMAN:
+- Apakah ada perbedaan antara efisiensi dan efektivitas?
+- Ada pertanyaan lain dari teman-teman?
+
+KESIMPULAN:
+Organisasi memiliki tujuan untuk mencapai sasarannya hasil akhir yang sudah ditetapkan secara tepat. Struktur organisasi terdiri dari dua orang (pemimpin dan pekerja) dan struktur kelompok. Efisiensi dan efektivitas adalah kunci dalam menggunakan sumber daya secara benar dan mencapai hasil akhir yang diinginkan.
+
+AKSES:
+Link untuk video rapat akan disampaikan setelah break.

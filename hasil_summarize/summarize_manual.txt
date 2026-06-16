@@ -1,0 +1,28 @@
+Berikut adalah rangkuman yang lebih ringkas dan *to-the-point* dari rapat perkuliahan tersebut:
+
+### **Rangkuman Singkat: Pengantar Psikologi Sosial**
+
+**1. Sejarah Singkat**
+
+* Muncul pertama kali dari publikasi ilmuwan Jerman abad ke-19 (*Volker Psychology*).
+* Berkembang lewat pemikiran McDougall & Ross (1908) dan Allport (1924) sebagai bapak psikologi sosial.
+* Pasca-1960an, penelitian meluas dengan memasukkan unsur kognitif dan perbedaan budaya (misal: Barat yang individualis vs. Asia yang kolektivis).
+
+**2. Definisi Inti**
+Psikologi Sosial adalah ilmu yang meneliti bagaimana pikiran, perasaan, dan perilaku individu dipengaruhi oleh **kehadiran orang lain**, yang dibagi menjadi 3 jenis (menurut Allport):
+
+* **Actual:** Orang lain hadir secara fisik (nyata).
+* **Imagined:** Kehadiran yang hanya dibayangkan (misal: membayangkan reaksi idola).
+* **Implied:** Kehadiran yang tersirat lewat norma sosial/aturan (misal: mematuhi rambu lalu lintas, memakai masker, atau tradisi salim).
+
+**3. Beda Psikologi Sosial dengan Ilmu Lain**
+
+* **Sosiologi:** Fokus utamanya pada sistem masyarakat secara luas (makro), bukan individunya.
+* **Antropologi:** Fokus utamanya pada kebudayaan atau suku bangsa.
+* **Biologi:** Fokus murni pada anatomi dan fisik manusia.
+
+**4. Mengapa Harus Ilmiah? (Science vs. Common Sense)**
+
+* Pengalaman pribadi atau akal sehat (*common sense*) sering kali saling bertentangan dan tidak bisa selalu dijadikan patokan.
+* *Contoh diskusi:* Pendapat bahwa "kerja kelompok banyak orang itu bagus untuk cari ide", tapi di sisi lain "terlalu banyak orang bikin susah ambil keputusan". Atau, orang yang mirip bisa saling tertarik (cocok untuk jangka panjang), tapi orang yang berbeda juga bisa saling tertarik (penasaran di awal).
+* Karena semuanya sangat **tergantung konteks situasi**, Psikologi Sosial membutuhkan **metode ilmiah** (Teori $\rightarrow$ Hipotesis $\rightarrow$ Uji Data $\rightarrow$ Interpretasi) untuk mencari kebenaran yang obyektif, bukan sekadar menebak-nebak.

@@ -1,0 +1,34 @@
+==============================================================
+  HASIL PENGUJIAN AKURASI SUMMARIZATION
+  Sistem Notulensia — LexRank Only (Tanpa LLM)
+==============================================================
+  Tanggal      : 09 June 2026, 22:50:25
+  Metode       : rouge-score (library)
+  File Sistem  : Lexrank_only.txt
+  File Ref     : summarize_manual.txt
+  Kata Sistem  : 485
+  Kata Ref     : 256
+--------------------------------------------------------------
+
+  METRIK ROUGE (F1 Score)
+  ──────────────────────────────────────────────────
+  ROUGE-1  (unigram)    :  24.02%   [P: 18.35%  R: 34.77%]
+  ROUGE-2  (bigram)     :   4.33%   [P: 3.31%  R: 6.27%]
+  ROUGE-L  (LCS)        :  10.80%   [P: 8.25%  R: 15.62%]
+
+  PENILAIAN
+  ──────────────────────────────────────────────────
+  ROUGE-1 : Cukup
+  ROUGE-2 : Perlu Peningkatan
+  ROUGE-L : Perlu Peningkatan
+
+==============================================================
+  CATATAN:
+  - ROUGE-1 mengukur kecocokan kata tunggal (unigram)
+  - ROUGE-2 mengukur kecocokan 2 kata berurutan (bigram)
+  - ROUGE-L mengukur urutan kata terpanjang yang cocok
+  - F1 = harmonic mean antara Precision dan Recall
+  - Nilai ideal untuk Bahasa Indonesia: ROUGE-L > 30%
+  - P (Precision): seberapa relevan ringkasan sistem
+  - R (Recall)   : seberapa lengkap isi referensi tercakup
+==============================================================

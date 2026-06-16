@@ -1,0 +1,31 @@
+=== RINGKASAN RAPAT (LexRank 6-Step) ===
+Sumber    : transkrip_Rekaman Zoom Sesi 1 tanggal 17 September 2020 - Mata Kuliah  Dasar Manajemen dan Bisnis - Lapaq Dosen 360p h264_20260505_171340.txt
+Dibuat    : 05 May 2026, 17:52:13
+Model     : Whisper small
+========================================
+
+adalah ringkasan notulensi rapat berdasarkan transkrip:
+
+Topik Utama: Manajemen dan Bisnis
+
+Identifikasi Topik Utama: Definisi organisasi, tujuan, sistem, karakter, struktur, efisiensi, dan efektivitas.
+
+Ringkasan:
+
+1. Definisi Organisasi: Sebuah organisasi adalah sebuah badan hukum yang memiliki kekuasaan untuk mengambil keputusan dan melakukan tindakan untuk mencapai tujuan.
+2. Tujuan Organisasi: Tujuan utama organisasi adalah untuk mencapai profit, pertumbuhan, dan kesuksesan.
+3. Sistem Manajemen: Sistem manajemen adalah proses yang digunakan untuk mengelola sumber daya dan mencapai tujuan organisasi.
+4. Karakter Organisasi: Karakter organisasi adalah komponen-komponennya, seperti orang-orang yang terlibat dalam organisasi, struktur, dan sistem manajemen.
+5. Struktur Organisasi: Struktur organisasi adalah susunan hierarki dari posisi-posisi di dalam organisasi.
+6. Efisiensi: Efisiensi adalah kemampuan organisasi untuk menggunakan sumber daya secara efektif dan efisien.
+7. Efektivitas: Efektivitas adalah kemampuan organisasi untuk mencapai hasil yang diinginkan dengan cara yang tepat.
+
+Poin-Poin Kunci:
+- Definisi organisasi
+- Tujuan organisasi
+- Sistem manajemen
+- Karakter organisasi
+- Struktur organisasi
+- Efisiensi dan efektivitas
+
+Catatan: Ringkasan ini hanya mencakup topik utama yang dibahas dalam rapat, serta poin-poin kunci yang diidentifikasi.

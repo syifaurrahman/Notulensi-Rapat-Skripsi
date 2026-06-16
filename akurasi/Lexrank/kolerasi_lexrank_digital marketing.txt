@@ -1,0 +1,74 @@
+====================================================================
+   HASIL KORELASI: LexRank <-> Transkripsi Whisper
+   Topik: Mentoring Digital Marketing (PENS SKY Venture)
+====================================================================
+
+FILE TRANSKRIP : c:\laragon\www\notulensi_rapat\hasil\transkrip_Mentoring Digital Marketing Melalui Zoom Meeting PENS SKY Venture - PENS SKY Venture 1080p h264_2_20260610_214445.txt
+FILE LEXRANK   : c:\laragon\www\notulensi_rapat\hasil_summarize\Lexrank_digital_marketing.txt
+
+--------------------------------------------------------------------
+  STATISTIK DOKUMEN
+--------------------------------------------------------------------
+  Token LexRank (raw)                        : 453
+  Token Transkrip (raw)                      : 21752
+  Token LexRank (tanpa stopword)             : 257
+  Token Transkrip (tanpa stopword)           : 11293
+  Kosakata unik LexRank                      : 110
+  Kosakata unik Transkrip                    : 2555
+  Kosakata overlap (irisan)                  : 109
+  Jumlah kalimat LexRank                     : 26
+
+--------------------------------------------------------------------
+  METRIK KORELASI
+--------------------------------------------------------------------
+  1. Cosine Similarity (TF-IDF)                :  78.76%
+  2. Jaccard Similarity (kosakata unik)        :   4.26%
+  3. Token Retention Rate                      :   2.27%
+  4. Sentence Coverage                         : 100.00%
+  5. Compression Ratio (lex/transkrip)         :   2.08%
+
+--------------------------------------------------------------------
+  INTERPRETASI
+--------------------------------------------------------------------
+  Cosine Similarity  : TINGGI [OK]
+  Jaccard Similarity : RENDAH  [!]
+  Token Retention    : RENDAH  [!]
+  Sentence Coverage  : TINGGI [OK]
+  Compression Ratio  : BAIK - ringkasan padat (2.1% panjang transkrip)
+
+--------------------------------------------------------------------
+  DETAIL COVERAGE PER KALIMAT LEXRANK
+--------------------------------------------------------------------
+  [ 1] [EXACT] Jaccard=1.000  "Ini judulnya tentang digital marketing for startup ya sebenernya saya tuh b..."
+  [ 2] [MATCH] Jaccard=0.750  "dijital marketing, saya fokus, digital marketing..."
+  [ 3] [EXACT] Jaccard=1.000  "Itu yang mungkin nanti akan kita pelajari banyak ya di hari ini ya teman te..."
+  [ 4] [EXACT] Jaccard=1.000  "Marketing itu gitu dan kenapa sih kalau kita tadi harus melangkah ke digita..."
+  [ 5] [EXACT] Jaccard=1.000  "Ini yang harus kita pegang dalam digital marketing..."
+  [ 6] [EXACT] Jaccard=1.000  "So, salah satu caranya teman-teman bisa menggunakan digital marketing, dan ..."
+  [ 7] [EXACT] Jaccard=1.000  "dari digital marketing gitu teman-teman bisa sangat-sangat bisa di evaluasi..."
+  [ 8] [EXACT] Jaccard=1.000  "Kurang lebih itu teman-teman kenapa sih kita harus menggunakan digital mark..."
+  [ 9] [EXACT] Jaccard=1.000  "Teman-teman teman-teman bisa melakukan seperti itu harap untuk bisa di..."
+  [10] [EXACT] Jaccard=1.000  "Nanti kalau misalnya teman-teman sudah oke organiknya, teman-teman baru bis..."
+  [11] [EXACT] Jaccard=1.000  "Ini intinya adalah teman-teman bisa bikin beberapa produk..."
+  [12] [EXACT] Jaccard=1.000  "Kalau teman-teman di dunia digital marketing, dunia marketing cara orang un..."
+  [13] [EXACT] Jaccard=1.000  "Gany ya kalau nggak salah ya, bikin konten..."
+  [14] [EXACT] Jaccard=1.000  "Memang bikin konten, kita teman-teman harus bikin konten marketing..."
+  [15] [EXACT] Jaccard=1.000  "Ini saya buka yang konten ini nih, gak tau nih keliatan apa gak nih sama te..."
+  [16] [MATCH] Jaccard=0.857  "Harus ada call to action nya, ya supaya kenapa, Supaya orang itu..."
+  [17] [EXACT] Jaccard=1.000  "Kita harus denger kira-kira yang diharapkan oleh customer itu seperti apa..."
+  [18] [EXACT] Jaccard=1.000  "Saya tadi bilang memang belajar sosmed itu ya, belajar digital marketing it..."
+  [19] [EXACT] Jaccard=1.000  "Dari sini teman-teman bisa coba cari target audience, saya berdasarkan ini ..."
+  [20] [EXACT] Jaccard=1.000  "Nanti teman-teman bisa cari kira-kira bisnis kalian apa Mereka bisa cari ki..."
+  [21] [EXACT] Jaccard=1.000  "Sudah punya Facebook fans page, kemudian nanti teman-teman bikin, teman-tem..."
+  [22] [EXACT] Jaccard=1.000  "Itu ya temen-temen ya, kemudian setelah itu kita harus build..."
+  [23] [EXACT] Jaccard=1.000  "Tambah satu, nah disini nanti yang kita harus cari gitu ya, kira-kira seper..."
+  [24] [EXACT] Jaccard=1.000  "Disini teman-teman bisa pakai nih hal-hal seperti ini untuk bisa menganalis..."
+  [25] [EXACT] Jaccard=1.000  "Buat temen-temen yang belum punya Instagram sama sekali atau sudah punya In..."
+  [26] [EXACT] Jaccard=1.000  "Temen-temen di sini buat, pasti temen-temen punya beberapa produk ya, atau ..."
+
+====================================================================
+  KESIMPULAN
+====================================================================
+  Rata-rata korelasi (4 metrik utama) : 46.32%
+  Kesimpulan                          : LexRank CUKUP BERKORELASI dengan transkripsi Whisper.
+====================================================================

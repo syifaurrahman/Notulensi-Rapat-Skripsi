@@ -42,6 +42,14 @@
                 <span>Report</span>
             </a>
 
+            <!-- Performa Model - hanya Admin (level = 1) -->
+            <?php if ($level_user == 1): ?>
+            <a href="model_performance.php" class="nav-item <?php echo isActive('model_performance.php'); ?>">
+                <i class="fas fa-chart-line"></i>
+                <span>Performa Model</span>
+            </a>
+            <?php endif; ?>
+
             <!-- Pengaturan - semua level -->
             <a href="pengaturan.php" class="nav-item <?php echo isActive('pengaturan.php'); ?>">
                 <i class="fas fa-cog"></i>

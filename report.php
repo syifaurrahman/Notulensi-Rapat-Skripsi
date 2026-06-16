@@ -171,47 +171,91 @@ if ($conn) {
             color: #2463eb;
             margin-bottom: 8px;
         }
+        /* ── Modal Content Styling ──────────────────────── */
         .modal-text {
             font-size: 0.88rem;
             line-height: 1.8;
-            color: #334155;
-            white-space: pre-wrap;
+            color: #111827;
             word-break: break-word;
             background: #f8fafc;
             border: 1px solid #e2e8f0;
             border-radius: 10px;
             padding: 14px 16px;
-            max-height: 400px;
+            max-height: 420px;
             overflow-y: auto;
         }
         .modal-text.summary-box {
-            background: #f0fdf4;
-            border-color: #86efac;
+            background: #ffffff;
+            border: 1px solid #e2e8f0;
+            padding: 0;
+            overflow-y: auto;
         }
+        /* Judul bagian — bold, background biru muda, garis kiri */
         .modal-text.summary-box .section-title {
+            display: flex;
+            align-items: center;
+            gap: 8px;
             font-weight: 700;
             font-size: 0.82rem;
-            color: #059669;
-            text-transform: uppercase;
-            letter-spacing: 0.06em;
-            margin: 16px 0 6px 0;
-            padding-bottom: 4px;
-            border-bottom: 1px solid #d1fae5;
+            color: #1e40af;
+            background: #eff6ff;
+            border-left: 3px solid #2463eb;
+            padding: 8px 14px;
+            margin: 0;
+            letter-spacing: 0.01em;
         }
         .modal-text.summary-box .section-title:first-child {
-            margin-top: 0;
+            border-radius: 9px 9px 0 0;
+        }
+        .modal-text.summary-box .section-title::before {
+            content: '';
+            display: inline-block;
+            width: 6px;
+            height: 6px;
+            background: #2463eb;
+            border-radius: 50%;
+            flex-shrink: 0;
+        }
+        /* Area poin di bawah judul */
+        .modal-text.summary-box .section-body {
+            padding: 8px 14px 12px 14px;
+            border-bottom: 1px solid #f1f5f9;
+        }
+        .modal-text.summary-box .section-body:last-child {
+            border-bottom: none;
         }
         .modal-text.summary-box ul {
-            margin: 4px 0 8px 0;
-            padding-left: 18px;
+            margin: 0;
+            padding: 0;
+            list-style: none;
         }
         .modal-text.summary-box ul li {
-            margin-bottom: 3px;
-            line-height: 1.7;
+            display: flex;
+            gap: 10px;
+            align-items: flex-start;
+            padding: 4px 0;
+            line-height: 1.65;
+            color: #111827;
+            font-size: 0.86rem;
+            border-bottom: 1px dashed #f1f5f9;
+        }
+        .modal-text.summary-box ul li:last-child {
+            border-bottom: none;
+        }
+        /* Tanda strip di depan setiap poin */
+        .modal-text.summary-box ul li::before {
+            content: '—';
+            color: #94a3b8;
+            font-weight: 700;
+            flex-shrink: 0;
+            margin-top: 1px;
         }
         .modal-text.summary-box p {
-            margin: 4px 0 8px 0;
+            margin: 4px 0 6px 0;
             line-height: 1.7;
+            font-size: 0.86rem;
+            color: #111827;
+            padding: 4px 0;
         }
         .modal-meta {
             font-size: 0.75rem;
@@ -265,6 +309,70 @@ if ($conn) {
             background: #2463eb;
             color: #fff;
             border-color: #2463eb;
+        }
+
+        /* ── Pagination ─────────────────────────────────── */
+        .pagination-wrap {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 12px;
+            margin-top: 18px;
+            padding: 12px 16px;
+            background: #f8fafc;
+            border: 1px solid #e2e8f0;
+            border-radius: 12px;
+        }
+        .pagination-info {
+            font-size: 0.78rem;
+            color: #64748b;
+            font-weight: 500;
+        }
+        .pagination-info strong {
+            color: #2463eb;
+        }
+        .pagination-controls {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+        .page-btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 34px;
+            height: 34px;
+            border-radius: 8px;
+            border: 1.5px solid #e2e8f0;
+            background: #fff;
+            font-size: 0.8rem;
+            font-weight: 600;
+            color: #475569;
+            cursor: pointer;
+            transition: all 0.18s;
+        }
+        .page-btn:hover:not(:disabled) {
+            background: #eef3ff;
+            border-color: #93c5fd;
+            color: #2463eb;
+        }
+        .page-btn.active {
+            background: #2463eb;
+            border-color: #2463eb;
+            color: #fff;
+            box-shadow: 0 2px 8px rgba(36,99,235,0.25);
+        }
+        .page-btn:disabled {
+            opacity: 0.4;
+            cursor: not-allowed;
+        }
+        .page-btn.ellipsis {
+            border: none;
+            background: none;
+            cursor: default;
+            color: #94a3b8;
+            font-size: 0.85rem;
         }
     </style>
 </head>
@@ -430,6 +538,12 @@ if ($conn) {
             <?php endif; ?>
         </div>
 
+        <!-- Pagination -->
+        <div class="pagination-wrap" id="paginationWrap">
+            <div class="pagination-info" id="paginationInfo"></div>
+            <div class="pagination-controls" id="paginationControls"></div>
+        </div>
+
         <!-- Footer -->
         <div class="extra-footer">
             <span><i class="far fa-file-lines"></i> <?= $total_docs ?> dokumen tersedia</span>
@@ -483,73 +597,214 @@ if ($conn) {
         function formatRingkasan(text) {
             if (!text) return '<em style="color:#94a3b8;">Ringkasan tidak tersedia.</em>';
 
-            // Strip remaining markdown bold/italic
-            text = text.replace(/\*\*(.+?)\*\*/g, '$1');
-            text = text.replace(/__(.+?)__/g, '$1');
-            text = text.replace(/(?<!\*)\*(?!\*)(.+?)(?<!\*)\*(?!\*)/g, '$1');
+            // Bersihkan markdown non-heading
             text = text.replace(/#{1,6}\s*/gm, '');
             text = text.replace(/`([^`]+)`/g, '$1');
 
             const lines = text.split('\n');
-            let html = '';
-            let inList = false;
+            let sections = [];       // Array of { title, items[] }
+            let currentSection = null;
+            let orphanLines = [];    // Baris sebelum section pertama
 
-            for (let i = 0; i < lines.length; i++) {
-                const line = lines[i].trim();
-
-                // Baris kosong — tutup list jika ada, tambah spasi
-                if (!line) {
-                    if (inList) { html += '</ul>'; inList = false; }
-                    continue;
-                }
-
-                // Deteksi judul bagian: baris ALL CAPS (min 3 char, tanpa bullet)
-                if (/^[A-Z\s\/\-&()]{3,}$/.test(line) && !line.startsWith('-')) {
-                    if (inList) { html += '</ul>'; inList = false; }
-                    // Title case the section header
-                    const titleText = line.replace(/\b\w+/g, w => w.charAt(0).toUpperCase() + w.slice(1).toLowerCase());
-                    html += `<div class="section-title">${titleText}</div>`;
-                    continue;
-                }
-
-                // Deteksi bullet point (- item atau * item)
-                const bulletMatch = line.match(/^[-•*]\s+(.+)/);
-                if (bulletMatch) {
-                    if (!inList) { html += '<ul>'; inList = true; }
-                    html += `<li>${bulletMatch[1]}</li>`;
-                    continue;
-                }
-
-                // Deteksi numbered list (1. item)
-                const numMatch = line.match(/^\d+[\.)]\s+(.+)/);
-                if (numMatch) {
-                    if (!inList) { html += '<ul>'; inList = true; }
-                    html += `<li>${numMatch[1]}</li>`;
-                    continue;
-                }
-
-                // Paragraf biasa
-                if (inList) { html += '</ul>'; inList = false; }
-                html += `<p>${line}</p>`;
+            function flushOrphans() {
+                if (orphanLines.length === 0) return '';
+                const h = orphanLines.map(l => `<p style="padding:10px 14px 0;margin:0;color:#64748b;font-size:0.82rem;">${l}</p>`).join('');
+                orphanLines = [];
+                return h;
             }
 
-            if (inList) html += '</ul>';
-            return html || `<p>${text}</p>`;
+            function isHeadingLine(line) {
+                // Format baru: **Judul:** atau **Judul**
+                if (/^\*\*.+?\*\*:?$/.test(line) || /^\*\*.+?:\*\*$/.test(line)) return true;
+                // Format lama ALL CAPS (min 3 char)
+                if (/^[A-Z][A-Z\s\/\-&()]{2,}$/.test(line)) return true;
+                // Format: teks diakhiri ':' dan bukan bullet, panjang < 60 char
+                if (/^[^\-•\*\d].{3,58}:$/.test(line) && !line.startsWith('-')) return true;
+                // Format: angka. Judul: (contoh: "1. Definisi Organisasi:")
+                if (/^\d+[.)\s]+.+:$/.test(line)) return true;
+                return false;
+            }
+
+            function extractTitle(line) {
+                // Hapus ** dan trailing :
+                return line
+                    .replace(/^\d+[.)\s]+/, '')   // Hapus "1. " di depan
+                    .replace(/^\*\*(.+?)\*\*:?$/, '$1')
+                    .replace(/^\*\*(.+?):?\*\*$/, '$1')
+                    .replace(/:$/, '')
+                    .trim();
+            }
+
+            function cleanContent(line) {
+                return line
+                    .replace(/\*\*(.+?)\*\*/g, '$1')
+                    .replace(/__(.+?)__/g, '$1')
+                    .replace(/(?<!\*)\*(?!\*)(.+?)(?<!\*)\*(?!\*)/g, '$1')
+                    .trim();
+            }
+
+            for (let i = 0; i < lines.length; i++) {
+                const raw  = lines[i];
+                const line = raw.trim();
+
+                if (!line) continue;
+
+                if (isHeadingLine(line)) {
+                    // Mulai section baru
+                    currentSection = { title: extractTitle(line), items: [] };
+                    sections.push(currentSection);
+                    continue;
+                }
+
+                // Deteksi bullet / item
+                const bulletMatch = line.match(/^[-•\*]\s+(.+)/);
+                const numMatch    = line.match(/^\d+[.)\s]+(.+)/);
+                const isBullet    = bulletMatch || numMatch;
+
+                if (isBullet) {
+                    const content = cleanContent((bulletMatch || numMatch)[1]);
+                    if (currentSection) {
+                        currentSection.items.push({ type: 'bullet', text: content });
+                    } else {
+                        orphanLines.push(content);
+                    }
+                    continue;
+                }
+
+                // Baris teks biasa
+                const plain = cleanContent(line);
+                if (currentSection) {
+                    currentSection.items.push({ type: 'text', text: plain });
+                } else {
+                    orphanLines.push(plain);
+                }
+            }
+
+            // Render HTML
+            let html = flushOrphans();
+
+            sections.forEach((sec, idx) => {
+                const isFirst = idx === 0;
+                html += `<div class="section-title">${escHtml(sec.title)}:</div>`;
+                if (sec.items.length > 0) {
+                    html += '<div class="section-body">';
+                    // Pisahkan bullet vs text
+                    const bullets = sec.items.filter(x => x.type === 'bullet');
+                    const texts   = sec.items.filter(x => x.type === 'text');
+                    if (bullets.length > 0) {
+                        html += '<ul>';
+                        bullets.forEach(b => { html += `<li>${escHtml(b.text)}</li>`; });
+                        html += '</ul>';
+                    }
+                    texts.forEach(t => { html += `<p>${escHtml(t.text)}</p>`; });
+                    html += '</div>';
+                }
+            });
+
+            return html || `<p style="padding:14px;">${escHtml(text)}</p>`;
+        }
+
+        function escHtml(str) {
+            return str
+                .replace(/&/g, '&amp;')
+                .replace(/</g, '&lt;')
+                .replace(/>/g, '&gt;')
+                .replace(/"/g, '&quot;');
+        }
+
+        // ── Pagination State ─────────────────────────────
+        const ITEMS_PER_PAGE = 10;
+        let currentPage  = 1;
+        let currentFilter = 'all';
+
+        function getFilteredRows() {
+            return Array.from(document.querySelectorAll('.table-row:not(.header)')).filter(row => {
+                return currentFilter === 'all' || row.dataset.tipe === currentFilter;
+            });
+        }
+
+        function renderPage() {
+            const rows      = getFilteredRows();
+            const total     = rows.length;
+            const totalPages = Math.max(1, Math.ceil(total / ITEMS_PER_PAGE));
+            if (currentPage > totalPages) currentPage = totalPages;
+
+            const start = (currentPage - 1) * ITEMS_PER_PAGE;
+            const end   = start + ITEMS_PER_PAGE;
+
+            // Sembunyikan semua baris dulu
+            document.querySelectorAll('.table-row:not(.header)').forEach(row => {
+                row.style.display = 'none';
+            });
+            // Tampilkan hanya baris di halaman ini
+            rows.slice(start, end).forEach(row => {
+                row.style.display = '';
+            });
+
+            // Update info teks
+            const infoEl = document.getElementById('paginationInfo');
+            if (total === 0) {
+                infoEl.innerHTML = 'Tidak ada data.';
+            } else {
+                const from = start + 1;
+                const to   = Math.min(end, total);
+                infoEl.innerHTML = `Menampilkan <strong>${from}–${to}</strong> dari <strong>${total}</strong> hasil`;
+            }
+
+            // Render tombol halaman
+            renderPaginationControls(totalPages);
+
+            // Tampilkan/sembunyikan pagination wrap
+            const wrap = document.getElementById('paginationWrap');
+            wrap.style.display = total <= ITEMS_PER_PAGE && totalPages === 1 ? 'none' : 'flex';
+        }
+
+        function renderPaginationControls(totalPages) {
+            const ctrl = document.getElementById('paginationControls');
+            ctrl.innerHTML = '';
+
+            function btn(label, page, isActive, isDisabled, isEllipsis) {
+                const b = document.createElement('button');
+                b.className = 'page-btn' + (isActive ? ' active' : '') + (isEllipsis ? ' ellipsis' : '');
+                b.innerHTML = label;
+                b.disabled  = isDisabled;
+                if (!isDisabled && !isEllipsis) {
+                    b.onclick = () => { currentPage = page; renderPage(); };
+                }
+                ctrl.appendChild(b);
+            }
+
+            // Prev
+            btn('<i class="fas fa-chevron-left"></i>', currentPage - 1, false, currentPage === 1);
+
+            // Page numbers with smart ellipsis
+            if (totalPages <= 7) {
+                for (let i = 1; i <= totalPages; i++) btn(i, i, i === currentPage, false);
+            } else {
+                btn(1, 1, currentPage === 1, false);
+                if (currentPage > 3) btn('…', null, false, true, true);
+                const lo = Math.max(2, currentPage - 1);
+                const hi = Math.min(totalPages - 1, currentPage + 1);
+                for (let i = lo; i <= hi; i++) btn(i, i, i === currentPage, false);
+                if (currentPage < totalPages - 2) btn('…', null, false, true, true);
+                btn(totalPages, totalPages, currentPage === totalPages, false);
+            }
+
+            // Next
+            btn('<i class="fas fa-chevron-right"></i>', currentPage + 1, false, currentPage === totalPages);
         }
 
         // ── Filter tabel ─────────────────────────────────
         function filterTable(tipe, btn) {
             document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
             btn.classList.add('active');
-
-            document.querySelectorAll('.table-row:not(.header)').forEach(row => {
-                if (tipe === 'all' || row.dataset.tipe === tipe) {
-                    row.style.display = '';
-                } else {
-                    row.style.display = 'none';
-                }
-            });
+            currentFilter = tipe;
+            currentPage   = 1; // Reset ke halaman 1 saat ganti filter
+            renderPage();
         }
+
+        // Init pagination saat halaman load
+        document.addEventListener('DOMContentLoaded', () => renderPage());
 
         // ── Auto-Refresh for Processing Summaries & Transcriptions ─────────
         function checkProcessingSummaries() {
@@ -621,7 +876,22 @@ if ($conn) {
                 const { jsPDF } = window.jspdf;
                 const doc = new jsPDF({ orientation: 'portrait', unit: 'mm', format: 'a4' });
 
-                const { judul, ringkasan, waktu, tipe, txtFile } = _modalState;
+                // Decode HTML entities untuk semua nilai dari PHP
+                // (&quot; → ", &amp; → &, &lt; → <, dll)
+                function _decEnt(s) {
+                    if (!s) return '';
+                    const t = document.createElement('textarea');
+                    t.innerHTML = s;
+                    return t.value;
+                }
+
+                const raw = _modalState;
+                const judul     = _decEnt(raw.judul);
+                const ringkasan = _decEnt(raw.ringkasan);
+                const waktu     = _decEnt(raw.waktu);
+                const tipe      = _decEnt(raw.tipe);
+                const txtFile   = _decEnt(raw.txtFile);
+
                 
                 // Debug log
                 console.log("Generating PDF for:", judul);
@@ -758,16 +1028,21 @@ if ($conn) {
                 y += 14;
 
                 // ══ ISI RINGKASAN ══════════════════════════════════
+                // (ringkasan sudah di-decode HTML entities via _decEnt() di atas)
                 const rawText = ringkasan || 'Ringkasan tidak tersedia.';
                 const lines = rawText.split('\n');
 
                 for (let i = 0; i < lines.length; i++) {
                     const line = lines[i].trim();
 
+
                     if (!line) { y += 3; continue; }
 
-                    // Deteksi judul bagian (ALL CAPS, min 3 char)
-                    if (/^[A-Z\s\/\-&()]{3,}$/.test(line) && !line.startsWith('-')) {
+                    // Deteksi judul bagian format baru: **Judul:** atau **Judul**
+                    const pdfH2 = line.match(/^\*\*(.+?):\*\*$/) || line.match(/^\*\*(.+?)\*\*:?$/);
+                    const pdfH2Old = !pdfH2 && /^[A-Z\s\/\-&()]{3,}$/.test(line) && !line.startsWith('-');
+                    if (pdfH2 || pdfH2Old) {
+                        const titleRaw = pdfH2 ? pdfH2[1].replace(/:$/, '').trim() : line;
                         checkY(14);
                         // Background highlight untuk section title
                         doc.setFillColor(239, 246, 255);
@@ -775,7 +1050,7 @@ if ($conn) {
                         doc.setFont('helvetica', 'bold');
                         doc.setFontSize(9.5);
                         doc.setTextColor(15, 60, 140);
-                        doc.text(line, margin + 3, y + 3);
+                        doc.text(titleRaw + ':', margin + 3, y + 3);
                         y += 12;
                         // Garis tipis bawah section
                         doc.setDrawColor(190, 215, 255);
@@ -788,35 +1063,41 @@ if ($conn) {
                     // Bullet list (- item)
                     const bulletMatch = line.match(/^[-•*]\s+(.+)/);
                     if (bulletMatch) {
-                        const txt = bulletMatch[1];
-                        const wrapped = doc.splitTextToSize(txt, contentW - 8);
-                        checkY(wrapped.length * 5.5 + 2);
+                        const txt     = bulletMatch[1];
+                        const indentX = margin + 8;   // Indent 8mm dari margin kiri
+                        const textX   = margin + 16;  // Teks mulai 16mm dari margin (ada 8mm gap dari dot)
+                        const wrapW   = contentW - 16; // Lebar wrap dikurangi indent
+                        const wrapped = doc.splitTextToSize(txt, wrapW);
+                        checkY(wrapped.length * 5.8 + 3);
                         doc.setFont('helvetica', 'normal');
                         doc.setFontSize(9);
                         doc.setTextColor(51, 65, 85);
                         // Bullet dot
                         doc.setFillColor(36, 99, 235);
-                        doc.circle(margin + 2.5, y + 0.5, 0.9, 'F');
-                        doc.text(wrapped, margin + 6, y + 1.5);
-                        y += wrapped.length * 5.5 + 1.5;
+                        doc.circle(indentX, y + 1, 1, 'F');
+                        doc.text(wrapped, textX, y + 1.5);
+                        y += wrapped.length * 5.8 + 3;
                         continue;
                     }
 
                     // Numbered list (1. item)
                     const numMatch = line.match(/^(\d+)[.)\s]+(.+)/);
                     if (numMatch) {
-                        const numStr = numMatch[1] + '.';
-                        const txt    = numMatch[2];
-                        const wrapped = doc.splitTextToSize(txt, contentW - 10);
-                        checkY(wrapped.length * 5.5 + 2);
+                        const numStr  = numMatch[1] + '.';
+                        const txt     = numMatch[2];
+                        const numX    = margin + 8;   // Angka mulai 8mm dari margin
+                        const textX   = margin + 17;  // Teks mulai 17mm (ada gap dari angka)
+                        const wrapW   = contentW - 17;
+                        const wrapped = doc.splitTextToSize(txt, wrapW);
+                        checkY(wrapped.length * 5.8 + 3);
                         doc.setFont('helvetica', 'bold');
                         doc.setFontSize(9);
                         doc.setTextColor(36, 99, 235);
-                        doc.text(numStr, margin + 1, y + 1.5);
+                        doc.text(numStr, numX, y + 1.5);
                         doc.setFont('helvetica', 'normal');
                         doc.setTextColor(51, 65, 85);
-                        doc.text(wrapped, margin + 8, y + 1.5);
-                        y += wrapped.length * 5.5 + 1.5;
+                        doc.text(wrapped, textX, y + 1.5);
+                        y += wrapped.length * 5.8 + 3;
                         continue;
                     }
 

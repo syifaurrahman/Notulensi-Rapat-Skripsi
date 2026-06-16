@@ -535,13 +535,17 @@ if ($conn) {
                     .then(response => response.json())
                     .then(data => {
                         if (data.status === 'success' && !data.is_processing) {
-                            // Selesai diproses sepenuhnya! 
+                            // Selesai diproses sepenuhnya!
                             statusText.innerHTML = '<i class="fas fa-check-circle" style="color:#059669;"></i> Selesai! Klik Lihat Report.';
                             statusText.style.color = '#059669';
                             el.style.backgroundColor = '#ecfdf5';
                             el.style.borderColor = '#6ee7b7';
+
+                            // ── Tampilkan debug ranking LexRank ──
+                            if (Array.isArray(data.lexrank_debug) && data.lexrank_debug.length > 0) {
+                                renderUploadLexrankDebug(data.lexrank_debug, dbId);
+                            }
                         } else if (data.status === 'success' && data.is_processing) {
-                            // Coba update text agar user tau kalo udah pindah phase
                             const currentText = statusText.textContent.trim();
                             if (data.ringkasan === '[PROSES_SUMMARIZE]' && currentText.includes('Mentranskripsi')) {
                                 statusText.innerHTML = '<i class="fas fa-circle-notch fa-spin"></i> Meringkas (LexRank & Ollama)...';
@@ -552,6 +556,86 @@ if ($conn) {
             });
         }
         setInterval(checkProcessingSummaries, 5000);
+
+        // ── Render LexRank Debug Panel (Upload) ────────
+        function renderUploadLexrankDebug(ranked, dbId) {
+            // Cek apakah panel untuk job ini sudah ada
+            if (document.getElementById('lexrankDebugPanel_' + dbId)) return;
+
+            const panel = document.createElement('div');
+            panel.id = 'lexrankDebugPanel_' + dbId;
+            panel.style.cssText = 'margin-top:16px;';
+            panel.innerHTML = `
+                <div style="background:#1e1e2e;border-radius:16px;overflow:hidden;border:1px solid #313145;">
+                    <div style="display:flex;align-items:center;justify-content:space-between;
+                                padding:12px 18px;background:#252538;border-bottom:1px solid #313145;">
+                        <div style="display:flex;align-items:center;gap:8px;">
+                            <span style="width:8px;height:8px;border-radius:50%;background:#22d3ee;
+                                         display:inline-block;box-shadow:0 0 6px #22d3ee;"></span>
+                            <span style="font-family:'Courier New',monospace;font-size:0.78rem;
+                                         color:#94a3b8;font-weight:600;letter-spacing:.05em;">
+                                DEBUG · LexRank Sentence Ranking
+                            </span>
+                        </div>
+                        <span style="font-size:0.7rem;color:#475569;font-family:monospace;">
+                            ${ranked.length} kalimat
+                        </span>
+                    </div>
+                    <div id="lexrankList_${dbId}"
+                         style="max-height:260px;overflow-y:auto;padding:10px 0;
+                                font-family:'Courier New',monospace;font-size:0.75rem;">
+                    </div>
+                </div>
+            `;
+
+            // Masukkan panel setelah activeProcessList
+            const container = document.getElementById('activeProcessList');
+            if (container) container.appendChild(panel);
+
+            const list = document.getElementById('lexrankList_' + dbId);
+            if (!list) return;
+
+            ranked.forEach(item => {
+                const scoreBar = Math.round((item.score || 0) * 100);
+                const isTop3   = item.rank <= 3;
+                const rankColor = item.rank === 1 ? '#fbbf24'
+                                : item.rank === 2 ? '#94a3b8'
+                                : item.rank === 3 ? '#cd7c3a'
+                                : '#475569';
+
+                const row = document.createElement('div');
+                row.style.cssText = `
+                    display:flex;align-items:flex-start;gap:10px;
+                    padding:7px 16px;border-bottom:1px solid #252538;
+                    ${isTop3 ? 'background:rgba(34,211,238,0.04);' : ''}
+                `;
+                row.innerHTML = `
+                    <span style="min-width:28px;text-align:right;font-weight:700;
+                                 color:${rankColor};font-size:0.8rem;margin-top:1px;">
+                        ${item.rank}.
+                    </span>
+                    <div style="flex:1;min-width:0;">
+                        <div style="display:flex;align-items:center;gap:8px;margin-bottom:3px;">
+                            <div style="flex:1;height:4px;background:#2a2a3e;border-radius:2px;overflow:hidden;">
+                                <div style="height:100%;width:${scoreBar}%;
+                                            background:${isTop3 ? '#22d3ee' : '#334155'};
+                                            border-radius:2px;"></div>
+                            </div>
+                            <span style="font-size:0.68rem;color:${isTop3 ? '#22d3ee' : '#475569'};
+                                         min-width:38px;text-align:right;">
+                                ${(item.score || 0).toFixed(4)}
+                            </span>
+                        </div>
+                        <div style="color:${isTop3 ? '#e2e8f0' : '#64748b'};
+                                    font-size:0.72rem;line-height:1.5;word-break:break-word;
+                                    white-space:normal;font-family:'Inter',sans-serif;">
+                            ${item.sentence ? item.sentence.replace(/</g,'&lt;').replace(/>/g,'&gt;') : ''}
+                        </div>
+                    </div>
+                `;
+                list.appendChild(row);
+            });
+        }
     </script>
 </body>
 

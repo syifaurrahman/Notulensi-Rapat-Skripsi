@@ -1,0 +1,6 @@
+=== TRANSKRIPSI RAPAT (LIVE — Web) ===
+Dibuat  : 05 May 2026, 16:52:53
+Model   : Whisper small
+========================================
+
+Halo selamat siang, misni saya akan membicarakan beberapa materi.

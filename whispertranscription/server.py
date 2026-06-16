@@ -31,9 +31,11 @@ import numpy as np
 # ── Import path setup ──────────────────────────────────────
 BASE_DIR  = os.path.dirname(os.path.abspath(__file__))
 LIVE_DIR  = os.path.join(BASE_DIR, "whisperLiveTranscription")
-HASIL_DIR = os.path.join(BASE_DIR, "hasil")
-UPLOAD_DIR = os.path.join(BASE_DIR, "uploads")
-HASIL_SUMMARIZE_DIR = os.path.join(BASE_DIR, "hasil_summarize")
+# File .txt disimpan langsung di folder web (dapat diakses via Apache)
+WEB_DIR             = os.path.abspath(os.path.join(BASE_DIR, ".."))
+HASIL_DIR           = os.path.join(WEB_DIR, "hasil")
+HASIL_SUMMARIZE_DIR = os.path.join(WEB_DIR, "hasil_summarize")
+UPLOAD_DIR          = os.path.join(BASE_DIR, "uploads")  # temp, tetap di backend
 
 sys.path.insert(0, BASE_DIR)
 sys.path.insert(0, LIVE_DIR)
@@ -411,7 +413,9 @@ def handle_request_summarize(data):
     def _run_request_summarize(summarize_text: str, d_id: int, client_sid: str, fname: str):
         try:
             print(f"[Server] BG request_summarize (DB {d_id}): mulai LexRank...", flush=True)
-            ringkasan = summarizer.summarize(summarize_text)
+            result = summarizer.summarize_with_debug(summarize_text)
+            ringkasan = result['ringkasan']
+            ranked_sentences = result.get('ranked_sentences', [])
             if not ringkasan:
                 ringkasan = "Tidak ada ringkasan yang dihasilkan."
 
@@ -432,9 +436,10 @@ def handle_request_summarize(data):
             print(f"[Server] ✓ DB ID {d_id} diupdate (Live summarize)", flush=True)
 
             socketio.emit('summarize_done', {
-                'status'   : 'success',
-                'ringkasan': ringkasan,
-                'db_id'    : d_id,
+                'status'          : 'success',
+                'ringkasan'       : ringkasan,
+                'db_id'           : d_id,
+                'lexrank_debug'   : ranked_sentences,
             }, to=client_sid)
 
         except Exception as e:
@@ -463,6 +468,7 @@ ALLOWED_EXT      = {'mp4', 'mov', 'avi', 'mkv', 'webm', 'flv', 'wmv', 'm4v', 'mp
 _upload_lock     = threading.Lock()
 
 file_cfg    = FileConfig(model_size="small", language="id")
+file_cfg.output_dir = HASIL_DIR   # ← samakan dengan Live: simpan ke notulensi_rapat/hasil/
 sum_cfg     = SummaryConfig()
 summarizer  = LexRankSummarizer(sum_cfg)
 
@@ -641,7 +647,9 @@ def api_transcribe():
                 print(f"[Server] BG Thread (ID {db_record_id}): ✓ Transkripsi selesai ({durasi}s). Menyusun ringkasan...", flush=True)
 
                 # ── LexRank Summarization ──
-                ringkasan_bg = summarizer.summarize(final_text)
+                result_bg = summarizer.summarize_with_debug(final_text)
+                ringkasan_bg = result_bg['ringkasan']
+                ranked_sentences_bg = result_bg.get('ranked_sentences', [])
                 if not ringkasan_bg:
                     ringkasan_bg = "Tidak ada ringkasan yang dihasilkan."
 
@@ -657,8 +665,16 @@ def api_transcribe():
                     sf.write(ringkasan_bg)
                 print(f"[Server] BG Thread: ✓ Ringkasan disimpan ke {sum_filename}", flush=True)
 
-                # Update Database
+                # Update Database (simpan ranked_sentences sebagai JSON di field debug)
                 update_summary_in_db(db_record_id, ringkasan_bg)
+                # Simpan debug ranking ke file JSON terpisah agar bisa diambil lewat polling
+                import json as _json
+                debug_path = sum_path.replace('.txt', '_debug.json')
+                try:
+                    with open(debug_path, 'w', encoding='utf-8') as df:
+                        _json.dump(ranked_sentences_bg, df, ensure_ascii=False, indent=2)
+                except Exception:
+                    pass
                 print(f"[Server] BG Thread: ✓ Database ID {db_record_id} diupdate dengan ringkasan", flush=True)
 
             except Exception as bg_e:
@@ -690,26 +706,10 @@ def api_transcribe():
     })
 
 
-@app.route('/download/<path:filename>', methods=['GET'])
-def api_download(filename):
-    """Download file .txt dari folder hasil/."""
-    safe = os.path.basename(filename)
-    if not safe.endswith('.txt'):
-        return jsonify({"status": "error", "message": "Hanya file .txt yang diizinkan"}), 400
-    if not os.path.isfile(os.path.join(HASIL_DIR, safe)):
-        return jsonify({"status": "error", "message": "File tidak ditemukan"}), 404
-    return send_from_directory(HASIL_DIR, safe, as_attachment=True)
-
-
-@app.route('/download_summary/<path:filename>', methods=['GET'])
-def api_download_summary(filename):
-    """Download file ringkasan .txt dari folder hasil_summarize/."""
-    safe = os.path.basename(filename)
-    if not safe.endswith('.txt'):
-        return jsonify({"status": "error", "message": "Hanya file .txt yang diizinkan"}), 400
-    if not os.path.isfile(os.path.join(HASIL_SUMMARIZE_DIR, safe)):
-        return jsonify({"status": "error", "message": "File tidak ditemukan"}), 404
-    return send_from_directory(HASIL_SUMMARIZE_DIR, safe, as_attachment=True)
+# Endpoint /download dan /download_summary dihapus.
+# File .txt kini disimpan di folder web dan dapat diakses langsung via Apache:
+#   http://localhost/notulensi_rapat/hasil/transkrip_xxx.txt
+#   http://localhost/notulensi_rapat/hasil_summarize/ringkasan_xxx.txt
 
 
 @app.route('/api/check_summary/<int:db_id>', methods=['GET'])
@@ -726,18 +726,30 @@ def api_check_summary(db_id):
             ringkasan = row[0]
             txt_file = row[1]
             judul = row[2]
-            status = 'success'
-            
-            # Additional detail if it's processing
+
             is_processing_transcription = (ringkasan == '[PROSES_TRANSKRIPSI]')
             is_processing_sum = (ringkasan == '[PROSES_SUMMARIZE]')
-            
+
+            # Coba baca data debug ranking LexRank dari file JSON
+            import json as _json
+            lexrank_debug = []
+            if txt_file and not is_processing_transcription and not is_processing_sum:
+                sum_fname = txt_file.replace('transkrip_', 'ringkasan_').replace('.txt', '_debug.json')
+                debug_path = os.path.join(HASIL_SUMMARIZE_DIR, sum_fname)
+                try:
+                    if os.path.exists(debug_path):
+                        with open(debug_path, 'r', encoding='utf-8') as df:
+                            lexrank_debug = _json.load(df)
+                except Exception:
+                    pass
+
             return jsonify({
-                "status": "success", 
-                "ringkasan": ringkasan,
+                "status"       : "success",
+                "ringkasan"    : ringkasan,
                 "transkrip_txt": txt_file,
-                "judul": judul,
-                "is_processing": (is_processing_transcription or is_processing_sum)
+                "judul"        : judul,
+                "is_processing": (is_processing_transcription or is_processing_sum),
+                "lexrank_debug": lexrank_debug,
             })
         else:
             return jsonify({"status": "error", "message": "Record not found"}), 404

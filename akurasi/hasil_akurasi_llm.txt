@@ -1,0 +1,34 @@
+==============================================================
+  HASIL PENGUJIAN AKURASI SUMMARIZATION
+  Sistem Notulensia — LLM (Ollama / Llama 3.2)
+==============================================================
+  Tanggal      : 09 June 2026, 22:53:01
+  Metode       : rouge-score (library)
+  File Sistem  : ringkasan_sistem_notulensi.txt
+  File Ref     : summarize_manual.txt
+  Kata Sistem  : 135
+  Kata Ref     : 256
+--------------------------------------------------------------
+
+  METRIK ROUGE (F1 Score)
+  ──────────────────────────────────────────────────
+  ROUGE-1  (unigram)    :  17.39%   [P: 25.19%  R: 13.28%]
+  ROUGE-2  (bigram)     :   0.51%   [P: 0.75%  R: 0.39%]
+  ROUGE-L  (LCS)        :  10.23%   [P: 14.81%  R: 7.81%]
+
+  PENILAIAN
+  ──────────────────────────────────────────────────
+  ROUGE-1 : Cukup
+  ROUGE-2 : Perlu Peningkatan
+  ROUGE-L : Perlu Peningkatan
+
+==============================================================
+  CATATAN:
+  - ROUGE-1 mengukur kecocokan kata tunggal (unigram)
+  - ROUGE-2 mengukur kecocokan 2 kata berurutan (bigram)
+  - ROUGE-L mengukur urutan kata terpanjang yang cocok
+  - F1 = harmonic mean antara Precision dan Recall
+  - Nilai ideal untuk Bahasa Indonesia: ROUGE-L > 30%
+  - P (Precision): seberapa relevan ringkasan sistem
+  - R (Recall)   : seberapa lengkap isi referensi tercakup
+==============================================================

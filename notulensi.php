@@ -158,6 +158,28 @@ if ($level_user != 1) {
                 </p>
             </div>
         </div>
+        <!-- DEBUG PANEL: LexRank Ranking (muncul setelah summarize selesai) -->
+        <div id="lexrankDebugPanel" style="display:none; margin-top:16px;">
+            <div style="background:#1e1e2e; border-radius:16px; overflow:hidden; border:1px solid #313145;">
+                <div style="display:flex; align-items:center; justify-content:space-between;
+                            padding:12px 18px; background:#252538; border-bottom:1px solid #313145;">
+                    <div style="display:flex; align-items:center; gap:8px;">
+                        <span style="width:8px;height:8px;border-radius:50%;background:#22d3ee;display:inline-block;
+                                     box-shadow:0 0 6px #22d3ee;"></span>
+                        <span style="font-family:'Courier New',monospace; font-size:0.78rem;
+                                     color:#94a3b8; font-weight:600; letter-spacing:.05em;">
+                            DEBUG · LexRank Sentence Ranking
+                        </span>
+                    </div>
+                    <span style="font-size:0.7rem;color:#475569;font-family:monospace;"
+                          id="lexrankTotalCount"></span>
+                </div>
+                <div id="lexrankDebugList"
+                     style="max-height:260px; overflow-y:auto; padding:10px 0;
+                            font-family:'Courier New',monospace; font-size:0.75rem;">
+                </div>
+            </div>
+        </div>
     </main>
 
     <!-- Socket.IO Client Library -->
@@ -168,33 +190,115 @@ if ($level_user != 1) {
     <script src="assets/js/live-transcription.js"></script>
     <!-- Clock & Utilities -->
     <script>
-        // Fungsi memperbarui waktu ketika ditekan / otomatis
-        function setWaktuRealtime() {
+        // ── LexRank Debug Panel ──────────────────────────────
+        function renderLexrankDebug(ranked) {
+            const panel = document.getElementById('lexrankDebugPanel');
+            const list  = document.getElementById('lexrankDebugList');
+            const count = document.getElementById('lexrankTotalCount');
+            if (!panel || !list || !Array.isArray(ranked) || ranked.length === 0) return;
+
+            count.textContent = ranked.length + ' kalimat';
+            list.innerHTML = '';
+
+            ranked.forEach(item => {
+                const scoreBar = Math.round((item.score || 0) * 100);
+                const isTop3   = item.rank <= 3;
+                const rankColor = item.rank === 1 ? '#fbbf24'
+                                : item.rank === 2 ? '#94a3b8'
+                                : item.rank === 3 ? '#cd7c3a'
+                                : '#475569';
+
+                const row = document.createElement('div');
+                row.style.cssText = `
+                    display:flex; align-items:flex-start; gap:10px;
+                    padding:7px 16px;
+                    border-bottom:1px solid #252538;
+                    ${isTop3 ? 'background:rgba(34,211,238,0.04);' : ''}
+                `;
+                row.innerHTML = `
+                    <span style="min-width:28px;text-align:right;font-weight:700;
+                                 color:${rankColor};font-size:0.8rem;margin-top:1px;">
+                        ${item.rank}.
+                    </span>
+                    <div style="flex:1; min-width:0;">
+                        <div style="display:flex;align-items:center;gap:8px;margin-bottom:3px;">
+                            <div style="flex:1;height:4px;background:#2a2a3e;border-radius:2px;overflow:hidden;">
+                                <div style="height:100%;width:${scoreBar}%;
+                                            background:${isTop3 ? '#22d3ee' : '#334155'};
+                                            border-radius:2px;transition:width .4s;"></div>
+                            </div>
+                            <span style="font-size:0.68rem;color:${isTop3 ? '#22d3ee' : '#475569'};
+                                         min-width:38px;text-align:right;">
+                                ${(item.score || 0).toFixed(4)}
+                            </span>
+                        </div>
+                        <div style="color:${isTop3 ? '#e2e8f0' : '#64748b'};
+                                    font-size:0.72rem;line-height:1.5;word-break:break-word;
+                                    white-space:normal;font-family:'Inter',sans-serif;">
+                            ${item.sentence || ''}
+                        </div>
+                    </div>
+                `;
+                list.appendChild(row);
+            });
+
+            panel.style.display = 'block';
+        }
+
+        // Hook ke event summarize_done dari live-transcription.js
+        document.addEventListener('lexrank_debug_ready', function(e) {
+            if (e.detail && Array.isArray(e.detail)) {
+                renderLexrankDebug(e.detail);
+            }
+        });
+
+        // Jam real-time: ticker interval
+        let _waktuTicker = null;
+
+        function _formatWaktu() {
             const b = ['Jan','Feb','Mar','Apr','Mei','Jun','Jul','Agu','Sep','Okt','Nov','Des'];
             const h = ['Minggu','Senin','Selasa','Rabu','Kamis','Jumat','Sabtu'];
-            
-            const now   = new Date();
-            const hari  = h[now.getDay()];
-            const tgl   = now.getDate();
-            const bulan = b[now.getMonth()];
-            const tahun = now.getFullYear();
-            const jam   = String(now.getHours()).padStart(2, '0');
-            const mnt   = String(now.getMinutes()).padStart(2, '0');
-            
-            const waktuInput = document.getElementById('waktu-rapat');
-            if (waktuInput) {
-                waktuInput.value = `${hari}, ${tgl} ${bulan} ${tahun} · ${jam}:${mnt}`;
-            }
+            const now  = new Date();
+            const hari = h[now.getDay()];
+            const tgl  = now.getDate();
+            const bln  = b[now.getMonth()];
+            const thn  = now.getFullYear();
+            const jam  = String(now.getHours()).padStart(2, '0');
+            const mnt  = String(now.getMinutes()).padStart(2, '0');
+            const dtk  = String(now.getSeconds()).padStart(2, '0');
+            return `${hari}, ${tgl} ${bln} ${thn} · ${jam}:${mnt}:${dtk}`;
         }
-        
-        // Auto-isi waktu HANYA SAAT user mulai mengetik nama rapat pertama kali
+
+        function _mulaiTickerWaktu() {
+            const waktuInput = document.getElementById('waktu-rapat');
+            if (!waktuInput) return;
+            // Langsung isi sekali
+            waktuInput.value = _formatWaktu();
+            // Perbarui setiap detik
+            if (_waktuTicker) clearInterval(_waktuTicker);
+            _waktuTicker = setInterval(() => {
+                waktuInput.value = _formatWaktu();
+            }, 1000);
+        }
+
+        function _stopTickerWaktu() {
+            if (_waktuTicker) { clearInterval(_waktuTicker); _waktuTicker = null; }
+            const waktuInput = document.getElementById('waktu-rapat');
+            if (waktuInput) waktuInput.value = '';
+        }
+
+        // Tombol "Automatic set" tetap bisa dipakai manual
+        function setWaktuRealtime() { _mulaiTickerWaktu(); }
+
+        // Auto-isi waktu: mulai ticker saat judul diketik, stop + kosongkan saat dihapus
         document.addEventListener('DOMContentLoaded', () => {
             const meetingInput = document.getElementById('meetingName');
-            if(meetingInput) {
+            if (meetingInput) {
                 meetingInput.addEventListener('input', function() {
-                    const waktuInput = document.getElementById('waktu-rapat');
-                    if(this.value.trim() !== '' && waktuInput.value === '') {
-                        setWaktuRealtime();
+                    if (this.value.trim() !== '') {
+                        _mulaiTickerWaktu();
+                    } else {
+                        _stopTickerWaktu();
                     }
                 });
             }

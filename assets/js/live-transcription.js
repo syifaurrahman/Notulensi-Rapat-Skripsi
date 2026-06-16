@@ -607,6 +607,13 @@ function handleSummarizeDone(data) {
             }
         }
 
+        // ── Dispatch debug ranking ke panel LexRank ──────────
+        if (Array.isArray(data.lexrank_debug) && data.lexrank_debug.length > 0) {
+            document.dispatchEvent(new CustomEvent('lexrank_debug_ready', {
+                detail: data.lexrank_debug
+            }));
+        }
+
         // Update footnote
         const saveInfo = document.querySelector('.save-info');
         if (saveInfo) {

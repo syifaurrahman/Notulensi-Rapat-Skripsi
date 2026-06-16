@@ -1,0 +1,38 @@
+=== RINGKASAN RAPAT (Reprocess - LexRank + Ollama) ===
+Sumber    : transkrip_Mentoring Digital Marketing Melalui Zoom Meeting PENS SKY Venture - PENS SKY Venture 1080p h264_2_20260610_214445.txt
+Dibuat    : 10 June 2026, 22:06:30
+Ollama    : Online - llama3.2:3b
+========================================
+
+adalah notulensi rapat berdasarkan transkrip yang diberikan:
+
+**Pembukaan:**
+- Rapat dibuka oleh Pak Mobed
+- Agenda rapat: digital marketing for startup
+- Hadir dalam rapat: temen-temen, Pak Moabit, dan lain-lain
+
+**Digital Marketing untuk Startup:**
+- Digital marketing adalah konsep yang berfokus pada penggunaan teknologi digital untuk meningkatkan kesadaran dan penjualan produk atau jasa.
+- Digital marketing dapat digunakan oleh startup untuk meningkatkan visibilitas dan keuntungan mereka.
+- Pak Mobed menjelaskan bahwa digital marketing memiliki beberapa komponen, seperti SEO, social media marketing, email marketing, dan lain-lain.
+
+**Topik Utama 1: Konsep Digital Marketing:**
+- Pak Mobed menjelaskan bahwa konsep digital marketing adalah tentang membuat konten yang relevan dan menarik untuk target audiens.
+- Ia juga menjelaskan bahwa digital marketing dapat digunakan untuk meningkatkan kesadaran dan penjualan produk atau jasa.
+- Contoh dari digital marketing adalah penggunaan social media, email marketing, dan SEO.
+
+**Topik Utama 2: Strategi Digital Marketing:**
+- Pak Mobed menjelaskan bahwa strategi digital marketing harus disesuaikan dengan kebutuhan target audiens.
+- Ia juga menjelaskan bahwa strategi digital marketing dapat digunakan untuk meningkatkan kesadaran dan penjualan produk atau jasa.
+- Contoh dari strategi digital marketing adalah penggunaan social media, email marketing, dan SEO.
+
+**Pertanyaan dan Diskusi:**
+- Pak Mobed menjawab pertanyaan tentang bagaimana membuat konten yang relevan dan menarik untuk target audiens.
+- Ia juga menjelaskan bahwa digital marketing dapat digunakan untuk meningkatkan kesadaran dan penjualan produk atau jasa.
+
+**Kesimpulan:**
+- Pak Mobed menyimpulkan bahwa digital marketing adalah konsep yang berfokus pada penggunaan teknologi digital untuk meningkatkan kesadaran dan penjualan produk atau jasa.
+- Ia juga menjelaskan bahwa strategi digital marketing harus disesuaikan dengan kebutuhan target audiens.
+
+**Penutup:**
+- Pak Mobed mengucapkan terima kasih kepada hadirin dalam rapat tersebut.

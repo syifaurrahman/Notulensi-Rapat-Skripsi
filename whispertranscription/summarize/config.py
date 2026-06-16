@@ -10,8 +10,7 @@ from dataclasses import dataclass, field
 @dataclass
 class SummaryConfig:
     # ── Step 4: LexRank Core (Dynamic Adaptation) ─────────
-    # Rasio kompresi (0.25 = 25% dari total pembicaraan akan diekstrak)
-    # Lebih tinggi sedikit dari 0.20 agar materi lebih terjaga
+    # Rasio kompresi (0.20 = 20% dari total pembicaraan akan diekstrak)
     compression_ratio: float = 0.25
     
     # Batas minimum kalimat hasil ekstraksi agar ringkasan tidak terlalu pendek

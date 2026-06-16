@@ -1,0 +1,39 @@
+==============================================================
+  HASIL PENGUJIAN AKURASI WHISPER
+  Sistem Notulensia — Transkripsi Digital Marketing
+==============================================================
+  Tanggal     : 11 June 2026, 21:12:21
+  Metode      : jiwer (library)
+  File Ref    : Manual_transkripsi_digitalmarketing.txt
+  File Hyp    : transkrip_...Digital Marketing...214445.txt
+  Kata Ref    : 19579
+  Kata Hyp    : 21871
+--------------------------------------------------------------
+
+  METRIK UTAMA
+  ──────────────────────────────────────────
+  WER   (Word Error Rate)     :    15.57%
+  WAcc  (Word Accuracy)       :    84.43%
+  CER   (Character Error Rate):    12.39%
+
+  DETAIL ERROR (Word-level)
+  ──────────────────────────────────────────
+  Substitutions (S) :    661
+  Deletions     (D) :     48
+  Insertions    (I) :   2340
+  Hits          (H) :  18870
+  Total Ref     (N) :  19579
+
+  PENILAIAN
+  ──────────────────────────────────────────
+  Kualitas WER  :  Cukup ~
+  Kualitas CER  :  Cukup ~
+
+==============================================================
+  CATATAN:
+  - WER ideal untuk speech-to-text: < 10%
+  - WAcc = 100% - WER
+  - CER lebih ketat karena dihitung per karakter
+  - Normalisasi: lowercase, hapus tanda baca,
+    hapus frasa halusinasi Whisper
+==============================================================
