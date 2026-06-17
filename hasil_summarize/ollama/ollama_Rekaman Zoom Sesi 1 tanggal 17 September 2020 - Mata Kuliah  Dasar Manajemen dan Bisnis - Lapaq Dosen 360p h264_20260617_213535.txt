@@ -1,0 +1,46 @@
+=== HASIL OLLAMA ABSTRACTIVE ===
+Sumber    : transkrip_Rekaman Zoom Sesi 1 tanggal 17 September 2020 - Mata Kuliah  Dasar Manajemen dan Bisnis - Lapaq Dosen 360p h264_20260617_213535.txt
+Dibuat    : 17 June 2026, 21:36:58
+Model     : Whisper small + llama3.2:3b
+========================================
+
+adalah notulensi rapat berdasar transkrip yang diberikan:
+
+**Pembukaan:**
+
+- Rapat dibuka oleh [Nama Pembawa Rapat]
+- Agenda rapat: Diskusi tentang organisasi dan manajemen
+- Hadir: Teman-teman, Pak/Puan [Nama Pengajar]
+
+**Definisi Organisasi:**
+
+- Definisi organisasi: Perusahaan yang memiliki tujuan untuk mencapai sasarannya hasil akhir yang sudah diketapkan secara tepat.
+- Efektifitas: Kemampuan perusahaan dalam menggunakan sumber daya manusia dan sumber daya lainnya untuk mencapai tujuan.
+- Efisiensi: Penggunaan sumber daya dengan efektif, sehingga dapat menghasilkan output yang tinggi dengan jumlah input yang sama.
+
+**Struktur Organisasi:**
+
+- Struktur organisasi: Terdiri dari dua orang dan struktur yang sederhana.
+- Kelompok-kelompok kerja dalam organisasi ini adalah:
+ - Karyawan
+ - Manajemen
+
+**Tujuan Organisasi:**
+
+- Tujuan organisasi: Mencapai tujuan untuk mencapai sasarannya hasil akhir yang sudah diketapkan secara tepat.
+- Contoh tujuan organisasi: Meningkatkan profit, pertumbuhan, dan keunggulan kompetitif.
+
+**Pertanyaan dan Diskusi:**
+
+- Pertanyaan: Apa bedanya efisiensi dan efektifitas?
+- Jawaban: Efektifitas adalah kemampuan perusahaan dalam mencapai tujuan yang sudah diketapkan secara tepat, sedangkan efisiensi adalah penggunaan sumber daya dengan efektif untuk menghasilkan output yang tinggi.
+
+**Kesimpulan:**
+
+- Rapat berakhir pada pukul [Waktu Berakhir]
+- Tindak lanjut: Saya akan memperbarui notifikasi tentang rapat ini di grup JAPRI dan saya juga akan memberikan tugas kepada kalian untuk melakukan analisis kasus.
+
+**Penutup:**
+
+- Terima kasih kepada teman-teman yang hadir dalam rapat ini.
+- Rapat berakhir.

@@ -1,0 +1,40 @@
+==============================================================
+  HASIL PENGUJIAN AKURASI WHISPER
+  Sistem Notulensi — Rapat Komisi XI DPR RI
+  RDP dengan 6 Dirjen Kementerian Keuangan
+==============================================================
+  Tanggal     : 18 June 2026, 01:31:30
+  Metode      : jiwer (WER / CER)
+  File Ref    : Rapat_komisi_dpr.txt
+  File Hyp    : transkrip_KOMISI XI DPR RI...011634.txt
+  Kata Ref    : 25,688
+  Kata Hyp    : 27,651
+--------------------------------------------------------------
+
+  METRIK UTAMA
+  ──────────────────────────────────────────
+  WER   (Word Error Rate)     :    22.91%
+  WAcc  (Word Accuracy)       :    77.09%
+  CER   (Character Error Rate):    12.12%
+
+  DETAIL ERROR (Word-level)
+  ──────────────────────────────────────────
+  Substitutions (S) :   3451
+  Deletions     (D) :    236
+  Insertions    (I) :   2199
+  Hits          (H) :  22001
+  Total Ref     (N) :  25688
+
+  PENILAIAN
+  ──────────────────────────────────────────
+  Kualitas WER  :  Perlu Peningkatan ✗
+  Kualitas CER  :  Cukup ~
+
+==============================================================
+  CATATAN:
+  - WER ideal untuk speech-to-text: < 10%
+  - WAcc = 100% - WER
+  - CER lebih ketat karena dihitung per karakter
+  - Normalisasi: lowercase, hapus tanda baca,
+    hapus frasa halusinasi Whisper
+==============================================================

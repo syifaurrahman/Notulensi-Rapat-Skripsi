@@ -1,0 +1,967 @@
+Berikut adalah penulisan ulang transkripsi rapat dengan mengoreksi kata-kata yang salah (akibat kesalahan dengar/ketik dari model Whisper) serta menghapus kata berulang yang berlebih atau halusinasi sistem, tanpa mengubah tanda baca dan huruf kapital asli:
+
+# === TRANSKRIPSI RAPAT ===
+File Video  : KOMISI XI DPR RI RDP DENGAN 6 DIRJEN KEMENTERIAN KEUANGAN.mp4
+Dibuat      : 18 June 2026, 01:16:34
+Model       : Whisper small
+
+kelembagaan dan kebijakan organisasi yang harus semakin diperkuat menghadapi perkembangan ekonomi, baik itu dinamika ekonomi global maupun dinamika ekonomi domestik kita.
+Direktur Jenderal Pajak memiliki 34 kanwil, 352 kpp. Mohon ijin pimpinan apakah bisa ditambahkan slide? Oh, terima kasih, Bapak.
+Terima kasih, Bapak. Dari kita, Pak. Dari tempat, Pak. Tempat, Pak, itu yang tempat. Sudah masuk bahannya. Silahkan.
+Ini asurat belakang? Bukan. Siapa ini asuratnya? Gak bapak Gak bapak, kita pahami, karena kita memang meminta rapatnya dipercepat, karena kan origin bapak ada sedikit kendala operasional.
+Gak, gak bapak. Ijin, kami menunggu selain pembinaan. Terima kasih. Terus kita.
+Langsung slide 5. Next slide, please. Ijin melanjutkan pimpinan. Jadi kami ulangi Ditjen Pajak merupakan sebuah institusi yang... Ditjen Pajak merupakan sebuah institusi yang sangat besar, pimpinan, yang sangat dinamik dan sangat kompleks dalam memersamai dan melaksanakan serta mengakselerasi amanah yang diberikan.
+Kami harus selalu adaptif, selalu agile untuk menghadapi dinamika perekonomian global maupun dinamika perekonomian domestik dan terkait dengan kekuatan institusi, Kami memiliki 34 kanwil, 352 kantor pelayanan Pajak, 204 kantor penyuluhan, dan 4 unit pelaksana teknis yang tersebar di seluruh Indonesia dengan lokasi kantor sampai di tingkat kecamatan.
+Dalam konteks sumber daya manusia, Saat ini kami memiliki 43.453 pegawai di dominasi lulusan Sarjana.
+di dominasi lulusan sarjana dan pasca sarjana sebanyak 29.028 atau 66,72 persen, kemudian pegawai usia produktif sekitar 55,25 persen, range usia 25 sampai 40 tahun atau jumlah orangnya 23.997, kemudian komposisi pegawai.
+Kemudian komposisi pegawai direktorat Jenderal Pajak yang menjalankan core function, fungsi utama ada 21.043 orang, 54,34 persen, yang terdiri dari account representative 11.580 di fungsi pelayanan dan pengawasan.
+Kemudian, total fungsional kami ada 11.349, dan penelaah keberatan ada 672 orang.
+Jumlah pegawai yang paling besar ditempatkan di Jakarta, sesuai dengan beban pekerjaan dalam hal ini target penerimaan yang diamanahkan kepada unit-unit kami di Jakarta.
+Next slide. Saat ini kami mendapat amanah target 2.357,7 triliun dan target penerimaan ini terus meningkat sebesar.
+sebesar Rp 872,6 triliun atau 58,76 persen dalam kerangka kurun waktu 5 tahun terakhir, 2022 sampai 2025, untuk itu kami harus terus menata SDM kami memperbesar proporsi pegawai pada fungsi fungsi utama, fungsi pengawasan, fungsi penerimaan, fungsi pemeriksaan dan tentu fungsi pelayanan perpajakan sebagai langkah-langkah untuk mengamankan penerimaan negara.
+Kemudian, apabila kami perinci, kinerja kami sebagai basis untuk tahun 2027 nanti, saat ini, capaian penerimaan pajak sampai dengan 31 Mei tahun 2026. Alhamdulillah kalau kita lihat Semester 1, 2026 sampai dengan angka 31 Mei 2026.
+dengan angka 31 Mei 2026, kami tumbuh sebesar 0,84% dibanding periode yang sama tahun 2025. Adapun kalau nominal kami kontribusi penerimaan pajak 70,41% dibanding tahun 2025 di angka 69,57% periode yang sama sebagai trend yang meningkat maka setara bulanan.
+yang meningkat, maka setara bulanan juga kami harus menunjukkan trend positif tetap menjaga pertumbuhan penerimaan.
+Kalau kami boleh sedikit menghighlight upaya-upaya kami untuk bisa mengamankan penerimaan tahun 2026 sebagai basis yang harus kuat untuk mencapai target nantinya di tahun 2027, Ini kami sampaikan di slide 10 bahwa penerimaan pajak net pada periode yang sama di semester 1 sampai dengan 31 Mei 2026, hampir semua jenis pajak yang menjadi basis utama penerimaan perpajakan itu naik, PPH Badan naik 23,9 persen, PPH orang pribadi dan PPH 21 naik 26 persen, PPH final Pasal 22 dan Pasal 26 naik 5,2 persen, PPN dan PPN-BM naik 41,3 persen.
+Hal ini tentu tidak terlepas dari upaya-upaya reformasi internal yang kami komitmenkan, sebagai laporan pimpinan, dalam konteks kinerja utama core portfolio kami yang terkait dengan upaya intensifikasi penerimaan, penerimaan dari intensifikasi kami terjadi di seluruh aktivitas inti, pengawasan, pemeriksaan, penagihan, dan penegakan hukum.
+Alhamdulillah kontribusinya penerimaan dari intensifikasi sekitar 31,2 persen sampai dengan Mei 2026, sekitar di angka 56,3 triliun, Kemudian penerimaan terkait dengan coretax, kontribusi dari capaian kualitas hasil teknologi informasi, pertumbuhan aktivitas ekonomi yang dibersamai dengan kemampuan coretax yang semakin stabil secara infrastruktur dan kualitas layanan dalam memproses dokumen-dokumen yang menjadi hak dan kewajiban perpajakan wajib pajak seperti penerbitan faktur, bukti potong.
+penerbitan faktur, bukti potong. Saat ini dapat kami laporkan, Coretax sudah memiliki fitur pre-populated yang bisa mengidentifikasi dan menggabungkan semua data transaksi wajib pajak sehingga proses deteksi dan pengawasan bisa semakin efektif untuk mengamankan penerimaan negara.
+Selain itu, perbaikan efektifitas melalui Coretax tercermin dari kenaikan nilai SPT, tahunan PPH orang pribadi yang kurang bayar, Terima kasih.
+yang kurang bayar. Dalam hal ini sebesar 9,09 triliun tumbuh di 80 persen dibanding periode sama tahun lalu.
+Kemudian untuk kenaikan nilai SPT PPH orang pribadi non-karyawan kalau tadi yang karyawan yang tumbuh 80 persen, yang non-karyawan dapat kami laporkan tumbuh dengan angka nominal sebesar 3,1 triliun kurang bayar atau sekitar 970 persen dibanding periode sama tahun lalu.
+dan dibanding periode sama tahun lalu, adapun nilai SPT kurang bayar untuk PPH tahunan, SPT tahunan PPH Badan, maaf, itu sebesar 68,1 persen tumbuh 54 persen dibanding periode sama di tahun yang lalu.
+Selain itu, dari sisi ekstensifikasi capaian perluasan basis pajak hingga 31 Mei dapat kami laporkan dari hasil perluasan basis pajak sebesar Rp112.9 miliar dari wajib pajak baru, Rp1.96 triliun dari pengusaha kena pajak baru, dan Rp20.63 triliun dari wajib pajak yang tadinya dormant atau inefektif, dan tambahan wajib pajak baru tahun 2026 yang menjadi basis yang baik untuk nanti tahun 2027 juga, WP baru 2026 sampai dengan 12 Juni tercatat 1,84 juta wajib pajak, kemudian reaktivasi wajib pajak non efektif, non aktif atau dormant di tahun 2026, sampai dengan angka di tanggal 12
+Juni, itu ada 24.672 wajib pajak. sehingga total penambahan wajib pajak baru 2026, sampai dengan 12 juni tahun 2026 di angka yang dormant dan non-aktif, non-efektif itu 28.257 wajib pajak.
+Ini bahannya yang mana ya? Ini tambahan di sini Pak, nanti kami sampaikan Pak.
+Ini tadi saya minta tadi pagi baru untuk ini Pak.
+Untuk bisa memperjelas kenapa kita bisa mencapai target realisasi pajak yang tumbuh Bapak Ijin. Nanti kami sampaikan Bapak Ijin.
+Nanti kami sampaikan, Bapak. Ijin. Ijin, bisa kami lanjut di slide berikutnya, Bapak. Slide 11. Baik, Bapak. Segera. Ijin, lanjutkan.
+Terkait dengan cost of collection, cost of tax collection, rasio anggaran direktorat.
+Rasio Anggaran Direktorat Jenderal Pajak terhadap penerimaan Pajak tahun 2021 sampai dengan tahun 2026. Rasio ini mengalami tren penurunan selama 6 tahun terakhir di angka 1,32 persen tahun 2021 turun di kisaran tahun 2026 0,84 persen.
+Rasio Anggaran Direktorat Jenderal Pajak, terhadap penerimaan Pajak ini, kalau kita bandingkan dengan beberapa negara yang menjadi benchmark kami, ini masih lebih rendah dibandingkan dengan negara-negara di kawasan Asia seperti Cina, Filipina, dan India yang masih berada di kisaran antara 0,9 sampai 1,9% dari cost of collection ratio-nya.
+Artinya cost of tax collection ratio berdasarkan trend lima tahun terakhir yang semakin efisien ini dampak langsung dari meningkatnya kepatuhan wajib pajak, kepatuhan yang didrive dari digitalisasi yang kami lakukan, serta perkembangan sistem terpadu yang kami komitmenkan.
+adapun ijin untuk terkait dengan rencana kerja dan pagu ini.
+Rencana Kerja dan Pagu Indikatif Direktorat Jenderal Pajak tahun 2027, ada beberapa kebijakan umum perpajakan yang diarahkan untuk mendukung perekonomian supaya juga bisa mengambil hak pemajakan kita dari pertumbuhan ekonomi.
+Kebijakan umum yang kami lakukan, yang pertama itu terkait dengan penguatan keberlanjutan reformasi perpajakan dan harmonisasi kebijakan perpajakan, Yang kedua, peningkatan kepatuhan perpajakan melalui pengawasan aktivitas berbasis IT dan juga big data melalui sinergi joint program dengan direktorat jenderal yang lain di kementerian keuangan yang utamanya direktorat jenderal bea cukai, direktorat jenderal anggaran bagian penerimaan bukan pajak dan tentu dengan direktorat jenderal strategi ekonomi fiskal dalam konteks kebijakan, serta tentu kepastian penegakan.
+serta tentu kepastian penegakan hukum, termasuk mendukung percepatan debottlenecking tantangan berusaha dan investasi, kemudian yang berikutnya penguatan sistem perpajakan ekonomi digital yang kondusif dan berkeadilan.
+Dapat kami lapor kepada bapak pimpinan, kontribusi dari kenaikan pajak pertambahan nilai sebagian besar dikontribusikan oleh sektor perdagangan yang menjadi.
+yang menjadi subsektor dari ekonomi digital. Kami juga memastikan bagaimana sistem perpajakan kami harus selalu adaptif terhadap perkembangan model bisnis baru ini, kemudian yang berikutnya pemberian insentif perpajakan yang semakin terukur, terarah, dan tepat waktu, adapun.
+Next slide, terkait dengan kebijakan teknis perpajakan tahun 2027, ini merupakan implementasi dari kebijakan umum yang tadi kami sampaikan.
+Kami lakukan melalui beberapa strategi yang pertama, itu perluasan basis wajib pajak, menggunakan data dan teknologi berfokus di ekonomi digital, shadow economy, dan sektor informal lain untuk menjadi basis perluasan wajib pajak kami.
+Kemudian penguatan administrasi perpajakan dalam konteks pengumpulan data untuk mendukung optimalisasi dari peran coretax, penggunaan compliance risk management integrated risk engine kami, kemudian peningkatan pengawasan kepatuhan wajib pajak strategis berisiko tinggi, wajib pajak grup, wajib pajak orang pribadi dengan transaksi yang dipengaruhi hubungan istimewa.
+hubungan istimewa dan wajib pajak orang pribadi prominen, kemudian penguatan fungsi penegakan hukum untuk meningkatkan kepatuhan wajib pajak melalui multi-door approach dan juga optimalisasi insentif pajak untuk mendukung pertumbuhan ekonomi daya saing dan iklim usaha.
+Berikutnya, di tengah ketidakpastian global dan tantangan ekonomi domestik, Kami akan berusaha terus untuk meningkatkan tax ratio melalui strategi optimalisasi penerimaan pajak yang mencakup data dan sistem informasi yang andal dan credible, perluasan basis pajak, pelayanan dan penguatan kepercayaan publik, serta pengawasan dan penegakan hukum yang terukur dan tetap mendukung keberlanjutan iklim investasi dan pertumbuhan ekonomi serta kebijakan perpajakan dalam hal ini peninjauan kembali regulasi-regulasi yang masih ada policy gap dan potensi administration gap untuk memperkuat kebijakan maupun administrasi yang kami lakukan.
+Pimpinan dan Komisi 11, kami laporkan pagu indikatif di tahun 2027 ini sebesar 5,4 triliun terdiri dari program pengelolaan Penerimaan Negara sebesar 867,89 miIiar dan program Dukungan Manajemen sebesar 4,534 triliun.
+adapun anggaran yang dialokasikan dalam program pengelolaan penerimaan negara merupakan anggaran yang akan digunakan untuk melaksanakan kegiatan teknis dalam rangka pengamanan penerimaan pajak, sementara itu program dukungan manajemen merupakan program yang didesain untuk berikan dukungan terhadap pelaksanaan tugas dan fungsi unit kerja, di mana didalamnya juga dalam rangka tidak terpisah untuk mendukung program-program teknis seperti belanja pegawai, belanja barang.
+pegawai, belanja barang operasional, belanja modal, dan belanja teknologi, informasi, dan komunikasi untuk mendukung program teknis.
+Sehingga pagu Indikatif Direktorat Jenderal Pajak tahun 2027 sebesar 5,4 triliun ini lebih rendah sekitar 23 miliar dibandingkan dengan alokasi anggaran tahun 2026 setelah efisiensi sebesar.
+efisiensi sebesar 5,42 triliun. Trend anggaran, 5 tahun terakhir kami laporkan mengalami penurunan sekitar 6,54 triliun Belanja Pegawai tahun 2022 diredistribusi, maaf, sebesar 1,81 triliun menjadi 5,4 triliun atau turun sebesar 17,48 persen.
+Berikutnya, slide berikutnya, izin kami laporkan pagu indikatif sebesar 5,4 triliun tersebut, dapat kami detailkan terdiri dari anggaran di fungsi utama kami di core function kami sebesar 4,81 triliun atau 89,2 persen dengan alokasi sumber daya manusia.
+dengan alokasi sumber daya manusia 37.475 pegawai dan anggaran fungsi pendukung sebesar 0,58 triliun atau sekitar 10,8 persen dengan alokasi SDM sebanyak 5.960 pegawai.
+Alokasi anggaran ini merupakan alokasi anggaran setelah dilakukan atribusi sesuai dengan jumlah pegawai yang ada di masing-masing fungsi. Kemudian.
+Kemudian, fungsi utama untuk kegiatan core function direktorat Jenderal Pajak didukung pengadaan aset TIK, Teknologi Informasi Komunikasi untuk 5 fungsi, yaitu data dan sistem informasi yang andal dan credible 679 miliar, kemudian perluasan basis Pajak Rp 919 miIiar, pelayanan dan penguatan kepercayaan publik Rp 665 miIiar, pengawasan dan penegakan.
+miliar pengawasan dan penegakan hukum 1,98 triliun dan kebijakan perpajakan 578 miliar, adapun fungsi pendukung untuk layanan kesekretariatan, berupa pengelolaan organisasi dan sumber daya manusia, pengelolaan keuangan dan barang milik negara, dan pengawasan pengendalian internal sebesar 583 miIiar.
+Mohon perkenan, pimpinan, dan Bapak-Ibu Anggota Komisi 11 DPR untuk dapat menyetujui usulan rencana kerja dan pagu indikatif Direktorat Jenderal Pajak Tahun Anggaran 2027, sebesar 5.402.056.236.000.
+Demikian kami sampaikan, terima kasih untuk perhatian Bapak Ibu Pimpinan. Wa'alaikum warahmatullahi wabarakatuh.
+Maaf apabila ada salah-salah kata, Assalamu'alaikum warahmatullahi wabarakatuh. Waalaikumussalam warahmatullahi wabarakatuh.
+Berikutnya saya beri kesempatan kepada Dirjen Bea dan Cukai. Saya persilakan. Terima kasih. Assalamu'alaikum warahmatullahi wabarakatuh.
+Selamat pagi, Salam sejahtera untuk kita semua yang terhormat. Terima kasih.
+Semua yang terhormat, pimpinan, dan seluruh anggota Komisi 11 DPR RI, Izinkan kami menyampaikan paparan berkaitan dengan rencana kerja dan anggaran Direktorat Jenderal Bea dan Cukai Pagu Indikatif Tahun Anggaran 2027. Bapak-Ibu yang kami hormati, paparan kami hari ini akan mencakup 3 bahasan Terima kasih.
+bahasan utama yang pertama adalah tentang gambaran umum mengenai kelembagaan direktorat bea dan cukai, mana slidenya nih?
+kemudian saya meletakkan kontrol yang sudah ada di sini. Saya akan memperkenalkan masalah ke dalam kini.
+
+Interupsi ketua, sambil menunggu slide, silahkan. Ini mumpung baru dirjen pajak dan dirjen bea dan cukai.
+Kalau kita lihat bahannya, nggak ada KPI-nya ya. Apa bisa disiapkan Pak Bimo, Pak Jaka?
+Karena nanti masih rame nih, masih lama. Tolong disiapkan KPI masing-masing ininya.
+Dan eselon satunya kok gak ada nih, dibandingkan juga dengan tahun 2026. Ada nggak KPI-nya?
+Ada nggak KPI-nya sih? Hah? Ini susulan kan? Iya. Terima kasih.
+Harusnya kalau kayak gitu, lainnya disitu aja, jangan ditirta. Hah? Ini masih panjang, masih panjang. Kita tunggu Pak.
+PAK INTERUPSI, PAK, di lain kali, PAK, satu... Ini lain kali pak, satu hari sebelumnya diberikan ya, karena kita mau baca angka-angka.
+Ya mungkin rapat depan ini nggak terulang lagi seperti ini. Silahkan dilanjutkan pimpinan.
+Paparan pada pagi hari ini mencakup tiga bahasan pokok. Yang pertama, yaitu gambaran umum mengenai kelembagaan Direktorat Jenderal Bea dan Cukai.
+Yang kedua, kami akan memaparkan capaian program dan kegiatan DJBC yang telah dilaksanakan selama periode berjalan.
+Yang ketiga, kami akan menyampaikan rencana kerja dan pagu indikatif Tahun Anggaran 2027 sebagai dasar permohonan Persetujuan Komisi 11 DPR RI.
+Bapak-Ibu pimpinan dan anggota Komisi 11 yang kami hormati, Kami akan memulai paparan dengan menyampaikan gambaran umum.
+dengan menyampaikan gambaran umum DJBC mengemban tiga fungsi utama sebagai trade facilitator dan industrial assistance, community protector, dan revenue collector.
+Fungsi utama ini sangat relevan dengan Asta Cita Pemerintahan Bapak Presiden Prabowo dan Gibran, terutama pada Prioritas Nasional nomor 2, nomor 3, dan nomor 7. Dapat kami sampaikan juga jumlah pegawai DJBC adalah sekitar 15.941 orang dengan komposisi 13.140 pegawai laki-laki atau 82 persen.
+dan 2.801 pegawai perempuan atau 18 persen, hal ini tersebar di seluruh wilayah NKRI dari Sabang sampai Merauke.
+Selanjutnya kami akan memaparkan capaian program dan kegiatan DJBC yang mencakup aspek Penerimaan, Kinerja Custom Clearance, Fasilitas Perdagangan, Kinerja Post Clearance, serta Kinerja Kepabeanan Cukai.
+Hingga 31 Mei 2026, realisasi penerimaan Kepabeanan dan Cukai mencapai 123,8 triliun atau sekitar 36,8% dari target APBN Tahun Anggaran 2026 sebesar 336 triliun, dan ini terjadi peningkatan sekitar 11,4% dari target tahun 2025. Pertumbuhan kumulatif sampai dengan Mei 2026 sebesar 0,7% jika dibandingkan dengan periode sebelumnya.
+hal ini menunjukkan adanya sinyal pemulihan kinerja penerimaan.
+Berdasarkan jenis penerimaan, Cukai masih menjadi kontributor terbesar dengan realisasi sebesar 90,4 triliun atau tumbuh sekitar 0,2% dibanding tahun sebelumnya.
+Pertumbuhan ini terutama didorong oleh peningkatan produksi hasil tembakau pada Triwulan 1. Selanjutnya, untuk bea masuk mencapai realisasi sebesar 21,5 triliun atau tumbuh kuat sebesar 9,7 persen yang didorong oleh meningkatnya impor bahan baku dan bahan penolong dengan pertumbuhan sekitar 10,67 persen.
+Sementara itu bea keluar terealisasi sebesar 11,9 triliun, hal ini masih mengalami kontraksi 8,9 persen.
+Namun demikian kinerja mulai menunjukkan perbaikan seiring dengan penguatan harga CPO pada periode maret hingga Mei 2026. Secara keseluruhan, kinerja penerimaan kepabeanan.
+Kinerja Penerimaan Kepabeanan dan Cukai hingga Mei 2026 menunjukkan trend yang semakin membaik dan ini memberikan indikasi positif terhadap pencapaian target penerimaan di akhir tahun.
+Berikut, kami sampaikan perkembangan kinerja Nasional Logistics Ecosystem atau Custom Clearance sebagai bagian dari upayanya, DJBC dalam meningkatkan efisiensi logistik nasional.
+efisiensi logistik nasional. Cakupan layanan implementasi nasional logistics ecosystem tahun 2026 telah menjangkau 55 pelabuhan dan 12 bandara.
+Secara rata-rata implementasi NLE mampu mendorong efisiensi waktu sebesar 73% dan efisiensi biaya sebesar.
+dan efisiensi biaya sebesar 17 persen di pelabuhan yang telah menerapkan NLE.
+Kinerja Custom Clearance periode 2021 hingga 2025 menunjukkan adanya fluktuasi baik dari sisi waktu penyelesaian maupun jumlah dokumen impor.
+Pada jalur hijau yang tetap mendominasi dengan porsi sekitar 88 persen hingga 94 persen dari total PIB.
+Waktu penyelesaian berada pada kisaran 3 hingga 5 menit. Sementara itu, jalur merah dengan waktu penyelesaian pada kisaran 4 hingga 6 menit.
+Bapak-Ibu, Pimpinan dan Anggota Komisi 11 yang terhormat, DJBC hadir sebagai Mitra Strategis Pelaku Industri.
+mitra strategis pelaku industri agar dapat bersaing secara global. Saat ini terdapat 2.333 perusahaan penerima fasilitas dari sisi dampak ekonomi, fasilitas, kawasan berikat, dan KITE memberikan kontribusi yang signifikan.
+pada tahun 2025 nilai ekspor mencapai 112,5 miliar USD, nilai investasi sebesar 3,46 miliar USD serta mampu menyerap tenaga kerja hingga 2,10 juta orang.
+Selain mendukung industri besar, DJBC juga mendorong peningkatan kapasitas ekspor pelaku UMKM melalui program klinik ekspor jumlah UMKM binaan meningkat dari tahun sebelumnya mencapai 1.463 UMKM pada tahun 2026. Dari jumlah tersebut 745 UMKM telah berhasil melakukan ekspor yang terdiri dari 181 UMKM melakukan ekspor secara mandiri dan 556 UMKM melalui pihak ketiga.
+Kami juga menyampaikan kinerja, post clearance, DJBC. Ketua, silahkan Pak. Kembali ke slide sebelumnya, tolong klarifikasi aja nih Pak.
+Dampak ekonomi, kawasan berikat, dan KITE, penyerapan tenaga kerja, Pak. iya itu berarti dari 2025 ke 2026 kuartal pertama, ada PHK 30 ribu orang.
+Terkonfirmasi jenisnya bahaya, jadi ada 0,03 itu kan berarti 30 ribu orang, Iya, kan. Dari 2025 ke triwulan pertama 2026.
+jadi sampai bulan maret saja sudah ada 30 ribu PHK, tolong konfirmasi ini Pak.
+Soalnya tadi bicara dampak dan kontribusi kok tiba-tiba ada 30 ribu orang di PHK.
+Nanti di iniin pak, saya hanya mau tanya itu tadi.
+Klarifikasi bener kan yang terjadi 30 ribu PHK dalam waktu 3 bulan? Ternyata 3 bulan pertama.
+Kita tinjau lagi Pak nanti Pak. Untuk kinerja post-clearance, DJBC meliputi 3 aspek.
+meliputi tiga aspek, melalui audit kepabeanan dan cukai, realisasi penerimaan menunjukkan tren yang relatif stabil dengan capaian sekitar 1,26 triliun pada tahun 2025 sementara hingga Juni, 2026 telah terealisasi sekitar 283 miliar.
+Untuk penelitian ulang, realisasi penerimaan mencapai sekitar Rp 861 miIiar pada tahun 2025 dan Rp 389 miIiar hingga Juni 2026 dengan jumlah LHP yang meningkat signifikan pada tahun 2025. joint audit DJBC dan DJP realisasi penerimaan mencapai sekitar 152,88 miliar pada tahun 2025 and 55,47 miliar hingga Juni 2026 didukung peningkatan jumlah laporan hasil pemeriksaan bersama.
+Melalui seluruh kegiatan post clearance pada tahun 2025, DJBC berhasil mengamankan penerimaan negara sebesar 2,28 triliun.
+Bapak-Ibu Pimpinan dan Anggota Komisi 11 yang kami hormati, DJBC juga terus memperkuat fungsi pengawasan melalui sinergi antarinstansi guna melindungi masyarakat mendukung penerimaan negara serta menjaga iklim usaha yang sehat.
+Hingga Mei 2026, DJBC telah melakukan 11.542 penindakan dengan total barang sebesar Rp 7,71 triliun.
+Pada sektor rokok ilegal sampai dengan Mei 2026 telah dilakukan 6.880 penindakan dengan total sebesar 865 juta batang.
+sebagai pembanding sepanjang tahun 2025 terdapat tercatat 20.537 penindakan dengan jumlah sebesar 1,4 miliar batang.
+Pada sektor ekspor jumlah penindakan hingga Mei 2026 mencapai 234 kasus nilai ekspor yang diamankan telah mencapai 1,14 triliun.
+Untuk impor sendiri hingga Mei 2026 tercatat 4.093 penindakan dengan nilai barang sebesar 5,15 triliun.
+Sementara itu, pada penindakan Narkotika hingga Mei 2026, DJBC telah mengamankan 3,81 ton barang bukti, capaian tersebut tidak lepas dari sinergi pengawasan bersama aparat penegak hukum lainnya.
+Bapak Ibu, Pimpinan Anggota Komisi 11 kami menyampaikan capaian kinerja DJBC hingga tahun berjalan selanjutnya, kami izinkan memaparkan rencana kerja dan pagu indikatif tahun 2027. Melihat, pada tahun 2027 terdapat beberapa tantangan strategis yang perlu diantisipasi untuk menjawab tantangan tersebut.
+Kebijakan tahun 2027 diarahkan pada empat fokus utama. Yang pertama, pengelolaan fiskal yang sehat dan berkelanjutan.
+Kebijakan ini diarahkan pada peningkatan fasilitas kepabeanan untuk menarik investasi, meningkatkan ekspor, dan mendukung hilirisasi industri.
+Selain itu dilakukan optimalisasi fasilitas kawasan khusus, peningkatan ekspor produk UMKM serta penguatan kerja sama kepabeanan internasional.
+Yang kedua, perlindungan masyarakat. Pada perlindungan masyarakat dan dukungan perekonomian, fokus kebijakan mencakup penguatan kapasitas dan revitalisasi pengawasan di wilayah laut, perbatasan, pesisir, pelabuhan, dan bandar udara.
+Ketiga, optimalisasi penerimaan negara. Upaya yang dilakukan diantaranya adalah melalui intensifikasi kebijakan tarif Terima kasih.
+tarif cukai hasil tembakau, dan tarif bea masuk pada komoditas tertentu.
+Ekstensifikasi objek penerimaan dan perluasan basis penerimaan sesuai perkembangan ekonomi dan kebutuhan masyarakat.
+Penguatan nilai pabean serta pengembangan klasifikasi barang yang lebih adaptif, dan penguatan joint program di lingkungan Kementerian Keuangan.
+keempat, penguatan layanan dan tata kelola manajemen organisasi, SDM, dan IT.
+Kebijakan diarahkan pada pembentukan organisasi yang lebih dinamis dan adaptif penyempurnaan proses bisnis, kepabeanan dan cukai, penguatan kompetensi, dan integritas SDM, penyempurnaan core system, dan smart customs.
+4 fokus kebijakan yang telah kami sampaikan tersebut, kemudian diterjemahkan ke dalam berbagai inisiatif strategis yang selaras dengan agenda pembangunan nasional meliputi tiga program prioritas nasional, yaitu Joint Task Force on Illegal Goods, Patroli Laut Terkoordinasi, dan Promosi Ekspor UMKM.
+serta 6 program unggulan DJBC, yaitu Perumusan ASEAN Harmonized Tariff Nomenclature, Rekomendasi Kebijakan FTA melalui Verification Visit, Rekomendasi Kebijakan Nilai Pabean Hasil Perundingan Internasional, Yang keempat, Ketentuan Forum Kerja Sama Internasional.
+Pengembangan Transformasi TPB berkelanjutan, dan yang keenam Smart Customs dan Eco System.
+Rencana Kerja DJBC tahun 2027 diwujudkan atau pun disusun untuk mendukung tema pembangunan nasional, yaitu akselerasi pertumbuhan.
+pertumbuhan berkualitas melalui produktivitas, investasi, dan industri yang dilaksanakan tiga program utama.
+Yang pertama adalah pertumbuhan yang berkualitas dengan tiga program utama yang didukung Anggaran sebesar Rp2,81 triliun.
+Rencana ini diarahkan untuk mewujudkan 4 tujuan strategis, yaitu mendukung kebijakan fiskal, memperkuat diplomasi dan kerja sama ekonomi, mengoptimalkan penerimaan negara, serta meningkatkan efektivitas pengawasan, dan dukungan ekonomi untuk mencapai tujuan tersebut DJBC melaksanakan tujuh kegiatan utama, yaitu diplomasi dan kerja sama ekonomi nasional, komunikasi dan edukasi, monitoring kondisi fiskal ekonomi dan keuangan, pengawasan dan penegakan hukum, penanganan keberatan banding dan gugatan, perumusan kebijakan administratif serta pelayanan komunikasi dan edukasi.
+berdasarkan kerangka kerja tahun 2027 yang telah kami sampaikan kebutuhan pendanaan DJBC dialokasikan melalui tiga program utama dengan total pagu indikatif tahun anggaran 2027 sebesar 2,81 triliun dengan rincian program Kebijaksanaan Fiskal Sektor.
+rincian program Kebijaksanaan Fiskal Sektor Keuangan dan Ekonomi dengan alokasi sebesar 4,16 miIiar.
+Kemudian Program Pengelolaan Penerimaan Negara dengan alokasi sebesar 749,37 miIiar. Program Dukungan Manajemen yaitu sebesar 2,06 triliun. Demikian, Paparan.
+Demikian, paparan yang kami sampaikan mengawali kesempatan ini, kami dengan hormat memohon kepada Bapak Pimpinan dan Anggota Komisi 11 untuk dapat menyetujui usulan rencana kerja dan pagu indikatif direktorat jenderal bea dan cukai sebesar 2,81 triliun rupiah.
+Demikian, kami sampaikan Wassalamu'alaikum warahmatullahi wabarakatuh. Terima kasih kepada Dir.
+Bea dan Cukai. Saya persilakan selanjutnya kepada Dirjen Anggaran untuk menyampaikan. Assalamu'alaikum warahmatullahi wabarakatuh. Selamat pagi.
+Dan kami hormati pimpinan dan anggota Komisi 11 DPR RI.
+Pada kesempatan ini, kami akan menyampaikan rencana kerja dan pagu indikatif Direktorat Jenderal Anggaran tahun 2027. Sebagaimana DJP dan DJBC ada tiga bagian di presentasi kami.
+Yang pertama adalah gambaran umum DJA. Next slide saja, coba. Next. Gambaran umum DJA kemudian capaian pelaksanaan.
+DJA kemudian capaian program dan kegiatan DJA dan juga rencana kerja dan pagu indikatif DJA tahun 2027. Pada bagian pertama, kami akan menyampaikan gambaran umum direktorat jenderal anggaran sebagai unit di bawah Kementerian Keuangan yang bertanggungjawab dalam perumusan kebijakan penganggaran dan pengelolaan PNBP.
+DJA memiliki mandat untuk mewujudkan anggaran yang berkualitas. Anggaran yang berkualitas, berkeadilan, berkelanjutan dan tepat sasaran.
+Di bidang penganggaran, DJA berperan dalam penyusunan postur APBN, pengalokasian anggaran, serta kebijakan penganggaran seperti pengembangan standar biaya hingga instrumen monitoring, evaluasi, dan kinerja anggaran.
+Di bidang PNBP, DJA berperan dalam penyusunan kebijakan tarif, perencanaan penerimaan, penggalian potensi, dan pengawasan PNBP. Terima kasih.
+Per 8 Juni 2026, DJA didukung oleh 796 pegawai, jumlah ini menunjukkan trend penurunan dari tahun ke tahun mencerminkan birokrasi DJA semakin ramping dan efisien melalui digitalisasi proses kerja dan penguatan kapasitas SDM.
+DJA juga sudah mengimplementasikan struktur kerja atau fungsi delayering mulai Juni 2025. sehingga pekerjaan teknis dapat dikerjakan lebih cepat dan lintas tim atau unit oleh para pejabat fungsional.
+Dalam menjalankan tugasnya, mungkin next slide. Ini agak lambat dilihatnya. Next slide. Sambil menunggu seperti arahan Bapak Dolfi tadi.
+Bapak Adolfi tadi bahwa DJA menggunakan pendekatan balance scorecard yang menghubungkan sasaran organisasi dengan outcome pembangunan nasional.
+Tujuan utama yang ingin dicapai adalah terwujudnya kinerja ekonomi yang kuat, inklusif dan berdaya saing melalui pengelolaan APBN yang kredibel.
+Untuk mencapai hal tersebut, DJA menjalankan fungsi perumusan kebijakan fiskal, pengalokasian belanja negara, optimalisasi PNBP, pengawasan, pengelolaan SDM.
+pengawasan, pengelolaan SDM, penguatan data dan informasi serta pengendalian internal yang efektif melihatnya ini. Next slide.
+DJA melibatkan peran strategis dalam sebuah siklus penyusunan APBN mulai dari keterlibatan dalam proses penyusunan kapasitas fiskal dan pagu indikatif.
+Kita lambat kelihatannya slidenya. penyusunan pagu anggaran, penyusunan RAPBN, mungkin mau dijadikan Bapak-Bapak pimpinan dan anggota semuanya.
+Ini slidenya agak lambat sekali. Kami lanjutkan, mulai dari proses penyusunan kapasitas fiskal.
+proses penyusunan kapasitas fiskal dan pagu indikatif, penyusunan pagu anggaran, penyusunan RAPBN dengan pembahasan bersama dengan DPR RI, penelaahan APBN, penyusunan di jenis APBN dan di Bank.
+Dan demikian DJA memiliki peran yang utama dalam mewujudkan arah pembangunan nasional melepaskan proses pengalokasian sumber daya fiskal.
+Selanjutnya, selain menjalankan fungsi penganggaran jempolan belanja negara, DJA juga memiliki peran dalam perumusan kebijakan dan pengelolaan PNBP.
+Next slidenya. PNBP tidak hanya berfungsi sebagai sumber penerimaan negara tetapi juga sebagai instrumen kebijakan pembangunan.
+Dalam periode 2021-2025, mungkin kami juga laporkan bahwa meskipun rata-rata kontribusi PNBP mencapai 2,7% terhadap PDB, sebenarnya semakin menurun, Terima kasih.
+semakin menurun, terutama mulai tahun 2026 di mana dividen BUMN bukan lagi menjadi PNBP.
+Selain itu kinerja PNBP juga dipengaruhi oleh dinamika harga komoditas, volume layanan kinerja PNBP serta perbaikan kebijakan pemerintah terkait pengelolaan SDA dan pelayanan publik lainnya.
+Nah, sebenarnya kami akan menyampaikan capaian, program, dan kegiatan DJA sampai dengan triwulan pertama tahun 2026. Berdasarkan data realisasi indikator kinerja utama atau IKU dari masing-masing perspektif, nilai kinerja organisasi DJA mencapai 114,97 atau berada pada kualifikasi sangat baik.
+Capaian ini menunjukkan konsistensi DJA dalam mempertahankan kinerja organisasi pada level tinggi selama 5 tahun terakhir.
+Dari 21 indikator kinerja utama yang dikelola hampir semuanya telah mencapai atau melampaui target. Next slide.
+Untuk stakeholder perspective, beberapa indikator tahun juga menunjukkan capaian yang sangat baik, secara total mencapai 120 mencerminkan dukungan DJA terhadap pelaksanaan program-program prioritas nasional.
+Untuk Customer perspective pula, indikator kinerja kebijakan fiskal mencapai 110.
+Next slidenya, coba 111. Persentase realisasi ini mencapai 24.500% dari target tahunan dan melampaui target triwulanan sebesar 15%.
+Tingkat kepatuhan atas regulasi PNBP juga menunjukkan capaian yang baik.
+Adapun capaian indeks kualitas belanja KL dan BUN masih dipengaruhi proses penyempurnaan sistem pada awal tahun sebagai bagian dari penguatan kualitas data dan pengelolaan kinerja anggaran yang lebih terintegrasi.
+Untuk internal process dan learning growth, halaman 12. Bentar, Pak. Sudah itu. Kembali lagi tadi. Interupsi, Ketua.
+Halaman 11. Silakan, Pak. Di jelaskan juga ini cara membacanya indeks ini misalnya, yang nomor 1, indeks kinerja kebijakan fiskal.
+Indeks kinerja kebijakan fiskal, capaiannya 110, terendah kalau misalnya dianggap jelek itu berapa, yang dianggap baik itu berapa.
+Kalau persen mungkin kita bisa indeksin kan macem-macem ukurannya. Kadang-kadang angka besar itu menunjukkan buruk, angka kecil menunjukkan baik, tapi sebaliknya, kadang-kadang angka besar itu menunjukkan baik, angka kecil itu buruk, jadi dikasih gambaran dulu Pak.
+Terima kasih. Terima kasih, Pak Dolfi. Indeks ini adalah positif dalam artian bahwa kalau diatas 100 adalah sangat baik.
+Sangat baik, Pak. Jadi, untuk customer perspective DJA, menunjukkan IKU yang sangat baik.
+Bagi ijin akan melanjutkan sama halnya untuk internal process mungkin kami tidak satu-satu ya.
+Jadi, nomor dua itu adalah potensi PNBP. Jadi, saya sebenarnya siap. Stakeholder perspective itu mungkin nomor sebelumnya. Sebelumnya.
+Ya, baik. Ya Pak. Jadi, kualitas belanja untuk indeks kualitas belanja KL dan BUN.
+Jadi, menunjukkan adapun capaian indeks kualitas belanja KL dan BUN masih dimulai oleh proses.
+Jadi, di awal tahun kami laporkan tidak lebih baik dari sebelumnya Pak. Angka baik berapa ini? Angka buruk di mana?
+Angka baiknya berapa? Jadi kalau Q1 itu Pak, harusnya kalau baik adalah di atas 4,2.
+4,2 ya. Jadi kami laporkan tadi, ini masih sangat dipengaruhi oleh dinamika penyempurnaan sistem di awal tahun.
+Sehingga kami sebenarnya di awal tahun ini di Q1 tidak mencapai target. terima kasih Oke, lanjut.
+Baik, kami langsung ke halaman 13. Ini adalah kontribusi DJA terkait dengan program kerja prioritas nasional dimana DJA mendukung PKPN yaitu dalam memperkuat reformasi politik, hukum, dan birokrasi.
+Kontribusi juga melalui penguatan kualitas penganggaran, optimalisasi pendapatan negara, dan peningkatan efektivitas belanja negara.
+Next, selanjutnya kami menyampaikan rencana kerja dan pagu indikatif DJA tahun anggaran 2027. Rencana kerja tahun 2027 diarahkan untuk memastikan pengelolaan APBN yang proaktif, adaptif, dan terpercaya.
+Pelaksanaannya dilakukan melalui 4 program utama, yaitu program kebijakan fiskal sektor keuangan dan ekonomi, program pengelolaan penerimaan negara, dan program pengelolaan belanja negara serta program dukungan manajemen.
+Secara keseluruhan, dukungan pagu indikatifnya sebesar 33,106 miliar rupiah. Next slide.
+Untuk program Kebijakan Fiskal Sektor Keuangan dan Ekonomi memperoleh pagu 428,41 juta.
+Fokus utamanya adalah penyusunan arah APBN dan Nota Keuangan, penguatan monitoring dan evaluasi APBN, serta peningkatan koordinasi dengan berbagai pemangku kepentingan.
+Program ini diarahkan untuk meningkatkan kualitas proyeksi dan menjaga konsistensi kebijakan fiskal nasional.
+Next, untuk program pengelolaan penerimaan negara, memiliki pagu sebesar 1,42 miIiar, fokusnya meliputi optimalisasi PNBP melalui penyempurnaan regulasi, penguatan pengawasan, Pengembangan sistem informasi, integrasi data, serta menggali potensi penerimaan negara.
+Program ini juga mendukung perluasan implementasi simbara dan penguatan pengelolaan piutang PNBP.
+Untuk program pengelolaan belanja negara, memiliki pagu sebesar 4,2 miIiar dengan fokus untuk penyempurnaan kebijakan belanja negara, peningkatan kualitas belanja negara, penguatan monitoring dan evaluasi, serta peningkatan sinergi belanja.
+sinergi belanja pusat dan daerah. Tujuannya adalah untuk memastikan setiap rupiah belanja negara, memberikan manfaat yang optimal bagi masyarakat dan mendukung program prioritas pemerintahan.
+Terakhir, untuk program dukungan manajemen, mempunyai pagu sebesar 27,04 miIiar atau merupakan komponen terbesar dalam pagu DJA.
+Program ini mendukung pelaksanaan seluruh program teknis melalui penguatan SDM, pengelolaan organisasi, komunikasi publik, pengawasan internal, penguatan integritas, transformasi digital, dan peningkatan layanannya serta penyempurnaan tata kelola organisasi.
+Selanjutnya, secara keseluruhan, Pagu Indikatif DJA tahun 2027 sebesar 33,105 miIiar dialokasikan ke dalam program.
+besar memang dialokasikan ke program dukungan manajemen guna memastikan bahwa tersedianya dukungan operasional dan tata kelola memadai bagi pelaksanaan seluruh tugas dan fungsi DJA.
+Terakhir pimpinan dan anggota komisi 11 DPR RI yang kami hormati dengan memperhatikan tugas dan fungsi serta capaian kinerja yang telah diperoleh sehingga kebutuhan pelaksanaan program kerja tahun.
+Pelaksanaan Program Kerja tahun 2027, kami memohon perkenan pimpinan dan anggota komisi 11 DPR RI untuk dapat menyetujui usulan rencana kerja dan pagu indikatif direktorat jenderal anggaran tahun anggaran 2027 sebesar 33 miliar 105.975 ribu rupiah.
+Demikian yang dapat kami sampaikan atas perhatian, dukungan pimpinan serta anggota komisi 11 DPR RI, kami ucapkan terima kasih.
+Terima kasih kepada dirjen anggaran, kami lanjutkan berikutnya, yaitu kepada DIRJEN DJSF, Strategi Ekonomi Fiskal.
+Saya persilakan kepada Pak DIRJEN. Makasih pimpinan. Assalamu'alaikum warahmatullahi wabarakatuh yang terhormat pimpinan dan Bapak Ibu Anggota Komisi 11 DPR RI Perkenankan kami dari Direktorat Jenderal Strategi Ekonomi dan Fiskal atau DJSF menyampaikan rencana kerja dan anggaran DJSF Pagu Indikatif Tahun Anggaran 2027.
+Bapak-Ibu pimpinan dan anggota, kami sampaikan bahwa DJSF adalah unit Eselon 1 dibawah kementerian keuangan yang memiliki peran strategis untuk merumuskan dan melaksanakan strategi ekonomi dan fiskal melalui kebijakan dengan lingkup tugas meliputi perumusan kebijakan makrofiskal yang terkait dengan stabilisasi ekonomi, kemudian kesejahteraan dan pemerataan ekonomi, produktivitas dan pertumbuhan.
+produktivitas dan pertumbuhan ekonomi, perpajakan PNBP dan APBN. DJSF ini merupakan unit hasil transformasi dari badan kebijakan fiskal selain direktorat jenderal stabilitas dan pengembangan sektor keuangan atau DJSPSK.
+Berbeda dengan BKF, DJSF kini tidak hanya memberikan rekomendasi, tetapi juga melaksanakan strategi ekonomi di bidang ekonomi.
+strategi ekonomi di bidang ekonomi dan fiskal melalui perumusan kebijakan.
+Dengan status sebagai Direktorat Jenderal, DJSF diharapkan mampu mengawal kebijakan hingga diterapkan dan memberikan dampak nyata bagi stabilitas, kesejahteraan dan pertumbuhan ekonomi nasional.
+Di samping itu, ke-sektor dan fungsi tersebut kami juga mempunyai peran yang strategis, antara lain memonitor perekonomian global dan domestik serta kinerja fiskal, kemudian merumuskan strategi ekonomi dan fiskal untuk meningkatkan daya tahan dan efisiensi ekonomi serta mewujudkan kesejahteraan, kemudian juga menjaga pengelolaan fiskal yang sehat dan kredibel dalam jangka menengah melalui perumusan strategi kebijakan makrofiskal untuk stimulasi ekonomi dan kesejahteraan dengan tetap menjaga keberlangsungan fiskal.
+langsungkan fiscal. Total pegawai DJSF per Satu Juni 2026 sebanyak 375 orang, terdiri dari 119 wanita dan 256 pria.
+Kemudian pemangku kepentingan stakeholder DJSF sangat luas oleh internal Kementerian Keuangan, yaitu semua unit Eselon 1 Kementerian Keuangan maupun eksternal Kementerian Keuangan seperti Bapak-Bapak Ibu dari Dewan Perwakilan Rakyat, Kementerian PPN Bappenas, Bank Indonesia, Otoritas Jasa Keuangan, Lembaga Penjamin Simpanan, Lembaga Internasional, dan Masyarakat Luas.
+Bapak-Bapak sekalian, target output utama DJSF berupa rumusan strategi, kebijakan, policy brief, bahan paparan serta draf regulasi kebijakan yang digunakan oleh pimpinan unit eselon satu lain dan kementerian lembaga lain.
+draf update regulasi dapat berupa PP, perpres, PMK, KMK, dan Output Regulasi berupa kebijakan untuk pimpinan unit eselon satu yang lain dan update berupa paparan untuk koordinasi dengan Stakeholders.
+Jadi nilai tambah DJSF terletak pada kualitas rumusan strategi kebijakan yang disusun.
+Selanjutnya, Bapak Ibu sekalian ini adalah realisasi regulasi 2025 sampai dengan semester pertama 2026 kami terlibat aktif dalam penyusunan dan perumusan sejumlah regulasi, seperti PP, PMK, dan KMK terkait DHE, perpajakan insentif fiskal, bea masuk anti dumping, bea masuk imbalan serta regulasi yang mendukung dinamika ekonomi lainnya.
+Selanjutnya, Bapak Ibu pimpinan dan anggota Komisi Sebelas DPR RI per tahun 2026 ini kami sedang menyusun 4 kegiatan prioritas nasional yang akan menghasilkan output rekomendasi kebijakan terkait analisis evaluasi insentif perpajakan, PNBP Sumber Daya Alam, Penciptaan Lapangan Kerja, dan Dana Desa serta kami juga sedang menyusun 2 kegiatan prioritas yang akan menghasilkan Output Rekomendasi.
+output rekomendasi kebijakan terkait perkembangan kecerdasan buatan dan transformasi struktur ekonomi terhadap pertumbuhan PDB.
+Selain itu juga kami menyusun kegiatan strategis lainnya, seperti monitoring evaluasi makan bergizi gratis, cek kesehatan gratis, sekolah rakyat, dan analisis subsidi pupuk.
+Bapak Ibu sekalian ini merupakan salah satu flagship dari DJSF yaitu penyusunan kerangka ekonomi makro dan pokok-pokok kebijakan fiskal yang untuk tahun 2027 ini sudah disampaikan secara langsung oleh Pak Presiden R.I. pada rapat paripurna DPR tanggal 20 Mei 2026.
+Ini temanya tumbuh lebih tinggi, sejahtera lebih cepat dan difokuskan pada berkomunikasi prioritas nasional yang terdiri dari 8 klaster dan 60 program kerja termasuk klaster pendorong atau pendukung.
+Bapak Ibu sekalian, selain menyusun KEM-PPKF 2027, kami juga berkontribusi dalam penerbitan PP No. 21 Tahun 2026 tentang DHE SDA dan juga PP No. 24 Tahun 2026 tentang Tata Laksana Komoditas SDA.
+tata laksana komoditas SDA strategis dan juga sejumlah PMK Stimulus dan penerbitan rutin PMK tarif bunga yang secara bulanan dan KMK nilai kurs secara mingguan.
+Lanjutnya, kami juga merekam masukan fiskal terhadap kebijakan fasilitas likuiditas untuk pembelian perumahan, kemudian menerbitkan tinjauan ekonomi dan fiskal secara triwulanan.
+secara triwulanan dan melakukan analisis mendalam terhadap program perumahan nasional.
+Kami juga memberikan kontribusi pada penyusunan KAPAN atau Peraturan Menperkim terkait skema pembelian perumahan dan batasan harga rumah susun untuk masyarakat berpenghasilan rendah.
+Bapak Ibu pimpinan dan anggota komisi belas yang kami hormati, ini adalah laporan yang kami susun bekerjasama dengan DJP dan DJBC terkait laporan belanja perpajakan.
+Ini menyajikan terkait instrumen transparansi, akuntabilitas, pengawasan, dan evaluasi atas kebijakan insentif perpajakan yang diterbitkan setiap tahun, sejak tahun 2018. Belanja Perpajakan atau Insentif Perpajakan ini diberikan untuk mendukung pembangunan dan transformasi.
+pembangunan dan transformasi ekonomi. Strategi DJSF yang menjadi perpajakan diarahkan ke rumah tangga dan UMKM, sehingga manfaat kebijakan dapat dirasakan secara luas melalui penguatan konsumsi domestik, penciptaan lapangan kerja dan keberlanjutan usaha.
+Indonesia mencatat kemajuan signifikan dalam transparansi belanja perpajakan dengan naik dari peringkat ke-15 tahun 2023, Menjadi peringkat pertama dunia dalam Global Tax Expenditures Transparency Index tahun 2026. Indonesia juga mendapatkan peringkat advance dalam review transparansi fiskal yang dikeluarkan oleh badan pemeriksa keuangan sejak laporan belanja perpajakan tahun 2022. Sedangkan target output utama tahun 2026, target outputnya adalah policy paper, kerangka analisis, hasil monev, evaluasi kebijakan, dan rekomendasi kebijakan lintas sektor.
+Pada kelompok kerja strategi penciptaan lapangan kerja, outputnya adalah kerangka analisis, identifikasi strategi pemain sektoral, dan regional, serta rekomendasi kebijakan.
+Untuk strategi kesejahteraan dan pemerataan, dengan output kerangka kajian prioritas, monev sekolah rakyat.
+monev sekolah rakyat, cek kesehatan gratis, evaluasi subsidi pupuk dan rekomendasi kebijakan.
+Kemudian kami juga ada Forum and Technical Assistance for Regional Economy dengan output terkait dengan penguatan integrasi fiskal pusat daerah, pooling dana bencana dan dukungan keberlanjutan koperasi desa merah putih.
+Kami di DJSF tidak hanya merumuskan strategi kebijakan, tapi juga melakukan edukasi simulasi desain APBN pada perguruan tinggi dan mahasiswa untuk meningkatkan literasi fiskal.
+Secara keseluruhan pelaksanaan simulasi desain APBN tahun 2026 dilaksanakan di lima universitas 19 kelas dan melibatkan hampir 300 pegawai.
+Ini menunjukkan bahwa Kementerian Keuangan berkomitmen untuk memperluas literasi APBN dan memperkuat keterlibatan generasi muda dalam memahami kebijakan fiskal nasional.
+Interupsi Pak Ketua, kembali tadi ke universitas, silahkan Pak. Mungkin bisa dijelaskan juga kenapa universitas-universitas ini yang menjadi forum edukasi.
+Kan banyak universitas, kenapa hanya ini? baik, jadi untuk literasi ini yang pertama kita memiliki antara interest di Jawa dan interest di luar Jawa dan kemudian kami juga ada permintaan dari beberapa universitas untuk menyelenggarakan kelas kesadaran fiskal dan kelas pariwisata ini.
+Mungkin yang terkait dengan PKN ini karena kementerian keuangan membawahi PKN sehingga salah satunya diselenggarakan di PKN STAN.
+Namun, Bapak Ibu sekalian, kami akan memperluas kelas literasi fiskal ini kelas kesadaran fiskal.
+kelas literasi fiskal ini, kelas kesadaran fiskal dan kelas pariwisata kepada universitas secara selain di Jawa dan Nusa Tenggara.
+Jadi kami terbuka menerima undangan dari rekan-rekan Universitas juga yang mengadakan kelas kesadaran fiskal dan kelas pariwisata di universitas masing-masing.
+Interupsi Pimpinan sekedar bertanya, ini bisa dua arah ya bisa. Silahkan Bu. Ini tadi Bapak mengatakan menerima undangan.
+Jadi ini sebelah saya nanya ceritanya pemilihan universitas. Siap. Kita sesuaikan juga Bapak Ibu ceritanya.
+Pemilihan undangan artinya kami bisa doang dari dapil kami kirim undangan Dapil Kementerian Keuangan untuk mengadakan Universitas Universitas yang ada di dapil kami.
+Bisa sekali Ibu. Kita mau koordinasikan, kan? Iya, ya. Mohon ijin, kami lanjutkan.
+Bapak Ibu sekalian, ini tadi yang diminta Pak Dolvi terkait dengan nilai kinerja organisasi. Jadi kami ada 17 iku.
+Dan ini pada triwulan 1 tahun 2026, Jadi saya mendapatkan nilai kinerja organisasi sebesar 116,5 dengan peringkat istimewa dengan seluruh.
+peringkat istimewa dengan seluruh perspektif balance scorecard itu berada di atas target dari mulai strategic perspective, kemudian customer perspective, internal business process perspective dan learning and growth perspective semuanya mendapatkan nilai istimewa atau sangat baik karena nilainya di atas 100. Jadi capaian ini diperoleh dari status transisi BKF menjadi DJSF.
+Ini menunjukkan adaptasi organisasi berjalan dengan baik. Selanjutnya.
+Bapak Ibu sekalian, karena DJSF baru terbentuk tahun yang lalu sehingga pengukuran kinerja dimulai pada triwulan ketiga tahun 2025 itu ada typo.
+Jadi pengukuran kinerja DJSF dimulai pada tahun 2025 triwulan ketiga.
+Kemudian kami lanjut ke kegiatan strategis DJSF tahun anggaran 2027. Kami ini kegiatan strategisnya menjaga 6 output kegiatan prioritas nasional dan output kebijakan regulasi utama seperti KEM-PPKF tahun 2028, RPMK Sasaran Inflasi 2028-2030.
+RPMK Subsidi Perpajakan dan RPMK BMAD atau BMTP. Ini ada Prioritas Nasional dari mulai pendidikan dasar, PNBP telekomunikasi, strategi fiskal jangka menengah, insentif fiskal untuk kegiatan pendidikan dan pengembangan.
+Debottlenecking investasi ini salah satu flagship dari Menteri keuangan Bapak Prabowo Subianto, kemudian dampak ekspor sektor.
+kemudian dampak ekspor sektor strategis. Kami mengusulkan dari DJSF, Pagu Indikatif tahun anggaran 2027 sebesar 36,8 miIiar, sehingga dengan terbagi dari pagu program kebijakan fiskal sektor keuangan dan ekonomi sebesar 7,27 miIiar dan pagu program dukungan manajemen sebesar 29,5 miIiar.
+Pagu indikatif DJSF sebesar 36,8 miIiar tersebut akan digunakan untuk membiayai belanja pegawai sebesar 5,19 miIiar atau 14,08 persen dan sisanya untuk belanja barang 31,67 miIiar atau 85,92 persen.
+Ini mayoritas alokasi anggaran memang dipergunakan untuk membiayai belanja barang karena karakteristik utama DJSF berupa analisis, kajian, rekomendasi kebijakan, rapat koordinasi, forum, monitoring dan evaluasi dan kegiatan komunikasi dan edukasi kebijakan.
+Untuk yang capaian sebelah kanan trend pagu anggaran DJSF itu menunjukkan trend menurun namun pengelolaan dan pelaksanaan anggaran dilakukan sebaik-baiknya, sehingga capaian kinerjanya dapat diperoleh.
+capaian kinerjanya dapat dipertahankan dengan baik. Bapak Ibu sekalian, kami mohon perkenan pimpinan dan anggota komisi belas DPR-RI yang terhormat untuk dapat menyetujui Pagu Indikatif Direktorat Jenderal Strategi Ekonomi dan Fiskal tahun anggaran 2027 yang diusulkan yaitu sebesar 36.865.379.000 rupiah.
+Terima kasih. Assalamu'alaikum warahmatullahi wabarakatuh. Terima kasih kepada Pak Fahri, Dirjen DJSF.
+Berikutnya saya berikan kesempatan kepada Dirjen DJSPSK, Pak Herman. Assalamu'alaikum warahmatullahi wabarakatuh, Selamat pagi, Salam sejahtera untuk kita semua yang kami hormati Pimpinan dan Anggota Komisi 11 DPR RI.
+Izinkan kami untuk menyampaikan rencana kerja dan anggaran direktorat jenderal stabilitas dan pengembangan sektor keuangan, pagu indikatif tahun anggaran 2027. Pertama-tama, izinkan kami untuk mulai memperkenalkan direktorat jenderal stabilitas dan pengembangan sektor keuangan yang merupakan unit Eselon 1 kementerian keuangan, yang memiliki tugas untuk menyelenggarakan perumusan dan pelaksanaan kebijakan di bidang sektor keuangan, profesi keuangan, dan kerjasama internasional sesuai dengan ketentuan peraturan perundangan.
+Sebagaimana tertuang dalam pasal 1496 PMK 124, Garis Miring 2024, Seperti tadi juga yang telah disinggung.
+Seperti tadi juga yang telah disampaikan oleh Pak Fahri Dirjen DJSF bahwa kami di direktorat jenderal DJSPSK ini merupakan produk dari transformasi di kementerian keuangan yang tadinya badan kebijakan fiskal, kemudian saat ini menjadi direktorat jenderal DJSF dan direktorat jenderal DJSPSK.
+Bapak dan ibu pimpinan dan anggota komisi belas yang kami hormati, DJSPSK dipersiapkan.
+DJSPSK dibentuk dalam rangka menghadapi dinamika geopolitik dan perkembangan teknologi keuangan yang sangat pesat di dunia internasional maupun di dunia nasional.
+Peran serta pemerintah sebagai harmonisator dalam menggerakkan sektor keuangan dalam menjalankan tujuan negara untuk memajukan kesejahteraan umum sebagaimana amanat tahun 1945 dipandang sangat vital.
+Selain itu, lahirnya undang-undang nomor 4 tahun 2023 tentang Pengembangan dan Penguatan Sektor Keuangan yang terakhir diubah dalam waktu yang ditetapkan dalam waktu dekat kemarin, membawa peningkatan kompleksitas peran kementerian keuangan dalam menetapkan kebijakan sektor keuangan.
+Bapak dan Ibu Pimpinan dan anggota komisi belas yang kami hormati peran kami di antaranya, antara lain.
+Peran kami di antaranya, antara lain yang pertama dalam perumusan kebijakan di bidang stabilitas keuangan dan pengembangan sektor keuangan.
+Selanjutnya melaksanakan kebijakan di bidang sektor keuangan, profesi keuangan dan kerjasama internasional sektor keuangan, pemberian bimbingan teknis dan supervisi di bidang sektor keuangan, profesi keuangan dan kerjasama internasional, serta melakukan koordinasi dan sinkronisasi norma, standar, prosedur dan kriteria di bidang stabilitas keuangan, termasuk pengembangan sektor keuangan.
+pengembangan sektor keuangan, berkoordinasi dengan berbagai lembaga anggota komite stabilitas sistem keuangan dan juga dengan sekretariat KSSK.
+Saat ini, direktorat jenderal kami memiliki jumlah pegawai sebanyak 373 orang dengan komposisi SDM yang menunjukkan kombinasi lintas generasi, yang menjadi modal penting bagi kami dalam transformasi kebijakan untuk menjaga kesinambungan.
+Kebijakan untuk menjaga kesinambungan kelembagaan sekaligus mendukung transformasi kebijakan di sektor keuangan.
+Pelaksanaan tugas kami di Direktorat Jenderal Stabilitas dan Pengembangan Sektor Keuangan sangat erat dengan berbagai pemangku kepentingan di sektor keuangan.
+Baik lembaga-lembaga anggota KSSK, yaitu Bank Indonesia, Otoritas Jasa Keuangan, dan lembaga penjamin simpanan, namun juga dengan industri termasuk asosiasi di sektor keuangan, baik perbankan maupun... baik perbankan maupun LJK non-perbankan.
+Selanjutnya, DJSPSK berperan sebagai simpul koordinasi kebijakan lintas sektor untuk memastikan arah pengembangan sektor keuangan tetap konsisten terintegrasi dan sejalan dengan prioritas nasional.
+Kami juga diberikan amanat untuk mengorganisir IRU atau International Relation Unit Kementerian Keuangan berkoordinasi dengan DJSF dan DJPPR.
+Selanjutnya, Bapak dan Ibu pimpinan dan anggota komisi 11 DPR RI yang kami hormati.
+Selanjutnya, izinkan kami untuk menyampaikan capaian program kegiatan DJSPSK.
+Direktorat Jenderal kami, Bapak dan Ibu yang kami hormati dibentuk pada bulan juni tahun 2025. Jadi pada bulan ini kami genap berulang tahun yang satu tahun.
+Dan dalam perjalanannya, ini adalah peta strategis dari capaian kinerja DJSPSK yang terdiri dari sembilan sasaran strategis dengan 15 indikator kinerja atau IKU.
+Sampai dengan akhir periode triwulan 1 tahun 2026, nilai kinerja organisasi DJSPSK sebesar 115 dengan seluruh iku berstatus Hijau.
+Beberapa nilai masing-masing perspektif bobot dapat dilihat pada beberapa slide yang kami tambahkan, print out di lampiran. Kita bisa, next slide.
+Selanjutnya, untuk kesejarahan 2025 sampai dengan 2026 untuk penguatan regulasi dan pengembangan sektor keuangan, ada beberapa hal yang dapat kami sampaikan yang pertama adalah penyelesaian RUU tentang perubahan atas undang-undang No. 4 tahun 2023 tentang pengembangan dan penguatan sektor keuangan atau RUU perubahan undang-undang P2SK, kemudian penyelesaian beberapa peraturan pelaksanaan undang-undang P2SK, yaitu PP 43 tahun 2025 tentang pelaporan keuangan, PP 6 tahun 2026 tentang pembinaan dan pengawasan LKM, Ini berfokus di LKM skala usaha kecil oleh Pemerintah Daerah, PP 11 tahun 2026 tentang penempatan dana pada Bank dan pelaksanaan kewenangan.
+Dana pada Bank dan pelaksanaan kewenangan dalam penyelenggaraan program restrukturisasi perbankan oleh LPS, serta PMK nomor 27 tahun 2025 menetapkan secara pengelolaan anggaran otoritas jasa keuangan sebagai turunan PP 41 tahun 2024. Selanjutnya, beberapa penyusunan peraturan pelaksanaan undang-undang P2SK, antara lain yang pertama dari RPP Komite Nasional Kesejahteraan Keuangan, RPP tentang Pengelolaan Aset dan Liabilitas Perasuransian Bagi Pengelola Program yang terkait kekayaan negara.
+yang terkait kekayaan negara, RPP tentang kepemilikan asing pada penyelenggara usaha jasa pembiayaan, RPP tentang pengembangan keuangan berkelanjutan, dan RPP mengenai penguatan kelembagaan KSSK.
+Penyusunan peraturan lainnya, yaitu adalah RPP Perubahan Ketiga atas PP 87 tahun 2013 tentang pengelolaan aset jaminan sosial kesehatan.
+Selain itu pimpinan dan anggota Komisi 11 DPR RI yang kami hormati, kami juga melakukan penguatan koordinasi forum stabilitas, dukungan forum nasional, antara lain melalui koordinasi pejabat setingkat eselon satu untuk komite stabilitas sistem keuangan yang melalui sekretariat KSSK, yang tahun ini anggarannya juga menjadi satu dengan anggaran kami sebelumnya terpisah di Sekretariat Jenderal.
+Kemudian yang kedua, koordinasi penegakan keuangan melalui pemantauan dan asesmen kondisi KSSK nasional serta pelaporan kondisi protokol management crisis yang diorganisir oleh sekretariat KSSK.
+Berikutnya, Dukungan Forum Internasional antara lain memperkuat keanggotaan di Financial Stability Board melalui koordinasi penguatan stabilitas di Forum Regional, asesmen kerentanan stabilitas regulator global.
+Selanjutnya, kami juga berkolaborasi dengan DJSF, serta DJPPR untuk melaksanakan literasi dan inklusi keuangan di tingkat nasional.
+Kami juga berkoordinasi dengan lembaga anggota KSSK lainnya, baik Bank Indonesia, otoritas jasa keuangan dan lembaga penjamin simpanan untuk LPS untuk melaksanakan kegiatan edukasi dan literasi keuangan.
+kegiatan edukasi dan literasi keuangan di tingkat nasional, salah satunya dengan program kerja.
+Kemudian yang selanjutnya adalah partisipasi aktif dalam forum internasional terkait literasi dan inklusi keuangan.
+Selanjutnya, kami juga melakukan beberapa kajian pengembangan sektor keuangan, antara lain kajian penguatan perbankan nasional melalui perluasan jangkauan bank umum, kajian untuk kebijakan program penjaminan polis, serta kajian surveillance makroekonomi dan keuangan yang kami susun berkolaborasi berkoordinasi dengan lembaga.
+yang berkoordinasi dengan lembaga anggota KSSK lainnya. Selanjutnya. Dalam hal sisi profesi keuangan, beberapa hal yang telah kami laksanakan antara lain adalah pembinaan dan pengembangan profesi keuangan, compliance strategi dan pengawasan profesi keuangan, transformasi ekosistem pelaporan keuangan melalui financial reporting single window atau FRSW bagi emiten, serta penyiapan.
+serta penyiapan komite standar laporan keuangan atau KSLK untuk penguatan kelembagaan standar setting nasional.
+Selanjutnya, di dalam sisi Profesi Keuangan kami juga melakukan digitalisasi pembinaan dan pengawasan melalui sistem informasi profesi keuangan atau SIPK untuk penyempurnaan digitalisasi pembinaan dan pengawasan, lalu penyempurnaan database properti nasional melalui SIPN, yaitu sistem informasi properti nasional, dan penguatan peran profesi keuangan di tingkat global.
+tingkat global. Selanjutnya, next slide. Bapak dan ibu pimpinan serta anggota komisi 11 DPR RI yang kami hormati.
+Selanjutnya, izinkan kami untuk menyampaikan kisah organisasi dalam kerjasama internasional untuk mendukung kepentingan nasional dan meningkatkan peran Indonesia.
+Yang pertama kerjasama regional dan bilateral di bidang regional, antara lain.
+di bidang regional, antara lain, output yang kami sudah lakukan adalah penandatanganan dan amandemen Chiang Mai Initiative Multilateralization atau CMIM yang kami lakukan bersama dengan, berkoordinasi dengan Bank Indonesia.
+Kemudian selanjutnya, penjaminan untuk corporate bond Indonesia melalui Credit Guarantee and Investment Facility di CGIF, pendanaan proyek infrastruktur melalui ASEAN Infrastructure Fund, penandatanganan dan perjanjian ASEAN Framework Agreement on Services atau AFAS protokol kedelapan dan sembilan.
+Dalam bagian kerjasama bilateral, beberapa kerjasama antara lain, kemitraan pembangunan, baik program ke-Ditjenan dan yogi-Ditjenan dengan Australia, program millennium challenge corporation dengan Amerika Serikat, serta pemanfaatan hibah dalam bentuk technical assistance, training, dan capacity building baik dari Australia, Jerman, United Kingdom, dan Prancis.
+Selain itu, kami juga berpartisipasi dalam pengelolaan kerjasama pembangunan internasional melalui hibah lembaga dan dana kerjasama pembangunan internasional untuk LDKPI ke negara penerima antara lain Nigeria, Afghanistan, Ethiopia, Myanmar, Vanuatu, dan Timor-Leste.
+Selanjutnya di bidang investasi dan perdagangan, kami telah menyelesaikan beberapa perundingan kerjasama perdagangan, berkolaborasi dengan asisten kultur terkait di kementerian lembaga dan anggota KSSK lainnya.
+Itu antara lain adalah EU-CEPA, Indonesia-Kanada Comprehensive Economic Partnership atau ICA-CEPA, Indonesia-AANZFTA dan IPEF dan... IPEF dan ACFTA 3.0.
+Selanjutnya di sisi kerjasama multilateral dan keuangan berkelanjutan. Kami telah berkoordinasi untuk melakukan penguatan peran Indonesia dalam kerjasama multilateral dan geopolitik terkini, serta keterlibatan aktif dengan Indonesia melalui forum strategis, terutama G20, ASEAN, dan BRICS.
+Serta optimalisasi memanfaatkan kerjasama dan investasi dengan LKI, perwakilan World Bank, ADB, NDB, dan AIIB.
+di NDB dan AIIB, serta dukungan program strategis RPJMN dalam Lead Sustainable Finance di kawasan.
+Beberapa hal lainnya antara lain pemenuhan tata kelola dan best practices global melalui aksesi OECD, penguatan koordinasi kebijakan keuangan berkelanjutan, melalui penyusunan peraturan turunan undang-undang P2SK yang sedang berjalan saat ini, yaitu RPP Pengembangan Keuangan Berkelanjutan, kemudian penguatan kerjasama pembiayaan perubahan iklim dan SDG, menguatkan mekanisme anggaran perubahan iklim, dan kerja sama internasional.
+anggaran perubahan iklim dan kerjasama internasional. Dan terakhir di bidang edukasi dan literasi, kami melakukan beberapa training di antaranya terkait geoeconomic dan makroekonomic serta edukasi literasi kerjasama internasional dan keuangan berkelanjutan kepada masyarakat umum dan perguruan tinggi, baik secara daring maupun luring.
+Yang kami hormati pimpinan dan anggota komisi 11 DPR RI, selanjutnya izinkan kami untuk menyampaikan rencana kerja dan pagu indikatif DJSPSK untuk tahun anggaran 2027. Rencana kerja kami di tahun 2027 berfokus pada penguatan kebijakan sektor keuangan, pembinaan profesi keuangan, serta diplomasi kerjasama ekonomi dan keuangan internasional yang efektif.
+Outcome yang dicapai antara lain terjaganya stabilitas keuangan, meningkatnya kualitas pilihan sektor keuangan, dan efektivitas kerja kerjasama keuangan internasional.
+Dukungan anggaran yang cukup diarahkan untuk memastikan agar fungsi tersebut dapat berjalan optimal.
+agar fungsi tersebut dapat berjalan optimal dan memberikan dampak nyata bagi perekonomian nasional.
+Untuk itu kami mengusulkan anggaran yang sudah kami efisiensikan dibandingkan dengan sebelumnya.
+Tahun 2026 ini pun kami juga diberikan arahan oleh Bu Menteri untuk melakukan efisiensi perjalanan kegiatan terutama perjalanan dinas internasional yang kami fokuskan hanya perjalanan dinas yang besar-besar dan langsung memberikan dampak nyata bagi perekonomian terutama di dalam negeri.
+yang bagi perekonomian terutama, di dalam kegiatan tersebut kami juga fokus dengan pertemuan dengan investor internasional sehingga semakin mempererat dan meningkatkan efektivitas komunikasi kebijakan-kebijakan kementerian keuangan kepada investor internasional bekerjasama dengan DJSF dan DJPPR.
+Dalam rencana kerja dan pagu anggaran DJSPSK tahun anggaran 2027, beberapa program kebijakan fiskal, sektor keuangan dan ekonomi antara lain, dalam hal pengembangan dan penguatan.
+Dalam hal pengembangan dan penguatan sektor keuangan, kami mengukur penguatan stabilitas pendalaman literasi sektor keuangan melalui penyusunan rekomendasi kebijakan dan regulasi yang mendukung termasuk peraturan turunan undang-undang P2SK dan perubahannya.
+Penguatan koordinasi untuk mendukung pendalaman stabilitas serta inklusivitas sektor keuangan melalui penguatan koordinasi dengan otoritas sektor keuangan dan pemangku kepentingan terkait.
+Selanjutnya, penguatan pembinaan profesi keuangan ini melalui penguatan Regulasi Profesi Keuangan dan Perkuat kepastian hukum tata kelola dan perlindungan publik.
+tata kelola, dan perlindungan publik, penyempurnaan pengawasan berbasis risiko untuk menjaga integritas profesi dan kualitas jasa pengguna, serta digitalisasi ekosistem profesi dan penguatan daya saing, serta peran Indonesia melalui forum-forum regulator global.
+Untuk itu beberapa program tersebut kami membutuhkan kebutuhan dukungan anggaran untuk program kebijakan fiskal dan sektor keuangan ekonomi, senilai 22,88 miIiar.
+22,88 miIiar, dan ditambahkan program manajemen 32,82 miIiar dengan total pagu anggaran yang kami usulkan sebesar 55,70 miIiar. Selanjutnya.
+Dalam hal penguatan kebijakan sektor keuangan tahun 2027 untuk mengakselerasi pengembangan kebijakan sektor keuangan untuk memperkuat stabilitas pendalaman literasi dan inklusivitas untuk mendukung kepentingan nasional, beberapa regulasi yang kami usulkan untuk diselesaikan di antaranya adalah penyusunan RPP peraturan mengenai penyelenggaraan program penjaminan polis.
+Kemudian penyusunan peraturan mengenai perubahan PP 18 tahun 1965 tentang ketentuan-ketentuan pelaksanaan dana kecelakaan lalu lintas jalan untuk meningkatkan perlindungan masyarakat yang mengalami kecelakaan lalu lintas jalan.
+Yang ketiga, penyusunan RPP tentang penetapan usia pensiun normal dan pengelolaannya.
+Lalu empat, penyusunan RPP tentang jaminan hari tua dan harmonisasi program pensiun.
+Serta lima penyelesaian RPP tentang badan pengelolaan instrumen keuangan dan pengelolaan perwalian.
+Selanjutnya dalam hal pemantauan dan asesmen stabilitas keuangan, kami yang melakukan pemantauan dan asesmen kondisi sistem keuangan nasional secara lebih efektif dan pemantauan kondisi makroekonomi keuangan global dan domestik berkoordinasi dengan DJSF.
+Selanjutnya dalam perluasan literasi, inklusi keuangan dan perlindungan konsumen, kami akan meningkatkan intensitas untuk program-program literasi dan inklusi keuangan berkolaborasi dengan anggota KSSK lainnya dan juga DJSF dan DJPPR.
+Di Forum Internasional kami ingin untuk menguatkan keterlibatan kami dalam Forum Stabilitas Sistem Keuangan Internasional dalam FSB serta Forum-Forum Internasional lainnya yang langsung memberikan dampak kepada masyarakat Indonesia.
+Selanjutnya, dalam bidang pembinaan profesi keuangan, kami berencana untuk melakukan penyusunan revisi PP Praktik Akuntan Publik dan regulasi lainnya terkait profesi keuangan sebagai penguatan dasar hukum pembinaan dan pengawasan, serta penyiapan pengaturan profesi baru yang sedang berkembang termasuk profesi terkait asuransi bagi laporan keberlanjutan.
+Berikutnya, penyempurnaan compliance strategi dan pengawasan, antara lain penyempurnaan penggunaan data analytics dan AI dalam pemilihan objek pengawasan berbasis resiko untuk menjaga kualitas jasa dan melindungi kepentingan publik, serta perluasan pengawasan profesi keuangan secara lebih terarah dan berkesinambungan.
+Selanjutnya peimplementasian financial reporting single window sebagai emiten serta maintenance system dan taxonominya.
+Lalu, pengembangan FRSW untuk pelaporan non-emiten dalam rangka mewujudkan one report multi processes dan single source of truth.
+Selanjutnya, dalam hal digitalisasi pembinaan dan pengawasan lanjutan oleh SIPK, kami akan melakukan penyempurnaan integrasi layanan profesi keuangan dalam satu sistem mulai dari perizinan, pelaporan, pembinaan, hingga pengawasan, serta penyederhanaan proses layanan agar lebih cepat transparan, terdokumentasi.
+transparan, terdokumentasi, dan mudah dipantau. Selanjutnya, penyempurnaan database properti nasional melalui SIPN, antara lain satu pengembangan lanjutan database properti nasional melalui integrasi data penilaian dari profesi penilai publik, dua, pemanfaatan nilai properti sebagai dasar kebijakan fiskal, pembiayaan, dan pengambilan keputusan ekonomi.
+Dan selanjutnya, penguatan peran Indonesia di tingkat global, yang antara lain penguatan peran Indonesia dalam IVAR, EARG, IFIAR dan ASEAN Forum untuk penguatan profesi Indonesia.
+serta kami mengusulkan untuk menjadi tuan rumah penyelenggaraan IFIAR Plenary Meeting 2027 sebagai penguatan posisi Indonesia dalam forum regulator Audit Global.
+Selanjutnya, program penguatan kerjasama internasional tahun 2027 antara lain adalah untuk secara strategis melakukan penguatan kerjasama internasional serta strategi diplomasi Indonesia dan keuangan berkelanjutan dalam rangka untuk menarik.
+dalam rangka untuk menarik investor global dapat berinvestasi di Indonesia.
+Meningkatkan kerjasama multilateral dan regional, dan bilateral di bidang ekonomi dan keuangan investasi, antara lain, meningkatkan investasi dan pinjaman konsesional dan penjaminan untuk infrastruktur, transisi energi, serta proyek hijau, kemudian memperkuat ekosistem sektor keuangan Indonesia, dan memperkuat ketahanan dan stabilitas keuangan nasional, antara lain melalui partisipasi dalam jaring pengaman keuangan kawasan, serta komite kerja inklusi keuangan di regional.
+
+Selanjutnya, aksesi OECD dan penguatan standar kebijakan nasional berkoordinasi dalam proses aksesi OECD sebagai penanggung jawab dalam 6 bidang, berkoordinasi dengan Kementerian Perekonomian juga.
+Selanjutnya, peningkatan kerjasama perdagangan melalui optimalisasi FTA dan CEPA, reformasi tata kelola global, penguatan tata kelola kerjasama pembangunan internasional, dan juga pembiayaan perubahan iklim pembangunan berkelanjutan, Termasuk.
+pembangunan berkelanjutan, termasuk sebagai dalam kerangka koordinasi transfer teknologi ramah lingkungan, jadi insentif listrik atau EV cell. Selanjutnya.
+Yang kami hormati, pimpinan, dan Bapak Ibu Anggota Komisi 11 DPR RI yang kami sangat hormati, demikian kami sampaikan untuk Pagu Direktorat Jenderal stabilitas dan pengembangan sektor keuangan tahun anggaran 2027 kami mengajukan usulan sebesar 55 miliar 701 juta 492 ribu rupiah. Yang terdiri dari rinciannya program kebijakan fiskal, sektor keuangan dan ekonomi sebesar 22 miliar 880 juta 384 ribu rupiah, dan dukungan manajemen sebesar 32 miliar 821 juta 108 ribu rupiah.
+Untuk itu kami mohon, perkenan dan persetujuan Bapak dan Ibu pimpinan serta anggota komisi 11 DPR RI untuk dapat menyetujui pagu indikatif dari direktorat jenderal stabilitas dan pengembangan sektor keuangan tahun anggaran 2027, sebesar 55.701.492.000.
+Demikian kami sampaikan, Billahi Taufik Wal Hidayah, maaf apabila ada kekurangan dalam penyampaiannya. Assalamu'alaikum warahmatullahi wabarakatuh.
+Terima kasih kepada Pak Herman, Dirjen DJSPSK berikutnya kepada PLT Dirjen Kekayaan Negara, saya persilakan.
+Bismillahirrahmanirrahim. Assalamu'alaikum warahmatullahi wabarakatuh. Selamat pagi, selamat sejahtera bagi kita semua.
+Shalom, Om Swastiastu, Namo Buddhaya, Rahayu, yang kami hormati pimpinan komisi sebelas DPR RI, yang kami hormati para anggota komisi sebelas, terima kasih.
+Komisi 11, terima kasih Bapak untuk kesempatan ini diberikan kepada kami Direktorat Jenderal Kekayaan Negara untuk menyampaikan rencana kerja, dan pagu indikatif tahun anggaran 2027.
+Paparan akan kami cakup dalam 4 pokok bahasan. Lanjut. Lanjut aja.
+DJKN adalah unit eselon satu kementerian keuangan yang dalam hal ini mengelola portofolio aset negara terbesar.
+portofolio aset negara terbesar dalam arsitektur APBN melalui pertama fungsi pengelolaan aset, pengelolaan kekayaan negara dipisahkan, pengurusan piutang negara, penilaian, dan juga lelang.
+Jadi secara sederhana kami gambarkan DJKN ini semacam wali amanah dari kekayaan negara senilai 12.891 triliun, mulai dari BMN sebesar 7.221,9 triliun.
+7.221,9 triliun, investasi pemerintah jangka panjang 4.928,4 triliun, piutang negara 16,4 triliun.
+Layanan kami menjalankan 19.439 satuan kerja, 552 pemerintah daerah, BUMN, perbankan, dan masyarakat luas melalui empat fungsi sebagai mana tadi kami sebutkan di atas.
+DJKN sendiri memiliki 89 unit kerja yang terdiri dari kantor pusat, 17 kantor wilayah, 71 kantor pelayanan dan satu badan layanan umum Lembaga Manajemen Aset Negara atau LMAN yang tersebar di Indonesia dengan 3.730 sumber daya manusia yang mayoritas adalah generasi muda, termasuk di dalamnya ada 288 jabatan fungsional penilai pemerintah dan 617 pejabat lelang.
+617 pejabat lelang. Secara singkat, kalau kita melihat output dari DJKN, selain yang bisa diukur secara angka di dalam APBN atau pun dalam laporan keuangan pemerintah pusat, juga dampak ekonomi dan sosial yang cukup masif di antaranya.
+Capaian optimalisasi aset untuk mendukung prioritas nasional sebesar 12,7 triliun.
+kemudian kontribusi dalam underlying asset SBN berupa BMN, itu akumulasi ada 1.014 triliun, utilisasinya aset sampai dengan saat ini ada 86,35% dari total aset yang ada.
+Lanjut, salah satu nilai strategis unit DJKN adalah bahwa DJKN ini berkontribusi pada tiga pilar APBN, sekaligus yang mana pilar pendapatan melalui yang mana pilar pendapatan melalui monetisasi aset dan juga peran lelang, kemudian pilar belanja melalui efisiensi dan utilisasi BMN untuk mendorong belanja yang berkualitas, serta pilar pembiayaan melalui SBSN berbasis BMN dan juga investasi pemerintah yang akan kami coba jelaskan satu per satu.
+Pertama, dalam hal peran DJKN dalam pengelolaan investasi pemerintah.
+investasi pemerintah selama periode 2021 sampai dengan 2025, DJKN telah menyalurkan 570 triliun pembiayaan investasi secara selektif di sektor infrastruktur, transportasi masal, perumahan rakyat, dan pangan.
+Dan ini untuk mendukung berbagai output yang memiliki multiplier effect impact nyata bagi perekonomian rakyat antara lain dengan jalan tol yang membuka lapangan pekerjaan jutaan orang menghemat biaya logistik.
+menghemat biaya logistik, bendungan yang mengairi sawah petani, perumahan untuk keluarga berpenghasilan rendah.
+DJKN juga mewakili kementerian keuangan dalam mengawasi investasi pada BUMN sebagai alat fiskal untuk memastikan mandat dijalankan dengan benar dan optimal.
+Antara lain, dengan pengalokasian pembiayaan investasi diselaraskan dengan perusahaan pemerintah, kemudian juga pada berbagai BUMN sebagai alat fiskal seperti PT SMI, PT Geo Dipa Energi, PT SMF, PII, Indonesia Eximbank atau LPEI.
+Pimpinan dan anggota komisi 11 yang kami muliakan, kami ingin melaporkan apa yang telah dicapai DJKN sebagai bentuk pertanggung jawaban dalam pengelolaan kekayaan negara tersebut.
+pengelolaan kekayaan negara tersebut. Pertama nilai kinerja organisasi atau NKOU DJKN bertahan di predikat istimewa sejak 2020 hingga saat ini.
+Adapun untuk triwulan 1-2026 mencatat NKOU sebesar 116,23 persen atau melampaui target yang ditentukan.
+Tentu ini bukan untuk berpuas diri karena pencapaian ini masih memerlukan kerja keras hingga akhir tahun, apalagi di.
+Apalagi di tengah dinamika yang memerlukan banyak peran dan kontribusi dari DJKN.
+Dapat juga kami laporkan capaian yang konkrit tersebut di antaranya adalah pertama optimalisasi aset dimana tingkat utilisasi BMN kini mencapai 86,38 persen atau naik signifikan dari 74,76 pada 2021 yang berarti dari setiap 100 aset milik negara, 86 di antaranya sudah produktif.
+86 di antaranya sudah produktif bekerja, dan ini juga berarti bahwa DJKN harus terus mengejar sisanya untuk meningkatkan nilai tambah dari aset tersebut.
+Kedua, untuk pengamanan aset melalui sertifikasi, ini jumlah bidang tanah BMN yang telah bersertifikasi secara kumulatif sudah mencapai 226.771 bidang, dan ini penting karena tanah yang belum bersertifikat ini akan rentan.
+karena yang ini akan rentan untuk diklaim, rentan disengketakan dan juga berpotensi hilang dari aset negara.
+Ketiga, sebagai indikator lainnya adalah kepuasan layanan, di mana indeks kepuasan pengguna layanan kami dari DJKN tumbuh dari 4,13 menjadi 4,85 dari skala 5 dan ini merupakan cerminan bahwa DJKN hadir bukannya sebagai regulator, tapi juga pelayan yang responsif.
+pelayan yang responsif. Selanjutnya, izinkan kami memberikan gambaran kontribusi untuk mendukung pilar penerimaan.
+Pertama, ada monetisasi aset dimana PNBP dari pengelolaan dan pemanfaatan BMN mencapai 5,49 triliun di tahun 2025, ini naik hampir 2 kali lipat dari 2021 atau sebesar 3,09 triliun.
+Artinya setiap gedung yang disewakan, setiap lahan yang dimanfaatkan secara baik dalam skema kerja sama pemanfaatan dan lain-lain ini menghasilkan penerimaan untuk mengurangi ketergantungan terhadap penerimaan utama khususnya pajak.
+Kemudian kontribusi lelang tercatat selain PNBP lelang itu sendiri adalah lelang juga menghasilkan multiplier berupa pajak sebesar 2,74 triliun dan secara signifikan membantu penurunan NPL bank Himbara sebesar 19,2 triliun.
+Ini senilai dengan 26% dari total NPL di tahun 2025. Dan ini juga berarti bahwa sistem perbankan kita diharapkan bisa lebih sehat dan kredit juga bisa mengalir lebih deras di sektor produktif.
+Selanjutnya, kami bergerak ke belanja, kontribusi DJKN di dalam mendukung belanja berkualitas, dapat diperlihatkan dari bagaimana meng-efisienkan belanja modal.
+Dalam hal ini, misalnya DJKN berperan sebagai pengendali kualitas belanja modal, yang mana pada saat kementerian lembaga akan mengajukan belanja modal, Ini terdapat mekanisme perencanaan kebutuhan BMN.
+kebutuhan BMN ini juga menjadi catatan dari yang terhormat Komisi 11 sebelumnya bagaimana DJKN bisa lebih concise dalam mekanisme perencanaan kebutuhan BMN.
+Jadi melalui mekanisme ini, DJKN membantu pemerintah untuk menyeleksi urgensi dan juga tidak perlunya belanja modal karena bisa mengoptimalkan aset-aset yang mungkin masih underutilized.
+Nah disitulah terjadi efisiensi belanja modal. Di sinilah terjadi efisiensi belanja modal, tercatat menghemat rata-rata 18 triliun belanja modal per tahunnya.
+Selain itu juga asuransi BMN yang ada itu akan memperkuat kita dalam mengawal atau mengamankan aset-aset pada saat terjadi force majeure Dan saat ini nilai pertanggungannya meningkat 134 persen dari 37,68 triliun menjadi 88,18 triliun.
+Dari sisi kontribusi DJKN, khususnya untuk pembiayaan kreatif, dapat kami sampaikan bahwa dalam pembiayaan inovatif, aset negara yang dikelola telah menjadi underlying asset SBN berbasis BMN, dan telah mencapai nilainya, atau aset yang diunderlyingkan itu mencapai 1.014 triliun per Maret 2026. Instrumen yang membiayai defisit APBN tanpa harus meminjam dari pihak asing ini tentu sesuatu yang kami terus lakukan karena aset yang ada itu harus berstatus free and clear dan produktif.
+Kemudian proyek KPBU juga dijaminkan mencapai 323 triliun untuk mendorong swasta masuk dalam mendanai infrastruktur publik.
+kemudian juga untuk asset recycling ini telah memberikan kontribusi sebesar 8 triliun untuk mendanai aset-aset prioritas baru, yaitu dengan cara melepaskan aset lama dan mendanai aset baru tersebut.
+Selanjutnya, pimpinan dan anggota komisi belas yang kami hormati, kami bersyukur karena DJKN ini bisa hadir langsung mendukung program prioritas presiden.
+Prioritas Presiden hampir di seluruh program yang ada. Dimulai dari dukungan BMN senilai 3.574 triliun pada saat pembentukan kabinet merah putih yang mana aset-aset tersebut kemudian dioptimalkan dari 13 KL kepada 23 Kementerian Lembaga yang terdampak sebagai pembentukan unit kementerian lembaga di Kabinet Merah Putih.
+Kemudian tercatat 966 BMN, yaitu 3,59 triliun rupiah. Ini, DJKN telah memberikan dukungan nyata untuk program-program seperti sekolah rakyat, sekolah garuda, makanan bergizi gratis, melalui SPPGA-nya.
+Kemudian program 3 juta rumah, Koperasi Merah Putih, pembangunan Kodam dan Yonif baru.
+kodam dan yonif baru hingga penertiban kawasan hutan. Dan dapat kami laporkan bahwa sebagai pipeline masih ada 237 BMN potensial senilai 5,79 triliun yang sedang dalam proses persetujuan untuk program-program sebagaimana kami sebutkan tadi.
+Selanjutnya, izinkan kami menyampaikan rencana kerja dan pagu indikatif tahun 2027. Pimpinan dan anggota komisi yang kami muliakan, DJKN berkomitmen tidak sekedar melanjutkan yang sudah ada, namun atas arahan pimpinan kami akan mengambil satu lompatan strategis yang fundamental di antaranya, dalam hal ini adalah DJKN bertransformasi dari penjaga aset menjadi fiskal value creator atau pencipta nilai tambah aset yang dapat.
+tambah aset yang dapat mendorong penciptaan nilai fiskal itu sendiri.
+Ini tentu bukan berarti bahwa selama ini DJKN belum menjadi fiskal ataupun value creator.
+Namun ini dimaksudkan untuk memperkuat peran tersebut tidak hanya memastikan aset negara aman dan tercatat dengan baik, tetapi juga mendorong lebih kuat agar terdapat penciptaan nilai ekonomi, nilai sosial dan nilai fiskal.
+dan nilai fiskal yang terukur dari pengelolaan aset negara tersebut. Rencana kerja 2027 DJKN yang diusulkan adalah sebesar 724,2 miIiar.
+Ini terdiri dari program pengelolaan kekayaan negara dan risiko sebesar 163,5 miIiar untuk kegiatan teknis inti, dan juga program dukungan manajemen sebesar 560,7 miIiar untuk menjaga operasionalisasi dari 88 satuan kerja DJKN di seluruh Indonesia.
+Angka ini kami rancang dengan prinsip efisiensi tanpa mengorbankan efektivitas dengan penjelasan sebagai berikut. Next. Baik.
+DJKN akan berlanjut mendukung delapan sektor prioritas nasional secara simultan, contohnya di kemandirian energi kami mendukung program jaringan gas kota dan pengelolaan sampah menjadi energi listrik melalui skema KPBU dan penjaminan pada BUMN Alat Fiskal PT PII.
+Di pendidikan kami merekomendasikan dan menyiapkan aset negara untuk sekolah rakyat dan juga sekolah Garuda.
+Di ekonomi kerakyatan, DJKN mengidentifikasi 7.087 BMN potensial untuk mendukung Koperasi Desa atau Kelurahan Merah Putih.
+Di program Hilirisasi Industri, DJKN mendukung 18 proyek strategis dan menyiapkan lahan untuk program mobil nasional.
+Di kedaulatan pangan BMN difungsikan sebagai gudang penyimpanan pangan dan mendukung penugasan BUMN untuk kapal tangkap modern.
+Kemudian di kesehatan, kami merekomendasikan aset untuk SPPGA program MBG di infrastruktur dan perumahan ini mendukung pembiayaan FLPP, SMF, dan BP TAPERA untuk mendukung program 3 juta rumah rakyat dan terakhir di pusat data nasional.
+Ini DJKN mengintegrasikan big data BMN Nasional sebagai fondasi digitalisasi pemerintah secara keseluruhan. Selanjutnya ada 5 inisiatif.
+kemudian ada lima inisiatif besar yang menjadi kegiatan strategis unggulan DJKN di 2027 dan kesemuanya akan saling terkait.
+Pertama untuk transformasi organisasi, ini DJKN membenahi struktur agar lebih agile, lebih lincah, kolaboratif dan juga berorientasi pada dampak nyata yang terukur, tidak hanya organisasi yang patuh secara prosedur, tetapi juga yang mampu merespon dinamika kebijakan dengan cepat.
+Kedua, penguatan teknologi informasi dan juga integrasi data. Ini seluruh sistem pengelolaan kekayaan negara akan diintegrasikan dari portal LELANG, sistem BMN seperti SIMAN, hingga data investasi dalam satu ekosistem digital yang andal, aman, dan dapat dimanfaatkan ke pengambilan keputusan strategis.
+Kemudian yang ketiga dari sisi kegiatan berikut yang strategis adalah pengukuran dampak sosial dan ekonomi melalui aplikasi SEIKAN, sehingga setiap pemanfaatan aset negara akan dapat diukur dampaknya.
+Seperti berapa lapangan kerja tercipta, berapa pendapatan rumah tangga yang naik, berapa output ekonomi yang dihasilkan, dan kita tidak lagi hanya bicara soal nilai asetnya, tapi kita akan bicara, akan punya kapasitas.
+akan punya kapasitas untuk menyajikan nilai kemanfaatan aset bagi rakyat.
+Kemudian yang keempat adalah penertiban tata kelola kawasan hutan dan pertambangan.
+Ini kami berada di bawah naungan Satgas PKH berkomitmen memastikan penguasaan aset atas kawasan hutan yang telah berhasil dipulihkan, yaitu seluas 5,89 juta hektar tidak kembali terganggu, sekaligus juga meningkatkan penerimaan negara dari sumber daya alam secara berkelanjutan.
+Dan kemudian untuk dukungan pertahanan dan pemerataan pembangunan, kami menyiapkan BMN untuk pembentukan Batalion Infanteri Teritorial, dimana satuan militer yang berfungsi ganda, yaitu menjaga pertahanan sekaligus membangun daerah 3T, tertinggal terdepan dan terluar.
+Dan sebagai fondasi dari semua ini, maka DJKN memprioritaskan penguatan regulasi melalui 3 RUU-nya, yaitu RUU Pengelolaan Kekayaan Negara, RUU Perlelangan, dan RUU Penilai.
+Ketiganya ini adalah tulang punggung untuk kepastian hukum yang selama ini menjadi kebutuhan mendesak dalam tata kelola aset negara dan tentu kami mohon dukungan dari Komisi 11. Pimpinan DPR, Pimpinan Komisi 11 dan para anggota yang kami hormati.
+Nah, atas lima inisiatif tersebut, maka kami menyampaikan rencana kerja sebagai berikut.
+Secara Operasional Program Kerja Teknis yang didukung anggaran 163,5 miIiar akan difokuskan pada monetisasi dan penilaian aset, kemudian layanan lelang, penagihan piutang negara, pengelolaan investasi pemerintah, serta pelaporan keuangan negara yang credible dan akuntabel.
+Sementara, untuk program dukungan manajemen ini senilai 560,7 miIiar, ditujukan untuk mendukung transformasi organisasi, transformasi digital di DJKN, memastikan seluruh operasional 88 satuan kerja berjalan dengan baik, dan SDM kami agar dapat terus berkembang kapasitasnya.
+Anggaran DJKN akan mengoptimalkan nilai dan manfaat kekayaan negara serta memperluas layanan lelang sebagai instrumen pendukung penerimaan negara dan pergerakan perekonomian.
+Sehingga untuk target DJKN 2027, kami set di 4,93 triliun Dan ini adalah komitmen kami bahwa dengan pagu.
+ini adalah komitmen kami bahwa dengan pagu yang efisien tadi, DJKN menargetkan menghasilkan penerimaan yang jauh lebih besar bagi negara, sambil terus berupaya meningkatkan produktivitas institusi yang sehat.
+Selanjutnya atas izin pimpinan SIDANG, kami mohon diperkenankan kepada dirut LMAN untuk menyampaikan paparan terkait dengan BLU LMAN. Terima kasih.
+Kami mohon ijin berkenan Dirut LMAN untuk menyampaikan. Oke, silahkan.
+Silah, cepat aja. Terima kasih. Pimpinan dan anggota komisi 11 DPR, Pimpinan kementerian keuangan serta hadirin yang kami hormati. Assalamualaikum warahmatullahi wabarakatuh.
+Ini ibu mau ngomongin BLU ya? Iya. Oke. Masuk di DJKN. ke Indonesia.
+Kami langsung saja Pak menyampaikan pimpinan dan anggota komisi 11 DPR yang kami hormati, LMAN merupakan badan layanan umum di bawah direktorat jenderal kekayaan negara yang diberikan mandat sebagai operator DJKN untuk mengelola aset-aset negara yang memiliki karakteristik khusus dan berisiko tinggi.
+seperti aset idle, aset terokupasi maupun aset yang masih menghadapi permasalahan hukum dan sengketa.
+Tiga layanan utama, yaitu pengelolaan aset negara, pendanaan pengadaan tanah proyek strategis nasional serta layanan konsultasi dengan stakeholders pengguna layanan beragam.
+Baik institusi yaitu kementerian lembaga, pemda dan perusahaan maupun masyarakat pada umumnya.
+Untuk melaksanakan layanan utama dimaksud LMAN didukung 119 pegawai pada 4 direktorat dan secara tata kelola dikawal secara internal.
+Tata kelola dikawal secara internal oleh SPI dan secara independen oleh Dewan Pengawas LMAN.
+Organisasi tersebut merupakan implementasi PMK No. 35 tahun 2024 yang antara lain ditujukan untuk memperkuat layanan LMAN, khususnya pendanaan tanah dan layanan jasa konsultasi.
+Pimpinan Komisi 11 dan Bapak-Ibu Anggota yang kami hormati, perkenankan kami menyampaikan ikhtisar Capaian kinerja tiga layanan utama LMAN hingga Mei 2026 yang diharapkan optimal dalam berkontribusi terhadap pencapaian program-program pemerintah.
+Sebagai salah satu misi utama LMAN, Penerimaan Negara Bukan Pajak yang dihasilkan LMAN sampai dengan 31 mei 2026 adalah sebesar 1,34 triliun atau 47,2 persen dari target tahun 2026. Pengelolaan Surplus PNBP ini merupakan sumber kontribusi LMAN terhadap pendanaan kegiatan pembangunan dengan total kontribusi sampai dengan Mei 2026 sebesar 8,6 triliun.
+Untuk kinerja pengelolaan aset dapat kami sampaikan bahwa saat ini LMAN mengelola 330 aset negara dimana 182 aset telah teroptimalisasi, 243 aset telah tersertifikasi, 177 aset telah dikonstruksi, dan 294 aset diselesaikan dari okupansi ilegal.
+Dari aset kelolaan dimaksud, terdapat aset-aset yang pemanfaatannya mendukung prioritas nasional, yaitu pada sektor ekonomi kreatif, 11 aset, kesehatan 2 aset, dan ketahanan energi 1 aset.
+Selanjutnya, selain manfaat finansial, pengelolaan aset LMAN juga menghasilkan manfaat sosial ekonomi dengan nilai Rp2,4 triliun serta 542,4 miIiar berupa penghematan sewa aset oleh instansi pemerintah terhadap aset-aset kelolaan LMAN.
+Kedua, dari kinerja layanan pendanaan pengadaan tanah PSN, sampai dengan Mei 2026, LMAN telah mendanai 134 proyek strategis nasional dengan nilai realisasi sebesar 151,7 triliun yang meliputi penyediaan lahan untuk 56 jalan tol, 10 jalur kereta api, 40 bendungan, dan 28 proyek strategis nasional lainnya.
+melalui pendanaan proyek-proyek dimaksud LMAN diharapkan mendukung yaitu 4 PSN yang telah didanai yang menunjukkan dampak peningkatan output ekonomi nasional sebesar 49,9 triliun rupiah.
+Peningkatan pendapatan rumah tangga sebesar 9,7 triliun serta peluang penyerapan tenaga kerja sebanyak 183.000 orang.
+Untuk pelayanan konsultasi ekonomi nasional.
+Untuk pelayanan konsultasi LMAN yang misi utamanya adalah membantu menggerakkan optimalisasi aset negara sampai dengan 31 Mei 2026, LMAN telah memberikan layanan kepada 39 mitra dengan jumlah total proyek sebanyak 110 proyek.
+Dampak layanan LMAN diharapkan terus meningkat dengan rata-rata penambahan 5 mitra baru setiap tahun serta telah tersebar di 17 provinsi.
+Pimpinan Komisi 11 dan anggota dewan yang kami hormati.
+Dari kinerja keuangan dapat kami sampaikan LMAN terus berupaya untuk mengoptimalkan kontribusi melalui penerimaan negara bukan pajak optimal dan tetap mengendalikan biaya operasional.
+Sebagaimana disampaikan pada highlight sebelumnya hingga mei 2026 realisasi PNBP sebesar 1,34 triliun dan diproyeksikan mencapai 3,3 triliun dari target 2,8 triliun pada akhir tahun.
+pada akhir tahun atau ekspektasi melebihi target sekitar 116 persen.
+Dalam lima tahun terakhir, realisasi PNBP LMAN setiap tahunnya mencapai target dan tumbuh dengan baik, yaitu sebesar 24,5 persen per tahun.
+Di sisi lain, realisasi spending atau belanja LMAN masih terkendali dan dengan pertumbuhan yang jauh lebih kecil, baik pada pagu maupun realisasinya, yaitu sebesar rata-rata 6,1 persen per tahun.
+Pimpinan dan anggota Komisi 11 yang kami hormati, selanjutnya perkenankan kami menyampaikan Pagu Indikatif tahun 2027 B.L.U. LMAN.
+Pagu Belanja LMAN tahun anggaran 2027 diarahkan untuk mendukung optimasi nilai aset, percepatan PSN yang mendukung prioritas nasional, serta peningkatan kontribusi PNBP kepada negara, dengan tetap menjaga efisiensi di belanja.
+Komposisi pagu indikatif belanja LMAN tahun 2027 adalah sebesar 163,47 miIiar atau sama dengan tahun 2026 yang terdiri atas belanja barang 162,29 miIiar, serta belanja modal sebesar 1,18 miIiar.
+dapat kami sampaikan bahwa dengan pagu belanja sebesar 163,47 miIiar LMAN menargetkan untuk mencapai target PNBP di tahun 2027 sebesar.
+di tahun 2027 sebesar 2,45 triliun rupiah. Pimpinan dan bapak-ibu anggota beberapa program strategis LMAN di tahun 2027 antara lain, pertama, optimalisasi dan likuidasi aset, pengamanan aset, dan sertifikasi aset negara yang strategis, antara lain di wilayah Rawa Buaya, Depok dan Tomang yang telah berhasil dimenangkan pada proses litigasi.
+Pemeliharaan dan peningkatan nilai aset salah satunya dengan peningkatan fitur gedung AA Maramis dan aset nusantara Makassar yang telah dikerjasamakan dengan pemerintah kota Makassar.
+Kami juga akan melanjutkan penyelesaian pendanaan pengadaan tanah PSN, salah satunya pada kawasan sentra industri garam nasional untuk prioritas nasional sektor swasembada pangan serta peningkatan pertumbuhan mitra konsultasi LMAN.
+Pimpinan dan anggota komisi 11 DPR yang kami hormati demikian paparan yang dapat kami sampaikan, terima kasih kami memohon adanya penguatan peran LMAN kami siap menerima masukan dan arahan lebih lanjut waktu kami kembalikan.
+Baik demikian pimpinan dan anggota komisi 11 yang kami hormati dengan demikian paparan dari kami selanjutnya dengan penuh hormat kami mohon perkenan pimpinan dan anggota komisi 11 untuk menyetujui usulan rencana kerja dan pagu indikatif DJKN tahun anggaran 2027 sebesar Rp724.278.717.000, demikian waktu balikkan ke Pimpinan Sidang.
+Terima kasih. Assalamu'alaikumcopy; warahmatullahi wabarakatuh. Bapak Ibu sekalian, Anggota dan Pimpinan Komisi 11 yang saya hormati, Kita tadi telah mendengarkan ada 6 unit eselon 1 bersama 1 BLU di bawah direktorat jenderal kekayaan negara telah memberikan paparan.
+Dan saya beri kesempatan kepada masing-masing fraksi. Karena ini per fraksi dulu ya, satu fraksi dulu.
+Karena ini nantikan rapat kita akan sangat terbatas waktunya. Nanti kita akan lanjutkan lagi di jam 2.
+dengan 7 unit eselon 1 yang lainnya termasuk dengan BLU.
+Jadi waktu kita ini sangat terbatas, saya tidak ingin membatasi tapi saya tetap memberikan kesempatan dengan format masing-masing fraksi.
+Untuk itu saya minta dikonsolidasikan masing-masing fraksinya supaya pandangan masing-masing fraksi bisa menyeluruh dan kemudian bisa mencakup hampir semua isu yang telah.
+hampir semua isu yang telah disampaikan. Untuk itu saya beri kesempatan kepada fraksi PDI Perjuangan untuk menyampaikan pandangan, pendapat, dan usulan.
+Baik, terima kasih yang terhormat pimpinan dan rekan-rekan Anggota Komisi 11, yang terhormat para dirjen di Kementerian Keuangan.
+kita akan mulai dulu dari Direktorat Jenderal Pajak, Pak Bimo.
+Pak Bimo, kalau kita lihat bahwa penerimaan Pajak 2025, ini pertama kali dalam sejarah ini angkanya turun, Pak.
+Dari 2024 di 1931, sekarang menjadi 1917. Dan di 2026 ini bapak menargetkan 2357. Kalau saya menggunakan postur APBN, maka target penerimaan bapak di 2027 ini di postur tercatat bahwa penerimaan perpajakan termasuk pajak dan cukai ini 10,29 sampai 11,39 persen.
+dengan menggunakan data PDB sebesar 27.907 dengan asumsi pertumbuhan 5,8 persen atau 28.092 triliun dengan asumsi pertumbuhan 6,5 persen, maka target pajak 2027 saya menggunakan proporsi kira-kira pajaknya 86,5 persen Dan cukainya 13,5 persen seperti yang terjadi dalam beberapa tahun belakangan ini.
+beberapa tahun belakangan ini, maka bapak menargetkan untuk 2027 pajaknya sebesar 2483 sampai ke 2767. Nah yang menjadi pertanyaan adalah apakah langkah-langkah yang akan Pak Bimo lakukan untuk mencapai target yang sangat ambisius tersebut Di tengah ketidakpastian global masih ada.
+ketidakpastian global masih ada, dan keadaan ekonomi Indonesia yang belum baik-baik saja. Ini yang pertama.
+Kemudian mengenai pajak, pak, problemnya adalah persoalan fundamental pajak kita ini tax rationya stagnan, pak.
+Kepatuhan formalnya memang naik, tetapi kepatuhan materialnya lemah. Di tengah ekonomi yang mengalami tekanan, maka optimalisasi perpajakan yang bapak katakan ini akan bergantung pada wajib pajak yang patuh, itu-itu lagi.
+Dan sama sekali belum menyentuh yang selama ini belum tersentuh, yaitu underground economy, shadow economy, maupun pajak digital global.
+Maka mungkin di 2027 apabila target ini yang dipasang, maka harus ada roadmap yang jelas, Pak.
+Bagaimana untuk bisa mencapai angka itu dengan memanfaatkan dan menggali potensi pajak dari underground economy, shadow economy, dan digital economy global.
+Karena kita tahu, Pak, digital economy global.
+global selama ini mereka sama sekali tidak membayar pajak badan, pajak penghasilan. Mereka hanya membayar pajak atas PPN saja.
+Dan PPN itu kan dibebankan kepada pelanggan. Sementara para pemain digital global ini mencari rejeki di Indonesia.
+Selama ini mereka berkelit dengan mengandalkan rezim permanent establishment atau bentuk usaha tempat BUT.
+Di dalam BUT tentu mensyaratkan kehadiran fisik, kehadiran aset satu perusahaan di satu negara sebelum negara berhak untuk mengenakan pajak.
+Tetapi ini sudah tidak relevan lagi sejalan dengan perkembangan teknologi.
+maka apabila kita geser dengan menggunakan signifikan dengan menggunakan significant economic presence, SEP, maka Negara Berhak memungut pajak atas keberadaan mereka.
+Satu contoh adalah mereka akan mendapatkan pendapatan iklan yang besar sekali.
+Contohnya YouTube, IG, Facebook mereka mendapatkan pendapatan iklan yang besar sekali, tetapi mereka tidak membayar pajak penghasilan kepada negara.
+Ya kedua adalah yang menerapkan konsep langganan, seperti misalkan Spotify, Netflix, dan lain-lain.
+Mereka juga mendapatkan pendapatan dari republik ini dalam jumlah yang sangat besar, tetapi mereka tidak dikenai.
+Pajak, bahkan saya yakin kementerian keuangan juga belum punya datanya.
+berapa sih sebenarnya pelanggan Netflix, berapa sebenarnya pelanggan Spotify dan lain-lain.
+Di banyak negara, Pak, sudah menerapkan pajak atas perusahaan-perusahaan ini, seperti di negara-negara di Eropa, Prancis, Itali, Inggris, bahkan negara-negara seperti Turkey juga sudah menerapkan pajak ini.
+Sehingga jangan sampai, Pak, bahwa kita hanya memajakkan perusahaan-perusahaan dalam negeri saja, tetapi sudah saatnya direktorat jenderal Pajak artinya Direktorat Jenderal Pajak punya keberanian, Pak, untuk mendobrak keadilan Pajak ini.
+Berikutnya mengenai restitusi, Pak. Ini banyak sekali perusahaan yang mengeluh mengenai pembatasan restitusi. Restitusi dianggap seolah-olah adalah belas kasihan.
+Padahal restitusi ini adalah sebenarnya hak, Pak. Kita lihat angka satu contoh di perusahaan farmasi.
+di perusahaan farmasi, 98 persen penduduk Indonesia sudah menggunakan BPJS.
+Persoalannya adalah pedagang besar farmasi ketika dia menjual kepada rumah sakit pemerintah, maka rumah sakit pemerintah ini kena wapu, wajib pungut.
+Sehingga PBF ini pasti akan mengalami kelebihan bayar pajak karena PPN masukannya tidak ada.
+Secara total angkanya buat direktorat jenderal Pajak mungkin tidak terlalu besar, sekitar 5 triliun.
+Tetapi kalau ini berlanjut mengakibatkan modal kerja dari perusahaan-perusahaan farmasi ini akan mengalami masalah.
+Dan akibatnya yang dikhawatirkan adalah adanya nanti gangguan pasokan mereka dengan gangguan pada modal kerja mereka tidak mampu untuk memasok produk-produk farmasi.
+produk-produk farmasi ke JKN dan tentu pada gilirannya ini masyarakat yang akan menderita kalau layanan kesehatan ini tidak bisa dilayani di rumah sakit-rumah sakit pemerintah.
+Untuk Dirjen Bea dan Cukai Pak Jaka, tugasnya Pak Jaka ada dua Pak, yaitu mengamankan penerimaan dan sebagai fasilitator perdagangan.
+sebagai fasilitator perdagangan dan industri. Kalau saya menggunakan tadi pendekatan yang sama yang disampaikan waktu saya membahas Direktorat Jenderal Pajak, maka kira-kira target Bea dan Cukai 2027 adalah sebesar 375 triliun sampai 431 triliun.
+Ini menjadi pertanyaan besar, Pak, bagaimana cara mencapai angka tersebut.
+Apa yang sebenarnya diandalkan oleh Direktorat Jenderal Pajak, Direktorat Jenderal Bea dan Cukai, menurut saya khusus untuk Direktorat Jenderal Bea dan Cukai kata kuncinya cuma satu, Pak.
+Cegah kebocoran, tidak ada jalan yang lain. karena potensi kebocorannya di direktorat jenderal bea dan cukai masih sangat besar.
+Harapannya ke depan tidak ada lagi drama-drama yang mengganggu di direktorat jenderal bea dan cukai.
+Berikutnya untuk dirjen anggaran Pak Darto yang sekarang sejak diangkat jadi dirjen anggaran pakai baju dinas terus. Ya, problem daripada APBN kita, Pak.
+kepada APBN kita, kan bukan hanya defisit, tapi kualitas belanjanya.
+Apakah benar kualitas belanjanya ini dirasakan oleh masyarakat, terutama masyarakat lapisan yang paling bawah.
+Sehingga apa sebenarnya strategi dari Direktorat Jenderal Anggaran untuk meningkatkan kualitas Belanja negara sehingga patokannya bukan hanya berapa serapan anggarannya, tetapi bagaimana dampaknya, berapa banyak KL yang benar-benar berbasis pada outcome, bukan hanya berbasis pada output semata dan bagaimana DJA strateginya untuk menjaga disiplin fiskal.
+disiplin fiskal, terutama di tengah banyak sekali tekanan dari program-program yang populis.
+Berikutnya dirjen DJSF Pak Ferry, sebenarnya dirjen DJSF ini kalau saya berusaha memahami, ini adalah dapur strategi pemerintah terhadap fiskal.
+Nah, apa sih sebenarnya, Pak, kalau bapak adalah dapur pemikirannya, dapur strategi fiskal pemerintah ini, apa sebenarnya dasar realistis pemerintah menetapkan pertumbuhan yang sangat tinggi, di tengah kita sama-sama tahu bahwa konsumsi rumah tangga stagnan, Selama 10-15 tahun, konsumsi rumah tangga tidak pernah bergerak dari sekitar angka lima dan manufacturing lemah.
+dikatakan bahwa indeks manufacturing berada pada ekspansif, yaitu angka 50. Faktanya apa adalah konsumsi listrik industri mengalami penurunan.
+Sehingga pertumbuhan tinggi hanya dipicu kemarin oleh siklus dan dipicu oleh gelontoran dari APBN yang sifatnya jelas tidak sustainable.
+Sehingga bagaimana dirancang sempurna, bagaimana dirjen DJSF mengelola belanja negara juga Pak.
+Di tengah kita tahu sama-sama Pak, kita masih punya masalah dengan ICOR yang tinggi.
+Ini tentu menjadi hal yang penting dan bagaimana direktorat jenderal DJSF menghadapi kenaikan utang dan bunga utang Pak.
+Jadi kalau kita bicara soal utang, bukan cuma debt-to-gdp ratio yang 41 persen.
+Tapi tugas bapak adalah memikirkan bagaimana bunga dan cicilan utang yang rasionya terhadap penerimaan negara sudah mendekati 45 persen.
+Padahal kondisi idealnya adalah di 25 dan 30 persen. Juga bagaimana bapak memastikan program-program populis yang dilaksanakan tetap secara fiskal ini terukur dan tidak membebani fiskal jangka panjang.
+Dan kita sama-sama tahu Presiden Prabowo punya cita-cita yang mulia bahwa di RPJMN ada anggaran yang berimbang atau defisit nol.
+di KEM-PPKF kemarin ini angkanya masih jauh dari anggaran berimbang.
+Ini tugas bapak Pak, untuk memikirkan kedepannya. Kira-kira langkahnya seperti apa. Kemudian dirjen DJSPSK Pak Herman, The Rising Star.
+Saya coba memahami juga, Pak, Kelihatannya tugas daripada DJSPSK adalah menjaga stabilitas sektor keuangan.
+Kira-kira saya pahami seperti itu, Pak. Tetapi tantangan terbesarnya adalah potensi overlapping. Overlapping kewenangan antara BI, OJK, LPS, kemenkeu.
+Ya, bagaimana, Pak? Bisa mencegah terjadinya overlapping ini? Jangan sampai dirjen DJSPSK.
+dirjen DJSPSK ini gagal menjadi semacam polisi koordinator tapi malah menjadi regulator tambahan yang hanya menambah di layer birokrasi.
+Kemudian ikunya apa yang bapak sampaikan apa ada iku lain, Selain jumlah regulasi yang diterbitkan. Kalau itu sudah pasti.
+kalau itu sudah pasti tercapai 100 persen Pak, ditambahkan saja kalau targetnya sepuluh, bapak keluarin aja 11 regulasi baru, maka pasti akan tercapai 100 persen.
+Tugas bapak juga membangun satu early warning system. Ini juga penting Pak, dan bagaimana sih strategi pendalaman pasar agar pembiayaan pembangunan tidak tergantung.
+pembangunan tidak tergantung dari utang dan investor asing terutama untuk investor-investor Jangka Pendek, Pak.
+Jadi jangan sampai keuangan kita tampak stabil di permukaan, tapi fondasinya rapuh. Terakhir untuk kekayaan negara.
+Tadi cita-citanya Bu Rahayu adalah menjadi fiskal value creator. Ini cita-citanya hebat sekali, mengelola 12.891 triliun, faktanya sekarang.
+Banyak sekali aset-aset negara yang idle, aset negara yang utilisasinya rendah, monetisasi asetnya juga rendah sekali.
+Tadi hasil dari monetisasi aset hanya 5,49 triliun dari 12.891 triliun.
+sehingga ini menjadikan negara Indonesia adalah negara yang kaya, sangat kaya, tetapi miskin cash flow yang produktif yang dihasilkan dari aset-aset yang dimiliki oleh negara.
+Sehingga harus dipetakan mana aset-aset yang benar-benar bisa produktif dan menghasilkan economic return sehingga tidak hanya tergantung.
+Hanya tergantung dari Pajak. Nanti rakyat akan mengeluh kalau dipajakkan terus-menerus.
+Dan ini juga menjadi hal yang menarik bahwa negara tidak boleh hanya sebagai pemilik aset saja.
+tetapi tugas dari direktorat jenderal kekayaan negara adalah negara menjadi pengelola aset terbaik. Sehingga masyarakat merasakan manfaatnya.
+Terima kasih, Assalamu'alaikum warahmatullahi wabarakatuh. Pimpinan Pak Ketua, saya minta waktu sedikit saja. Cukup Pak. Satu saja. Arahnya Pak Dolfi ini.
+Tadi kan Pak Aris katanya udah 20 menit. Berikutnya saya berikan kesempatan kepada Golkar Bu Putri. Terima kasih, Ketua.
+Assalamualaikum warahmatullahi wabarakatuh, pimpinan dan anggota komisi belas yang terhormat seluruh eselon satu kementerian keuangan yang telah hadir, karena tadi pak fahrul telah mendalami sedemikian dalam terkait dengan perpajakan, saya mau langsung ke direktorat jenderal Bea Cukai.
+Pak Jaka, karena beberapa saat terakhir ini kan banyak sekali isu yang muncul terkait dengan DJBC.
+Saya yakin bapak juga telah menerima arahan langsung dari Bapak Presiden terkait dengan praktik ekspor impor, penguatan yang harus dilakukan, under invoicing yang masih terjadi dan lain-lainnya.
+Jadi kami sepakat bahwa ini menjadi momentum yang sangat baik untuk DJBC semakin memperkuat layanan, pengawasan dan juga tata kelola yang lebih baik.
+Dan salah satu indikator yang tadi sudah disampaikan oleh Pak Jaka kan sebenarnya terkait dengan dwelling time.
+Karena untuk pelaku usaha bukan hanya regulasi yang penting tapi juga seberapa cepat barang itu bisa keluar dari pelabuhan.
+Dan dwelling time yang saat ini masih berada di kisaran 2,9 hari itu memang lebih baik dibandingkan beberapa tahun lalu pada saat kami membahas anggaran bersama kementerian keuangan di ruangan ini, tapi tentu kita tahu ruang perbaikannya juga masih cukup besar.
+Dan kemarin Pak Menkeu juga sempat melakukan kunjungan ke pelabuhan Tanjung Priok yang beliau disitu menemukan tumpukan dokumen dan juga kontainer yang masih terjadi.
+Sehingga beliau meminta adanya penambahan petugas di lapangan untuk mempercepat proses pelayanan.
+Jadi yang ingin kita ketahui justru yang tadi belum dipaparkan adalah apakah ada peta jalan?
+adalah apakah ada peta jalan yang comprehensive untuk perbaikan layanan seperti dwelling time dan juga bagaimana inisiatif kita dalam memperbaiki layanan kepabeanan ini.
+Karena selain masalah SDM yang mungkin saya tahu mungkin masih terjadi, kita masih kekurangan SDM Bea Cukai di pelabuhan utama, berarti kita juga di sini nanti bisa membantu, mensupport pak jaka terkait dengan hal-hal lain yang masih dibutuhkan.
+hal-hal lain yang masih dibutuhkan selain dengan penguatan SDM. Jadi nanti mohon untuk disampaikan terkait dengan Peta Jalan untuk perbaikan dwelling time ini.
+Dan yang kedua seperti yang kemarin diumumkan oleh Pak Presiden di Paripurna di DPR terkait dengan BPI Danantara saya kira juga ini menjadi sangat penting kaitannya dengan koordinasi antara Bea Cukai bersama dengan BPI Danantara karena tentu masa transisinya sampai dengan tahun depan itu pasti akan melibatkan bea cukai yang selama ini mengatur terkait dengan ekspor dan juga impor.
+Kami menghimbau bahwa proses ini benar-benar dipersiapkan secara matang, baik itu dari regulasi dan koordinasi antara pak jaka dengan BPI Danantara juga, dan juga jangan sampai ada kebingungan di kalangan eksportir terkait dengan prosedur, kewenangan sistem pelaporan dan lain-lain.
+Dan yang paling penting, salah satu hal yang paling mahal di Indonesia adalah mekanisme koordinasi antarinstansi.
+Jadi ini tentu kalau tidak diantisipasi tidak hanya bisa mengganggu kelancaran ekspor, tapi juga berpotensi lebih jauh lagi menekan penerimaan negara.
+Dan tentu bisa menekan lagi daya saing pelaku usaha di dalam negeri.
+Sehingga nanti dampaknya bisa menimbulkan ketidakpastian hukum dan juga kepastian berusaha.
+Jadi kami sangat berharap ini bisa diantisipasi di awal oleh Direktorat Jenderal Bea Cukai dengan koordinasi yang lebih efektif bersama dengan Danantara.
+Selanjutnya untuk DJA dan juga DJP, kemarin Pak Menteri Keuangan pada bulan Maret itu sempat menyampaikan akan mengalihkan sekitar 213 pegawai dari Direktorat Jenderal Anggaran ke Direktorat Jenderal Pajak.
+Karena beliau menyampaikan untuk meminimalisir kebutuhan sumber daya manusia dan juga memutus ketimpangan antar Direktorat Jenderal di Kementerian Keuangan karena DJA dianggap punya kelebihan pegawai yang bisa dialihkan.
+Tapi kalau kita lihat tadi paparan Pak Bimo di halaman tujuh, di situ ada yang menarik, di saat DJP nanti akan mendapatkan pengalihan pegawai dari DJA tapi justru jumlah pegawai DJP terus menurun dalam 5 tahun terakhir.
+Yang ini juga merupakan bagian dari penataan SDM yang ada di DJP.
+Jadi pertanyaan kami justru kalau memang kebutuhan pegawainya semakin turun, kenapa justru pegawai dari DJA harus dialihkan?
+Memang ini apakah transformasi organisasi untuk lebih efektif atau seperti apa? Karena memang tentu kalau yang kemarin Pak Bimo sudah sampaikan untuk penguatan coretax dan lain-lainnya kami sangat memahami.
+Tapi apakah nanti akan ada dampaknya terhadap kinerja pak sudarto dan rekan-rekan di dirjen anggaran terkait pengalihannya ini atau justru ada implikasi lainnya. Jadi ini yang belum kita dapatkan tadi. Berikutnya untuk Pak Ferry dari PLT Dirjen DJSF yang tadi sudah Bapak sampaikan, tentu komitmennya sangat kami apresiasi di tengah perlambatan ekonomi global, dan tadi Bapak menyampaikan bahwa salah satu targetnya adalah terkait dengan ketenagakerjaan untuk memperkuat penciptaan lapangan pekerjaan.
+Nah, justru yang ingin kita dengar dari Pak Ferry adalah apa yang sedang dirumuskan oleh DJSF untuk mendorong terciptanya lebih banyak pekerjaan berkualitas pada tahun ini sampai dengan tahun depan dan kira-kira sektor apa saja yang dipandang memang memiliki potensi besar Untuk meningkatkan produktivitas dan juga nilai tambah yang tinggi Dan bagaimana kebijakan fiskal kita nantinya bisa mendukung target penciptaan lapangan pekerjaan yang berkualitas tersebut Karena tentu lapangan pekerjaan yang berkualitas itu tidak hanya meningkatkan produktivitas pendapatan tapi juga kesejahteraan masyarakat secara menyeluruh.
+Berikutnya untuk Pak Herman, untuk DJSPSK ini, kita memang sudah rapat khusus kemarin terkait dengan peraturan turunan dari undang-undang P2SK yang alhamdulillah kemarin sudah kita ketok revisinya bersama.
+Tapi memang lagi-lagi apa yang kita harapkan untuk pembahasan peraturan turunan itu belum bisa dipenuhi oleh pihak pemerintah karena pembahasan yang kemarin saja masih menyisakan banyak peraturan turunan yang belum selesai.
+Jadi ini merupakan PR untuk Pak Herman beserta rekan-rekan dari pemerintah, bukan hanya di kementerian keuangan, tapi juga kementerian dan lembaga lain, bahwa peraturan turunan itu harus segera selesai supaya undang-undangnya bisa efektif dan bisa manfaatnya segera dirasakan oleh masyarakat.
+Demikian pimpinan, terima kasih salahualaikum warahmatullahi wabarakatuh.
+Berikutnya saya berikan kesempatan kepada fraksi Partai Gerindra. Mbak Anissa. Baik, terima kasih pimpinan atas kesempatannya.
+Selamat siang, Bapak-Ibu dirjen di kementerian keuangan, beserta jajaran yang tidak bisa saya sebut satu persatu.
+Pertanyaan saya sebenarnya hanya untuk Pak Bimo. Untuk Pak Bimo di DJP.
+Di RKA 2027 ini, kementerian keuangan menempatkan Coretax sebagai salah satu Dari dua extra effort utama yang menjadi sandaran pertumbuhan penerimaan pajak.
+Sejak diberlakukan pada 1 Januari 2025 dan menjadi satu-satunya platform administrasi perpajakan mulai tahun 2026. Coretax ini menurut hemat kami lompatan reformasi yang sangat strategis ya dari sisi registrasi, pelaporan, pembayaran, dan so on dan so forth.
+Dan capaian positifnya pun sudah terlihat dari sistemnya telah diserahkan dan dikelola penuh oleh DJP.
+Ratusan KPP mencapai target dan PPN, PPN-BM tumbuh hingga 5,7 persen pada awal 2026 yang sebagian dikaitkan dengan perbaikan basis data. Memang pada awalnya, fase transisi itu memang ada friksinya ya Pak, mungkin dari sebelum Pak Bimo juga, yang perlu dikawal bersama agar tidak mengganggu penerimaan.
+Pada awal pun kami mengapresiasi kemarin-kemarin itu DJP secara terbuka mengakui kendala teknis.
+Jadi dari sisi aktivasi akun, sertifikat elektronik, banyak sekali kendalanya pada awal. Dan pada akhirnya pun terlihat ada pencapaian-pencapaiannya. Menurut hemat kami, keberhasilan target penerimaan 2027 itu sangat bergantung pada apakah Coretax telah benar-benar stabil dan mampu menghasilkan compliance effect yang dijanjikan.
+Bukan sekedar memindahkan proses manual ke proses digital di sistem perpajakan.
+Karena di RKA Kemenkeu 2027, dan tadi di laporan Bapak pun sudah memuat ada alokasi untuk pemeliharaan, pengembangan, dan stabilisasi untuk sistem Coretax.
+Menurut hemat kami penting untuk memastikan bahwa belanja untuk Coretax ini menghasilkan imbal hasil atau return yang sempurna.
+Pertanyaan kami sebenarnya cukup singkat, Pak Bimo. Kami memohon penjelasan sejauh mana sistem Coretax telah mencapai kondisi yang benar-benar stabil secara penuh menjelang tahun 2027 ini.
+Dan secara konservatif mungkin berapa besar tambahan penerimaan baik dalam nilai rupiah maupun persentasenya yang akan diatribusikan kepada peran Coretax dalam asumsi penerimaan tahun 2027, intinya kami hanya ingin mengetahui bagaimana alokasi belanja untuk Coretax itu bisa sepadan dengan tambahan penerimaan yang dijanjikan, indikator kinerja apa juga yang bisa dilaporkan secara berkala kepada kami di komisi 11 sebagai bentuk akuntabilitas atas belanja untuk Coretax ini.
+Sekiranya sampai situ pimpinan, terima kasih banyak. Wabarakatuh. Salam warahmatullahi wabarakatuh. Berikutnya fraksi Nasdem, Bapak Syoibul Iman. Bismillahirrahmanirrahim.
+Assalamu'alaikum warahmatullahi wabarakatuh, terima kasih pimpinan atas kesempatannya ada beberapa hal yang menjadi catatan kami berdasarkan paparan dari unit eselon 1 di Kementerian Keuangan yang sudah disampaikan.
+Pertama, saya ingin mengomentari paparan dari Direktorat Jenderal Pajak yang menjadi fokus kami adalah terkait perluasan basis Pajak Pak.
+menurut pandangan kami, memang di Indonesia ini memiliki tantangan yang luar biasa.
+Karena kemarin kita dengar dari Dewan Ekonomi Nasional, ternyata di Indonesia itu 20 persen itu yang formal dan 80 persennya itu informal, berbeda dengan mungkin di negara-negara maju yang formalnya itu 80 persen.
+yang informalnya 20 persen. Ini menurut saya cukup challenging bagi direktorat jenderal pajak dalam rangka melakukan perluasan basis pajak.
+Nah, sebagaimana kita pahami bahwa sekarang BPS sedang melakukan ground checking, Pak, terkait dengan desil.
+Yang mana penduduk Indonesia itu dikelompokan ke dalam 10 kelompok desil dari 1 sampai 10. Yang mana tujuannya untuk memberikan bantuan sosial.
+Nah pertanyaan saya adalah apakah DJP juga sudah menggunakan basis data desil ini Pak.
+Dan apakah DJP juga sudah berkoordinasi dengan BPS terkait dengan potensi dalam rangka perluasan basis pajak ini, karena menurut pandangan saya, ketika desilnya misalnya 6-10 ya, itu mestinya dia sudah punya kewajiban membayar pajak, karena termasuk masyarakat sejahtera seperti itu.
+Makanya dalam kesempatan ini saya ingin memastikan lagi kepada Direktorat Jenderal Pajak apakah sudah berkoordinasi dengan BPS terkait dengan penggunaan data desil ini.
+Itu yang pertama. Kemudian kepada Direktorat Jenderal Anggaran, saya lihat di situ peran daripada Direktorat Jenderal Anggaran adalah menggali potensi PNBP Pak, Pak Darto ya tadi disampaikan.
+Nah, dan direktorat jenderal anggaran pun sudah melakukan pengukuran kinerja dengan pendekatan balance scorecard yang mana internal process perspective menjadi salah satu pengukurannya.
+Disitu disebutkan, Pak, terjadi kenaikan persentase bobot kinerja dari direktorat Jenderal Anggaran, dari Q1 2025 ke Q1 2026 dari 16,6 menjadi 21,67.
+Pertanyaan saya adalah, dengan meningkatnya kinerja yang dilihat dari internal proses perspective ini, Berapa sih pak? PNBP yang akan diperoleh?
+sehingga dengan kita tahu, maka kita bisa memotret juga ke depannya PNBP yang akan kita peroleh.
+Sehingga kita bisa yakin dengan asumsi-asumsi yang kita rumuskan sekarang memang mendekati realisasi yang bisa direalisasikan gitu seperti itu.
+Dan yang terakhir Terkait dengan direktorat jenderal stabilitas dan pengembangan sektor keuangan.
+Situ fungsi daripada direktorat bapak adalah perumusan kebijakan, penyusunan standar, prosedur, kriteria dan pemberian BIMTEK serta supervisi Pak Herman.
+nah Saya fokus dengan sistem informasi kredit program, SIKP, yang ada di Kementerian Keuangan, ini kaitannya dengan penyaluran kur.
+Dalam ketentuan existing disampaikan bahwa tidak boleh debitur kur itu menerima 2 fasilitas, Pak.
+tapi faktanya dilapangan, ketentuan ini menghambat UMKM ketika mau melakukan top up.
+Saya ada kasus, salah satu nasabah debitur kur, dia punya sisa pinjaman 140 juta.
+Kemudian ingin top up dan sudah disetujui, nilainya 400 juta, yang mana 400 juta itu masih dibawah ketentuan Kur.
+yang 500 juta. Tetapi pada saat mau eksekusi, pihak bank penyalur mensyaratkan yang 140 juta itu harus dilunasi dulu.
+Ya logikanya si Debitur kalau ada uang 140 juta, ngapain dia mau top up? Pakai aja uang dia sendiri.
+Dan ternyata ada moral hazard yang terjadi Pak. Ada tawaran-tawaran untuk memberikan fasilitas pinjaman sebesar 140 juta itu dengan jangka waktu mungkin hanya sehari atau dua hari dan bunganya 10%.
+Nah ini menurut saya perlu kita benahi agar UMKM kita bisa naik kelas.
+karena pastinya dia itu akan top up karena dia akan meningkatkan kapasitas produksi dia.
+Nah sampai dengan saat ini saya juga sudah berkomunikasi dengan bank-bank penyalur dan menurut mereka bahwa itu bukan kewenangannya di bank penyalur tapi ada di sistem SIKP tadi Pak yang ada di kementerian keuangan.
+Nah saya lihat di situ fungsi dari Bapak adalah merumuskan kebijakan retail.
+dan kebijakan, kriteria, dan juga supervisi, mungkin itu bisa menjadi atensi Pak untuk perbaikan dan untuk UMKM kita bisa naik kelas.
+Mungkin sementara itu pimpinan dari saya. Assalamu'alaikumcopy; warahmatullahi wabarakatuh. Terima kasih kepada Pak Soyibul Iman.
+ini dari fraksi PKB tidak ada di ruangan, saya teruskan kepada fraksi Partai Keadilan Sejahtera.
+Terima kasih pimpinan. Bismillahirrahmanirrahim. Assalamu'alaikumcopy; warahmatullahi wabarakatuh.
+Bapak dari dirjen Kemenkeu dan juga teman-teman semua yang hadir, ini saya tidak satu persatu pertanyaannya, Tapi lebih melihat kepada keterkaitan antara satu dirjen yang lain, terutama terkait dengan amanat dan slogan yang sudah disampaikan oleh Pak Menteri.
+Tumbuh lebih tinggi, sejahtera lebih cepat. Jadi bagaimana sinergitas antara keseluruhan yang terutama, yang pada sisi enam dirjen ini di dalam mengawal target.
+mengawal target tersebut. Jadi kalau kita melihat bahan dari DGA, DJP, DJBC, DJKN, DJSPSK, dan DJSF, saya melihat ada beberapa hal strategis yang ini saling terkait, isunya terkait dengan Tantangan utama APBN kita di 2027 terkait dengan penerimaan negara, ya tumbuh lebih tinggi, sejahtera lebih cepat.
+Ini slogan yang luar biasa dan mudah diucapkan, tapi saya kira tentu membutuhkan kerja keras yang luar biasa juga dari kita semua.
+Karena pada saat yang sama, beberapa indikasi yang kita lihat ini ruang fiskal kita kan semakin ketat. Jadi kalau kita perhatikan beberapa indikasinya misalnya rasio PNBP terhadap PDB itu terus menurun dari sekitar 3,0% pada tahun 2022, menjadi sekitar 1,8% pada APBN 2026 akibat moderasi harga komoditas dan berakhirnya komoditi boom.
+Itu indikasi yang pertama. Yang kedua, DJP Alhamdulillah menunjukkan energi yang sangat baik dengan penerimaan pajak sampai mei 2026 mencapai 834,4 triliun dan berkontribusi 70,41% terhadap pendapatan negara.
+Catatannya pertumbuhan tersebut sebagiannya masih dipengaruhi faktor siklus ekonomi dan juga optimalisasi administrasi perpajakan.
+Dan saya mencatat di sini terkait dengan restitusi.
+Ini kalau dilihat dari paparan yang disampaikan, trend restitusinya tidak muncul gitu.
+Dari tahun 2025 ke 2026 itu hanya ada trend penerimaan, restitusinya tidak muncul.
+Jadi sulit bagi kita untuk mengetahui tingginya pertumbuhan ini, apa pendorongnya, begitu ya.
+Apakah ada pertumbuhan atau peningkatan secara rutin atau menahan restitusi atau ada pendorong restitusi, begitu.
+Jadi saya di khusus untuk DJP ini, restitusi tolong diperlihatkan.
+Kemudian DJBC-nya melaporkan penerimaan kepabeanan dan cukai tumbuh hanya 0,7 persen Sampai Mei 2026 sementara bea keluar masih mengalami kontraksi, akibat dinamika perdagangan dan harga komoditas global.
+Kemudian DJKN mengelola portofolio aset negara sekitar 12,891 triliun. Tapi kontribusi monetisasi aset terhadap penerimaan negara itu masih lebih kecil dibandingkan besarnya aset yang dikelola.
+Jadi kalau kita melihat tantangan APBN 2027 ini tidak hanya sekedar mengejar penerimaan, tapi bagaimana membangun sumber penerimaan yang lebih berkelanjutan dan tidak terlalu bergantung pada komoditas maupun faktor siklus ekonomi.
+Nah, kemudian juga ada beberapa hal begitu terkait dengan transformasi digital yang saya pikir ini sudah baik begitu ya di lingkungan kemenkeu.
+Tapi dampak fiskalnya belum terukur secara jelas.
+Paling tidak, di dalam paparan yang disampaikan, belum terukur secara jelas, gitu.
+Jadi, hampir semuanya, Eselon 1 Kemenkeu ini, yang hadir di sini, menempatkan transformasi digital sebagai prioritas.
+DJP misalnya ada optimalisasi Coretax, kemudian AI, kemudian pemanfaatan data sebagai strategi utama peningkatan penerimaan.
+Kemudian DJKN mendorong Transformasi Digital Aset Negara, satu peta BMN dan integrasi data aset nasional.
+DJSF menjadikan dampak AI infrastruktur Tenaga Kerja Indonesia sebagai satu proyek unggulan tahun 2026. DJA juga menempatkan pengelolaan data dan informasi sebagai satu sasaran strategis utama organisasi.
+Jadi saya pikir ini transformasi digitalnya ini sudah besar. Gimana yang saya inginkan adalah dampak fiskalnya gitu ya ukuran dampak fiskalnya.
+Jadi output digitalisasi ini belum menunjukkan secara kuat outcome digital yang dihasilkan.
+Jadi misalnya berapa tambahan penerimaan yang dihasilkan dari digitalisasi ini? Ya kemudian dihasilkan harusnya kan ada penghematan dalam belanja.
+Karena ada penurunan jumlah pegawai di situ kan, berarti ada penghematan, tapi berapa penghematan yang sudah terjadi, kemudian peningkatan kepatuhan yang berhasil dicapai dengan adanya digitalisasi ini, kemudian efisiensi birokrasi yang benar-benar terserap itu ukurannya bagaimana.
+Karena dengan adanya digitalisasi yang masif, tentu itu akan menurunkan biaya operasional, menurunkan dan menciptakan efisiensi.
+Nah, kemudian juga kalau kita lihat dari 6 dirjen hari ini, kementerian ini memiliki aset dan instrumen fiskal yang besar dan saya melihat ini perlu, masih perlu strategi integrasi yang utuh gitu, integrasi di antara 6 dirjen itu.
+DJKN melalui aset negara, investasi pemerintah, PMN, SMV, dan berbagai instrumen pembiayaan dengan nilai sangat besar, DJSPSK bertugas mengembangkan sektor keuangan dan melaksanakan mandat besar undang-undang P2SK untuk pendalaman sektor keuangan nasional.
+DJSF merumuskan strategi makrofiskal dan kebijakan ekonomi nasional. DJA bertindak sebagai pengalokasi sumber daya APBN.
+Masalah mendasarnya adalah belum terlihat secara eksplisit bagaimana seluruh instrumen ini, diintegrasikan untuk mendorong target pertumbuhan 5,8 persen sampai 6,5 persen.
+Jadi instrumen fiskal sudah ada, instrumen pembiayaan sudah ada, instrumen aset negara ada, instrumen sektor keuangan ada, tapi belum terdapat peta jalan menunjukkan bagaimana semuanya bekerja secara terpadu untuk menghasilkan pertumbuhan yang tadi, pertumbuhan lebih tinggi sejahtera lebih cepat itu.
+Jadi ini saya menitipkan pertanyaan saja. data DJA menunjukkan rasio PNBP itu turun dari 3,5 persen menjadi 1,8 persen.
+Sementara DGBC juga menghadapi perlambatan pertumbuhan penerimaan kepabeanan dan cukai.
+Di sisi lain, APBN 2027 memerlukan ruang fiskal yang lebih besar untuk mendukung agenda pertumbuhan dan kesejahteraan.
+Jadi penting bagi kita mengatakan roadmap jangka menengah dari pemerintah, Dan ini akan menggali dan memerlukan basis penerimaan.
+Dan memperluas basis penerimaan dari sektor ekonomi baru atau ekonomi digital, aset negara dan peningkatan tax ratio secara berkelanjutan.
+Jadi strateginya, strategi kementerian keuangan untuk melakukan transformasi struktur penerimaan negara agar tidak lagi terlalu bergantung pada komoditas dan fokus di ekonomi.
+Itu yang pertanyaan pertama. Kemudian yang kedua tentang digital tadi Jadi dengan investasi yang sumber daya begitu besar dalam transformasi digital seperti Coretax, kemudian integrasi data fiskal, digital asset negara, dan pemanfaatan AI, target kuantitatif untuk tambahan penerimaan, efisiensi belanja, kemudian peningkatan kepatuhan secara konkret yang diharapkan dari program tersebut, kapannya begitu, itu apakah bisa dipaparkan untuk 2027 sampai 2029 gitu.
+Nah, kemudian dengan aset negara yang dikelola DJKN yang mencapai 12.891 triliun serta keberadaan berbagai instrumen pembiayaan pengembangan sektor keuangan, ini desain besar atau grand design pemerintah kementerian keuangan untuk mengintegrasikan APBN, aset negara, BUMN, investasi pemerintah dan pengelola sektor keuangan untuk mencapai target pertumbuhan ekonomi 5,8-6,5 seperti apa. Ya. Demikian pimpinan, terima kasih. Assalamualaikum warahmatullahi wabarakatuh.
+Berikutnya saya persilakan Ibu Andi Yuliani Paris. Terima kasih pimpinan. Assalamualaikum warahmatullahi wabarakatuh.
+Yang saya hormati pimpinan Komisi 11 dan Bapak Ibu dari Kementerian Keuangan.
+Pertama, saya ingin menanyakan terkait dari kekayaan negara. Tadi dalam paparan BLU-LMAN, tidak menjelaskan terkait proyek mangkraknya investasi untuk pembelian lahan proyek kereta api makassar pare-pare.
+Nah, bagaimana perhitungan return of investment-nya, kemudian nilai investasinya berapa dan kerugiannya berapa, karena ini mangkrak dalam paparan di halaman yang disampaikan tadi, ternyata saya tidak menemukan ini mohon penjelasan, karena ini adalah terkait dengan kinerja dari kementerian keuangan.
+Kemudian terkait dengan pajak dari total sekitar 5,4 triliun, ada sekitar 1,98 triliun untuk penegakan hukum. Jadi 3,5 triliun untuk program lainnya.
+Bisa dijelaskan, kira-kira apakah dampak kenaikan pajak ini karena penegakan hukum atau kinerja dari kementerian keuangan.
+Dan juga mungkin dijelaskan, di situ ada penurunan yang lain-lain, lain-lainnya apa saja. Kemudian terkait dengan cukai.
+Saya sering membaca berita-berita di media, di dapil saya, masyarakat ditangkap karena rokok ilegal.
+Ini kan kenapa ada rokok ilegal yang beredar? Karena dia dibeli masyarakat.
+Tapi saya ingin menyoroti terkait dengan penerimaan Rp123,8 triliun ini mayoritas dari tembakau.
+terkait dengan PMK Nomor 109 tahun 2022 tentang perubahan cukai hasil tembakau, kita lihat jenis-jenis rokoknya SKM, SPM, SKT, SPT dimana tidak boleh melebihi 3 miliar perbatang.
+Nah padahal kita harus lihat klasifikasi ekonomi masyarakat. Mungkin ada rokok yang harus diproduksi untuk masyarakat kelas menengah ke bawah.
+Dan itu dia harus diberikan ruang sehingga dia bisa memproduksi untuk kelas menengah ke bawah.
+Kalau ini tidak dilakukan dan juga catatannya, piatannya Bea Cukai memang utamanya hanya ngejar itu.
+Coba lah ngejar pendapatan Cukai dari barang-barang ilegal luar negeri yang masuk, yang banyak sekali yang seakan-akan kita tutup mata.
+Kenapa hanya urusan tembakau ini? Padahal kalau kita melihat produksi-produksi tembakau ini kan menciptakan lapangan pekerjaan, ya.
+Kemudian, karena daya beli yang rendah, akhirnya mereka memakai rokok-rokok itu.
+Dan kemudian itu menjadi objek dari kepolisian, kemudian juga dari objek pajak. Jadi perlu dievaluasi.
+Jadi perlu dievaluasi terkait PMK itu, kemudian batasan yang kurang dari 3 miliar ini diatasi kemudian dinaikkan, kemudian memberi kesempatan kepada pabrik rokok untuk memproduksi rokok yang memang bisa dibeli untuk kalangan menengah ke bawah.
+Ini bisa menciptakan lapangan pekerjaan Pak. Ini penting lapangan pekerjaan, kemudian mesin-mesin dari pabrik-pabrik itu juga bisa optimal.
+Kemudian terkait juga dengan KPKNL. Apa sih yang menjadi persoalan sehingga proses lelang ini kadang-kadang dihentikan di tengah jalan?
+Dasar hukumnya apa, Pak? Terkait, saya juga minta jawaban terkait dengan proyek kereta api makassar pare-pare.
+kemudian terkait dengan direktorat jenderal Strategi Ekonomi dan Fiskal.
+Mungkin akan ada baiknya, karena di sini lebih banyak kepada memformulasi kebijakan Fiskal.
+Tapi saya bercanda dengan beberapa teman-teman, ini kebijakannya dibaca sama Pak Menteri apa enggak ya?
+Dan kita akan membiayai program-program untuk membuat kebijakan Fiskal. Banyak sekali kebijakan Fiskal Sektor Keuangan Ekonomi, kemudian komunikasi dan edukasi, segala macam.
+Nah apa yang bisa Bapak sarankan dari yang dilakukan pada tahun yang lalu sehingga perlu kami komisi 11 menyetujui anggaran yang Bapak ajukan bahwa perlu ada kebijakan atau analisa atau survey atau formulasi kebijakan, rekomendasi kebijakan yang harus diberlakukan oleh ditjen strategi ekonomi fiskal untuk kita juga ingin tahu strategi-strategi atau policy yang Bapak lakukan.
+Ini mungkin catatan saya, kemudian untuk aset-aset negara di IKN. Di sini kan juga ada keinginan untuk diberikan anggaran.
+Mungkin bisa dijelaskan urgensinya seperti apa. Belum lagi untuk aset-aset yang lain kira-kira seperti apa ya.
+Kita perlu menyetujui Anggaran yang Bapak ajukan. Ini catatan dari kami demikian Wabillahi Taufiq Wal Hidayah. Wassalamu'alaikum copy; warahmatullahi wabarakatuh.
+Bagaimana dengan ini? Ya, saya minta fokus kepada fraksi Partai Demokrat, saya persilakan. Terima kasih, Ketua.
+Wakil Ketua Beserta Seluruh Anggota Komisi 11. Saya hormati Pak Dirjen Pajak, Dirjen BC, DJSF, DJSPSK, Anggaran, dan juga Ibu Rahayu, Dirjen Kekayaan Negara, serta BLU LMAN dan seluruh jajaran dari Kementerian Keuangan.
+Kami Partai Demokrat ingin memberikan beberapa masukan yang pertama kepada Pak Bimo, Pak Dirjen.
+Tentu kita apresiasi terkait dengan tren anggaran DJP yang terus menurun dan ini memberikan contoh juga ke depan semoga cost of tax collection bisa lebih turun lagi, Pak.
+Kemudian masukan terkait dengan perpajakan di sektor digital, tadi kan dari fraksi PDI Perjuangan sudah memberikan pandangan, kami juga ingin memberi penguatan, Pak, seperti contoh di marketplace.
+jadi kemarin saya berkeliling di dapil itu ada masukan, Pak Dirjen, bahwa pedagang yang berjualan di marketplace itu in total itu ada yang sampai dipotong 37 persen.
+Nah ini tentu dengan porsi yang sedemikian besar harusnya Negara juga bisa mungkin mendapatkan apa kontribusi yang sesuai karena bisa dibayangkan sedemikian besar potongan itu.
+Nah, sehingga industri digital ini harus secara proporsional berkontribusi kepada negara.
+kemudian aspirasi juga Pak Bimo terkait dengan adanya aturan pajak PP 20 itu.
+pajak PP 20 itu, Pak, yang disosialisasikan diumumkan bulan Mei, namun berlaku mulai di April, begitu Pak ya. Nah, ini ada keresahan.
+Keresahan terkait dengan laporan tahun selanjutnya, Pak, mereka takut. Misalnya, yang laporan karena berlakunya satu bulan sebelumnya itu, kemudian menjadi masalah. Kemudian hari ini mungkin nanti Bapak bisa bantu menerangkannya, Bapak.
+Kami secara prinsip mendukung Pak Dirjen terkait dengan usulan yang tadi disampaikan, namun demikian juga agar menjadi perhatian.
+Selanjutnya kepada Pak Jaka, Pak Dirjen Bea Cukai, terkait dengan dukungan bagi industri menengah untuk bisa mengekspor barang, Pak.
+Jadi tadi sudah diterangkan juga oleh Bapak terkait dengan klinik UMKM dan juga dukungan ekspor, ya.
+Nah, kiranya ke depan ini, seperti contoh, Pak, di dapil saya itu, Banyak perusahaan usaha kecil yang memproduksi seperti sepatu, baju, kami dari Bandung Pak, kota Bandung.
+Mereka ingin memberikan masukan bahwa bagaimana supaya jualan ke luar itu bisa lebih gampang Pak.
+Karena dulu, Cina majunya itu ketika memang proses eksportasi barang ini mudah. Nah, saya pikir ini negara harus hadir, Pak.
+Mungkin bisa dibuatkan sebuah terobosan ataupun kawasan khusus sehingga secara kolektif barang ini yang sedikit-sedikit di ekspor itu dikolektifkan gitu Pak.
+Kami mendapatkan masukan seperti itu Pak Dirjen. Nah ini tentu kalau misalnya kemudahan daripada ekspor ini, mereka mau Pak bayar tetapi ingin dipermudah gitu.
+khususnya dari sisi ongkos, Pak. Mereka tiba-tiba... Ongkos pak.
+Mereka tidak keberatan dengan tarif lain tapi Ongkos kirimnya ini ya supaya bisa lebih ekonomis ke depan seperti apa pak.
+Selanjutnya, bagi dirjen Anggaran dan Pak Ferry, DJSF, terkait dengan penguatan kelas menengah. Saya setiap kesempatan ketemu Pak Ferry saya ngomong ini, Pak.
+bagaimana kiranya sebagai tulang punggung ekonomi ini dan penopang pertumbuhan dibuatkan strategi agar kelas menengah ini bisa lebih kuat.
+Syukur-syukur tambah banyak kuat. Jangan sebaliknya kelas tengah yang turun, tapi kelas bawah yang bisa naik ke tengah ini terkait dengan DJSF dan mungkin dari DJA Anggaran, Pak Sudarto ke depan terobosan-terobosan, Pak. Jadi di dalam pelaksanaan nanti 2027 ini bagaimana, Pak, terobosannya?
+Karena impactnya ini sangat luas, khususnya terkait dengan kontribusi pajak dari mereka dan juga dari aspek kepada tenaga kerja yang terakhir bagi DJKN kekayaan negara itu menarik yang tadi Ibu sampaikan, namun apakah memungkinkan Bu terkait dengan optimalisasi aset aset yang dimiliki oleh kekayaan negara ini untuk menunjang ekonomi daerah, Bu.
+Kalau misalnya ada lahan-lahan, tadi kan sudah banyak lahan dipergunakan untuk macam-macam yang sangat positif, tetapi kiranya ada lagi bilamana pemerintah daerah memungkinkan berkolaborasi untuk menggunakan lahan yang di dalam kelolaan kekayaan negara, ditjen kekayaan negara, seperti apa bu?
+Mungkin misalnya kalau ada lahan yang dekat area pasar itu kan bisa mengurai permasalahan pasar tumpah dan juga kaki lima yang mungkin tidak menempati dagangan pada tempatnya.
+Nah kiranya bisa itu seperti apa bu? Apa yang harus dilakukan oleh pemerintah daerah?
+Itu saja masukan semoga bisa menjadi perhatian untuk apa dikerjakan di 2027 nanti ketika ini kita sepakati.
+Itu saja Pak Ketua saya kembalikan terima kasih. Dari anggota cukup. Sekarang pimpinan, Pak.
+Baik Pak Ketua, pak dolfi dan kawan-kawan anggota yang saya hormati, yang saya banggakan, karena ini baru konteksnya pengantar, maka ada beberapa hal yang pengen saya tanyakan, baik kepada Pak Bimo DJ Pajak, Bea Cukai, Pak Sudarto, Pak Ferry, Pak Herman, maupun Ibu Rahayu Puspa Sari, terus sama tadi dari LMAN Ibu Puspita Sari.
+Pertama saya nggak tau persis ya, kini di Kementerian Keuangan ini ada tujuh PLT, Pelaksana Tugas.
+Saya tadi mau instruksi di awal apakah mekanisme PLT ini memang terakhir kemarin yang penting ada surat dari Menteri ke sini, Menteri menunjuk PLT Dirjen, tapi alangkah tidak eloknya ketika PLT itu banyak sekali di kementerian.
+Ini ya kurang lebih ada 7 PLT. Silahkan didefinitifkan saja dan kami menerima.
+Nah, apalagi tentang mengambil keputusan yang sangat krusial seperti ini. Itu yang pertama.
+Yang kedua, saya minta tertulis nanti perbandingan anggaran di tahun 2025 lah minimal, 2025, 2026 dan 2027 masing-masing dirjen, Pak.
+Saya melihat seluruh dirjen ini turun, Pak. Dirjen anggaran dari 45 miIiar menjadi 33 miIiar. Ditjen Pajak dari Rp6,2 triliun menjadi Rp5,4 triliun.
+hampir Pak Bimo 800 miIiar penurunannya. Nah turunnya itu dimana Pak? Kalau turunnya di dukungan manajemen, saya rasa nggak ada masalah.
+Tapi jangan juga turunnya itu pada pengelolaan penerimaan negara.
+Ini kan repot, sementara target ditjen Pajak dalam konteks sekarang ini kan sangat luar biasa hampir dinaikkan lagi Pak Bimo.
+Nah, kalau duman, dukungan manajemen yang turun itu lebih pada internal.
+Tapi kalau, apa yang disampaikan oleh kawan-kawan tadi, itu pengelolaan penerimaan negara yang dilakukan penurunan, itu akan repot.
+Nah, kami minta perbandingan di tahun 2025, 2026 dan 2027. Kira-kira, dumannya turun atau tidak, karena kita tidak bisa membahas satu antaranya, terus dukungan pengelolaan negara juga seperti itu. Nah, menarik nih ditjennya Pak Jaka, Pak.
+Bapak yang paling naik, paling banyak naiknya nih. Periode 2026 3,2 triliun, sekarang menjadi turun dari 3,2 menjadi 2,8.
+Artinya kurang lebih 400 miIiar turunnya, Pak. sama pertanyaan saya Pak, jangan sampai kan dua Pak, satu duman, dukungan manajemen itu hampir 2 triliun, sisanya pengelolaan penerimaan negara 749 miIiar sama kebijakan fiskal sektor keuangan dan ekonomi.
+Nah saya minta bandingannya Pak, minimal di tahun 2026 dan 2027, turunnya di mana? seperti itu.
+Dan diusahakan jangan sampai turunnya itu pada program pengelolaan, Pak.
+Nah, kalau di duman sih bisa kita maklumi lah, dukungan manajemen nih kan ya lebih kepada internal.
+Terus sama dengan Pak Direktorat Jenderal Stabilitas dan Pengembangan Sektor Keuangan, Pak Herman ya. Sama Pak Herman dari 87 miIiar menjadi 55 miIiar.
+Nah turunnya di mana, apakah di dukungan manajemen, karena gampang Pak kalau dengan ditjen-ditjen ini, dumannya dibanyakin aja.
+Nah begitu pun dengan Pak Sudarto di ditjen anggaran, Ditjen anggaran dari 45 miIiar menjadi 33 miIiar, itu kurang lebih 12 miIiar turunnya.
+Nah, ini menarik dari Bu Rahayu Puspa Sari, PLT Dirjen DJKN Negara dari 913 miIiar menjadi 724 miIiar.
+Siapa yang tahu bu, turunnya dimana, gitu loh. Nah, mudah-mudahan turunnya tidak pada program, tapi turunnya pada dukungan manajemen.
+Mungkin begitu juga dengan Pak Ferry ya.
+Mungkin nanti tolong dilampirkan karena ini baru pembicaraan awal, nanti kami bisa melihat dan menilai untuk lebih lanjutnya.
+Kira-kira seperti itu Pak Ketua terima kasih. Terima kasih Pak Fauzi, Pak Dolfi, saya persilakan.
+Terima kasih ketua yang terhormat pimpinan Bapak Ibu Anggota Komisi 11 yang terhormat para dirjen kementerian keuangan beserta jajarannya.
+Untuk semua dirjen sesuai dengan undang-undang keuangan negara Pasal 14, rencana kerja dan anggaran disusun berdasarkan prestasi kerja yang akan dicapai.
+Nah nanti pada saat penyampaian nota agar ini dilengkapi, rencana kerja ada, anggaran ada, prestasinya belum tentu ada. KPI ada. KPI dan prestasi itu berbeda Bapak Ibu.
+KPI bisa hanya kedalam prestasi yang kita inginkan apa manfaatnya untuk rakyat.
+Di tempat Pak Ferry semuanya kajian, gak ada hubungannya dengan rakyat.
+Di tempatnya Pak Herman juga jalan-jalan keluar negeri, gak tahu apa hubungannya dengan rakyat.
+Jadi tolong rencana kerja dan anggaran dilengkapi dengan prestasi yang akan dicapai. Ini semua keditjenan harus melengkapi ini.
+Kemudian yang kedua untuk ditjen Pajak, ini nanti saya minta tertulis saja Pak Bimo, dan kalau bisa nanti disampaikan pada saat nota juga.
+Selama ini kan kita tidak punya data penghasilan rakyat Indonesia.
+Menteri Keuangan selalu kalau presentasi menunjukkan daya beli tinggi indikatornya, berapa motor yang dijual, berapa mobil yang dijual.
+Tidak pernah menunjukkan berapa clustering penghasilan masyarakat Indonesia. Saya rasa yang punya data di pajak.
+Jadi penghasilan 5 juta, 10 juta, ditunjukkan Pak Bimo jumlah masyarakat kita yang bayar pajak, kan itu bisa gambaran, karena dengan konsep yang ditulis Pak Ferry ini, tumbuh lebih tinggi sejahtera lebih cepat, sejahtera lebih cepatnya gak ada angkanya.
+Kalau GNI yang kita jadikan patokan, 2026 8 juta per bulan, 2027 8 juta per bulan juga cepat, dimana sejahteranya?
+Apalagi kalau kita pertimbangkan GNI dengan kontribusi 20% atas, 40% menengah dan 40% bawah, di mana 20% lebih dominan di atas 60%, cepat di mana kalau 8 juta di 2027. 2026 GNI per kapita kalau kita hitung bulanan setiap penduduk Indonesia itu 8 juta per bulan pendapatannya, 2027 sama, 8 juta.
+jadi ini perlu Pak Bimo, nanti disampaikan secara tertulis berapa di saat nota keuangan sudah ada data-datanya, sehingga kita bisa mengukur dari tahun ke tahun, semakin banyak yang membayar pajak penghasilan di atas angka sebelumnya, tentu kita menginginkan bahwa ini peningkatan, kemudian untuk Bea Cukai, Pak Jaka.
+Kita harus kembali kepada filosofi Cukai dan Bea Masuk. Bea masuk dan Bea keluar sebenarnya. Kita nggak pernah evaluasi ini, terkait ini.
+Cukai. Cukai ini diberikan dalam rangka membatasi konsumsi masyarakat terhadap komoditi atau barang tertentu.
+Tercapai nggak ini Pak Jaka? Dengan pengenaan cukai, konsumsinya menurun. Tercapai nggak?
+jangan-jangan dengan cukai konsumsi tetap bertambah, bertambah, bertambah. Jadi nggak sesuai dengan tujuannya.
+Begitu juga dengan bea masuk. Ini ingin mengendalikan barang tertentu masuk ke Indonesia. Pernah di evaluasi nggak ini? Berhasil nggak ini?
+Begitu juga dengan bea keluar. Apakah kita sudah berhasil mengendalikan barang-barang tertentu untuk keluar dari Indonesia?
+Jangan-jangan volumenya bertambah. Ini tolong kita diberikan data-data supaya kita paham ini cukai tempat bapak ini, bea dan cukai berhasil atau tidak.
+Satu, di dalam membatasi konsumsi. Dua, dalam mengendalikan barang-barang yang masuk dan keluar ini harus diperlihatkan data-data ekspor impor kita terhadap komoditi-komoditi yang kena bea keluar dan bea masuk, ini berhasil atau tidak.
+Kalau cuman angka-angka kuantitatif yang Bapak sampaikan targetnya apanya itu iya tapi tujuannya tercapai nggak?
+Itu yang saya ingin dapat dilengkapi oleh Bea Cukai nanti pada saat nota juga nggak apa-apa, karena ini butuh data-data jangan normatif kita nggak butuh yang normatif, kita butuh yang konkret datanya.
+Ditjen Anggaran, tadi disampaikan oleh Pak Sudarto dalam presentasi tugas Ditjen Anggaran adalah pengalokasian sumber daya fiskal.
+Nah saya ingin tahu konsep dari Ditjen Anggaran ini terhadap pengalokasian sumber daya fiskal untuk memenuhi kualitas belanja itu.
+Saya ingin mengembalikan ke undang-undang Keuangan Negara Pasal 14, Pak Darto, jadi nanti di nota keuangan 2027 karena penyusunan APBN ini kan di kementerian keuangan format dan sebagainya.
+Itu harus diwajibkan KL-KL itu menyampaikan apa prestasinya dengan anggaran segitu itu apa prestasinya.
+Prestasi yang harus diukur manfaatnya untuk rakyat, bukan birokrasinya, transparansi, dan blabla, itu sih sudah seharusnya, tetapi manfaat untuk rakyatnya itu apa?
+Nah ini agar pada saat penyampaian nota, KL-KL sudah menyampaikan itu, Pak Darto. Bisa ya Pak?
+Kemudian apakah di tempat Bapak ini yang menyusun 20 persen anggaran pendidikan?
+Betul, nah saya mau tunjukin dulu nih yang kayak ini, ini nggak pernah tercapai nih Pak.
+Dan menurut saya ini PR yang harus diselesaikan oleh Pak Darto sebagai dirjen yang baru, ini Pak dari 2021 sampai 2025 berapa itu anggaran pendidikan yang tidak direalisasikan, 2021 70 triliun, 2022 141 triliun, 2023 110 triliun, 2024 Rp99 triliun.
+Kenapa? Karena disembunyikan atau ditaruh di pembiayaan. Di pembiayaan itu, Pak Darto.
+Coba Pak Darto lihat itu dulu Pak, pembiayaan. 2021 dialokasikan 66 realisasi 29. 2022 alokasi 117 realisasi 20. Ini yang menyebabkan anggaran pendidikan tidak pernah tercapai 20 persen.
+20 persen, hak konstitusional rakyat di bidang pendidikan Bapak rampas, Kementerian Keuangan ini, nanti DJSF sama ini nih urusannya ini, kan Bapak urusan fiskal kan, menyusun KEM-PPKF dan nota, Pak Sudarto mengalokasikannya, ini diperhatikan Pak, ini hak konstitusi rakyat dirampas begitu saja.
+Coba kita baca PP-nya, PP-nya tolong.
+Ini PP 18 tahun 2022 pasal 80 ayat 1, itu jelas.
+Anggaran pendidikan dalam anggaran pendapatan dan belanja negara setiap tahun anggaran sekurang-kurangnya dialokasikan 20 persen dari belanja negara.
+Tidak ada pembiayaan, belanja negara, tapi pemerintah selalu menyusupkan di pembiayaan untuk mengendalikan SBN seolah-olah.
+Seolah-olah SBN dikontribusikan hanya dari pendidikan padahal semua sektor berkontribusi menciptakan utang yang harus ditanggung di SBN kenapa yang dibebankan kepada pendidikan dengan memasukkan di postur pembiayaan.
+jadi ini pp nya jelas 20% dari belanja negara. Coba kembalikan ke tabel tadi.
+Itu, jadi tidak ada Pak Darto, Pak Ferry yang dimasukkan di pembiayaan.
+Nomenklatur kita, pendapatan negara, belanja negara, defisit di bawah pembiayaan.
+Jadi nomenklatur belanja itu jelas, bukan di jadi pembiayaan itu harus dipindah ke belanja pusat atau transfer pusat atau transfer ke daerah.
+Nah itu yang ingin kami lihat nanti di nota keuangan 2027. Kalau masih sama cara berpikirnya, berarti masih sama.
+Menurut putusan MK itu merampas hak konstitusional rakyat di bidang pendidikan yang diatur di dalam undang-undang dasar 1945. Jadi ini saya nanti minta untuk disesuaikan di nota 2027. Apalagi sekarang ada putusan MK yang mewajibkan sekolah gratis untuk SD dan SMP.
+Jadi seharusnya yang di pembiayaan itu pastilah terserap. Gak mungkin dikasih cadangan seperti ini.
+Dari tahun ke tahun di atas 50 triliun bahkan pernah 100 triliun tidak terserap.
+Kalau ini dialokasikan untuk bangun sekolah yang rusak, kan luar biasa ini.
+Kemudian yang berikutnya untuk dirjen anggaran, Pak Darto ikut menentukan SPM nggak ya untuk transfer daerah. di ditjen yang lain ya. Oke, skip berarti.
+Kemudian untuk ditjen kekayaan negara, tadi sudah disampaikan tentang aset dan sebagainya.
+Tanya, barang milik negara apakah sudah ada yang diserahkan ke BPI Danantara?
+Langsung aja bu, ada atau tidak? Sepemahaman kami Pak, kalau ke BPI Danantara berarti melalui skema PMN ya Pak? Yang belum ada. Aset, yang saya tanya aset. Aset itu kan barang milik negara, bisa bangunan, bisa tanah. Betul Pak. Karena sudah ada yang diserahkan kepada BPI Danantara. BMN pada BPI Danantara.
+BMN yang diserahkan untuk BPI Danantara belum ada. Oh iya, saya ingatkan aja karena sesuai pasal 45 pasal 46 undang-undang perbendaharaan negara, BMN yang diserahkan pihak lain harus persetujuan DPR.
+Untuk ingetin aja nih, jangan sampai lupa ya bu. Sekarang banyak yang suka pura-pura lupa.
+Aset, saya minta bu, ini kan tadi sudah disampaikan aset negara kita berapa? 14.000 sekian triliun. Betul kan?
+Ini yang diinformasikan ke presiden bahwa BPI Danantara atau negara kita menguasai 14.000 triliun itu.
+Ternyata kan profilnya seperti ini. Sebagian besar, 11.000 triliun lebih itu kewajiban, ekuitasnya hanya 3.000 triliun.
+saya ingin minta bu aset ini diklasifikasikan menjadi 3 Kenapa nanti Ibu pasti tahu.
+Pertama aset-aset mana saja yang termasuk pada cabang-cabang produksi yang penting bagi negara dan menguasai hajat hidup orang banyak.
+Kedua, aset-aset mana saja yang masuk di dalam bumi air kekayaan alam yang terkandung di dalamnya.
+Ketiga aset lainnya dari yang satu dan dua itu. Karena yang satu dan dua ini punya treatment khusus dibanding aset-aset lainnya.
+Jadi nanti tolong dikategorikan seperti itu, nanti saya minta tertulis, tidak perlu tergesa-gesa, nanti pada saat nota sudah disampaikan.
+Terima kasih, Pak Dolfi. Saya ada beberapa hal ingin saya tanyakan mengenai, tadi kalau Pak Dolfi mengenai barang milik negara, saya ingin mengetahui kan aset yang 14.600 triliun ini disebutkan oleh Ibu Dirjen tadi, kemudian ada kewajiban dan kemudian ekuitas.
+Aset senilai 14.698 triliun ini berdasarkan LKPP. Tentunya ini kan yang dimasukkan di dalam LKPP.
+Berdasarkan atas apa dimasukkan ke LKPP ini, Bu. Saya ingin tahu tentang aspek legalitasnya.
+Jangan sampai kemudian karena ini kan banyak di dalam aspek ini, aset ini adalah misalnya contoh, dulu sisa eks-BLBI, kemudian bank beku operasi dan sebagainya, dimana pada kasus itu diserahkan ke negara karena aset pada saat itu mempunyai aspek legalitas yang lemah Nah, sehingga oleh BPPN itu tidak bisa dilakukan melalui asset recovery.
+Saya ingin tahu ini apakah aspek legalitas itu sudah diselesaikan oleh Kementerian Keuangan karena 2004 BPPN itu sudah dibubarkan.
+Dan sekarang sudah 22 tahun. Kita ingin tahu. Dan belum lagi kemudian ada saya ingin tahu apakah di antara aset ini, ini kan LKPP tahun 2025 yang ibu sampaikan, beberapa aset yang disita oleh proses hukum apakah sudah masuk disini?
+Ini yang perlu saya sampaikan jangan sampai kemudian negara membukukan aset yang mempunyai posisi hukum masih lemah.
+Dan kemudian hanya pengakuan sepihak oleh negara. Nah ini kan masalah manajemen aset.
+Saya ingin mendapatkan jawaban soal itu. Terus kemudian mengenai BLU LMAN.
+BLU LMAN ini tadi kan menyebutkan akan ada pengelolaan beberapa aset yang tidak dijelaskan oleh LMAN ini adalah untuk recovery asset yang bisa menghasilkan penghasilan sebesar itu, berapa investasi yang dikeluarkan? Kemudian mengenai penerimaan, saya terima kasih kalau Pak Bimo ini, karena ada luar biasa sudah tumbuh penerimaan kita 22,1%.
+Beberapa kali akhir ini saya melihat bahwa paparan yang disampaikan oleh Menteri Keuangan sudah mulai banyak berubah dan saya juga ingin ada paparan yang juga mulai berubah di kalangan Eselon 1-nya.
+Contoh mengenai di penerimaan pajak. Sebenarnya tugas direktorat jenderal pajak itu adalah mengadministrasikan semua sistem pemungutan pajak, hanya mengadministrasikan.
+Pembayaran ada di bank. Kontribusi masing-masing kementerian lembaga memungut bendahara negara, kemudian disetorkan ke bank.
+Tugas ditjen Pajak itu adalah memonitor semua pembayaran tersebut apakah sesuai.
+Pajak juga punya kontribusi yang luar biasa terhadap PPN impor. PPN impor dipungut melalui mekanisme pengenaan barang masuk oleh bea dan cukai ketika membayar bea masuk, disitu ada komponen PPH impor dan PPN impor.
+Nah ini kan harus mulai dipaparkan. Jadi kita ini kepingin tahu seberapa besar sih beban direktorat jenderal pajak yang sebenarnya dalam mengadministrasikan penerimaan, membangun sistem penerimaan ini.
+Jadi yang dipungut langsung oleh direktorat jenderal pajak itu adalah dari sistem mana.
+Kemudian kita juga ingin tahu dari seluruh penerimaan itu, yang murni penerimaan pajak itu berapa, dari sanksi administrasi berapa, denda lapor dan sebagainya, itu berapa? Dan kemudian dari sanksi karena penegakan aturan itu berapa?
+Sehingga kita bisa memprofilkan semuanya bahwa sistem kita ini harus ada perbaikan-perbaikan yang seperti apa dari data yang kita sebenarnya sudah ada.
+Nah inilah yang kalau menurut saya ini akan menjadi sebuah terobosan baru kalau kita memberikan paparan.
+Saya lihat tadi ada Pak Ferry, ada Pak Darto, kemudian Pak Herman, dan Bu Rahayu sudah mulai agak berubah paparannya dibandingkan sebelumnya.
+Nah saya ingin juga ini merubah itu sehingga kita itu tahu secara detail sebenarnya seperti apa beban.
+Jaka tadi juga menyampaikan tapi kurang detail kalau menurut saya.
+Saya ingin menambahkan itu, Pak. Sehingga kita tahu, Bapak akan lebih tahu, oh ternyata beban saya seperti apa di direktorat Jenderal Pajak ini.
+Sehingga coretax saya kelebihannya di mana, terus saya tambahkan di mana penguatannya. Itu, Pak.
+Kemudian yang terakhir saya ingin tanya mengenai UMKM ini, Pak.
+karena keluarnya PP 20 tahun 2026 bahwa saya ingin mengutip pasal 31 E undang-undang HPP, dimana itu jelas mengatakan bahwa wajib pajak badan dalam negeri dengan peredaran bruto sampai dengan 50 miIiar, mendapatkan pengurangan sebesar 50 persen, kemudian tersebut yang pasal 17, dan kemudian penghasilan kena pajak bagian peredaran bruto sampai dengan 4,8 miIiar.
+Itu disebutkan di sana itu adalah wajib pajak badan.
+Dan yang saya kaget, kemudian PP-nya itu merefinisikan ulang undang-undangnya.
+Hanya memberikan, jadi jelas di situ, bahwa yang diatur di sana itu adalah peredaran usaha, bukan mengenai jenis penerima peredaran usaha itu.
+Jadi kenapa kemudian PP-nya itu, kemudian wajib pajak dalam negeri yang mempunyai atau kualifikasi wajib pajak orang pribadi dan wajib pajak badan berbentuk perseroan perorangan.
+Kenapa ini bisa Pak? Undang-undang yang mengatakan apa, PP yang mengatakan berbeda.
+hal inilah kalau menurut saya, saya minta tolong ini sebelum menjadi persoalan yang serius terjadi distorsi antara PP dengan undang-undangnya itu sendiri ini mohon untuk dikaji kembali.
+Karena undang-undang itu mengatur tentang threshold peredaran Usaha. Tidak mengatur siapa yang kemudian menggunakan threshold 4,8 miliar tersebut.
+Kami perlu menyampaikan, Pak. Ini ada Pak Dolfi, ada Pak Melkyas juga.
+Karena yang mengusulkan ini dulu Golkar, Pak, undang-undang ini, untuk dikenakan 0,5.
+Karena kami mempunyai prinsip di Golkar ini bahwa UMKM ini perlu diberikan perlindungan.
+Baik itu UMKM dalam bentuk CV, PT, atau apapun, Pak. Jadi pada kesempatan ini saya minta kemurahan hati Bapak-Bapak, untuk kemudian bisa mengkaji kembali apakah PP tersebut linear dengan undang-undangnya. Itu saja yang bisa saya sampaikan.
+Terima kasih. Saya persilakan kepada Dirjen Pajak, Bea Cukai, dan kemudian yang lain, berurutan tadi untuk 5 menit.
+Saya bisa sedikit. Ini tadi per fraksi, Pak Melkyas. Ya, saya kan anggota fraksi.
+Jadi saya minta sedikit saja. Saya mau tanya ke dirjen Bea Cukai, kan dengan ada kebijakan Bapak Presiden mengenai policy tentang ekspor impor yang pasti Ini sangat bagus untuk bangsa dan negara.
+Tapi pasti ada dampak-dampaknya Pak. Dan saya lihat anggaran Bea Cukai kok nggak nambah.
+Saya takut nanti Pak dengan policy ini penyelundupan semakin marak melalui pelabuhan-pelabuhan yang kecil Pak.
+Negara kita ini kan luas Pak. Mungkin di pelabuhan-pelabuhan besar, Bapak bisa kawal, Bapak bisa kontrol, tapi pelabuhan-pelabuhan kecil yang begitu banyak, ini juga akan bisa menjadi cara mereka untuk melakukan seperti yang mereka lakukan under invoice, transfer pricing.
+Nah ini apakah sudah ada kajian dan strategi untuk bisa menutup ini, Pak.
+Karena jangan sampai kebijakannya bagus tapi pelaksanaan di bawahnya tidak ada, dan ini pasti perlu dukungan anggaran gitu.
+Jadi kalau Bea Cukai ingin menambah anggaran dengan memperbaiki pelabuhan-pelabuhan kecil menaruh main power di sana dengan sistem segala macam itu akan sangat membantu untuk menjaga kebocoran daripada anggaran kita.
+yang satu lagi untuk dirjen pajak. Saya lihat anggarannya 5,4 triliun hampir 40 persen untuk pengawasan dan penegakan hukum. Ini apa saja sih Pak?
+Kok dari 5,4 triliun, 1,98 triliun untuk ini? Kenapa nggak untuk perluasan penerimaan pajak, tapi malah biaya untuk penegakan hukum itu yang besar.
+apa sih yang dibayar Pak di penegakan hukum ini, kenapa bisa ngambil 40 persen dari anggaran dari Ditjen Pajak. Itu aja, pimpinan, terima kasih.
+Terima kasih Pak Melkyas, saya beri kesempatan masing-masing 5 menit, selebihnya nanti akan tertulis, karena ini kan masih KEM-PPKF, nanti kita akan membahas lebih dalam lagi pada saat anggaran yang sudah menjadi pagu nominatif kita di nota keuangan.
+Saya persilakan kepada Pak Ditjen. Terima kasih, Pak Pimpinan. Kita coba jawab secara umum dulu, Pak. Nanti kami sampaikan detailnya dalam jawaban tertulis.
+Dari beberapa fraksi tadi, ada beberapa highlight memang, Yang pertama, mungkin yang kami jawab dahulu dari proyeksi PDIP ini terkait dengan langkah-langkah untuk mencapai target 2027 kemudian persoalan fundamental, shadow economy dan segala macam, di dalam paparan kami, Bapak, kami sudah sampaikan bahwa Coretax itu dan juga kegiatan intensifikasi maupun ekstensifikasi kami, kami sudah bisa menyampaikan bahwa basis pajak yang tercipta baru, yang betul-betul baru, itu sudah menambah sekitar 28 ribuan sekian, Bapak, sementara angkanya saya cek dulu, Bapak.
+Kemudian Di luar itu juga ada tambahan identifikasi terhadap transaksi dari wajib pajak-wajib pajak yang sebelumnya dormant, inefektif, bisa kami reaktivasi.
+Jadi seiring dengan intensifikasi yang katakan tadi pertanyaan terakhir dari Pak Melkyas Mekeng ya.
+Intensifikasi yang berupa pengawasan itu juga termasuk didalamnya kegiatan pengumpulan data, Bapak, yang mana itu juga bagian yang tidak terpisahkan dari ekstensifikasi untuk menambah basis baru.
+Jadi, itu merupakan kombinasi tidak hanya penegakan hukum, tetapi juga program pengawasan yang didalamnya ada kegiatan intensifikasi dan ekstensifikasi, kemudian pertanyaan yang terkait dengan ekonomi informal, ini memang menjadi fokus kami, underground economy, shadow economy, kemudian target digital economy global ini menjadi fokus kami.
+Nah, terkait dengan pertanyaan subjek pajak luar negeri, betul sekali Bapak, kami terikat kepada Multilateral Convention maupun bilateral Convention dalam bentuk Tax Treaty untuk PPN perdagangan melalui sistem elektronik itu merupakan pengejawantahan pilar 1, dimana kita berhak memajaki transaksi atas wajib pajak subjek pajak luar negeri yang menggunakan aktivitas ekonomi di domestik.
+Nah, yang terkait dengan pilar 2 ini, kami akan mulai intensifkan mulai 2026 ke 2027 hak pemajakan global minimum tax.
+Yang mana masih menjadi PR kami adalah bagaimana seperti kasus Google yang kita pada saat itu tetapkan BUT-nya, itu di dalam tax treaty juga bisa diperkuat bahwa kita bisa menetapkan BUT berdasarkan faktor ekonomi yang ada di Indonesia.
+sebagai catatan pemain-pemain global di bidang digital economy juga sudah tercatat sebagai wajib pajak di KPP Badora, di KPP PMA kami.
+Jadi tidak serta merta kita kehilangan potensi PPH-nya. Mungkin secara umum, karena waktunya 5 menit, kami sampaikan dahulu yang kami highlight. Selanjutnya kami persilakan Bapak Ibu Dirjen yang lain untuk menjawab secara singkat. Saya persilakan Pak Dirjen Bea Cukai.
+Terima kasih, Bapak pimpinan serta Anggota Komisi 11 DPR. Izinkan menanggapi terkait dengan pertanyaan-pertanyaan yang disampaikan kepada Ditjen Bea Cukai yang intinya bahwa tugas bea cukai adalah bagaimana kita bisa melakukan mengawasi lalu lintas barang masuk atau pun keluar daerah Pabean, serta memungut cukai terhadap barang-barang yang dilakukan pembatasan.
+Disini saya sampaikan bahwa untuk kegiatan ekspor impor ya tentunya kita bagi bagaimana kita melakukan pencegahan ataupun menghindari dari kegiatan-kegiatan ilegal, secara umum bahwa kebijakan yang akan dilakukan oleh bea cukai untuk ke depan adalah dengan memaksimalkan atau memanfaatkan teknologi yang tadi disampaikan berkaitan dengan AI.
+Beberapa waktu yang lalu kita sudah mengembangkan secara mandiri AI dalam mencegah terjadinya under invoice.
+Kita melakukan pengembangan terhadap dan ke depannya kita akan lebih menyempurnakan kembali secara terus menerus kita mengisi data ataupun mengisi algoritma dari kebiasaan-kebiasaan pelaku ekspor maupun importir sehingga sedikit banyak kita bisa mencegah terjadinya under-invoicing.
+Terbukti dengan saat ini kita memanfaatkan AI, kita sudah bisa sampai dengan bulan Juni ini untuk bea masuk.
+Ini untuk bea masuk, kita sudah hampir meningkat sampai 9 persen, Pak.
+Kemudian untuk kegiatan cukai, ya tentunya bahwa tadi disampaikan oleh Pak Dolfi bahwa salah satunya adalah pembatasan. Pembatasan bagaimana?
+Saya potong sedikit, Pak. Saya perlu dapat penjelasan Pak, kenaikan 9% itu karena penggunaan AI atau volume impornya bertambah.
+di samping pemanfaatan AI karena di sini kita sudah bisa melihat berapa harga dasar yang beredar di masyarakat ataupun yang ada di marketplace dan lain-lain sehingga potensi under invoice kita bisa minimalisir. Sedangkan untuk kenaikan impor pun ada terjadi lonjakan kenaikan impor.
+Kemudian untuk terkait dengan masalah cukai, tadi ada pembatasan, kita disini tentunya akan saling tarik menarik antara pembatasan maupun dengan bagaimana meningkatkan penerimaan negara.
+Ini kita sedang mencari formulasi, kita bisa melakukan pembatasan ataupun juga kita bisa meningkatkan penerimaan negara dan kita tidak bisa bekerja sendiri tentunya ada kebijakan fiskal yang nanti akan bagaimana solusi yang akan bisa diberikan kepada pemerintah yang terkait dengan meningkatnya penerimaan negara maupun pembatasan rokok-rokok ilegal.
+Kemudian kemarin itu terjadi peningkatan penumpukan kontainer di pelabuhan ini jika dikaitkan dengan keberadaan bea cukai sebagai lini terdepan di pelabuhan.
+Pada saat pelayanan keluar maupun masuk barang, kita sudah sesuai dengan standar yang diharapkan oleh nasional.
+Namun ketika kontainer-kontainer tersebut sudah mengalami pengeluaran barang, ini masih terjadi penumpukan karena para pelaku tidak dengan segera melakukan pengeluaran.
+karena contohnya seperti BYD kemudian dari Wuling, itu masih memanfaatkan fasilitas yang diberikan oleh pelabuhan selama 3 hari setelah SPPB keluar. Malah bahkan lebih dari 2 minggu dia tidak angkat keluar.
+kemarin itu hampir sekitar 10 ribu kontainer yang masih ada di pelabuhan. Sehingga kita melakukan pemaksaan kepada perusahaan tersebut untuk dengan secepatnya melakukan pengeluaran dari area pelabuhan atau bukan di area kepabeanan, dari sisi kepabeanan mereka sudah selesai intinya.
+dari sisi kepabeanan, administrasinya sudah selesai. Cuman yang belum mereka selesaikan adalah pengeluaran dari pelabuhan.
+karena masih ada, dia memanfaatkan 3 hari di pelabuhan hak yang masih bisa dia peroleh.
+Itu yang dimanfaatkan oleh perusahaan, karena kesulitan tempat di luar sehingga mereka dengan mengingat cost yang lebih murah daripada di luar mereka memanfaatkan itu.
+Mungkin kedepannya kita akan memanfaatkan segera mendorong mereka ke lini dua di tempat di luar pelabuhan.
+Mungkin itu pak secara garis besar, kemudian terkait dengan Danantara kita sama-sama melakukan koordinasi yang ketat.
+Danantara pun tentang sumber daya manusianya perlu dilakukan bimbingan ataupun penataran untuk bisa bagaimana dia melakukan proses impor ataupun ekspor ke luar, Pak. Mungkin itu, Pak, yang bisa kami sampaikan. Terima kasih, Pak. Jadi saya beri kesempatan kepada Pak Darto dulu. Silakan, Pak Darto.
+Terima kasih, pimpinan. Singkat, pertama, kami mulai dari Pak Dolfi. terkait dengan perlunya memasukkan prestasi Pak dalam anggaran KL nanti, dan yang kedua adalah catatan terkait dengan anggaran pendidikan Pak akan menjadi perhatian kami untuk penyusunan nota nanti.
+Yang kedua nanti akan kami sampaikan secara tertulis catatan dari Pak Fauzi, khususnya terkait dengan perbandingan anggaran 2025, 2026 dan 2027. kemudian dari Bu Putri terkait dengan SDM yang dipindahkan bukan ke DJA, dari DJA ke DJP. Kami juga sebenarnya meminta dari DJP juga ke DJA. Kemudian dari Pak Syoibul Iman terkait dengan PNBP.
+Jadi, kami bisa laporkan bahwa sampai dengan Mei 2026, capaian PNBP adalah 49,7 persen, Harapannya nanti sampai dengan akhir tahun bisa melebihi pagu target penerimaan.
+Tentunya kami terus melihat perkembangan, khususnya terkait dengan dinamisasi global juga kebijakan pengelolaan SDA di kementerian lembaga.
+Dan terakhir dari Bu Andi, ini sangat menarik, saya terima kasih nih Bu Andi menyampaikan ini gitu.
+Kami ini adalah inti utama daripada pengelolaan anggaran, Pak.
+Jadi mohon berkenan Bu Andi untuk terus mengingatkan kami terkait dengan dampak daripada APBN dan juga Disiplin Fiskal.
+Jadi kalau kita basic daripada public expenditure management adalah 3. Satu adalah aggregate fiscal discipline, yang kedua adalah allocative efficiency, dan tiga adalah operational efficiency.
+Ini yang selalu kami pegang, Pak. jadi mungkin kami mulai dari operational efficiency adalah setelah APBN itu ditetapkan bagaimana pelaksanaannya dengan sangat baik.
+Oleh karena itu, kami salah satu misalnya digitalisasi penerimaan maupun dari belanja, termasuk arahan dari DPR untuk terus menggunakan data DTKS sebagai data tunggal, sebagai basis untuk penyaluran bantuan sosial dan bantuan pemerintah.
+Ini akan kami terus dorong di seluruh kementerian lembaga. Sehingga kita punya satu single database terkait dengan bantuan sosial maupun bantuan pemerintah termasuk subsidi. Ini saya yakin akan meningkatkan operational efficiency dari APBN.
+jadi kualitas dari belanja kita akan meningkat. Yang kedua adalah terkait dengan allocative efficiency, dimana tadi ini adalah corenya adalah bagaimana belanja negara itu memang benar-benar berdampak kepada masyarakat ataupun berdampak kepada target-target ditetapkan oleh pemerintah.
+Di tahun 2026 dan tahun 2027 nanti kami sangat dibantu dengan telah ditetapkannya program kerja prioritas nasional, dimana di tahun 2027 nanti telah ditetapkan 60 program dimana outputnya sudah jelas itu, misalnya kampung nelayan, termasuk sebenarnya bansos dan bantuan lainnya maupun subsidi. Tentu ini yang menjadi fokus dari APBN dan itulah mungkin kualitas daripada belanja ada disitu, sedangkan yang lainnya tentunya perlu menyesuaikan ya.
+Sebanyak tahun ya karena tadi saya ambil yang pertama adalah aggregate fiscal discipline. Kami tetap harus menjaga aggregate fiscal discipline dimana didalam undang-undang keuangan negara ditetapkan bahwa pinjaman tidak melebihi 60% dari GDP sedangkan defisitnya tidak lebih dari 3%.
+Oleh karena itu kami akan terus adjust sepanjang tahun mulai dari perancangnya. Seperti di KEM-PPKF tahun ini, defisitnya sudah ditetapkan yaitu sepanjang, dari 1,8 sampai dengan 2,4% dari PDB.
+itu akan kami terus pegang dan tentunya dinamika sepanjang tahun akan menjadi perhatian kami sehingga disiplin anggaran, karena kita paham bahwa keinginan belanja itu pasti tidak terbatas, sedangkan penerimaan itu pasti terbatas, sebab itu disiplin anggaran sebagaimana ditetapkan undang-undang tetap akan menjadi perhatian kami dan yang memperhatikan dinamika perkembangan sepanjang tahun pengurusan anggaran. Mungkin itu secara singkat dan kami berharap hal ini terus menjadi diskusi kita terus. Saya yakin bahwa ini akan terus evolving sepanjang tahun ini.
+Terakhir disampaikan oleh Mbak Anissa terkait dengan hubungan antar Eselon 1 ya.
+Ini memang sangat menarik, karena pada akhirnya DJA Menjadi ujung akhir daripada seluruh kegiatan tersebut.
+Dan kami pun secara teknis juga terlibat, sampai kegiatan Pak Jaka dan Pak Bimo terkait misalnya joint program karena ada penerimaan di kami. Kemudian kalau misalnya ada policy-policy fiskal yang dibuat oleh DJSF pada akhirnya pasti akan masuk menjadi kebijakan APBN, kebijakan pengalokasian anggaran, ataupun juga di sisi pendapatan, dibuatkan halnya segala sesuatu yang terkait dengan kekayaan negara di DJKN Pada akhirnya akan juga berdampak kepada APBN pada sisi penerimaan dan maupun di sisi pengeluaran.
+Oleh karena itu, sampaikan pimpinan ini tadi melalui saran tepat bahwa integrasi pelaksanaan pekerjaan di seluruh unit dan seluruh kementerian keuangan, memang terus selalu diperbaiki dan ditingkatkan. Terima kasih Pak Ketua. Terima kasih, Pak Darto. Silahkan Pak Ferry.
+Terima kasih pimpinan terkait tanggapan dari Pak Aris terkait dengan target pertumbuhan.
+terkait dengan target pertumbuhan, kami menetapkan target pertumbuhan itu berdasarkan proyeksi dengan berbagai indikator fundamental dan seluruh pertumbuhan ekonomi secara komprehensif, jadi tidak hanya pertumbuhan pada konsumsi rumah tangga.
+Untuk tahun depan memang untuk pertumbuhan ekonomi banyak disokong oleh investasi karena adanya pembangunan proyek strategis nasional, percepatan hilirisasi dan industrialisasi, dan peningkatan investasi manufaktur bernilai tambah tinggi.
+terkait dengan ICOR, ada beberapa langkah yang kami lakukan untuk menurunkan ICOR, misalnya terkait dengan reorientasi belanja modal ke produktif, peningkatan kualitas belanja, kemudian mendorong pembiayaan inovatif melalui kerjasama pemerintah dan badan usaha dan blended finance.
+Kemudian terkait dengan rasio dan cicilan bunga utang, kami akan menjaga dalam level yang terkendali tadi sampaikan oleh Pak Sudarto terkait dengan defisit fiskal ya.
+defisit fiskal yang semakin menurun ini juga kami lakukan juga melalui salah satu upaya strategis menjaga volatilitas valas bersama dengan otoritas moneter.
+Kemudian terkait pelaksanaan program prioritas kami berkomitmen tetap menjaga efektivitas dan kualitas program, termasuk juga optimalisasi implementasi DTKS untuk menjaga ketepatan sasaran penerima manfaat program.
+Terkait dengan pertanyaan dari Bu Putri dari Fraksi Partai Golkar, kami dari DJSF merumuskan kebijakan fiskal untuk penciptaan lapangan kerja produktif melalui pendekatan sisi permintaan dan sisi penawaran. Sektor prioritas peningkatan produktivitas meliputi industri padat karya, misalnya alas kaki, textile, furniture, kemudian pariwisata, hotel.
+pariwisata, hotel, restoran, dan transportasi daring, dan logistik, serta pertanian melalui hilirisasi dan digitalisasi. Beberapa stimulus fiskal yang diharapkan mendorong penciptaan lapangan kerja yang telah digulirkan sejak tahun lalu adalah insentif PPH 21 DTP Sektor Padat Karya dan Pariwisata kemudian program magang fresh graduate dengan uang saku UMP, diskon iuran JKK dan JKM 90 persen bagi transportasi daring, subsidi kredit investasi revitalisasi mesin, serta program padat karya tunai.
+Terkait pertanyaan Pak Fauzi dari Fraksi Partai Nasdem, Pemerintah menjaga kesehatan kelas menengah di antaranya melalui insentif PPH 21 untuk pekerja di sektor padat karya dan pariwisata, kemudian pembebasan PPN rumah sampai dengan 2 miIiar dan relaksasi PPH final UMKM. Sementara pendorong penyerapan tenaga kerja diutamakan melalui implementasi beberapa program prioritas seperti MBG yang menyerap 1,5 juta tenaga kerja, kemudian akselerasi program bahan-bahannya seperti kampung nelayan merah putih dengan target 200.000 nelayan bekerja, Koperasi Desa Kelurahan Merah Putih, replanting perkebunan, dan modernisasi kapal nelayan. Kami semua melakukan agar kelas menengah tetap jadi kelas menengah atau naik kelas dan tidak jatuh dari kelas menengah. Terima kasih, Ketua. Terima kasih, Pak Ferry, Pak Herman, silakan.
+Terima kasih, Kepada pimpinan dan Anggota Komisi 11 DPR atas pertanyaan dan masukannya.
+Ijin menanggapi yang pertama dari Bapak Wakil Ketua Komisi, dari Pak Dolfi tadi menyampaikan bahwa Untuk kami semua rencana kerja dan anggaran perlu disusun berdasarkan prestasi kerja yang dicapai, ini sependapat sekali Pak.
+Tadi ini juga relevan dengan masukan dari Bapak Ibu Anggota Komisi yang lainnya, bahwa dari tempat kami tadi juga ada pertanyaan dari Bapak Wakil Ketua Komisi, Pak Fauzi Amru tentang penurunan anggaran dari 87 miIiar ke sekitar 55 miIiar. Nah ini memang paling banyak adalah kami turunkan di perjalanan dinas luar negeri Pak.
+Jadi kami pastikan perjalanan dinas luar negeri yang kami lakukan itu adalah perjalanannya perjalanan yang langsung memberikan manfaat pada masyarakat misalnya, kami melibatkan di setiap kunjungan kami sekarang ketemu dengan investor asing dan juga chambers, sehingga langsung dapat meningkatkan confidence investor global terhadap sovereign bonds Indonesia, sehingga yieldnya dapat tetap pada level yang terkendali.
+jadi juga apa namanya disampaikan pertanyaan mengenai iku selain jumlah regulasi yang dikeluarkan dari Bapak Aris, makasih Bapak masukannya memang kami punya beberapa iku lain Pak yang selain regulasi yang dikeluarkan. Jadi misalnya adalah indeks pendalaman pasar keuangan, indeks pendalaman pasar itu juga menjadi bagian dari iku kami sehingga sinergi yang kami lakukan, terutama dengan anggota KSSK lainnya, yaitu bank Indonesia, OJK, dan LPS ini menjadi sangat penting untuk bersama-sama mencapai iku tersebut, Pak. Nanti untuk detailnya iku-iku tersebut, nanti kami akan tambahkan dalam dokumen selanjutnya yang kami sampaikan sebagai pelengkap nota.
+Kemudian selanjutnya, strategi pendalaman pasar keuangan dalam jangka panjang, ini memang pas sekali poinnya karena memang di dalam mandat ditjen kami bahwa ini adalah menjadi bagian program pendalaman pasar keuangan, terutama mendorong kontribusi LJK non-bank. Ya khususnya dalam waktu dekat ini, penguatan sektor industri asuransi melalui program penjaminan polis yang nanti akan bisa meningkatkan confidence masyarakat untuk berasuransi. Sehingga tidak hanya social safety net asuransi itu ada tapi juga meningkatkan pendalaman pasar keuangan, berupa sumber dana jangka panjang. kemudian penguatan investor retail domestik yang bekerja sama dengan OJK sehingga Indonesia bisa lebih tahan dari hot money ya gitu. Sehingga dalam masa sentiment negatif sedang tinggi, kita bisa lebih resilient terhadap capital outflow.
+Kemudian selanjutnya masukan dari Ibu Putri. Makasih Ibu Putri, Tadi memang betul bu, turunan RUU P2SK sebelumnya juga masih ada banyak yang belum selesai saat ini sedang proses dan pada saat saya bergabung, first thing yang kita lakukan adalah ini RUU P2SK, kita kembali ke dapur kita sendiri ini harus kita segerakan untuk bisa selesai, apalagi sekarang ada tambahan dari undang-undang perubahan dari P2SK kemarin, sehingga kita berkomitmen untuk bisa menyelesaikan lebih cepat lagi bu untuk turunan undang-undangnya. menurut kami juga mohon bantuan dan arahan dari bapak ibu sekalian karena dalam beberapa aturan perundang-undangan tersebut, ada yang harus dikonsultasikan dan disetujui oleh DPR. Walaupun selanjutnya tadi terkait dari Mbak Anissa, makasih Mbak Anissa, sinergi program antar ditjen ini merupakan hal yang sangat penting, tadi salah satu yang juga menjawab dari Pak Syoibul Iman ya tadi kalau tidak salah mengenai SIKP ya Pak, jadi SIKP Sistem Informasi Kredit Program ini memang ada di ditjen perbendaharaan dan di kami itu adalah Sistem Informasi Profesi Keuangan. Jadi memang secara sekilas indirectly kaitannya itu harus dilihat jadi sinergitas antar ditjen. Nanti kami akan koordinasikan Pak, terima kasih atas masukan Bapak tadi. Selanjutnya, untuk hal-hal lain yang terkait tentang early warning system kembali lagi kepada Pak Aris, kami bersama dengan sekretariat KSSK, dan juga masing-masing lembaga di bawah KSSK, BI, LPS, dan OJK, yang setiap lembaga memiliki protokol management krisis sendiri, Pak. Masing-masing lembaga memiliki sistem early warning system berdasarkan tupoksi masing-masing lembaga yang kemudian dijahit oleh sekretariat KSSK, Dan kemudian ditambahkan dengan berbagai penguatan dari tempat kami sehingga bacaan stabilitas sistem keuangan nasional dapat bisa dibaca lebih komprehensif dan lengkap dari masing-masing kementerian lembaga dan yang terkait, terutama yang di bawah KSSK bisa dibaca sesuai tupoksinya, namun juga secara agregat komprehensif untuk dilaporkan kepada pimpinan. Demikian sementara tanggapan dari kami untuk lebih detailnya kami tambahkan di nota. Terima kasih.
+Terima kasih pada Pak Herman. Bu Rahayu, saya persilakan. Terima kasih pimpinan.
+Bapak, Ibu pimpinan dan juga anggota komisi 11. Terima kasih untuk pertanyaannya. Tadi ada yang sifatnya reflektif untuk kami resapi. Juga ada beberapa PR. Tentu kami catat dan kami tindak lanjuti.
+Nah, beberapa pertanyaan yang bisa kami jelaskan di sini, mungkin tidak secara urut ya supaya terjawab. Kami mulai justru dari pimpinan tadi Pak Misbakhun yang menanyakan mengenai apakah aset yang dicatat di LKPP itu sudah memenuhi aspek legalitas. Nah, dapat kami menjelaskan bahwa aset eks-BPPN dan eks-likuidasi bank beku operasi yang masuk dalam LKPP un-audited 2025 ini sebenarnya telah memenuhi aspek hukum ya artinya sudah diverifikasi pak. Kemudian keberadaan aset kredit BPPN dan piutang BDL jumlahnya ada dan besarnya pasti yang sudah tercatat. Nah memang sesuai dengan PMK 175 2023 tentang sistem akuntansi dan pelaporan keuangan transaksi khusus, hal ini telah diatur terkait dengan pengakuan aset BUN termasuk di dalamnya adalah aset BLBI. Nah demikian kemudian tadi ada concern dari Wakil Ketua Pak Dolfi yang menanyakan mengenai klasifikasi aset untuk jadi tiga ini kami coba nanti buatkan Pak, hal baru ini menarik ini approachnya, sehingga kita bisa melihat impactnya nanti seperti apa. Kemudian bergerak dari situ pertanyaan tadi bergerak ke aspek pendayagunaan terhadap aset BMN. Tadi ada pertanyaan dari Pak Aris, Pak, mengenai ini DJKN meskipun cita-citanya bagus gitu ya. Tapi kemudian banyak aset idle diutilisasi dan sebagainya. Monetisasinya dianggap rendah. Nah, dapat kami jelaskan, Pak, memang ini tepat sekali, Pak, bahwa aset dalam hal ini harus produktif untuk menghasilkan economic return. Mungkin dapat kami highlight juga bahwa tujuan utama dari pengadaan aset itu sebenarnya di awal untuk penyelenggaraan pemerintahan. Memang bukan untuk monetisasi, jadi untuk layanan publik dan juga pembangunan nasional. Nah, sebagian besar BMN memang dirancang untuk public service asset, jadi memang tidak untuk menghasilkan revenue tapi untuk memberikan nilai tambah ekonomi impact, development impact yang memiliki multiplier yang tinggi gitu. Artinya dapat bermanfaat kepada masyarakat. Nah inilah yang tadi di awal kami jelaskan menjadi tantangan untuk DJKN untuk bisa tidak sekedar mencatat aset, tapi juga mengukur economic impact ini, jadi apakah belanja yang dikeluarkan itu sudah benar-benar memberikan manfaat yang multiplier kepada publik. Nah, namun demikian dalam perjalanannya memang aset itu ada yang kemudian tidak lagi optimal. Misalnya mengalami kelebihan kapasitas, mungkin idle, tidak dirawat dengan baik dan sebagainya. Yang kemudian aset itu masuk kategori menjadi aset underutilized atau bahkan idle. Nah disinilah kemudian muncul agar tidak menjadi beban fiskal, maka DJKN harus bisa mengoptimalkan aset-aset tersebut, mana yang secara karakteristik dia bisa dimonetisasi sehingga menghasilkan revenue, tapi mana kemudian aset-aset tersebut karena dia tidak bisa dikomersialisasi, tapi justru untuk mencegah timbulnya belanja modal yang lebih banyak. Disitulah kemudian, sebagaimana tadi dipaparkan, banyak program-program prioritas nasional yang kemudian mencoba mendorong agar aset-aset yang ada itu entah direfocussing, entah kemudian ditingkatkan nilainya agar mencegah belanja-belanja modal yang lebih besar. Nah, dengan demikian inilah yang akan menguatkan DJKN ke depan bahwa kontribusinya itu mendukung bukan hanya di sisi penerimaan, tetapi justru bagaimana dia bisa mendorong belanja berkualitas Dan di situ bisa mengukur lebih besar economic return dari aset dan bisa diukur. Kemudian tadi Bapak Fauzi berdasarkan itu juga menanyakan Pak ya bahwa kalau seperti itu apakah dia bisa juga menjaga ekonomi daerah? Ini pertanyaannya cocok nih Pak dan jawabannya ya bisa sekali, bisa banget Pak. In fact, di tahun 2025, tercatat 1,2 triliun BMN itu telah dihibahkan ke PEMDA untuk berbagai keperluan pelaksanaan tugas di PEMDA dan 27 triliun itu dipinjam pakaikan. Ini dua skema yang BMN itu bisa kemudian ikut mendorong tadi pertumbuhan ekonomi daerah. Nah caranya seperti apa, ini biasanya dari tiap PEMDA mengajukan kepada kementerian lembaga terkait dengan aset tersebut dan kemudian kementerian lembaga yang akan memproses ke kementerian keuangan. banyak pak nilainya besar sekali ini pak Fauzi, 28 triliun di 2025. Kemudian disamping tadi ada pertanyaan dari Mbak Anissa yang secara spesifik, mungkin tadi lebih kepada instrumen yang dapat bekerja secara terpadu untuk mendorong pertumbuhan yang lebih tinggi dan sejahtera lebih cepat, itu seperti apa. Nah, dalam konteks special mission vehicles bu atau SMV atau BUMN alat fiskal, dapat kami gambarkan bahwa sinergi SMV dengan kebijakan fiskal secara umum ini telah dilakukan dengan berbagai peran SMV atau BUMN alat fiskal. Misalnya terkait dengan inovasi pembiayaan, adanya blended finance, Creative Financing, LMAN, dalam penyiapan dan dukungan proyek pembangunan dalam skema KPBU di manajemen PT PII, serta dukungan dalam bentuk pembiayaan dan penjaminan yang diharapkan dapat tentunya menekan, mengurangi tekanan pada APBN. Dengan leverage melalui alat-alat fiskal tersebut. Selanjutnya juga sinergi dapat atas berbagai instrumen fiskal ini serta kolaborasi dengan dan antara. Ini terus karena sebelumnya sudah dirajut langsung tentu ini akan terus diperkuat utamanya dalam mendukung program kerja prioritas nasional dalam mendorong pertumbuhan dan kesejahteraan masyarakat. Ibu Andi Yuliani Paris tadi juga sempat menyinggung, nanti ada LMAN yang akan menjelaskan di ditjen ya pertanyaannya. Dari kami tadi Ibu bertanya mengenai lelang, apakah lelang ini bisa berhenti di tengah jalan apa dasar hukumnya? Nah kami bisa jelaskan bahwa lelang itu dapat berhenti di tengah jalan karena ada beberapa alasan. Salah satunya adalah pembatalan lelang dan ini diatur di dalam peraturan menteri keuangan nomor 122, izin kami highlight Pasal 44, di mana lelang yang akan dilaksanakan hanya dapat dibatalkan oleh pejabat lelang berdasarkan pertama permintaan dari penjualnya sendiri. Kemudian penetapan atau putusan pengadilan yang muncul dalam proses ini yang memerintahkan penundaan atau pembatalan pelaksanaan lelang dan atau hal lain yang kemudian diatur lebih lanjut di dalam peraturan menteri ini. Jadi ini memungkinkan, Ibu, karena alasan hukum tadi. Kemudian, Pak Fauzi Amru, ijin, Pak, kalau diperkenankan, kami sampaikan tertulis, Pak, karena ada komparasinya. Boleh, Pak, ya? Dan selanjutnya ada dua pertanyaan tadi ditujukan kepada LMAN kami, ijin pimpinan untuk bisa merespon pertanyaan tersebut. menjawab pertanyaan Ibu Andi Yuliani Paris. Interupsi sebentar, Pak Ketua. Iya, silahkan. Tadi mencermati jawaban dari DJKN, ada BMN yang diserahkan ke PEMDA tadi ya? Berapa nilainya, Bu? Di 2025 Pak, catatan kami, Untuk yang hibah itu 1,2 triliun di 2025, Pak. Sedangkan untuk pinjam pakai, jadi dia tidak diserahkan, dia tetap BMN tapi dipinjamkan, tidak bayar, tidak apa, itu 27 triliun. Nah yang hibah ini kapan persetujuan DPR-nya ya? Baik, kalau menurut ketentuan Pak ijin, hibah ini ada kriterianya. Jadi pertama kalau dia tugas pemerintahan, menurut ketentuan, dia bisa langsung kemudian di mana Bu? Di PP 28. Undang-undang perbendaharaannya nggak begitu, Bu. Jadi nanti dilengkapi aja datanya yang hibah ini kemana aja, yang pinjam pakai ini kemana aja nanti dilengkapi. Karena saya baca berulang-ulang tadi di undang-undang perbendaharaan nggak begitu bunyinya. Tetap persetujuan DPR. Kami akan sampaikan tertulisnya. Pertanyaan terkait LMAN, Pak. Boleh kami respon? Ya. Karena begini, Bu, saya tambahkan. Bunyi pasal 45 itu mengatakan mengalihkan. Mengalihkan itu kalau hibah kemudian terjadi peralihan. Dan hibah itu kan cuma masalah jenis. Bisa ditransaksikan, bisa dialihkan, bisa dihibahkan. Terus LMAN sudah. Oke. Jadi ada pertanyaan terkait LMAN, Pak. Boleh kami respon tertulis. sedikit sebentar, Pak, menjelaskan dan serta melaporkan bahwa untuk PSN kereta api Makassar-Parepare Maros dan Makassar-Pangkep, ya bu, pada saat ini PSN kereta api Makassar-Parepare telah LMAN merealisasikan sebesar 1,3 triliun bu. Perlu kami sampaikan bahwa saat ini kondisi PSN tersebut tidak mangkrak bu, namun dalam posisi sedang identifikasi dan inventarisasi oleh Panitia Pengadaan Tanah Kementerian Agraria juga untuk sektornya kementerian perhubungan bu. Kemudian terkait PSN Makassar-Parepare, saat ini berfokus pada ruas Maros, Makassar-Pangkep, dan pembangunan overpass Tonasa. Pelaksanaan di lapangan saat ini tetap berjalan bu tidak mangkrak, namun karena ruas lanjutan tersebut masih dalam tahap pelaksanaan pengadaan tanah oleh P2T, Kementerian ATR. adapun rinciannya adalah untuk wilayah Makassar sedang dilaksanakan inventarisasi dan identifikasi bidang tanah. Terdampak untuk wilayah Maros sedang diajukan proses konsinyasi di pengadilan dan untuk wilayah Pangkep saat ini masih dalam proses penyusunan dokumen perencanaan pengadaan tanah oleh instansi yang membutuhkan tanah dalam hal ini kementerian perhubungan. Dan penetapan lokasi oleh pemerintah daerah secepatnya demikian dapat kami sampaikan kemudian ijin untuk pertanyaan dari Bapak Ketua, kita bisa sampaikan bahwa angka rata-rata per tahun secara umum biaya yang LMAN keluarkan untuk pengelolaan aset rata-rata 56 miliar Pak. Baik yang sifatnya belanja modal investasi maupun peningkatan nilai aset rata-rata 26 miIiar per tahun, maupun yang sifatnya rutin seperti untuk pengamanan, pemeliharaan, dan belanja rutin lainnya dengan rata-rata 30 miIiar per tahun. Terima kasih. Cukup ya. Tadi kita sudah mendengarkan jawaban dari 6 unit eselon 1 yang dipimpin langsung oleh dirjennya masing-masing dan nanti kita akan masih ada rapat kerja dengan menteri keuangan untuk mengambil kesimpulan. Jadi rapat hari ini kita tidak menyimpulkan, tapi apa yang menjadi pertanyaan, menjadi perhatian, menjadi concern, menjadi isu utama tadi dalam rapat kita dengan para unit eselon 1 itu nanti akan menjadi bagian yang nanti kita masukkan di dalam kesimpulan rapat kita. Untuk itu rapat kita hari ini dengan 6 unit eselon 1 saya nyatakan selesai dan saya mengucapkan terima kasih kepada para dirjen dan saya minta tolong nanti dengan Menteri juga tetap hadir. Assalamualaikum warahmatullahi wabarakatuh. Nanti dengan yang tujuh berikutnya jam 3. Ini nanti kan yang lain aja jam 3. Terima kasih.

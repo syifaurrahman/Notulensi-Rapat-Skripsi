@@ -1,0 +1,76 @@
+====================================================================
+   HASIL KORELASI: LexRank <-> Transkripsi Whisper
+   Mata Kuliah Dasar Manajemen dan Bisnis
+====================================================================
+  Tanggal      : 18 June 2026, 00:09:13
+
+FILE LEXRANK   : lexrank_Rekaman Zoom Sesi 1 tanggal 17 September 2020 - Mata Kuliah  Dasar Manajemen dan Bisnis - Lapaq Dosen 360p h264_20260617_213535.txt
+FILE TRANSKRIP : transkrip_Rekaman Zoom Sesi 1 tanggal 17 September 2020 - Mata Kuliah  Dasar Manajemen dan Bisnis - Lapaq Dosen 360p h264_20260617_213535.txt
+
+--------------------------------------------------------------------
+  STATISTIK DOKUMEN
+--------------------------------------------------------------------
+  Token LexRank (raw)                      : 549
+  Token Transkrip (raw)                    : 3798
+  Token LexRank (tanpa stopword)           : 292
+  Token Transkrip (tanpa stopword)         : 1989
+  Kosakata unik LexRank                    : 181
+  Kosakata unik Transkrip                  : 864
+  Kosakata overlap (irisan)                : 179
+  Jumlah kalimat LexRank                   : 27
+
+--------------------------------------------------------------------
+  METRIK KORELASI
+--------------------------------------------------------------------
+  1. Cosine Similarity (TF-IDF)              :  63.54%
+  2. Jaccard Similarity (kosakata unik)      :  20.67%
+  3. Token Retention Rate                    :  14.58%
+  4. Sentence Coverage                       : 100.00%
+  5. Compression Ratio (lex/transkrip)       :  14.45%
+
+--------------------------------------------------------------------
+  INTERPRETASI SETIAP METRIK
+--------------------------------------------------------------------
+  Cosine Similarity  : TINGGI [OK]
+  Jaccard Similarity : RENDAH  [!]
+  Token Retention    : RENDAH  [!]
+  Sentence Coverage  : TINGGI [OK]
+  Compression Ratio  : BAIK (ringkasan padat, 14.5% panjang transkrip)
+
+--------------------------------------------------------------------
+  DETAIL COVERAGE PER KALIMAT LEXRANK
+--------------------------------------------------------------------
+  [ 1] [EXACT] Jaccard=1.000  "Kalian teman-teman mendapatkan nilai itu paling tidak A..."
+  [ 2] [MATCH] Jaccard=0.800  "Suku-sukur kan bisa dapati nilai B gitu kan, Gitu loh, Oke..."
+  [ 3] [EXACT] Jaccard=1.000  "Sampai sini ada yang mau dikanyakan mungkin teman-teman, Nggak, Oke, k..."
+  [ 4] [MATCH] Jaccard=0.750  "Kalian bisa lihat di layar kalian ya, teman-teman, Oke, di sini..."
+  [ 5] [EXACT] Jaccard=1.000  "Dengan demikian, kalau saya akan telinem beralang ngajir di pagi hari,..."
+  [ 6] [EXACT] Jaccard=1.000  "Juga ada lagi misalnya apa, UD, usaha daerah, gitu kan ya, sejika mung..."
+  [ 7] [EXACT] Jaccard=1.000  "Saya juga pendeklasnya ini bisa saya bantu upset nanti, nanti barangny..."
+  [ 8] [EXACT] Jaccard=1.000  "Nggak apa-apa, itu tolong info aja di grup, tolong info aja di grup JA..."
+  [ 9] [EXACT] Jaccard=1.000  "Ini rekamanin, ini saya rekam, jadi nanti setelah selesai mungkin kala..."
+  [10] [EXACT] Jaccard=1.000  "Kalian udah ada yang punya bahannya, udah ada yang udah bahannya belum..."
+  [11] [EXACT] Jaccard=1.000  "Berarti kan ada sekelompok orang, semudahnya juga ada tujuan, gitu ya,..."
+  [12] [EXACT] Jaccard=1.000  "Orang-orang yang memiliki tujuan atau secara sehingga saja untuk menca..."
+  [13] [EXACT] Jaccard=1.000  "Demi COVID yang which is itu memberikan gampak yang sangat signifikan ..."
+  [14] [EXACT] Jaccard=1.000  "Kalau organisasi pasti, isinya pasti ya paling nggak dua orang, kalau ..."
+  [15] [EXACT] Jaccard=1.000  "Apalagi disakain kalau kalian dapet tugas misalnya apa, kayak mata kul..."
+  [16] [EXACT] Jaccard=1.000  "saya apa-apa saja..."
+  [17] [EXACT] Jaccard=1.000  "kepensasinya gitu kan, kemudian juga sistem rekrutmennya, kemudian jug..."
+  [18] [MATCH] Jaccard=1.000  "albut-butuh kaporannya gitu kan, Oke..."
+  [19] [EXACT] Jaccard=1.000  "Waktu tadi kita juga bicara mengenai definisi dari organisasi sekarang..."
+  [20] [EXACT] Jaccard=1.000  "Melalui kematikan sumber daya manusia, ataupun sumber-sumber daya layi..."
+  [21] [EXACT] Jaccard=1.000  "SEMI dan ilmu, jadi perpaduan antara SEMI dan ilmu, ya kan..."
+  [22] [EXACT] Jaccard=1.000  "Keren, kalau tadi kan sisi ini kan dilihat satu sumber daya, salah sat..."
+  [23] [EXACT] Jaccard=1.000  "Berarti organisasi ini berhubungan dengan orang, dengan manusia, sumbe..."
+  [24] [EXACT] Jaccard=1.000  "Nggak, soalkan saya punya lima anak tua, gampang kan gitu kan..."
+  [25] [EXACT] Jaccard=1.000  "Kalau menurut handoko, itu manajemennya adalah bekerja dengan orang-or..."
+  [26] [EXACT] Jaccard=1.000  "Efektifisiansi, penggunaan sumber daya baik itu sumber daya manusia su..."
+  [27] [EXACT] Jaccard=1.000  "Efektivitas itu kita bicara mengenai bagaimana kita bisa mencapai hasi..."
+
+====================================================================
+  KESIMPULAN
+====================================================================
+  Rata-rata korelasi (4 metrik utama) : 49.70%
+  Kesimpulan                          : LexRank CUKUP BERKORELASI dengan transkripsi Whisper.
+====================================================================

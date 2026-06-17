@@ -227,19 +227,35 @@ class LexRankSummarizer:
             }
         """
         if not text or len(text.strip()) < 50:
-            return {'ringkasan': text.strip(), 'ranked_sentences': []}
+            return {
+                'ringkasan'          : text.strip(),
+                'ranked_sentences'   : [],
+                'lexrank_extractive' : text.strip(),
+                'ollama_result'      : None,
+            }
 
         # ── Step 1: Text Cleaning ─────────────────────────────
         cleaned = self._step1_text_cleaning(text)
 
         if len(cleaned.strip()) < 50:
-            return {'ringkasan': cleaned.strip(), 'ranked_sentences': []}
+            return {
+                'ringkasan'          : cleaned.strip(),
+                'ranked_sentences'   : [],
+                'lexrank_extractive' : cleaned.strip(),
+                'ollama_result'      : None,
+            }
 
         # ── Step 2: Sentence Segmentation ─────────────────────
         raw_sentences = self._step2_sentence_segmentation(cleaned)
 
         if not raw_sentences:
-            return {'ringkasan': self._polish_sentence(cleaned[:500]), 'ranked_sentences': []}
+            _fallback = self._polish_sentence(cleaned[:500])
+            return {
+                'ringkasan'          : _fallback,
+                'ranked_sentences'   : [],
+                'lexrank_extractive' : _fallback,
+                'ollama_result'      : None,
+            }
 
         # ── Step 3: Sentence Filtering ────────────────────────
         filtered = self._step3_sentence_filtering(raw_sentences)
@@ -290,15 +306,27 @@ class LexRankSummarizer:
             organized = self._step5_reorganize(top_sentences, top_indices, len(filtered))
 
         # ── Step 6: Final Summarization ───────────────────────
+        # Selalu hitung hasil extractive LexRank murni terlebih dahulu
+        lexrank_extractive = self._step6_final_format(organized)
+
         if self.ollama.is_available():
             print("[LexRank] Memanggil Ollama untuk abstractive rewriting...", flush=True)
             rewritten = self.ollama.rewrite(organized, full_context=cleaned)
             if rewritten:
-                return {'ringkasan': rewritten, 'ranked_sentences': ranked_sentences}
+                return {
+                    'ringkasan'          : rewritten,
+                    'ranked_sentences'   : ranked_sentences,
+                    'lexrank_extractive' : lexrank_extractive,
+                    'ollama_result'      : rewritten,
+                }
 
         # Fallback jika Ollama down/gagal
-        ringkasan = self._step6_final_format(organized)
-        return {'ringkasan': ringkasan, 'ranked_sentences': ranked_sentences}
+        return {
+            'ringkasan'          : lexrank_extractive,
+            'ranked_sentences'   : ranked_sentences,
+            'lexrank_extractive' : lexrank_extractive,
+            'ollama_result'      : None,
+        }
 
 
     # ══════════════════════════════════════════════════════════

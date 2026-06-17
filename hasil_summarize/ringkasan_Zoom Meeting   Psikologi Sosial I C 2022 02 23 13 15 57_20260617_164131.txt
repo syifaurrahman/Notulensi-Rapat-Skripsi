@@ -1,0 +1,38 @@
+=== RINGKASAN RAPAT (LexRank 6-Step) ===
+Sumber    : transkrip_Zoom Meeting   Psikologi Sosial I C 2022 02 23 13 15 57_20260617_164131.txt
+Dibuat    : 17 June 2026, 16:42:35
+Model     : Whisper small
+========================================
+
+adalah notulensi rapat berdasarkan transkrip yang diberikan:
+
+**Pembukaan:**
+
+- Maren di Google Drive, saya udah baca sekilas tugas-tugas yang kalian kerjakan.
+- Nanti kita bahas lagi lanjut ya tentang tugas itu.
+
+**Psikologi Sosial sebagai Ilmu:**
+
+- Psikologi sosial mungkin udah saya bahas sebenarnya minggu lalu ya, bahwa awal mulanya munculnya psikologi sosial itu adalah dari ilmuwan Jerman.
+- Ini membahas psikologi sosial, tapi dari perspektif yang berbeda.
+- Sedangkan Edward Ross atau ini sosialok Amerika, dia melihat bahwa psikologi sosial ini nanti ranahnya adalah masyarakat, atau lingkungan sosial mempengaruhi individu.
+
+**Definisi Psikologi Sosial:**
+
+- Alport mengatakan bahwa social psychology involves the use of scientific method to understand and explain how the thoughts, feelings, and behavior of individuals are influenced.
+- Bagaimana pikiran, perasaan, dan perilaku individu dipengaruhi oleh kehadiran, ya presence, itu baik itu actual, imagine, atau implied present.
+
+**Perbedaan Psikologi Sosial dengan Ilmu Lain:**
+
+- Psikologi sosial berfokus pada individu dan masyarakat, sedangkan sosiologi berfokus pada sistem masyarakat.
+- Antropologi berfokus pada budaya dan psikologi sosial berfokus pada perilaku individu.
+
+**Metode Penelitian dalam Psikologi Sosial:**
+
+- Metode penelitian dalam psikologi sosial menggunakan metode ilmiah untuk memahami perilaku individu dan masyarakat.
+- Pengalaman individu unik dan tidak bisa dijadikan basis, sehingga butuhlah pendekatan ilmiah.
+
+**Topik Utama 1: Psikologi Sosial sebagai Ilmu:**
+- Poin penting:
+ + Awal mulanya munculnya psikologi sosial adalah dari ilmuwan Jerman.
+ + Psikologi sosial membahas tentang bagaimana individu dipengaruhi oleh lingkungan dan masyarakat.

@@ -1,0 +1,76 @@
+====================================================================
+   HASIL KORELASI: LexRank <-> Transkripsi Whisper
+   Rapat Komisi XI DPR RI — RDP 6 Dirjen Kementerian Keuangan
+====================================================================
+  Tanggal      : 18 June 2026, 01:36:25
+
+FILE LEXRANK   : lexrank_KOMISI XI DPR RI RDP DENGAN 6 DIRJEN KEMENTERIAN KEUANGAN_20260618_011634.txt
+FILE TRANSKRIP : transkrip_KOMISI XI DPR RI RDP DENGAN 6 DIRJEN KEMENTERIAN KEUANGAN_20260618_011634.txt
+
+--------------------------------------------------------------------
+  STATISTIK DOKUMEN
+--------------------------------------------------------------------
+  Token LexRank (raw)                      : 407
+  Token Transkrip (raw)                    : 26442
+  Token LexRank (tanpa stopword)           : 223
+  Token Transkrip (tanpa stopword)         : 17141
+  Kosakata unik LexRank                    : 111
+  Kosakata unik Transkrip                  : 4634
+  Kosakata overlap (irisan)                : 108
+  Jumlah kalimat LexRank                   : 27
+
+--------------------------------------------------------------------
+  METRIK KORELASI
+--------------------------------------------------------------------
+  1. Cosine Similarity (TF-IDF)              :  27.99%
+  2. Jaccard Similarity (kosakata unik)      :   2.33%
+  3. Token Retention Rate                    :   1.28%
+  4. Sentence Coverage                       : 100.00%
+  5. Compression Ratio (lex/transkrip)       :   1.54%
+
+--------------------------------------------------------------------
+  INTERPRETASI SETIAP METRIK
+--------------------------------------------------------------------
+  Cosine Similarity  : RENDAH  [!]
+  Jaccard Similarity : RENDAH  [!]
+  Token Retention    : RENDAH  [!]
+  Sentence Coverage  : TINGGI [OK]
+  Compression Ratio  : BAIK (ringkasan padat, 1.5% panjang transkrip)
+
+--------------------------------------------------------------------
+  DETAIL COVERAGE PER KALIMAT LEXRANK
+--------------------------------------------------------------------
+  [ 1] [EXACT] Jaccard=1.000  "Rasio Anggaran Direktora General Pajak terhadap penerimaan Pajak tahun..."
+  [ 2] [EXACT] Jaccard=1.000  "Pimpinan dan Komisi 11, kami laporkan pagu indikatif di tahun 2020, Tu..."
+  [ 3] [EXACT] Jaccard=1.000  "Mohon Perkenan Mohon perkenan, pimpinan, dan Bapak-Ibu Anggota Komisi ..."
+  [ 4] [EXACT] Jaccard=1.000  "Semua yang terhormat, pimpinan, dan seluruh anggota Komisi 11 DPR RI, ..."
+  [ 5] [EXACT] Jaccard=1.000  "Ng ketiga, kami akan menyampaikan rencana kerja dan pagu indikatif Tah..."
+  [ 6] [EXACT] Jaccard=1.000  "Bapak-Ibu pimpinan dan anggota Komisi 11 yang kami hormati, Kami akan ..."
+  [ 7] [EXACT] Jaccard=1.000  "Next, selanjutnya kami menyampaikan rencana kerja dan paku indikatif D..."
+  [ 8] [EXACT] Jaccard=1.000  "Ijinkan kami untuk menyampaikan rencana kerja dan anggaran, titian sta..."
+  [ 9] [EXACT] Jaccard=1.000  "Selanjutnya, Bapak dan Ibu pimpinan dan anggota komputer 11 DPRRI yang..."
+  [10] [EXACT] Jaccard=1.000  "Rapa dan ibu pimpinan serta anggota komisi 11 DBRRI yang kami hormati..."
+  [11] [EXACT] Jaccard=1.000  "Ng kami hormati pimpinan dan anggota komisi 11 DPRRI, selanjutnya izin..."
+  [12] [EXACT] Jaccard=1.000  "Selanjutnya, izinkan kami menyampaikan mencana kerja dan pagu indikati..."
+  [13] [EXACT] Jaccard=1.000  "Pimpinan DPR, Pimpinan Komisi 11 dan para anggota yang kami hormati..."
+  [14] [EXACT] Jaccard=1.000  "Kontribusi sampai dengan mei 2026 sebesar 8,6 triliun..."
+  [15] [EXACT] Jaccard=1.000  "Pimpinan dan anggota Komisi 11 yang kami hormati, selanjutnya perkenal..."
+  [16] [EXACT] Jaccard=1.000  "Di tahun 2027 sebesar 2,4 triliun, 2,45 triliun rupiah..."
+  [17] [EXACT] Jaccard=1.000  "Demikian pimpinan dan anggota komisi 11 yang kami hormati dengan demik..."
+  [18] [EXACT] Jaccard=1.000  "000, sebesar Rp724..."
+  [19] [MATCH] Jaccard=0.444  "000, demikian waktu balikkan ke Pimpinan Siddang, Terima kasih, Assala..."
+  [20] [EXACT] Jaccard=1.000  "Kita akan mulai dulu dari Direktora General Pajak, P, Bimo, P..."
+  [21] [EXACT] Jaccard=1.000  "Assalamu'alaikum warahmatullahi wabarakatuh, terima kasih pimpinan ata..."
+  [22] [EXACT] Jaccard=1.000  "Ng saya hormati pimpinan Komisi 11 dan Bapak Ibu dari Kementerian Keua..."
+  [23] [EXACT] Jaccard=1.000  "Ini mungkin catatan saya, kemudian untuk aset-aset negara di ICN..."
+  [24] [MATCH] Jaccard=0.500  "Itu saja Pak Ketua saya kembalikan terima kasih, Terima kasih Pak Ketu..."
+  [25] [EXACT] Jaccard=1.000  "Terima kasih, Bapak pembinaan setelah Anggota Komisi 11 DPR..."
+  [26] [EXACT] Jaccard=1.000  "Sementara rangkapan dari kami untuk lebih detiknya kami cinta bahkan d..."
+  [27] [MATCH] Jaccard=0.667  "Bapak, Ibu pimpinan dan juga anggota pungsi 11, Terima kasih untuk per..."
+
+====================================================================
+  KESIMPULAN
+====================================================================
+  Rata-rata korelasi (4 metrik utama) : 32.90%
+  Kesimpulan                          : LexRank KURANG BERKORELASI dengan transkripsi Whisper.
+====================================================================

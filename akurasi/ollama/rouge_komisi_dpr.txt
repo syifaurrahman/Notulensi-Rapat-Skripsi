@@ -1,0 +1,40 @@
+==============================================================
+  HASIL ROUGE SCORE — OLLAMA ABSTRACTIVE SUMMARIZATION
+  Sistem Notulensi — Rapat Komisi XI DPR RI
+  RDP dengan 6 Dirjen Kementerian Keuangan
+==============================================================
+  Tanggal       : 18 June 2026, 01:42:01
+  Metode        : rouge-score (library)
+  Referensi     : LexRank Extractive Result
+  Hipotesis     : Ollama Abstractive Result
+  Kata Referensi: 457
+  Kata Hipotesis: 250
+--------------------------------------------------------------
+
+  METRIK ROUGE
+  ────────────────────────────────────────────────────
+  Metrik                         F1-Score  Precision     Recall
+  ────────────────────────────────────────────────────
+  ROUGE-1 (Unigram)                42.43%     60.00%     32.82%
+  ROUGE-2 (Bigram)                 32.91%     46.59%     25.44%
+  ROUGE-L (LCS)                    37.06%     52.40%     28.67%
+  ────────────────────────────────────────────────────
+
+  PENILAIAN
+  ────────────────────────────────────────────────────
+  ROUGE-1 : Baik ✓
+  ROUGE-2 : Baik ✓
+  ROUGE-L : Baik ✓
+
+==============================================================
+  CATATAN:
+  - Referensi = LexRank (kalimat kunci dari transkripsi Whisper)
+  - Hipotesis = Ollama (notulensi abstraktif hasil LLM)
+  - ROUGE-1 : kecocokan kata tunggal (unigram)
+  - ROUGE-2 : kecocokan 2 kata berurutan (bigram)
+  - ROUGE-L : urutan kata terpanjang yang cocok (LCS)
+  - F1      : harmonic mean antara Precision dan Recall
+  - Precision: seberapa relevan isi ringkasan Ollama
+  - Recall   : seberapa banyak isi LexRank tercakup Ollama
+  - Nilai ideal Bahasa Indonesia: ROUGE-L > 30%
+==============================================================

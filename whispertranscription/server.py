@@ -33,9 +33,11 @@ BASE_DIR  = os.path.dirname(os.path.abspath(__file__))
 LIVE_DIR  = os.path.join(BASE_DIR, "whisperLiveTranscription")
 # File .txt disimpan langsung di folder web (dapat diakses via Apache)
 WEB_DIR             = os.path.abspath(os.path.join(BASE_DIR, ".."))
-HASIL_DIR           = os.path.join(WEB_DIR, "hasil")
-HASIL_SUMMARIZE_DIR = os.path.join(WEB_DIR, "hasil_summarize")
-UPLOAD_DIR          = os.path.join(BASE_DIR, "uploads")  # temp, tetap di backend
+HASIL_DIR               = os.path.join(WEB_DIR, "hasil")
+HASIL_SUMMARIZE_DIR     = os.path.join(WEB_DIR, "hasil_summarize")
+HASIL_LEXRANK_DIR       = os.path.join(WEB_DIR, "hasil_summarize", "Lexrank")
+HASIL_OLLAMA_DIR        = os.path.join(WEB_DIR, "hasil_summarize", "Ollama")
+UPLOAD_DIR              = os.path.join(BASE_DIR, "uploads")  # temp, tetap di backend
 
 sys.path.insert(0, BASE_DIR)
 sys.path.insert(0, LIVE_DIR)
@@ -43,6 +45,8 @@ sys.path.insert(0, LIVE_DIR)
 os.makedirs(HASIL_DIR, exist_ok=True)
 os.makedirs(UPLOAD_DIR, exist_ok=True)
 os.makedirs(HASIL_SUMMARIZE_DIR, exist_ok=True)
+os.makedirs(HASIL_LEXRANK_DIR, exist_ok=True)
+os.makedirs(HASIL_OLLAMA_DIR, exist_ok=True)
 
 # ── Flask ──────────────────────────────────────────────────
 from flask import Flask, request, jsonify, send_from_directory
@@ -646,14 +650,16 @@ def api_transcribe():
                 update_summary_in_db(db_record_id, '[PROSES_SUMMARIZE]')
                 print(f"[Server] BG Thread (ID {db_record_id}): ✓ Transkripsi selesai ({durasi}s). Menyusun ringkasan...", flush=True)
 
-                # ── LexRank Summarization ──
+                # ── LexRank + Ollama Summarization ──
                 result_bg = summarizer.summarize_with_debug(final_text)
-                ringkasan_bg = result_bg['ringkasan']
+                ringkasan_bg        = result_bg['ringkasan']
                 ranked_sentences_bg = result_bg.get('ranked_sentences', [])
+                lexrank_extractive  = result_bg.get('lexrank_extractive', '')
+                ollama_result       = result_bg.get('ollama_result', None)
                 if not ringkasan_bg:
                     ringkasan_bg = "Tidak ada ringkasan yang dihasilkan."
 
-                # Simpan ringkasan ke file
+                # ── [1] Simpan ringkasan UTAMA ke hasil_summarize/ (tidak diubah) ──
                 sum_filename = txt_filename.replace("transkrip_", "ringkasan_")
                 sum_path = os.path.join(HASIL_SUMMARIZE_DIR, sum_filename)
                 with open(sum_path, "w", encoding="utf-8") as sf:
@@ -663,11 +669,38 @@ def api_transcribe():
                     sf.write(f"Model     : Whisper {file_cfg.model_size}\n")
                     sf.write(f"{'=' * 40}\n\n")
                     sf.write(ringkasan_bg)
-                print(f"[Server] BG Thread: ✓ Ringkasan disimpan ke {sum_filename}", flush=True)
+                print(f"[Server] BG Thread: ✓ Ringkasan utama disimpan ke {sum_filename}", flush=True)
 
-                # Update Database (simpan ranked_sentences sebagai JSON di field debug)
+                # ── [2] Simpan hasil LexRank EXTRACTIVE ke hasil_summarize/Lexrank/ ──
+                if lexrank_extractive:
+                    lexrank_filename = "lexrank_" + txt_filename.replace("transkrip_", "")
+                    lexrank_path = os.path.join(HASIL_LEXRANK_DIR, lexrank_filename)
+                    with open(lexrank_path, "w", encoding="utf-8") as lf:
+                        lf.write("=== HASIL LEXRANK EXTRACTIVE ===\n")
+                        lf.write(f"Sumber    : {txt_filename}\n")
+                        lf.write(f"Dibuat    : {datetime.datetime.now().strftime('%d %B %Y, %H:%M:%S')}\n")
+                        lf.write(f"Model     : Whisper {file_cfg.model_size}\n")
+                        lf.write(f"{'=' * 40}\n\n")
+                        lf.write(lexrank_extractive)
+                    print(f"[Server] BG Thread: ✓ LexRank extractive disimpan ke Lexrank/{lexrank_filename}", flush=True)
+
+                # ── [3] Simpan hasil OLLAMA ABSTRACTIVE ke hasil_summarize/Ollama/ ──
+                if ollama_result:
+                    ollama_filename = "ollama_" + txt_filename.replace("transkrip_", "")
+                    ollama_path = os.path.join(HASIL_OLLAMA_DIR, ollama_filename)
+                    with open(ollama_path, "w", encoding="utf-8") as of:
+                        of.write("=== HASIL OLLAMA ABSTRACTIVE ===\n")
+                        of.write(f"Sumber    : {txt_filename}\n")
+                        of.write(f"Dibuat    : {datetime.datetime.now().strftime('%d %B %Y, %H:%M:%S')}\n")
+                        of.write(f"Model     : Whisper {file_cfg.model_size} + {sum_cfg.ollama_model}\n")
+                        of.write(f"{'=' * 40}\n\n")
+                        of.write(ollama_result)
+                    print(f"[Server] BG Thread: ✓ Ollama abstractive disimpan ke Ollama/{ollama_filename}", flush=True)
+                else:
+                    print(f"[Server] BG Thread: ℹ Ollama tidak tersedia/gagal — file Ollama tidak dibuat", flush=True)
+
+                # ── Update Database & debug JSON (tidak diubah) ──
                 update_summary_in_db(db_record_id, ringkasan_bg)
-                # Simpan debug ranking ke file JSON terpisah agar bisa diambil lewat polling
                 import json as _json
                 debug_path = sum_path.replace('.txt', '_debug.json')
                 try:

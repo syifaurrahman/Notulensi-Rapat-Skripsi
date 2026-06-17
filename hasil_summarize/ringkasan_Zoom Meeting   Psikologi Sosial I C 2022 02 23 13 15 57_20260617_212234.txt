@@ -1,0 +1,40 @@
+=== RINGKASAN RAPAT (LexRank 6-Step) ===
+Sumber    : transkrip_Zoom Meeting   Psikologi Sosial I C 2022 02 23 13 15 57_20260617_212234.txt
+Dibuat    : 17 June 2026, 21:23:51
+Model     : Whisper small
+========================================
+
+adalah notulensi rapat berdasarkan transkrip yang diberikan:
+
+**Pembukaan:**
+
+- Rapat ini dibuka oleh Maren, yang membahas tentang sejarah psikologi sosial.
+- Maren menjelaskan bahwa awal mula munculnya psikologi sosial adalah dari ilmuwan Jerman pada abad ke-19.
+
+**Topik Utama 1: Definisi Psikologi Sosial:**
+
+- Psikologi sosial melibatkan penggunaan metode ilmiah untuk memahami bagaimana pikiran, perasaan, dan perilaku individu dipengaruhi oleh kehadiran orang lain.
+- Tiga jenis kehadiran yang dipelajari dalam psikologi sosial adalah:
+ - Kehadiran aktual (yang sebenarnya ada)
+ - Kehadiran imajinatif (yang dibayangkan)
+ - Kehadiran implisit (yang tidak nyata, tetapi dapat mempengaruhi perilaku)
+
+**Topik Utama 2: Perbedaan Psikologi Sosial dengan Ilmu Lain:**
+
+- Psikologi sosial berbeda dari sosiologi dan antropologi dalam hal unit analisis.
+- Sosiologi fokus pada sistem masyarakat, sedangkan psikologi sosial fokus pada perilaku individu yang dipengaruhi oleh lingkungan sosial.
+- Antropologi fokus pada budaya dan kebudayaan, tetapi tidak meliputi aspek budaya dalam psikologi sosial.
+
+**Pertanyaan dan Diskusi:**
+
+- Pertanyaan: Bagaimana cara memahami definisi psikologi sosial?
+- Jawaban: Psikologi sosial menggunakan metode ilmiah untuk memahami bagaimana pikiran, perasaan, dan perilaku individu dipengaruhi oleh kehadiran orang lain.
+
+**Kesimpulan:**
+
+- Psikologi sosial adalah ilmu yang melibatkan penggunaan metode ilmiah untuk memahami bagaimana pikiran, perasaan, dan perilaku individu dipengaruhi oleh kehadiran orang lain.
+- Ilmu ini memiliki tiga jenis kehadiran yang dipelajari: aktual, imajinatif, dan implisit.
+
+**Penutup:**
+
+- Rapat diakhiri dengan penutupan dari Maren, yang meminta teman-temen untuk terus belajar tentang psikologi sosial.

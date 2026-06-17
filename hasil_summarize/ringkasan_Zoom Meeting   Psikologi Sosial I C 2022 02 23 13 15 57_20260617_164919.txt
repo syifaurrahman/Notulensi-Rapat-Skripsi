@@ -1,0 +1,37 @@
+=== RINGKASAN RAPAT (LexRank 6-Step) ===
+Sumber    : transkrip_Zoom Meeting   Psikologi Sosial I C 2022 02 23 13 15 57_20260617_164919.txt
+Dibuat    : 17 June 2026, 16:50:23
+Model     : Whisper small
+========================================
+
+adalah notulensi rapat berdasarkan transkrip yang diberikan:
+
+**Pembukaan:**
+
+- Rapat dibuka oleh Maren, yang membacakan ringkasan tugas-tugas yang telah diselesaikan.
+- Rapat ini akan membahas tentang sejarah psikologi sosial dan bagaimana konsep-konsep tersebut berkembang.
+
+**Topik Utama 1: Sejarah Psychologi Sosial:**
+
+- Psikologi sosial mungkin sudah dibahas sebelumnya, tetapi ada beberapa hal yang perlu dipertimbangkan.
+- Awal mulanya munculnya psikologi sosial adalah dari ilmuwan Jerman pada abad ke-19.
+- Ilmuan Jerman tersebut mempublikasikan tulisannya di sebuah jurnal disebut dengan Volker Psychology.
+- Pada tahun 1908, William Mithnogel dan Edward Ross membahas tentang psikologi sosial dari perspektif yang berbeda.
+
+**Topik Utama 2: Konsep-Konsep Psikologi Sosial:**
+
+- Alport mengatakan bahwa social psychology involves the use of scientific method to understand and explain how thoughts, feelings, and behavior of individuals are influenced.
+- Terdapat tiga jenis kehadiran yang mempengaruhi individu:
+ 1. Actual (kehadiran nyata)
+ 2. Imaging (kehadiran yang dibayangkan)
+ 3. Implied (kehadiran yang tidak nyata)
+
+**Pertanyaan dan Diskusi:**
+
+- Pertanyaan: Bagaimana psikologi sosial membedakan diri dari ilmu lain seperti sosiologi, antropologi, dan biologi?
+- Jawaban: Psikologi sosial menggunakan metode penelitian untuk memahami bagaimana individu dipengaruhi oleh lingkungan sosial.
+- Diskusi: Bagaimana konsep-konsep psikologi sosial dapat digunakan dalam kehidupan sehari-hari?
+
+**Kesimpulan:**
+
+- Psikologi sosial adalah ilmu yang menggunakan metode penelitian untuk memah

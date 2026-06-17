@@ -1,0 +1,37 @@
+=== RINGKASAN RAPAT (LexRank 6-Step) ===
+Sumber    : transkrip_KOMISI XI DPR RI RDP DENGAN 6 DIRJEN KEMENTERIAN KEUANGAN_20260618_011634.txt
+Dibuat    : 18 June 2026, 01:18:10
+Model     : Whisper small
+========================================
+
+adalah notulensi rapat berdasar transkrip yang diberikan:
+
+**Pembukaan:**
+
+- Rapat dibuka oleh Direktur Arjen Dahlpajak.
+- Agenda rapat: kelembagaan dan kebijakan organisasi untuk menghadapi perkembangan ekonomi global dan domestik.
+
+**Direktora General Pajak:**
+
+- Rasio Anggaran Direktora General Pajak terhadap penerimaan Pajak tahun 2021 sampai dengan tahun 2026.
+- Target penerimaan pajak pada tahun 2027 sebesar Rp2.357,7 triliun.
+- Pimpinan dan Komisi 11 melaporkan pagu indikatif di tahun 2020, Tuju ini.
+- Mohon Perkenan Mohon perkenan, pimpinan, dan Bapak-Ibu Anggota Komisi 11 DPR untuk dapat menyitujui usulan mencana kerja dan pagu indikatif Direktora General Pajak Tahun Anggaran 2027, sebesar Rp5.402.56.236.000.
+- Semua yang terhormat, pimpinan, dan seluruh anggota Komisi 11 DPR RI, Hejinkan kami menyampaikan paparan berkaitan dengan rencana kerja dan anggaran Direktorat General Biadran Cukai Pagu Indikatif Tahun Anggaran 2027.
+- Ng ketiga, kami akan menyampaikan rencana kerja dan pagu indikatif Tahun Anggaran 2027 sebagai dasar permohonan Persetujuan Komisi 11 DPR RI.
+
+**Pertanyaan dan Diskusi:**
+
+- Pertanyaan terkait ajak: bagaimana untuk mencapai target pajak pada tahun 2027 dengan memanfaatkan potensi pajak dari underground ekonomi, shadow ekonomi, dan digital ekonomi global.
+- Jawaban: perlu ada roadmap yang jelas untuk menghadapi keadaan ekonomi global yang masih berubah-ubah.
+
+**Kesimpulan:**
+
+- Rencana kerja dan anggaran Direktorat General Pajak pada tahun 2027 sebesar Rp5.402.56.236.000.
+- Target penerimaan pajak pada tahun 2027 sebesar Rp2.357,7 triliun.
+
+**Penutup:**
+
+- Rapat dibuka oleh Direktur Arjen Dahlpajak.
+- Agenda rapat: kelembagaan dan kebijakan organisasi untuk menghadapi perkembangan ekonomi global dan domestik.
+- Terima kasih kepada para dirjen dan Menteri yang hadir.

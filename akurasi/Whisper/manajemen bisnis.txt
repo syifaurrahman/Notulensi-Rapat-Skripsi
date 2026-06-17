@@ -1,0 +1,39 @@
+==============================================================
+  HASIL PENGUJIAN AKURASI WHISPER
+  Sistem Notulensi — Mata Kuliah Dasar Manajemen dan Bisnis
+==============================================================
+  Tanggal     : 18 June 2026, 00:03:45
+  Metode      : jiwer (WER / CER)
+  File Ref    : manual Rekaman Zoom Sesi 1 ...Manajemen...H264.txt
+  File Hyp    : transkrip_Rekaman Zoom Sesi 1 ...Manajemen...213535.txt
+  Kata Ref    : 19579
+  Kata Hyp    : 3804
+--------------------------------------------------------------
+
+  METRIK UTAMA
+  ──────────────────────────────────────────
+  WER   (Word Error Rate)     :    95.13%
+  WAcc  (Word Accuracy)       :     4.87%
+  CER   (Character Error Rate):    83.30%
+
+  DETAIL ERROR (Word-level)
+  ──────────────────────────────────────────
+  Substitutions (S) :   2845
+  Deletions     (D) :  15778
+  Insertions    (I) :      3
+  Hits          (H) :    956
+  Total Ref     (N) :  19579
+
+  PENILAIAN
+  ──────────────────────────────────────────
+  Kualitas WER  :  Perlu Peningkatan ✗
+  Kualitas CER  :  Perlu Peningkatan ✗
+
+==============================================================
+  CATATAN:
+  - WER ideal untuk speech-to-text: < 10%
+  - WAcc = 100% - WER
+  - CER lebih ketat karena dihitung per karakter
+  - Normalisasi: lowercase, hapus tanda baca,
+    hapus frasa halusinasi Whisper
+==============================================================
