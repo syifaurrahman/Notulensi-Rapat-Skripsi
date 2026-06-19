@@ -1,0 +1,74 @@
+====================================================================
+   HASIL KORELASI: LexRank <-> Transkripsi Whisper
+   Zoom Meeting Basis Data — Sistem Informasi Universitas Jambi
+====================================================================
+  Tanggal      : 19 June 2026, 21:50:42
+
+FILE LEXRANK   : lexrank_zoom-meeting-basis-data-sabtu-3-juni-2023-sistem-informasi-universitas-jambi-part-1-ytmp4.savetube.vip_20260619_211533.txt
+FILE TRANSKRIP : transkrip_zoom-meeting-basis-data-sabtu-3-juni-2023-sistem-informasi-universitas-jambi-part-1-ytmp4.savetube.vip_20260619_211533.txt
+
+--------------------------------------------------------------------
+  STATISTIK DOKUMEN
+--------------------------------------------------------------------
+  Token LexRank (raw)                      : 562
+  Token Transkrip (raw)                    : 11908
+  Token LexRank (tanpa stopword)           : 295
+  Token Transkrip (tanpa stopword)         : 5795
+  Kosakata unik LexRank                    : 98
+  Kosakata unik Transkrip                  : 1264
+  Kosakata overlap (irisan)                : 97
+  Jumlah kalimat LexRank                   : 25
+
+--------------------------------------------------------------------
+  METRIK KORELASI
+--------------------------------------------------------------------
+  1. Cosine Similarity (TF-IDF)              :  65.47%
+  2. Jaccard Similarity (kosakata unik)      :   7.67%
+  3. Token Retention Rate                    :   5.07%
+  4. Sentence Coverage                       : 100.00%
+  5. Compression Ratio (lex/transkrip)       :   4.72%
+
+--------------------------------------------------------------------
+  INTERPRETASI SETIAP METRIK
+--------------------------------------------------------------------
+  Cosine Similarity  : TINGGI [OK]
+  Jaccard Similarity : RENDAH  [!]
+  Token Retention    : RENDAH  [!]
+  Sentence Coverage  : TINGGI [OK]
+  Compression Ratio  : BAIK (ringkasan padat, 4.7% panjang transkrip)
+
+--------------------------------------------------------------------
+  DETAIL COVERAGE PER KALIMAT LEXRANK
+--------------------------------------------------------------------
+  [ 1] [EXACT] Jaccard=1.000  "Ng pertama itu implementasi dari super-type dan sub-type itu adalah de..."
+  [ 2] [EXACT] Jaccard=1.000  "Itu adalah implementasi dari super type dan sub type dengan cara singl..."
+  [ 3] [EXACT] Jaccard=1.000  "Kalau single table itu dia mendapatkan 1 kolom untuk setiap atribut da..."
+  [ 4] [EXACT] Jaccard=1.000  "Atribut yang ada di level super type itu..."
+  [ 5] [EXACT] Jaccard=1.000  "Ada di level super type itu, semuanya kita transformasikan, gitu ya, k..."
+  [ 6] [EXACT] Jaccard=1.000  "Ini ada Table Employee, ya ada Table Employees, ya ini single table ya..."
+  [ 7] [EXACT] Jaccard=1.000  "Ada First Name nya kemudian ada kelas namanya, ya yang mana 3 tipe ya ..."
+  [ 8] [EXACT] Jaccard=1.000  "Karena kan tadi ya wajib diisi kalau dia sifatnya full time..."
+  [ 9] [EXACT] Jaccard=1.000  "Berarti ID department itu ada di table employee, gitu ya, dan sifatnya..."
+  [10] [EXACT] Jaccard=1.000  "Cuma kalau department ID tadi, dia sifatnya adalah ID tadi, dia sifatn..."
+  [11] [EXACT] Jaccard=1.000  "Ng di sini tadi yang employee ID ya, employee ID, dia ini adalah prima..."
+  [12] [EXACT] Jaccard=1.000  "Kalau dia tipe employee-nya nanti diisi full-time, Nanti diisi full ti..."
+  [13] [EXACT] Jaccard=1.000  "Kita lihat di sini, jadi kalau tipe-nya adalah full-time, ya tipe kary..."
+  [14] [EXACT] Jaccard=1.000  "Partinya atribut itu kebanyakan di level super type, gitu ya, di level..."
+  [15] [EXACT] Jaccard=1.000  "Kalau kita lihat atributnya justru lebih banyak di level super type, s..."
+  [16] [EXACT] Jaccard=1.000  "Ini ya untuk yang super type, untuk yang single table, lalu implementa..."
+  [17] [EXACT] Jaccard=1.000  "Kalau yang di single table tadi, dia hanya satu table, mau berapa bany..."
+  [18] [EXACT] Jaccard=1.000  "Untuk pengidentifikasinya, primary UID yang ada di level super type it..."
+  [19] [EXACT] Jaccard=1.000  "Sebagai hubungan busur, ya jadi super type dan sub type ini ya entitas..."
+  [20] [EXACT] Jaccard=1.000  "Di sini ya, di entity super type-nya coating itu ya, tadi pada sub typ..."
+  [21] [EXACT] Jaccard=1.000  "Karena disini sifatnya adalah satu ke satu ya, dan ini adalah sifatnya..."
+  [22] [EXACT] Jaccard=1.000  "Ini implementasi super type dan sub type tadi di dalam busur..."
+  [23] [EXACT] Jaccard=1.000  "Satu super-type bisa punya 2 table, gitu ya tadi..."
+  [24] [EXACT] Jaccard=1.000  "Modeling historical data atau data history, pemodelan data history git..."
+  [25] [EXACT] Jaccard=1.000  "Karena disini ID Employee itu sifatnya adalah primary T ya, primary UI..."
+
+====================================================================
+  KESIMPULAN
+====================================================================
+  Rata-rata korelasi (4 metrik utama) : 44.55%
+  Kesimpulan                          : LexRank CUKUP BERKORELASI dengan transkripsi Whisper.
+====================================================================

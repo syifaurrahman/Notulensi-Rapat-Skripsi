@@ -1,0 +1,464 @@
+Berikut adalah penulisan ulang transkrip dengan koreksi pada kata-kata yang salah (salah ketik/ucap) serta penghapusan kata berulang yang berlebih atau berpotensi menjadi halusinasi, tanpa mengubah tanda baca dan kapitalisasi sesuai permintaan:
+
+---
+
+kemudian UID dan basic mapping, proses transformasi.
+Nah sekarang saya akan melanjutkan untuk topik subtype mapping. Jadi waktu di pembahasan supertype dan subtype lalu saya ada bertanya ke kalian.
+ya mungkin saya nggak tau ya di semua kelas saya lupa atau hanya beberapa kelas, saya ada bertanya, kira-kira berapa table yang dihasilkan dari subtype yang terbentuk?
+Ya, kemarin saya ambil contoh misalkan ada subtype payment atau pembayaran.
+Kemudian dia ternyata punya subtype, ya ada 3 subtype.
+subtype, ya itu cash, check, dan credit, ya kemarin seperti itu ya contohnya.
+Lalu saya bertanya ke kalian kira-kira berapa table yang akan dihasilkan dari sini?
+Satu table, tiga table atau empat tabel. Nah pada saat itu saya menjawab ke kalian, informasikan ke kalian akan ada satu tabel.
+kalian akan ada satu table yang terbentuk. Nah, di sini, di materi sub-type mapping inilah kita akan melihat sebenarnya ada berapa table sih yang bisa terbentuk dari adanya beberapa sub-type itu, gitu ya.
+Apakah kalau dia 3 sub-type, apakah Tabel yang terbentuk harus satu tabel atau harus tiga tabel yang terbentuk.
+Ya, jadi tujuan... Jadi, tujuan pembelajaran kita di materi subtype mapping ini adalah melihat proses bentuknya berapa table yang harus terbentuk.
+Yang sebaiknya terbentuk dari adanya subtype tersebut. Oke, berarti ini kita akan melihat implementasi dari supertype dan subtype, ya.
+Jadi, oke, sangat sedikit ini. sedikit pengantarnya, jadi penting bagi kita untuk bisa memetakan dengan tepat dari informasi yang ada itu tidak terjadi kesalahan, gitu ya.
+Nah, jadi di sini, ya kalau di sini diilustrasikan seorang tukang kayu seorang tukang kayu, gitu ya, seorang tukang kayu, dia membangun sebuah rumah impian, misalnya, sebuah rumah impian, impian kita, gitu, misalnya ya.
+Kemudian, dia mungkin tahu gitu ya, bahwa kita akan menggunakan berbagai jenis lampu, Ya.
+Jadi seorang tukang kayu yang membangun rumah impian kita, mungkin tahu bahwa kita akan menggunakan berbagai jenis lampu di sekitar rumah kita.
+Namun jika kita tidak memberikan informasi di mana jenis lampu tertentu itu harus dipasang, maka nanti yang ada tukang kayu tersebut akan sembarangan gitu ya, dia memasang, bisa jadi yang tadinya lampu yang harusnya di kamar tidur, dipasang di dapur misalnya atau di taman, yang lampu yang harusnya di taman gitu ya, itu dia pasang di kamar tidur gitu ya, maka kita wajib kita harus memetakan, memastikan bahwa informasi itu tepat gitu ya, agar tidak terjadi.
+agar tidak terjadi kesalahan implementasi, gitu ya. Oke, yang pertama itu implementasi dari super-type dan sub-type itu adalah dengan cara single table, satu table.
+Oke, di kelas waktu pertemuan yang lalu itu saya Lihat ini adalah satu koneksi yang tidak ada di dalam servisnya.
+ini adalah satu table untuk kasus yang payment tadi yang pembayaran gitu ya dibuat dalam satu table saja, saya sebutkan waktu itu ya kemudian nanti di dalam table tersebut ada kolom yang isinya adalah tanggal pembayaran kemudian jumlah pembayaran, kemudian kategori atau tipe ya atau teknik dari pembayarannya Jadi ada ceklis pilihannya, itu pembayarannya cash, kredit pembayarannya cash, credit atau cheque, gitu ya.
+Kemudian ada kolom nomor kartu creditnya. Dan itu wajib diisi kolom tersebut kalau pemilihannya adalah pemilihan teknik pembayarannya adalah dengan credit.
+Nah itu adalah implementasi dari super type dan sub type dengan cara single table atau satu table.
+atau satu table, itu ya, ok. Ini, ok, berarti hanya satu table yang di-created ya, yang dibuat, begitu ya, terlepas dari berapa jumlah sub-type-nya, ya mau dua, mau satu, mau tiga jumlah sub-type-nya, dia hanya akan dibuatkan satu tabel saja, okay.
+Kemudian ini rules nya ya, rule kalau dia kita implementasikan dalam satu Jadi, rulenya adalah untuk tabel Untuk table itu kita hanya buat 1 table, ya tadi berapapun jumlah sub-type-nya tetap kita hanya akan membuat 1 table saja.
+Kemudian gimana dengan rule atau aturan untuk kolomnya, gitu ya.
+Jadi kalau single table itu dia mendapatkan 1 kolom untuk setiap atribut dari super type.
+Jadi atribut yang ada di level super type itu. semuanya kita transformasikan, gitu ya, ke dalam masing-masing kolom.
+Jadi kalau tadi contohnya yang payment itu di level super type-nya itu ada tanggal pembayaran dan jumlah pembayaran, ada dua atribut, berarti ada dua kolom, ya, ketika ditransformasikan ke tabel.
+gitu ya. Kemudian selain itu apalagi kolomnya gitu ya. Nah kolomnya itu berasal dari sub-type-nya.
+Jadi kalau di sub-type-nya itu contohkan misalnya di sub-type kredit ya di sub-type kredit itu ada nomor kartu kredit.
+Nah itu juga akan menjadi kolom ya menjadi kolom di tabel dan sifatnya adalah optional, itu ya atribut atau kolom yang optional.
+Oke, ini ya, tabel juga mendapatkan kolom dari masing-masing atribut yang dimiliki oleh sub-type tadi yang saya contohkan, gitu ya, tetapi semua kolom itu hanya bisa menjadi Optional sifatnya, gitu ya, tidak.
+sifatnya, gitu ya. Tidak wajib diisi, gitu ya. Oke, nah ini ya, untuk tambahannya, ya additionally untuk tambahannya akan ada sebuah kolom yang wajib harus kita buat ya, dimana dia bertindak sebagai kolom pembeda ya, diskriminator kolom, gitu ya yang ngomong kolom yang membedakan antara tipe-tipe subtype tadi.
+Namanya tadi kan saya contohkan seperti payment tadi. Tetap harus ada kolom tipe teknik atau metode pembayaran yang isinya adalah Tiga pilihan tersebut ya, tiga pilihan itu apa yang tadi?
+Pilihan itu apa yang tadi, cash, pembayaran cash, credit ya atau pembayaran melalui cek.
+Nah, ini yang dinamakan dengan kolom mandatory atau kolom wajib yang dibuat, yang bertindak sebagai kolom pembeda untuk membedakan di antara tipe sub-type tadi.
+Jadi nantinya nilainya itu, nanti kartu kredit. nomor kartu gitu ya, nomor kartu kredit wajib diisi kalo gitu ya, kalo tipenya adalah kredit, tipe pembayarannya.
+Oke, nah contohnya di sini ada entitas task, entitas employee, ada entitas department,
+ada Entitas Department, ada Entitas Agency, itu ya. Oke, nah di Entitas ini, oke ini ya, nah di Entitas Employee itu dia di level supertype-nya ada ID Employee, kemudian ada first name dan ada last name.
+Kemudian ternyata di employee ini dia ada dua kategori, ada pekerja paruh waktu dan ada pekerja full waktu.
+Nah kalau dia full waktu, kalau dia full gratis, kalau dia full dia ada ada atribut salary namanya ya atau gaji, kalau dia pekerja paruh waktu gitu ya, dia ada atribut hourly rate.
+ada attribute hourly rate ya. Jadi apa tuh? Tarif perjamnya. Jadi namanya bukan salary gitu ya.
+Tapi kalau dia full time, dia di istilah term dengan salary, gaji gitu ya.
+Tapi kalau dia part time ya pada waktu dia itu bukan gaji. Tapi dia adalah tarif perjamnya.
+Kemudian di sini ada Departemen, ya entitas Departemen yang isinya, ya anggaplah di sini dicontohkan ID Departemen ya, cukup lah satu atribut ya, karena kita fokusnya di sini adalah entitas dulu, entitas employee yang mau kita lihat.
+Kelemudian ada entitas agency, ya yang isinya adalah ID Agency. Nah di sini kita lihat relasinya.
+Departemen ini berelasi untuk ke employee. ya employee.
+Satu department ya satu department itu dia mempekerjakan gitu ya, mempekerjakan untuk bisa banyak employee gitu ya.
+Nah sedangkan agency disini kalau kita lihat dia relasinya bukan ke employee tapi dia relasinya khusus spesifik ke part-time ya.
+Nah, berarti sebenarnya ini kalau kita bisa simpulkan, berarti agensi ini kayak semacam ininya ya apa, outsourcingnya ya, pihak ketiga yang menyediakan jasa atau sumber daya manusia ya SDM untuk yang kategori part-time.
+Sedangkan kalau full-time itu berarti di sini bisa kita lihat, dia langsung dari perusahaannya. langsung dari perusahaan ya, perekrutannya.
+Sedangkan kalau perekrutannya itu berasal dari agensi ya, kalau kita lihat gitu ya.
+Nah, di sini, oke, kalau kita transformasikan ke dalam bentuk table, maksudnya ini ada table departments ya, ada table agensi gitu ya.
+Kemudian tadi kita mencontohkan di sini yang single table ya berarti di sini ada table employee.
+ini ada Table Employee, ya ada Table Employees, ya ini single table ya jadi employees ya bukan Table Full Time atau Table Part Time ya.
+Nah di Table Employees ini isinya ada ID ya ID Employeesnya, kemudian ada First Name nya kemudian ada last namanya, ya yang mana 3 tipe ya yang mana tiga-tiganya adalah wajib diisi ya sesuai dengan tipenya di sini ya wajib diisi kemudian ada table salary, salary itu wajib diisi kalau dia tipenya adalah full time tapi karena di sini yang hourly rate juga ya tipenya hourly rate ini wajib diisi Kalau dia adalah part time tapi disini dia semua single table di table employee.
+Itu ya artinya di sini salary atau pun hourly rate nggak bisa dia wajib diisi sifatnya. Dia optional kenapa?
+Karena kan tadi ya wajib diisi kalau dia sifatnya full time.
+Tapi kalau employee itu sifatnya adalah full time, berarti salary itu wajib diisi justru malah hourly rate yang tidak wajib diisi.
+yang wajib diisi, kan gitu ya. Nah kemudian disini karena department ini berelasi dengan employee ID, gitu ya.
+Nah, sudah pastilah ini dipetakan dengan foreign key ya, kolom foreign key.
+Berarti ID department itu ada di table employee, gitu ya, dan sifatnya adalah foreign key.
+Kemudian sifatnya foreign key artinya nih wajib ya wajib kemudian Kemudian disini ada tambahan tadi yang agency ya, bukan tambahan ya, ada agency yang dia relasinya lebih spesifik ke part-time, hanya ke part-time ya.
+Berarti agency disini ya, agency ID-nya itu sifatnya adalah optional ya.
+Gak bisa sifatnya, dia sifatnya disini foreign key sama dengan department ID.
+Cuma kalau department ID tadi, dia sifatnya adalah wajib diisi, dia menjadi wajib gitu ya, karena ini berlaku untuk semua, tapi kalau agency ini, karena dia nggak mungkin wajib, karena dia hanya berlaku relasinya ke part-time, tidak ke semuanya, tidak ke employee-nya ya, jadi disini sifatnya adalah optional.
+Kemudian ada kolom mandatory tadi ya. kolom mandatory, kolom pembeda tadi ya, kalau di sini namanya adalah employee type ya, tipe employee-nya gitu ya, tipe employee-nya ini wajib ada di sini pilihannya hanya ada dua full time atau part time Oke, nah kemudian disini terakhir itu ada manager ID.
+MgrID ini manager ID ya kok ada ini bu? kebetulan disini di apa ya namanya?
+di, di relasinya ya kebetulan di relasinya disini itu istilahnya apa ya employee ID ini berelasi dengan dirinya sendiri gitu ya.
+Jadi kan disini karyawan dimanajeri oleh siapa kebetulan oleh siapanya itu adalah dia masih dalam kategori karyawan itu gitu ya.
+Jadi kan yang namanya karyawan kan berarti Banyak karyawan kan berarti mulai dari level pimpinan, direktur, manager gitu ya.
+Sampai ke level yang paling bawah ke staff gitu ya. Itu semua ada di dalam tabel employee gitu ya.
+Jadi sekarang karyawan A, misalkan karyawan B itu dimanajeri oleh SIAPA gitu ya. Jadi, tadinya tuh ini, ini sebenarnya berhubungan dengan... sebenarnya berhubungan dengan slide-slide sebelumnya ya di pembelajaran Oracle Academy ini ya.
+Jadi ini employee itu di karyawan itu dimanajeri oleh siapa gitu ya.
+Jadi misalkan si B, karyawan B dimanajeri oleh si A gitu ya.
+Nah makanya di sini akhirnya ada manager ID yang sebagai foreign key Dan sifatnya adalah opsional.
+dan sifatnya adalah optional, gitu ya. Tidak wajib diisi ini, enggak perlu kalian pikirkan untuk yang bagian manager ID ini, yang penting di sini intinya adalah implementasi dari single tablenya itu seperti APA, gitu ya.
+Kemudian role untuk bagian identifiernya gimana? Jadi untuk pengidentifikasinya di sini, pengidentifikasi uniknya itu bertransformasi menjadi primary key dan unique key.
+Gitu ya. Jadi... Oke, jadi yang di sini tadi yang employee ID ya, employee ID, dia ini adalah primary UID, maka di sini dia akan menjadi primary key.
+Ini lah ya, umum lah ya sama yang seperti saya Sampaikan pada topik transformasi pertemuan yang lalu, ya.
+Kelemudian disini gimana dengan relationshipnya untuk yang... untuk yang single table ini ya atau table tunggal ini gitu ya.
+Jadi semua relasi di tingkat super type itu berubah ya, dia berubah seperti biasa ya menjadi foreign key tadi ya.
+Kalau di sini contohnya ya ini berelasi departemen ini ya, departemen ID di sini menjadi foreign key ya.
+Yang sifatnya adalah wajib sedangkan agensi tadi, dia menjadi foreign key juga tapi sifatnya adalah optional, gitu ya.
+Karena hanya terkhusus ke part-time, gitu ya. Oke, ini berarti relationshipnya, transformasinya umum ya.
+Oke, ini ya, relasi di tingkat di level super type itu di transformasikan seperti biasa.
+Sedangkan untuk relasi di level sub type seperti yang contoh agensi tadi, itu diimplementasikan sebagai foreign key juga, tapi sifatnya adalah optional, tidak wajib, gitu ya.
+Oke, nah kemudian di sini yang terakhir itu rulenya untuk single table adalah adanya integritas constraint ya, atau constraint integritasnya, artinya constraint, constraint itu artinya pembatasan lah ya.
+pembatasan. Jadi, constrain disini, maksudnya constrain integritas itu adalah kita harus mengecek constrain atau mengecek pembatasan itu, ya perlu kita lakukan untuk memastikan bahwa setiap subtype tertentu ya, kita harus memastikan bahwa setiap subtype tertentu itu semua kolomnya itu berasal dari atribut yang wajib tidak kosong gitu ya, Artinya gini, seperti ini ya, seperti yang ini tadi.
+Kalau dia tipe employee-nya nanti diisi full-time, berarti salary itu wajib diisi.
+Kalau dia, tipe employee-nya adalah part time, berarti hourly rate itu wajib untuk diisi. Berarti kita perlu melakukan pengecekan. Pengecekannya gimana?
+Pengecekannya itu ya di sisi backend-nya kita. Jadi kalau misalkan, ya jadi pengecekan constraintnya itu kita perlukan gitu ya, kita perlukan untuk memastikan bahwa subtype tertentu itu, kolom yang menjadi wajib harus diisi itu tidak boleh kosong.
+Itu ya jadi kayak tadi apa, kayak tadi yang kalau dia full time, salarynya itu wajib, kolom itu wajib diisi ya.
+Kalau dia part-time justru kolom yang hourly rate-nya yang wajib diisi, contohnya tadi gitu.
+Nah, untuk memastikan kolom-kolom ini wajib diisi, ya, sesuai dengan kondisi tipe dari employee-nya itu apa, ya, full-time-kah atau part-time-nya, makanya kita perlu melakukan check constraint atau check pembatasan.
+Nah, check constraint-nya itulah yang kita lakukan, bisa kita lakukan di sisi backend, seperti yang saya sampaikan pada pertemuan kelas minggu lalu, gitu ya.
+dia memang sifatnya optional gitu ya tapi dia menjadi wajib diisi ketika pemilihan tipe employee nya itu tepat ya jadi kalau tadi full time dia wajib salarynya diisi gitu ya tapi kalau kita pilihnya part-time, salary, optional, dia sebenarnya gak wajib untuk diisi, jadi tidak boleh null.
+Oke, bentar. Oke, ini masih di single table ya. Oke, jadi ini di dalam model conceptual itu tadi gaji menjadi wajib diisi kalau dia tipe employee-nya adalah full time dan hourly rate dia menjadi wajib diisi kalau tipenya adalah part-time ya tipe employee-nya adalah part-time oke ini Ini saya bisa lewatkan karena tadi sudah saya sampaikan ya.
+Oke, jadi ketika super type karyawan di implementasikan sebagai table tunggal dalam model fisiknya maka atribut yang dua ini, salary dan hourly rate itu, dia sifatnya menjadi optional.
+Dan kita perlu melakukan pengecekan constraint tadi itu ya. Oke.
+Oke, kira-kira lebih kurang seperti ini ya pengecekannya itu ya.
+Jadi pengecekannya jika tipe employee-nya adalah full time employee atau FTE ya disingkatnya disini ya.
+Dan kemudian salary-nya adalah Not Null gitu ya. kemudian hourly rate nya adalah Null dan agency adalah Null. Jadi kalau misalkan dia tadi FTE, berarti salarynya nggak boleh kosong.
+hourly rate dan agency ID nya harusnya kosong atau optional. Tapi kalau tipenya adalah part-time, salary-nya itu kosong.
+harusnya kosong, dan hourly rate-nya tidak boleh kosong, dan agency ID-nya juga tidak boleh kosong.
+Nah kira-kira lebih kurang seperti ini pengecekan constrainnya. Ini bisa kita melakukan. Nah ini ya, jadi kalau dipetakan fisik.
+fisiknya ya kalau kita lihat transformasinya. Jadi ini tadi ya ada ID, first name, last name-nya.
+Jadi ada salary, hourly rate, department ID, agency ID, dan tipe dari employee-nya, kemudian ini tadi ada tambahan ya, manager ID-nya ya.
+Nah, kita lihat di sini, jadi kalau tipe-nya adalah full-time, ya tipe karyawannya adalah full-time, maka yang tadi salary wajib diisi.
+kalau tipenya adalah part-time, maka hourly rate itu menjadi wajib diisi ya nggak boleh kosong dan tadi satu lagi agensi ID-nya juga harus diisi.
+Nah ini contoh dari implementasi single table, ya. Oke, sekarang kapan kita harus memilih mengimplementasikan single table ini untuk super type maupun sub type kita, gitu ya, ada kondisinya, gitu ya.
+kondisinya. Nah, implementasi dari single table ini adalah implementasi yang umum dan flexible.
+Jadi ini adalah implementasi single table ini adalah implementasi yang umum dan ini flexible.
+Kemudian implementasi single table ini cocoknya untuk kasus yang seperti apa, untuk kondisi yang seperti apa.
+untuk kondisi yang seperti apa? Ya, pertama, sebagian kalau ya kalau sebagian besar atribut itu berada pada level super type.
+Artinya atribut itu kebanyakan di level super type, gitu ya.
+Contohnya seperti yang ini tadi ya.
+Kalo kita lihat, ya kalau kita lihat atributnya justru lebih banyak di level super type, sedangkan di level sub type ya hanya satu atribut saja gitu ya untuk pembedanya.
+Artinya disini kita lebih cocok untuk mengimplementasikan single table karena atributnya lebih banyak di level super type gitu ya.
+Kemudian kondisi yang kedua adalah sebagian besar relasinya itu ya berada pada level super type juga.
+Dan aturan bisnis secara globalnya itu sama untuk subtype. Jadi, ya aturan bisnisnya itu atau rule bisnisnya itu ya sebagian besar.
+sebagian besar itu untuk level-level sub-type itu hampir sama, ya hampir sama, tidak berbeda.
+Jadi kalau gitu, kita lebih tepat kalau mengimplementasikan yang model single-table untuk kasus super-type dan sub-type ini, ya.
+Oke, ini ya untuk yang super type, untuk yang single table, lalu implementasi yang selanjutnya itu adalah dua table, gitu ya.
+Nah, ya kita sebutnya sebagai dua table ya, jadi sebenarnya nggak dua table juga ya, jadi disini tergantung dengan berapa banyak dari sub-type-nya.
+Kalau sub-type-nya ada dua, berarti kita buat dalam dua table, kalau sub-type-nya ada tiga, berarti kita buat dalam tiga table.
+Tapi ini umumnya kita istilahkan dengan dua table implementasi gitu ya. Nah, di sini, di implementasi dua tabel ini, rulenya seperti apa, gitu ya?
+Rulenya di sini, tabelnya itu adalah satu tabel untuk per level subtype, ya. Jadi kalau yang di single table tadi, dia hanya satu table, mau berapa banyak pun sub type-nya, tetap dia di single table atau satu table, gitu ya.
+Tapi kalau di, sebentar ya, tapi kalau Jadi, untuk yang dua table itu, aturannya apa?
+Jadi, satu table itu mendefinisikan untuk per satu level subtype-nya. Kemudian untuk kolomnya seperti apa?
+Jadi, setiap table itu mendapatkan satu kolom dari masing-masing attribute di level yang super type gitu ya plus bersamaan dengan original optionality-nya.
+Kemudian ya jadi masing-masing tadi kan kalau sub-typenya misalkan ada dua ya berarti ada dua table.
+Anggaplah table full time tadi ya sama table part time.
+Kemudian kolomnya gimana ya isian kolom dari masing-masing tebo tersebut masing-masing tabel tersebut mewarisi dari level super typenya.
+Jadi kalau di super typenya tadi ada ID employee gitu ya, tadi ada first name, ada last name.
+Nah itu akan diwarisi ke masing-masing table di level sub-typenya itu.
+Kemudian untuk masing-masing tabel, dia juga mendapatkan kolom dari masing-masing atribut yang memang itu dimiliki oleh level sub-typenya tadi.
+Jadi nanti ada tambahan kolomnya, bukan tambahan kolom ya sebenarnya ya.
+Jadi setelah tadi ambil atribut yang di level super-type, kemudian ambil atribut yang di level sub-typenya.
+Jadi untuk table full-time ada kolom salary. Untuk table part-time itu ada kolom, atau tadi kolom hourly rate gitu ya, nah itu rulenya kemudian kemudian gimana dengan pengidentifikasinya?
+Nah, untuk pengidentifikasinya, primary UID yang ada di level super type itu, ia akan tetap menjadi primary key untuk masing-masing table subtype ini.
+Kemudian secondary UID di level super type itu akan menjadi unique key di masing-masing table subtype tadi ya, umumlah berarti ya untuk transformasi pengidentifikasinya ini. Lalu bagaimana dengan relasinya atau hubungannya ya?
+Nah, semua table ya, semua table akan mendapatkan Foreign Key untuk relasi yang ada di level super type, ya.
+Oke, jadi semua table, jadi tadi kalau ada relasi dari Departement dari Entitas Departement tadi ke Entitas Employee.
+Artinya disana relasinya ada di level super type, gitu ya.
+Jadi, foreign key-nya untuk foreign key department ID-nya itu ada di setiap tabel untuk masing-masing table yang subtype tadi, gitu ya. Diwarisi, gitu ya, istilahnya.
+Kemudian untuk relasi yang di level subtype, tadi contohnya yang agency, dia hanya ada, hanya berelasi di level subtype yang part-time ya.
+Nah dia, maka foreign key-nya diimplementasikan hanya di table yang dipetakan, artinya hanya untuk foreign key-nya hanya untuk table, di table part-time saja, gitu ya.
+Oke, optional, optionalitas asli dipertahankan ya. Itu optionalnya ini. Oke, original optionality is retained, ya optionalitas asli itu dipertahankan, ya jadi optionalitas asli dari atribut dan relasi, gitu ya.
+Yang dibawa ke kolom dan ke foreign key tadi, ke kolom table dan foreign key.
+dan foreign key, itu tidak perlu pemeriksaan constraint, ya tidak perlu pemeriksaan constraint karena sudah ada dalam implementasi table tunggalnya yang tadi ya.
+Jadi tidak perlu ada tambahan di sisi pemrogramannya, gitu ya.
+kalo memang sudah bawaan asli tapi kalau memang butuh untuk pengecekan constraint seperti tadi penjelasan saya untuk yang single table tadi, itu perlu pengecekan constraint, berarti perlu pengecekan di sisi pemrogramannya.
+Kemudian ini contoh dari implementasi dua table, ada entitas manufaktur, taylor dan cobbler, kemudian entitas clothing.
+Nah disini di clothing ini ada attribute ID dan material.
+Kemudian di dalamnya itu ada subtype, ada shirts dan shoes gitu ya.
+kemudian di sini ya ada kemeja dan ada sepatu. Nah di sini kemeja, sub-type kemeja, dia punya atribut lagi dan sub-type sepatu, dia punya atribut lagi.
+Kebetulan di sini masing-masing mempunyai 3 atribut tambahan di sisi sub-typenya.
+Nah, kalau kayak gini kita lihat, ternyata jumlah atributnya itu justru lebih banyak di level sub-type daripada di level super-typenya.
+Nah kalau seperti ini kasusnya, boleh kita pisahkan, nggak kita jadikan single table, tapi kita jadikan dia dua table.
+Kita jadikan dua table. Table apa? Table kemeja dan table sepatu.
+Oke, lalu di sini ada entitas manufaktur yang dia berelasi ke clothingnya, ya super typenya ya.
+Kemudian yang Taylor itu dia disini relasinya hanya ke shirtnya ya, ke mejanya dan cobbler ini hanya berelasi ke subtype shoes gitu ya, hanya sepatu gitu ya.
+Oke, lalu gimana bentuk dari implementasi transformasi ke table-nya gitu ya. Nah ini yang implementasi dua table-nya.
+Jadi di sini ada tabel kemeja dan ada tabel sepatu. Tabel kemeja nanti isi kolomnya apa aja.
+Isi kolomnya sudah pasti ID Clothing dan material ini ya sudah pasti.
+Dan di sini ID Clothing ini dia akan sifatnya adalah primary UID, nah ini akan menurun, itu ya akan diwarisi ke masing-masing subtype.
+Oke, jadi di sini yang ID ini, ID Clothing Sifatnya adalah Primary Key, kemudian ada material, kemudian ada ini ya.
+Ada panjang lengannya ya, kemudian ukuran lehernya dan Style kolarnya ya, jadi ada sleeve, ada neck, ada collar stylenya.
+Kemudian tambahannya apa? Tambahannya adalah ini dia tadi kan relasi dengan entitas taylor, maka di sini ada id taylor ya sebagai foreign key.
+Kemudian di sini dia juga tadi ya diwarisi ya relasinya dari yang manufaktur ini ya, manufaktur berelasi dengan super typenya.
+Dari super type diturunkan diwarisi ke sub typenya. Berarti disini ada ID manufaktur, ya mfg ID ya manufaktur ID sebagai foreign key-nya juga dan ini sifatnya adalah wajib gitu ya.
+Oke, lalu di sini ada tabel sepatunya juga sama dengan tabel kemeja tadi implementasinya ya.
+Ada ID clothing, ada material, ada size nya, buckle style nya, heel height nya ya. kemudian ada id cobbler-nya.
+ID cobbler-nya, gitu ya, dan ada ID manufakturnya. Oke, ya dan sifatnya adalah optional ya, optional untuk yang ini.
+Tapi untuk yang foreign key manufaktur ini adalah wajib. Oke, ini contoh dari sample data ya, intinya ya.
+Jadi tadi ada untuk table kemeja dan table sepatu.
+Kalo yang single table tadi kan satu aja ya, table karyawan, kemudian nanti ada kosong ya pengisiannya ya, kalau yang tipenya misalkan full time tadi apa yang kosong kalau tipe employeenya adalah part time ada kolom yang kosong.
+Oke, nah sekarang kita lihat kapan kita mempertimbangkan untuk penggunaan dari dua table tadi ya, dua table implementasi tadi.
+Yang pertama tadi sub-type itu, sub-type itu memiliki sangat sedikit ya, sangat sedikit memiliki kesamaan dengan sub-type-sub-type yang lainnya, gitu ya, di dalam proses bisnisnya.
+Jadi kalau proses bisnis subtype A berbeda dengan yang subtype B itu gitu ya, lebih baik ini dipisahkan saja tabelnya.
+Kemudian hanya ada sedikit atau beberapa atribut di level super type ya, dan lebih banyaknya itu atributnya ada di level sub-typenya.
+Nah kalau kondisinya seperti ini, kita harus mempertimbangkan untuk membuat dalam dua table, bukan dalam single table.
+bukan dalam single table tadi ya, dua atau lebih table dan sebagian besar hubungan atau relasi itu berada pada level subtype-nya, itu ya tadi ya contoh yang clothing tadi.
+Kemudian aturan dan fungsi bisnisnya itu sangat berbeda antar subtype gitu ya kemudian Oke, bagaimana table itu digunakan ya fungsi dari table itu berbeda gitu ya.
+Jadi, ya contohnya satu table di query sedangkan yang lainnya itu diperbaharui.
+Jadi intinya sebenarnya how table are used different ini ya dari sisi model proses penyimpanannya juga ya.
+Ini juga sebenarnya terkait dengan bisnis rule dan fungsionalitas dari masing-masing subtype itu ya dari masing-masing table itu.
+Jadi intinya kalian bisa melihat dari beberapa kondisi ini. Salah satu dari kondisi ini terpenuhi ya atau duanya terpenuhi, itu bisa kalian pertimbangkan untuk menjadikannya dua tabel, gitu ya. Oke, ini memodelkan super type sebagai busur.
+Nah, kalau saya ngomongin soal busur ini, ini bagusnya kalian tuh sudah bisa data modeler ya sudah install data modeler ya sudah install sudah pernah sudah bisa menggunakan mengimplementasikan data modeler ya harusnya ya karena tanda busur ini ada di data modeler ya kalau kalian sudah bisa pake data modeler itu bisa kalian bayangkan ya ilustrasinya seperti apa jadi seperti ini tuh kalau di data modeler nanti ini yang dinamakan dengan busur gitu ya.
+Nah. Oke, anggap aja kalian sudah tahu tentang data modeler.
+Habis ini setelah materi hari ini selesai kalian harus install, wajib install data modeler dan kalian harus belajar tentang penggunaan dasar dari data modeler ya karena di pertemuan yang selanjutnya ya itu saya akan tes ya sejauh mana kalian bisa menggunakan data modeler.
+Lalu di sini ya memodelkan super type sebagai busur ya, jadi ini masih yang ERD nya clothing tadi ya, jadi entitas dari super type dan subtype itu dapat dimodelkan sebagai hubungan busur.
+sebagai hubungan busur, ya jadi super type dan sub type ini ya entitas super type dan sub type ini bisa nantinya dimodelkan sebagai hubungan atau relasi busur, kalau kita pakai data modeler ya.
+ini kita lihat langsung saja ke sini. Oke, ini ya model dari ilustrasi busurnya.
+Jadi, di dalam ER modelnya, model konseptualnya ini, ini ya, ini manufaktur tadi tetap, Taylor ya, Cobbler ini tetap.
+Nah, di sini ya, di entitas super type-nya clothing itu ya, tadi pada sub type-nya, ada kemeja dan ada sepatu, gitu ya.
+Nah, ini kalau kita gambarkan, tadi kita bikinnya kan dua table, gitu ya, kita bikin dua table.
+Nah ini kalau kita gambarkan antara super-type dan sub-type itu, ini bisa kita gambarkan ilustrasikan dengan tanda busur ini.
+Jadi, tanda busur ini artinya apa, ya? Jadi di sini kita lihat relasi antara clothing dan kemeja, ya?
+Kemudian relasi antara clothing dan sepatu. Kemudian di sini kita kasih dia busur.
+Artinya ya kalau kita kasih busurnya seperti ini gitu ya, okay busurnya ini menghadap ke dalam ya ke clothing ya ke sini artinya di sini clothing itu dia sebagai super type dan dia punya bagian anak-anaknya lagi gitu ya apa anak-anaknya itu anak busur ya jatuhnya ya nah ini kemeja dan sepatu ya jadi ini busur gitu ya, nah ini adalah anak busurnya gitu ya, istilahnya seperti itu, kemeja dan sepatu ini, ini adalah subtypenya.
+Kemudian di tengah-tengah, disini ada bentuk bulat, nah ini adalah bentuk eksklusif OR atau XOR, artinya apa?
+Artinya disini hanya salah satu, berartikan kalau XOR itu ya, hanya salah satu.
+Jadi nanti dia nggak bisa langsung sekali, nggak bisa langsung bersamaan pemilihannya dua, gitu ya.
+Clothing mau pilih kemeja atau mau pilih sepatu, gitu ya. Gak boleh langsung bersamaan sepatu dan kemeja, gitu ya.
+Nah makanya di sini dalam pengisian tabelnya itu pun juga kan dipisah ya. Ada tabel kemeja dan ada tabel sepatu, gitu ya. Jadi arti xor ini pilih salah satu, gitu ya.
+Jadi di sini hubungannya atau relasinya, ya relasinya itu adalah satu ke satu, satu ke satu, gitu ya.
+Hubungannya adalah satu ke satu. Nah karena itu di sini ya, karena hubungannya antara clothing dan kemeja satu ke satu dan clothing ke sepatu adalah satu ke satu.
+Jadi nggak mungkin kan dalam satu kali bersamaan, clothing itu dia pemilihannya ada dua, kemeja dan sepatu.
+Karena disini sifatnya adalah satu ke satu ya, dan ini adalah sifatnya adalah xor atau eksklusif.
+Jadi setiap kemeja itu adalah harus menjadi suatu bagian dari clothing, gitu ya dan setiap sepatu dia harus menjadi suatu bagian dari clothing.
+Jadi, karena mereka ini adalah anaknya, gitu ya, dari entitas supertype clothing ini, gitu ya.
+Dan setiap clothing itu harus berupa kemeja atau sepatu.
+Gak boleh keduanya karena yang sifatnya adalah XOR tadi.
+Nah gini ya cara penggambaran di data modelernya untuk subtype dan supertype.
+Dan ini berlaku untuk jenis mau yang implementasinya satu table ataupun dua table.
+tadi kita harus memilihkan, harus memilih dia yang tadi ya, yang employee tadi ya.
+Kita kan harus memilih tadi ya pada saat kita implementasikan dalam bentuk data sample kelihatan kan ya, kita harus memilih dia ini full time atau dia part time.
+Tapi kita nggak bisa memilih dia sekaligus dua full time dan part time.
+Nah, itulah kenapa dia sifatnya disini dikatakan sebagai Ex-Or atau Exclusive-Or, pilih salah satu tapi tidak boleh keduanya, gitu ya.
+Dan sifatnya adalah tadi satu ke satu relasinya, gitu ya, karena nggak bisa satu employee ya, satu employee nggak bisa tadi memiliki dua tipe employee ya, nggak bisa dia tipenya apa, full time-kah atau dia part-time-kah.
+Nah itu juga kenapa disini bentuk kardinalitas relasinya adalah satu ke satu, one to one, gitu ya.
+Dan kenapa disini XOR, gitu ya, karena nggak mungkin tadi contohnya seperti yang employee nggak mungkin, nggak boleh, satu employee dia memilih dua tipe sekaligus.
+Satu employee itu tentukan, dia adalah tipe employee yang full time kah atau yang part time kah ya salah satu, sama seperti yang di sini ya clothing ya, pilih salah satu berarti kan dia termasuk clothing itu, dia termasuk ke yang kategori kemeja kah atau yang kategori sepatu kah gitu ya, jadi ID clothing itu ID clothing sekian gitu, dia masuk ke kategori mana gitu kan, dia masuk ke kategori kemeja kah atau ke kategori sepatu. Gak boleh dia satu ID gitu ya, dipakai untuk dua tipe, dipakai untuk tipe kemeja dan tipe sepatu. Gak boleh kayak gitu.
+Untuk makanya jadi gambarnya itu seperti ini. Gitu ya. Oke. Oke nih yang tadi. Masih sama, penjelasannya.
+Jadi ini implementasi super type dan sub type tadi di dalam busur.
+Jadi kalau sub type dan super type ini, istilah sub-type dan super-type ini, nantinya kalau kalian buatkan ke dalam model konseptualnya, ya, terutama kalian bikinnya itu dengan aplikasi data modeler, ya, itu nantinya akan dijadikan, akan disimbolkan dengan tanda busur, ya, kalau di data modeler nanti, gitu ya.
+Ini nanti kalian baca saja ya. Ini sebenarnya sudah ada di dalam pembahasan yang saya jelaskan tadi.
+Oke, kalau yang tadi, yang untuk clothing tadi, satu table untuk setiap entitas ya.
+Oke ini menjelaskan secara umum sih sebenarnya ya, satu table untuk setiap entitas gitu ya.
+Tapi tadi kita juga boleh memilih ya kalau misalkan super type nya dan sub-type-nya tadi, ternyata bisa kita melihat lebih tepat kondisinya untuk diimplementasikan menjadi 2 table, gitu ya.
+Jadi, satu super-type bisa punya 2 table, gitu ya tadi ya. Untuk yang kasusnya, yang clothing tadi contohnya ya.
+Nanti bisa kalian baca. ok Ini implementasi dari busur tadi, ya busur super type dan sub type tadi, jadi tabelnya itu ya untuk di sisi table ya.
+Jadi, karena banyak table yang dibuat ya karena ada sub-type tadi ya.
+Untuk kasus kalau yang kasusnya clothing tadi itu kita bisa, masing-masing sub-type itu bisa kita pecahkan dia sebagai masing-masing table ya boleh tadi ya untuk di sini yang seperti itu.
+Kemudian untuk kolomnya, untuk kolomnya itu tadi setiap table, dia mendapatkan kolom dari semua atribut entitas yang menjadi dasarnya.
+Ini penjelasannya ini sama kayak yang tadi, yang untuk implementasi dua table tadi.
+kemudian untuk pengidentifikasinya oke ini sama nih ya seperti yang di implementasi dua table ya primary UIDnya itu yang di level super type itu menjadi primary key oke sama seperti yang tadi kemudian pengidentifikasi uniknya atau UID ya pengidentifikasi uniknya atau secondary UID ya itu menjadi unique key dalam ke dalam table terkaitnya.
+Ini nanti bisa dibaca aja. Kemudian ini juga relasinya masih sama. Penjelasannya dengan yang tadi ya.
+Semua table mendapatkan foreign key ya dari relasi terkait gitu ya di setiap level entitasnya.
+kemudian kita pengecekan Pengecekan constraintnya atau integrity constraintnya, dua kolom tambahan dibuat di table berdasarkan dari super type ini yang ini tadi ya apa kolom mandatory ya untuk yang tipe kalau tadi kalau ada tipe dari employee-nya apa gitu ya.
+Oke ini ya ini umum sih sebenarnya yang bagian super type dan sub type implementasi ini berarti dia menggabungkan antara single table dan penjelasannya itu gabungan dari single table dan 2 table tadi.
+Sekarang tinggal dikondisikan aja ya dia mau kita buatkan single table atau dua table, gitu ya. Oke.
+Ini ya ini sama aja dengan yang tadi. Oke, jadi di sini implementasi dari super type dan sub-type yang menggunakan yang tadi ya, yang dari busur tadi ya, kira-kira seperti ini ya, ada tabel kemeja dan ada tabel sepatunya gitu ya.
+Oke, jadi di sini, Oke ini kalau, tadi kan kita memutuskan Tadi kan kita melihat tadi ya di contoh itu, kita pisahkan aja antara tabel sub-type-nya, jadi ada sub-type kemeja dan sub-type sepatu.
+Jadi ada tabel kemeja dan tabel sepatu. Kemudian kalau kita mengimplementasikan dari busur tadi, berarti kan tadi di busur tadi kan ada entitas clothing yang terpisah ya dengan entitas kemeja dan entitas sepatu kan gitu tadi ya.
+Nah kalau kita implementasikan itu kan kita melihatnya ya, kuncinya itu kan setiap entitas itu menjadi tabel kan gitu ya.
+Berarti kalau tadi ada entitas clothing, ada entitas kemeja dan entitas sepatu, berarti kita melihatnya akan ada 3 table.
+Nah, dari 3 table tadi, ya kita transformasikan gitu ya, dari 3 entitas tadi kita transformasikan ke dalam table, ada 3 table dan masing-masing dari nama kolomnya itu untuk yang clothing tadi ada ID, material dan karena dia terhubung ke kemeja, maka dia ada ID kemeja dan dia terhubung ke sepatu, maka dia ada ID sepatu juga dan dia berelasi ya, tadi ya clothing itu ke manufaktur, makanya ada manufaktur ID nya, kemudian disini di kemeja ya, dia ada ID, dia ada ID Oke, baik kita lanjutin. Nampil nggak? Layar saya di kalian? Ada bu.
+Oke, jadi kalau misalkan kita lihat, kalau kita mengimplementasikan dari yang gambar busur tadi itu kan, tadi ada entitas clothing ya, jatuhnya ya, dan ada entitas kemeja dan entitas sepatu.
+Berarti kan kalau kita ambil basicnya, masing-masing entitas ini kan menjadi sebuah table.
+Nah, kalau dia menjadi sebuah table, berarti kan kita buatkan dalam bentuk table yang seperti ini, gitu ya.
+Nah, table yang seperti ini, ini 3 table ya, 3 table yang seperti ini ya, tambahannya nih ya ada table clothing ini.
+Nah, di bagian tabel clothing ini itu apa ya ini susah ya susah untuk diterapkan yang 3 table seperti ini kenapa saya katakan ini susah untuk diterapkan karena di sini kemeja ID di sini ya ada di bagian clothing dan sepatu ID itu ada juga di bagian clothing dan ini berelasi ke entitasnya sub-type yang kemeja dan sub-typenya sepatu, gitu ya.
+Nah, di sini artinya di bagian clothing ini kita memerlukan pemeriksaan constraint pada clothing ini, gitu ya, untuk bisa memperlakukan, gitu ya, bahwa apakah pemeriksaannya ya, berarti apakah kemeja ID itu tidak null, gitu ya dan bisa misalkan ya dan sepatu itu adalah null gitu ya atau gitu ya kemeja ID itu adalah null dan sepatu ID itu adalah bukan null.
+Berarti kan kita harus melakukan pengecekan itu karena kenapa tadi?
+Karena kan sifatnya tadi, clothing itu tadi itu ya XOR ya, XOR atau Exclusive OR yang dia tidak boleh kedua-duanya, dia harus salah satu, kan tadi sifatnya busur itu kan gitu ya, tadi ya, ada namanya sifat busurnya tadi, ada exclusive or ya, ada or ini, ya kan, artinya clothing itu dia tidak boleh memiliki kedua-dua dari yang ini, dia hanya boleh satu ID clothing itu hanya boleh memiliki satu jenis tipe kategorinya, ya, kemeja kah atau sepatu, gitu kan. Nah, berarti di sini kalau kita buatkan tabelnya jadi tiga gini ya kan, kalau ini kan tiga ya ada tabel clothing ya, pastinya ya tabel kemeja dan tabel sepatu.
+Nah, kalau kita terapkan model busur itu, gitu ya, ke dalam table, jadinya 3 table seperti ini, artinya di sini kita harus melakukan pengecekan constraint.
+Pengecekan constraintnya apa? Berarti kan di clothing ini nggak boleh. Kalau misalkan kemejanya ada isinya, di sini nilainya berarti yang sepatu harus kosong kan gitu ya.
+kalau misalkan kemeja ini gak ada isinya disini gitu ya, kemeja ID itu kosong, datanya di sini berarti yang sepatu itu wajib ada nilainya.
+Nanti kita harus menerapkan constraint itu, gitu kan. Harus ada pengecekan itu di sisi clothing.
+Ya daripada kayak gitu, susah-susah kayak gitu, ya mending nggak usah aja ada table clothingnya.
+Udah bikin aja table, cukup dua table, table kemeja dan table sepatu.
+jadi kita meminimalisir, meminimalisir untuk fungsi pengecekan constraint ini ya, pengecekan pembatasan ini.
+Jadi ya udah, balik lagi tadi ya, itu implementasi dua table yang contoh sebelumnya tadi ya yang sebelum di busur tadi.
+Kalau tadi kan, kalau contohnya tadi sebelumnya kita menerapkan dua table aja gitu ya, table kemeja dan table sepatu gitu ya.
+Oke, jadi itu ya nggak selalu, bukan nggak selalu ya, jadi walaupun didalam busurnya kita melihat secara kasatnya itu ada 3 entitas, ini 3 table nih, tapi karena pengaruh dari busur tadi itu ya yang ada XOR-nya tadi, artinya kita perlu melakukan pengecekan constraint di sisi clothing ini atau super type ini ya, table super type.
+Kalau kayak gitu, lebih baik kita mengambil yang efisien lah ya.
+Pengerjaan, penyimpanan yang efisien itu gimana ya. Tadi ya lebih baik kalau dibuatkan dalam 2 table ya, 2 table subtype ya, table kemeja dan table sepatu.
+Akhirnya kita nggak perlu melakukan pengecekan constraint lagi, jadi dia sudah berdiri nanti.
+Jadi, dia sudah berdiri masing-masing kan gitu ya. Ini nanti bisa kalian baca ya, biar nanti saya translate kan, biar kalian bisa baca.
+Oke, baik sampai di sini untuk sub-type mapping ada pertanyaan. Gak ada.
+Oke, kalau belum ada pertanyaan untuk subtype mapping, saya lanjutkan itu modeling historical data.
+Yang agak banyak tuh memang topiknya subtype mapping ya. Kalau yang ini modeling historical data, tidak banyak ini ya, ini tambahannya aja.
+Jadi disini ada tambahannya. Jadi di sini ada tambahan ya, Modeling Historical Data, atau Pemodelan Data History, gitu ya.
+Oke, jadi kita lihat posnya dulu.
+Oke, jadi modeling historical data atau data history, pemodelan data history gitu ya, jadi disini Kita akan melihat mengidentifikasi kebutuhan untuk melacak data yang berubah seiring waktu gitu ya dari waktu ke waktu.
+Jadi disini kita lihat ini ya contohnya ya, jadi contohnya gini. Contohnya berapa tinggi badan Anda saat berusia 5 tahun?
+berapa tinggi badan Anda saat berusia 10 tahun gitu ya, berapa tinggi badan Anda saat ini, kan gitu ya.
+Nah, ada kan ya, yang, apa, history data yang harus kita simpan seperti ini, gitu ya.
+Jadi di sini jika orang tua Anda menuliskan ini ketika Anda masih muda, mereka akan melacak data history.
+Jadi dia, misalnya orang tua kita mencatat gitu ya, waktu kita berumur 5 tahun tinggi badan kita sekian, waktu kita berumur 10 tahun tinggi badan kita sekian gitu ya, dan sekarang tinggi badan kita sekian.
+Jadi kita bisa mentracking gitu ya, mentracking dari data history ini.
+Nah ini kadang dibutuhkan dalam beberapa jenis bisnis contohnya aja seperti kenaikan harga saham.
+Bahkan harga saham itu biasanya yang dicatat itu per detik malah gitu ya, per millisecond detik malah gitu kan dicatat.
+Nah, berarti artinya kan ada bisnis yang membutuhkan pencatatan seperti ini.
+Tujuannya apa biasanya kalau bisnis kayak prediksi harga saham gitu ya, prediksi harganya saham itu kenapa dia mencatat hal-hal yang seperti itu, tujuan yang seperti itu.
+Tujuannya mungkin nanti adalah untuk peramalan. Peramalan bisa jadi ya, peramalan nanti kira-kira berapa harga saham di hari berikutnya.
+Kadang ada beberapa bisnis yang seperti itu ya, yang dia butuh data-data history untuk melakukan peramalan prediksi.
+Nah, berarti artinya di sini perlu memodelkan dari data history ini, gitu ya.
+Iya, jadi sebagian besar bisnis perlu untuk melacak beberapa data-history, karena ini membantu mereka untuk menemukan trend atau pola, ya, yang merupakan dasar untuk inovasi atau perbaikan dari proses bisnisnya mereka itu ya.
+Jadi tadi ya contohnya seperti Saham tadi, gitu ya.
+Oke, model data dari waktu ke waktu, gitu ya. Nah, kapan diperlukan untuk memodelkan data dari waktu ke waktu ini gitu kan ya nah jadi kita dalam merancang database nantinya, ya kalau kita merancang database sudah pastikan nanti akan ada integrasi ya untuk ke aplikasi atau ke sebuah sistem ya, membangun sebuah sistem atau aplikasi.
+Nah, kapan kita perlu untuk memodelkan data dari waktu ke waktu yang seperti tadi, yang seperti saya contohkan seperti Saham tadi.
+Nah, itu kita harus bertanya dulu ke klien kita, gitu ya.
+Kita tanya ke klien kita apa yang akan kita tanyakan gitu ya apakah mereka perlu jejak audit gitu ya apakah jejak audit itu diperlukan untuk transaksi dan apakah dapat nilai atribut tersebut berubah dari waktu ke waktu jadi misalkan untuk atribut atau untuk kolom nilai saham, nilai saham itu ada kemungkinan gak dia berubah dari waktu ke waktu.
+Kalau dia ada kemungkinan berubah dari waktu ke waktu, apakah perlu itu menyimpan, ya menyimpan jejak atau histori perubahannya itu, gitu ya.
+Apakah si klien atau si perusahaan itu perlu menyimpan jejak atau histori perubahan nilai tersebut dari waktu ke waktu, itu kan.
+Kemudian apakah dapat relasi berubah dari waktu ke waktu, gitu ya.
+Kemudian apakah Anda ya si kliennya memerlukan untuk memproduksi laporan dari data yang lama, gitu ya.
+Kemudian apakah si kliennya itu perlu menyimpan versi data yang sebelumnya.
+Jadi kayak berapa lama kira-kira waktu yang mereka inginkan, misalkan mereka menginginkan menyimpan data 5 tahun sampai batas waktu 5 tahun sebelumnya atau 10 tahun sebelumnya, artinya kan data yang 10 tahun atau 5 tahun itu nggak boleh dibuang dan itu wajib harus disimpan.
+Atau misalkan ya di perusahaan gitu ya, misalnya dia ingin menyimpan history dari perubahan data gaji karyawannya.
+gitu ya, jadi mungkin karyawannya di tahun sekian, gajinya sekian, kemudian nanti di 2 tahun, 3 tahun kemudiannya lagi gajinya itu naik misalnya ya, ada perubahan gaji dan itu perusahaan butuh untuk menyimpan data istori perubahan gaji karyawannya, misalkan mereka butuh gitu ya berarti disini akan ada pemodelan data history.
+Itu ya pemodelan data dari waktu ke waktu. Itu contohnya.
+Jadi hal-hal yang seperti ini yang kadang terlupakan pada saat kita merancang database kita mungkin berfikirnya hanya data-data statis saja.
+Kita tidak berfikir kalau ternyata ada data-data yang dinamis, yaitu yang dia sifatnya dinamis, yang dia sifatnya justru harus disimpan berulang-ulang, bukan berulang-ulang ya, bahkan itu memang harus disimpan ya.
+Kalau berulang-ulang nanti, kalau saya katakan berulang-ulang, nanti maksudnya kalian memahaminya, berarti data yang lama dihapus gitu ya.
+Ini nggak, data yang lama justru nggak dihapus tapi tetap terus disimpan secara terus menerus gitu ya.
+Oke, ya ini tadi ya, contoh data dari waktu ke waktu gitu ya, yang mungkin ingin disimpan oleh perusahaan ya, suatu organisasi atau perusahaan yang dia perlu untuk menyimpan data tentang gaji karyawannya.
+Itu contohnya ya, semua karyawan dibayar setiap minggu gitu ya, kemudian tadi ya apa, Persyaratan tambahan saat ini menentukan bahwa organisasi atau perusahaan perlu menyimpan catatan sejarah tentang bagaimana dan kapan gaji karyawan itu telah berubah selama pekerjaan mereka.
+Artinya disini yang akan ada yang disimpan itu ya di employee ID itu, di karyawan itu ya tidak hanya ID employee dan first name, last name nya saja tapi akan ada tambahan atribut lainnya yaitu weekly salary amount, gitu ya, dan salary start date.
+Jadi, apa, nominal salary mingguannya, misalkan ya, misalkan ini kan tadi kan semua employee dibayar mingguan, gitu ya, kasusnya ya.
+Kemudian sama waktu dimulainya gaji ini, gitu ya, gaji tersebut.
+Jadi nanti kalau ada perubahan lagi, misalnya, 2 tahun kemudian gajinya naik gitu ya naiknya berapa yang dari misalkan 200 dolar jadi 300 dolar, 300 dolar itu dimulai dari tanggal berapa, gaji itu dimulai dari tanggal berapa Nah, gini, kalau sifatnya, kalau dia seperti ini kita model penyimpanannya, gitu ya Nah, ini enggak bisa.
+Nah, ini nggak bisa gitu ya. Kalau kita hanya menyimpan model kita menggambarkan konsep ER-nya seperti ini, ini nggak bisa.
+Kenapa nggak bisa ya? Tadi yang saya bilang, kalau misalkan gajinya nanti 2 tahun, kemudian misalkan berubah.
+Berarti kan akan ada pencatatan weekly salary amountnya lagi dan salary start date. Artinya akan dicatat lagi di employee-nya.
+Artinya akan ada 2 baris atau lebih, yang ID atau primary UIDnya itu sama.
+Itu kan nggak boleh ya, kan sifatnya unik. Jadi gimana? Berarti employee itu harus dipisah dengan salary.
+Berarti akan ada table employee dan table salary. Karena tadi ya alasannya ya kalau misalkan salary itu tetap kita simpan di sisi employee gitu ya ini oke lah ini kalau misalkan gajinya statis segini-segini aja ini masih normal model penyimpanan seperti ini digunakan tapi nanti kalau misalkan ada tadi perubahan gitu ya oh employee ID 100 ini dua tahun kemudian dia akan ada kenaikan gaji, berarti kita di baris datanya itu ya di baris table, kita akan menginputkan ID, tadinya ID 100, kemudian kita inputkan lagi ID 100 dengan weekly salary amount misalkan naik nih dari 200, tadinya baris yang pertama 200, kemudian di baris ke 2, jadi 300 gitu ya, kemudian salary start date-nya dimulai dari kapan artinya kan di sini kan, akan ada dua kali penyimpanan, padahal nggak boleh, karena disini ID Employee itu sifatnya adalah primary key ya, primary UID Unique gitu ya.
+Akhirnya disini mau nggak mau, berarti kita harus membuatkan satu table atau satu entitas yang namanya adalah salary, ya, salary history.
+Dia akan menyimpan history dari salary karyawannya gitu ya. Akhirnya seperti ini, model ER yang terbentuk.
+Jadi, model ERnya yang terbentuk di sini, tadi employee, hanya akan ada ID dan nama employee-nya, kemudian ada salary, atau salary historinya yang dia menyimpan ke weekly salary amountnya, kemudian salary start date dan salary end date.
+Mulai dari kapan salary itu berlaku dan sampai tanggal berapa salary itu berlaku, gitu ya.
+Jadi, di sini nanti UID untuk employee-nya itu adalah primary UID-nya adalah ID employee.
+Sedangkan primary UID untuk salary historinya, ingat di sini ada salary start date.
+Nah, disini ada bar relationship ya. Ada tanda bar artinya disini ID employee yang disini kombinasi dengan salary start date disini akan menjadi primary UID.
+Masih ingat kan ya, pembelajaran yang beberapa hari lalu ya.
+Oke, dari sini salary end date-nya misalkan defaultnya adalah optional, boleh diisi, boleh tidak, yang wajib itu adalah kapan gaji itu dimulai, kan gitu ya.
+Kemudian disini weekly salary amountnya wajib diisi.
+Oke, jadi gini ya, jadi model penyimpanannya ya karena history itu akan disimpan berulang-ulang kali, nggak mungkin kita satukan di employee karena di employee itu ID 100 itu hanya boleh disimpan dalam satu kali aja, satu baris aja.
+Jadi kalau salary history kita simpan juga di dalam sini otomatis kan, berarti ID employee-nya akan disimpan berulang-ulang kali kan gitu ya.
+Kalau kalian bingung, kok bisa seperti itu gitu ya, ya kalian ilustrasikan saja langsung gitu ya, jadi kalau di sini Table Employee, disini ID, disini first name, ya, kemudian disini last name, ya, kalau disini kita kasih juga start date untuk yang salarinya tadi, gitu ya, salary start date-nya, gitu ya, kemudian nanti Ini adalah amount salary-nya misalkan ya.
+Jadi kalau yang ID nya 100, kemudian ID 200 ya, kemudian ini namanya anggaplah siapa gitu ya.
+Start date salarynya misalkan tanggal 2 Juni 2022 gitu ya.
+Itu pada saat tanggal sekian itu gajinya adalah 200 dolar misalnya seperti itu, kemudian untuk karyawan yang ID-nya 200, pada tanggal dimulai dengan tanggal 3 Juni, awal dia masuk kerja, ya 2020 misalnya ya.
+Kemudian jumlah salarinya pertama kali dia terima adalah 150. Kemudian ada kenaikan gaji untuk karyawan employee ID 100, ada kenaikan gaji, Misalkan 2 tahun kemudian itu ya, kenaikan gajinya menjadi misalkan 250 dolar.
+Nah, model penyimpanan yang seperti ini ya, kita lihat mode penyimpanannya itu ada 2 kali, kan berarti kan ID employee 100nya 2 kali disimpan.
+Nanti kalau ada history salarinya lagi, bisa 3 kali, 4 kali kan gitu ya untuk 1 karyawan gitu, sementara disini ID itu adalah sifatnya primary UID yang dianya boleh muncul 1 kali jadi nggak boleh model penyimpanan seperti ini, akhirnya dibuatlah salary history gitu ya Nah, Salary History disini, isinya adalah, oke disini ada isinya salary start date, gitu ya.
+Kemudian di sini ada end-nya ya, salary end-nya sampai kapan, gitu ya. Kemudian ada amountnya, jumlah salary.
+Nah disini ada tanda bar, artinya primary UID di Sisi Employee, itu akan masuk ke Salary History, akan join disini gitu ya.
+Nanti disini akan ada ID Employee kan gitu. Nah kombinasi dari keduanya ini akan menjadi, disini kan dia primary, dan disini dia juga sebagai primary dan akan masuk ke sini kan gitu ya dan salary start date dan employee ID nanti mereka akan berkombinasi komposit ya komposit UID dia akan berkombinasi menjadi primary UID.
+Nah jadi disini salary start date-nya jadi employee ID 100 misalkan tadi ya Anggap di sini salary start date-nya itu adalah 2 Juni juga lah, gitu ya.
+Nah, di sini salary start date-nya untuk yang 100 dimulai dari 2 Juni 2020, gitu ya.
+Itu tadi adalah 200. Kemudian untuk yang employee ID 200, disini 2 juni, start date-nya 150, gitu ya.
+Oke, 150. Nah, tadi ya kalau kita hanya menggunakan salary-start date aja sebagai UID untuk di table salary-history itu sangat tidak mungkin.
+Kenapa contohnya aja kayak gini? Iya kan? 2 juni muncul loh 2 kali. Nggak mungkin kan?
+Ini dijadikan primary UID, makanya kita harus mengkombinasikan dengan atribut lainnya, atribut APA, ya ini atribut ID Employee, pilihan kita hanya itu.
+Karena dia berrelasi dengan employee ID, nggak mungkin untuk last name kita jadikan sebagai kombinasi untuk menjadi primary UID dengan salary start date ya, kita harus mengkombinasikannya itu sebaiknya ambil dari primary UID dari table employee ini, jadi ID Employee.
+Nah kalau sudah seperti ini berarti kan gabungan 2 juni 2020-100, 2 juni 2020-200 artinya tidak akan ada baris yang sama, gitu ya.
+Baris akan menjadi unique sifatnya. Nah ini ya contohnya ya, jadi jangan bingung kalau kalian bingung lebih baik diilustrasikan secara manual seperti yang saya contohkan ini.
+Ini contoh lainnya juga, contoh lainnya itu seperti rental ya, model sewa penyewaan ya, penyewaan kalau di sini sih, penyewaan perhiasan oleh artis, movie star.
+Oke ini, sebenarnya nanti kalian juga bisa bayangkan saja ya. Ini dibaca. Nanti bisa kalian ilustrasikan sendiri.
+Lebih kurang ini sama seperti yang salary tadi ya. History salary tadi.
+Jadi disini movie star, satu artis itu dia bisa jadi nantinya berulang-ulang kali atau dalam waktu yang bersamaan menyewa beberapa perhiasan atau dia mungkin bisa berulang-ulang kali menyewa perhiasan yang sama, kan gitu ya.
+Ini kebetulan, hubungannya adalah many to many relationship ya, many to many relationship yang akhirnya ini akan menghasilkan satu entitas persimpangan, entitas baru ya rental history disini ya kalau disini.
+Nah disini nanti di rental history, kemudian disini ada tanggal rental, tanggal penyewaan, dan tanggal pengembaliannya, itu ya.
+Tanggal penyewaan dan tanggal pengembalian itu tidak ada yang bisa dijadikan sebagai primary UID. Kenapa ya?
+Artis ya kalau tanggal penyewaan itu bisa banyak artinya dalam satu hari dalam tanggal yang bersamaan atau juga dalam jam yang sama bisa jadi ada beberapa artis yang menyewa di persewaan itu, gitu kan ya.
+Oke itu nggak bisa. Tanggal pengembalian juga sama, dia nggak bisa dijadikan sebagai primary UID.
+Karena bisa jadi dalam tanggal yang sama itu juga, gitu ya.
+Pada tanggal pengembalian yang sama itu bisa jadi ada beberapa artis yang mengembalikan secara bersamaan, gitu ya. Kemudian akhirnya gimana?
+ya akhirnya ini ambil ID dari entitas yang berelasi, yaitu dari ID Movie Star-nya dan kode perhiasannya di sini dikombinasikan dan itu dijadikan sebagai primary UID di sini.
+Apakah cukup hanya dengan menggunakan ID Movie Star-nya saja dan kode perhiasan apakah cukup itu dijadikan sebagai primary UID?
+Atau kah harus dikombinasi dengan atribut yang lainnya. Oke ini kita lihat ya.
+Oke ini opsi yang pertama ya dalam menentukan UID-nya ini opsi yang pertamanya tadi adalah mengkombinasikan antara ID movie star dan kode perhiasan, apakah cukup hanya dengan dua ini? ternyata tidak.
+Kenapa? Ya, anggaplah ID movie star A, gitu ya, kemudian dia meminjam kode yang perhiasannya adalah 1, 2, 3. Oke, kemudian bulan depan bisa jadi, si ID movie star yang tadi itu dia meminjam perhiasan yang sama.
+Iya kan? Artinya itu kan tercatat dua kali di rental history ini, gitu. Gak mungkin kan?
+Gak mungkin kan kalau kita hanya mengandalkan ID movie star dan kode perhiasan aja sebagai primary UID akan ada 2 kali bentuk penyimpanan, baris penyimpanan yang sama.
+Akhirnya ini gak mungkin harus kita kombinasikan dengan attribute lainnya. Kita kombinasikan dengan apa? Kita kombinasikan dengan rental date.
+Jadi disini UID nya itu berasal dari ID Movie Star dikombinasikan dengan kode perhiasan dikombinasikan dengan tanggal rental.
+Nah, saya rasa kombinasi dari tiga atribut ini itu lebih tepat dibandingkan dengan opsi yang ketiga ini.
+Opsi yang ketiga itu hanya mengkombinasikan ID movie star dan rental date. Saya rasa ini kurang tepat.
+Kenapa? bisa jadi dalam tanggal yang sama ID movie star itu meminjam atau merental dua atau tiga perhiasan, lebih dari satu.
+Kalau gitu berarti kan kalau dia meminjam dua perhiasan atau tiga perhiasan berarti yang akan dicatat adalah sebanyak tiga kali juga gitu ya id movie star A gitu ya, dia meminjam barang pertama di tanggal sekian.
+Kemudian ID MOVIE STAR A gitu ya, dia meminjam di tanggal sekian untuk barang perhiasan yang lain gitu.
+Sementara kan yang dicatat hanya ID MOVIE STAR dan tanggal rentalnya.
+Berarti kan itu akan ada 3 kali baris penyimpanan gitu ya, yang sama untuk primary UID yang sama, itu nggak mungkin ya, opsi yang keempat juga sama tadi dengan opsi yang ketiga, lebih kurang seperti itu, gitu ya.
+Nah, jadi saya disini memilih opsi kedua, itu adalah bentuk pemilihan UID, primary UID yang sangat tepat ya, ID movie star plus kode perhiasan plus dengan tanggal rentalnya.
+Nanti kalian bisa buktikan aja dengan cara manual yang seperti saya contohkan tadi ya, di sini ya apakah memang tepat opsi kedua ini, gitu ya.
+Oke, baik itu tadi contoh dari pemodelan data history ya. Selanjutnya, untuk pemodelan waktu, pemodelan waktu.
+Oke, saya mengantarkan 4 topik ya hari ini ya. langsung cepat habis.
+Nah ini pemodelan waktu, perubahan pemodelan waktu, jadi di sini Oke kalau tadi penyimpanan history data itu menjadi penting untuk beberapa proses bisnis ya Untuk peramalan prediksi mereka ke depannya. Nah, kalau di sini adalah pemodelan dari waktunya.
+Bisa jadi juga pemodelan waktu atau perubahan waktu itu, gitu ya.
+Itu menjadi penting bagi beberapa persyaratan bisnis ya atau beberapa proses bisnis. Kita ambil mungkin kita lihat contohnya.
+Oke, data history itu digunakan oleh bisnis untuk menemukan trend dan pola ya tadi ya yang dapat menunjukkan cara untuk melakukan bisnis yang lebih efisien ya tujuannya ya untuk peramalan.
+Kemudian disini kalau untuk pemodelan waktu dalam bisnis memungkinkan data tersebut untuk dikumpulkan, ya.
+Laporan memberikan informasi yang dapat diturunkan dari data, gitu ya. Oke, ini ada contohnya kebetulan di sini.
+Nah contohnya di sini adalah laporan bulanan tentang kehadiran siswa yang menentukan pendanaan di beberapa sekolah, gitu ya.
+Oke, ini kita lihat mungkin di sini aja contohnya. Kalo disini, laporan bulanan tentang kehadiran siswa menentukan pendanaan untuk di beberapa sekolah gitu ya.
+Jadi misalkan mungkin untuk jadwal makan siang atau untuk tipe atau jumlah makanan.
+Ya, ini mungkin saya langsung contoh yang lebih real ya.
+Jadi disini contohnya adalah suatu perusahaan, dia menyimpan temperatur atau suhu per setiap harinya. Kenapa?
+Ya, ini mungkin saja perusahaan itu adalah perusahaan yang memproduksi jas hujan ya jas hujan atau mungkin pakaian renang, jadi mereka melihat dari pola temperatur pada suatu waktu gitu ya.
+Jadi nanti mereka bisa melihat oh dari bulan Januari itu sampai bulan Februari, misalkan ya ini adalah musim panas, gitu kan, musim panas, oh berarti dari Januari sampai Februari ini mereka harus memperbanyak produksi pakaian renang misalkan seperti itu gitu ya.
+Nanti dilihatnya lagi oh dari waktu September sampai Oktober ternyata ini temperaturnya tuh temperatur rendah yang ini musim hujan gitu ya.
+Mereka harus memproduksi lebih banyak memproduksi jas hujan misalnya seperti itu.
+jas hujan misalnya seperti itu atau jaket tebal misalnya seperti itu. Nah itu ya untuk kebutuhan bisnis itu.
+Jadi ada beberapa proses bisnis itu ya yang dia justru membutuhkan untuk melihat waktu ke waktu.
+Tadi kan kalau salary, saham itu bukan masalah terkait waktu ya itu terkait dengan salary gitu ya, jadi objeknya itu adalah salary dia akan melihat data history dari salarinya atau history data dari kenaikan atau penurunan harga sahamnya.
+Itu yang akan dimodelkan, dilihat trennya seperti apa diprediksi gitu ya.
+Nah kemudian, kalau yang di pemodelan waktu ini justru yang dilihat adalah dia akan melihat waktu.
+Jadi dia disini menyimpan temperatur, menyimpan suhu, tapi ujung-ujungnya yang mereka lihat itu adalah mereka mau lihat dimana posisi temperatur yang paling rendah atau yang paling tinggi.
+Di situ mereka akan memproduksi produknya mereka, itu ya apakah jas hujan atau pakaian renang, misalkan seperti itu, gitu ya.
+Jadi disini nantinya biasanya ya, ini nanti misalkan akan ada entitas purchase atau entitas pembelian, gitu ya.
+Nah di entitas pembelian itu tadinya hanya ada ID pembelian, ID pembelian barang misalnya ya.
+Jadi misalkan ada distributor yang membeli barang jas hujan, misalnya seperti itu ya.
+ID pembelian, kemudian tanggal pembelian, kemudian kuantitas atau jumlah pembelian, kemudian harga dari barang tersebut yang dibeli.
+Nah, kalau si perusahaan yang akan melihat pemodelan waktu, dia pasti akan menambahkan temperatur tertinggi dan temperatur terendah pada saat barang itu dibeli.
+Jadi dia tidak hanya akan mencatat ID pembelian dan tanggal pembeliannya saja, tapi dia akan melihat temperatur tertinggi dan temperatur terendah pada saat barangnya itu dibeli.
+Jadi dari sana dia akan melihat pemodelan waktunya, gitu ya.
+Oke, nah kalau gitu ya berarti disini ini bisa dipecah ya.
+Jadi disini kalau tadi itu ya ini ya data sebenarnya yang disimpan gitu ya. Nah ini bisa dipecah.
+Oke ini, kalau kita lihat di sini ya, ada ID pembelian, ada tanggal pembelian, kemudian ada kuantitas jumlah barang yang dibeli, kemudian ada harga pembelian, kemudian ada temperatur, catatan temperatur tertinggi dan temperatur terendah.
+Nah, kalau kalian ingat dengan model normalisasi, ya ini adalah bentuk normalisasi ke-3. Kenapa?
+Karena kalau kita lihat di sini, temperatur ya itu dia hanya bergantung kepada tanggal.
+Ya, temperatur ini, high temperatur dan low temperatur ini, dia sama sekali tidak ada hubungannya dengan harga, dengan kuantitas maupun dengan ID pembelian.
+Dia justru sangat berelevan gitu ya, terhadap tanggal. Artinya di sini kita harus menormalisasikan.
+Nah ini adalah bentuk normal yang ketiga. Nah kalian bisa lihat lagi ya konsep bentuk normal ketiga itu apa, saya tidak akan jelaskan di sini.
+Akhirnya di sini, ya, bentuk normal ketiga itu, ya, atribut non-UID ya, atribut yang bukan UID, gitu ya.
+Dia di sini memiliki atributnya sendiri, ya. Jadi date ini kan bukan primary key, ya, bukan UID, tapi dia punya atribut lainnya yang bergantung kepada dia.
+Nah ini tidak boleh makanya di sini ada penormalisasian dari bentuk ketiga ini, gitu ya.
+Nah akhirnya ini dipisah, maka dia membentuk entitas sendiri, membentuk table sendiri.
+Yaitu misalkan kita beri nama table atau entitas Day yang isinya adalah date dan temperature.
+Kemudian yang purchase-nya tinggal ID, Quantity dan Unit Price-nya. Dan sesuai juga dengan tujuan kita di sini, kita memodelkan dari perubahan waktu.
+Jadi di sini kita akan melihat temperatur suhu sesuai dengan tanggalnya, dengan waktu. Karena tadi contohnya proses bisnisnya.
+Tadi kan untuk perusahaan yang memproduksi jas hujan ya atau tadi pakaian renang, ya.
+Nah, oke, di sini, nah di sini nanti kita bisa melihat lagi, ya.
+Melihat lagi di sini apakah entitas Day atau entitas hari ini gitu ya, memungkinkan kita untuk melacak informasi lainnya yang lebih banyak gitu ya, yang mungkin bermanfaat untuk bisnis misalkan, mungkin kita bisa menambahkan indikator lainnya, yaitu misalkan hari libur, apakah itu ada di hari libur gitu ya.
+Jadi atribut-atribut ini atau informasi-informasi ini, mungkin bagi kita nggak penting, tapi bagi si perusahaan, mungkin dia penting.
+Jadi mungkin dia selain melihat tanggal, nantinya mungkin dia selain melihat temperatur, mungkin dia juga akan melihat apakah itu termasuk di hari Libur.
+Misalkan mungkin temperaturnya biasa-biasa saja, tapi karena itu adalah hari Libur, jadi orang banyak yang memilih untuk mengisi Liburnya dengan berenang.
+Bisa jadi seperti itu gitu kan ya.
+Jadi harus ada evaluasi lagi ya terhadap kebutuhan atribut dalam sebuah entitas.
+Oke, jadi ini... Ini contoh lainnya ya sebenarnya nih kalian juga bisa baca aja ya.
+Jadi gini, oke ini constraint yang terkait waktu gitu ya jadi beware ya waspadai kendala yang dapat timbul dari kebutuhan pelacakan tanggal dan waktu.
+Nah, kebetulan di sini ada skenario contohnya. Jadi di sini contohnya itu pertimbangkan sebuah pameran sekolah yang menampilkan beberapa stan.
+Kemudian, manajer pendaftaran itu, pendaftaran sukarelawan ya, Manajer mendaftar sukarelawan untuk bekerja dalam shift yang berbeda di stan yang berbeda ini.
+Jadi gini ya, jadi kita perlu nggak kita melakukan constraint pengecekan ya, pengecekan dari constraint waktu itu kita lihat juga dari setiap hari yang diberikan ke kita gitu ya.
+Kemudian di sini sebuah stan hanya dikelola oleh satu sukarelawan pada suatu waktu, beberapa sukarelawan dapat bekerja selama beberapa jam dan yang lainnya dapat bekerja lebih sedikit jam tergantung waktu luang mereka.
+Kemudian jadwal harus ditentukan sebelumnya sehingga manajer tahu waktu mana yang tidak dicakup oleh relawan.
+Jadi, manajernya itu yang mengatur jadwal dari relawan yang sudah mendaftar, relawan untuk yang menjaga.
+gitu ya, relawan untuk yang menjaga stan, gitu ya. Nah, ini memang agak ini ya, ini nggak bisa dibaca sekali ya, nanti kalian ulangi lagi ya.
+Ini memang agak rumit sedikit ininya. Jadi disini ada, digambarkan ada 3 entitas, ya, ada pertama sudah pasti tadi entitas boothnya, kemudian ada entitas volunteer-relawannya, di sini ada ID booth dan nama booth, kemudian di sini ada ID atau nomor relawan dan nama relawannya.
+Kemudian di sini ada jadwal dari penugasan shift-nya tadi ya untuk menjaga booth tadi.
+Jadi di sini ada tanggal, ada start-time-nya dan ada end-time-nya. Itu ya? Nah.
+Okay, di sini ada pemilihan dari constraint terkait waktu yang perlu kita pertimbangkan, gitu ya.
+Nah, yang paling jelas adalah shift end... yang sudah pasti kita lihat itu adalah bahwa shift dari akhir waktu, waktu akhir itu harus lebih lambat daripada start time itu sudah pasti ya Artinya gini nggak mungkin kan start time-nya jam 8 pagi, end time-nya jam 7 pagi kan nggak mungkin pada hari yang sama pada tanggal yang sama gitu-gitu kan gak mungkin ya berarti End time itu selalu lebih lambat daripada start time.
+Itu sudah pasti ya. Berarti di sini kita di pembatasan atau di constraint nya, pengecekan constraint nya nanti ya di back end nya kita harus membuat bahwa End time itu selalu lebih besar daripada start time.
+Itu harus ya. Kalau nggak, karena kita kan di sini kan fokusnya adalah ke model perubahan waktu, berarti kita harus memperhatikan fokus terhadap waktu ya. Jangan sampai nanti di database.
+Si pengguna itu menginputkan end time-nya lebih kecil atau di bawah dari start time-nya kalau tanggalnya berbeda, nggak apa-apa ya misalkan dia dimulai dari tanggal 3 juni jam 8 pagi.
+End time-nya adalah 4 juni jam 7 pagi ya. Kalau itu sih nggak apa-apa gitu ya.
+Tapi kalau pada tanggal yang sama, tapi waktunya end-time-nya itu lebih kecil daripada start-time-nya itu sangat nggak masuk akal.
+Nah, itu constraint yang harus kita pertimbangkan, yang harus kita cek ya.
+Kemudian tadi, constraint yang lainnya tadi di rule-nya itu adalah waktu shift itu tidak boleh overlap gitu ya kemudian waktu mulai untuk shift sukarelawan ya waktu mulai shift untuk si relawan itu mungkin bukan waktu mulai dan waktu selesai dari sukarelawan lain di stan yang sama hal yang sama termasuk true untuk waktu akhir Oke jadi disini ini adalah constraint-constraint yang tidak terlihat di database, tapi ini kita spesifikkan, kita beri batasan ini di bagian backend.
+Ini nanti kalian bisa, ini aja lah ya. Baca sendiri mungkin.
+Jadi contohnya seperti yang ini tadi, ini memang tidak terlihat di bagian database kita, ya kan?
+Ini database juga nggak ada.

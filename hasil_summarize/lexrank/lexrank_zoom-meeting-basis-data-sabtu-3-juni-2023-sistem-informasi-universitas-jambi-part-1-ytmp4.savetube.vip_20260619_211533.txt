@@ -1,0 +1,23 @@
+=== HASIL LEXRANK EXTRACTIVE ===
+Sumber    : transkrip_zoom-meeting-basis-data-sabtu-3-juni-2023-sistem-informasi-universitas-jambi-part-1-ytmp4.savetube.vip_20260619_211533.txt
+Dibuat    : 19 June 2026, 21:16:44
+Model     : Whisper small
+========================================
+
+Ng pertama itu implementasi dari super-type dan sub-type itu adalah dengan cara single table, satu table. Itu adalah implementasi dari super type dan sub type dengan cara single table atau satu table, atau satu table, itu ya, ok. Kalau single table itu dia mendapatkan 1 kolom untuk setiap atribut dari super type.
+
+Atribut yang ada di level super type itu. Ada di level super type itu, semuanya kita transformasikan, gitu ya, ke dalam masing-masing kolom. Ini ada Table Employee, ya ada Table Employees, ya ini single table ya jadi employees ya bukan Table Full Time atau Table Part Time ya, Nah di Table.
+
+Ada First Name nya kemudian ada kelas namanya, ya yang mana 3 tipe ya yang mana tiga-tiganya adalah wajib diisi ya sesuai dengan tipenya di sini ya wajib diisi kemudian ada table salary, salary itu wajib diisi kalau dia tipenya adalah full time tapi karena di sini yang hourly rate juga ya tipenya hourly rate ini wajib diisi Kalau dia adalah part time tapi disini dia semua dia semua single table di table employee. Karena kan tadi ya wajib diisi kalau dia sifatnya full time. Berarti ID department itu ada di table employee, gitu ya, dan sifatnya adalah foreign key.
+
+Cuma kalau department ID tadi, dia sifatnya adalah ID tadi, dia sifatnya adalah wajib diisi, dia menjadi wajib gitu ya, karena ini berlaku untuk semua, tapi kalau agency ini, karena dia nggak mungkin wajib, karena dia hanya berlaku relasinya ke part-time, tidak ke semuanya, tidak ke employee-nya ya, jadi disini sifatnya adalah optional, Kemudian ada kolom mandatori tadi. Ng di sini tadi yang employee ID ya, employee ID, dia ini adalah primary UID, maka di sini dia akan menjadi primary key. Kalau dia tipe employee-nya nanti diisi full-time, Nanti diisi full time, berarti salari itu wajib diisi.
+
+Kita lihat di sini, jadi kalau tipe-nya adalah full-time, ya tipe karyawannya adalah full-time, maka yang tadi salari wajib diisi. Partinya atribut itu kebanyakan di level super type, gitu ya, di level super type. Kalau kita lihat atributnya justru lebih banyak di level super type, sedangkan di level sub type ya hanya satu atribut saja gitu ya untuk pembedan.
+
+Ini ya untuk yang super type, untuk yang single table, lalu implementasi yang selanjutnya itu adalah dua table, gitu ya, dua table, Nah, ya kita sebuah. Kalau yang di single table tadi, dia hanya satu table, mau berapa banyak pun sub type-nya, tetap dia di single table atau satu table. Untuk pengidentifikasinya, primary UID yang ada di level super type itu, ia akan tetap menjadi primary key untuk masing-masing table super type ini.
+
+Sebagai hubungan busur, ya jadi super type dan sub type ini ya entitas super type dan sub type ini bisa nantinya dimodelkan sebagai hubungan atau relasi busur, kalau kita pakai data modeller. Di sini ya, di entity super type-nya coating itu ya, tadi pada sub type-nya, pada kemeja dan ada sepatu. Karena disini sifatnya adalah satu ke satu ya, dan ini adalah sifatnya adalah xor atau eksklusif.
+
+Ini implementasi super type dan sub type tadi di dalam busur. Satu super-type bisa punya 2 table, gitu ya tadi. Modeling historical data atau data history, pemodelan data history gitu ya, jadi disini Kita akan melihat mengidentifikasi.
+
+Karena disini ID Employee itu sifatnya adalah primary T ya, primary UID Unique.

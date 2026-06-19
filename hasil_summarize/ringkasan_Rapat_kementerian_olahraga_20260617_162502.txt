@@ -1,7 +1,0 @@
-=== RINGKASAN RAPAT (LexRank 6-Step) ===
-Sumber    : transkrip_Rapat_kementerian_olahraga_20260617_162502.txt
-Dibuat    : 17 June 2026, 16:25:20
-Model     : Whisper small
-========================================
-
-adalah notulensi rapat berdasar transk

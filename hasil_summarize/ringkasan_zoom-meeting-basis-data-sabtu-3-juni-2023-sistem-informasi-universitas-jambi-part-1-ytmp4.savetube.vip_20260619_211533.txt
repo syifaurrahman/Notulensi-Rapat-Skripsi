@@ -1,0 +1,38 @@
+=== RINGKASAN RAPAT (LexRank 6-Step) ===
+Sumber    : transkrip_zoom-meeting-basis-data-sabtu-3-juni-2023-sistem-informasi-universitas-jambi-part-1-ytmp4.savetube.vip_20260619_211533.txt
+Dibuat    : 19 June 2026, 21:16:44
+Model     : Whisper small
+========================================
+
+**Pembukaan:**
+
+- Rapat dibuka oleh [Nama Pembawa Rapat] dengan agenda untuk membahas topik tentang implementasi super-type dan sub-type dalam database.
+- Hadir dalam rapat adalah [Daftar Nama Peserta].
+
+**Topik Utama 1: Implementasi Single Table:**
+
+- Implementasi dari super-type dan sub-type menggunakan cara single table, satu table.
+- Dalam single table ini, ada kolom yang berisi atribut dari super type dan transformasikan menjadi masing-masing kolom.
+- Contohnya adalah tabel Employee dengan ID department sebagai foreign key.
+
+**Topik Utama 2: Implementasi Dual Table:**
+
+- Implementasi dari busur tadi menggunakan cara dual table atau dua table, dua table.
+- Dalam dual table ini, ada antitas quoting yang terpisah dan setiap entitas menjadi tabel sendiri.
+- Contohnya adalah tabel Kemeja dengan ID, material, dan kolom lainnya.
+
+**Pertanyaan dan Diskusi:**
+
+- Pertanyaan: Bagaimana cara mengimplementasikan super-type dan sub-type dalam database?
+- Jawaban: Implementasi dapat menggunakan cara single table atau dual table tergantung pada kebutuhan dan kompleksitas data.
+- Pertanyaan: Apakah ada konstren yang harus dipertimbangkan saat implementasi?
+- Jawaban: Ya, ada konstren seperti pengecekan waktu dan tidak boleh overlap.
+
+**Kesimpulan:**
+
+- Implementasi super-type dan sub-type dalam database dapat menggunakan cara single table atau dual table tergantung pada kebutuhan dan kompleksitas data.
+- Konstren yang harus dipertimbangkan saat implementasi adalah pengecekan waktu dan tidak boleh overlap.
+
+**Penutup:**
+
+- Rapat diakhiri dengan kesimpulan bahwa implementasi super-type dan sub-type dalam database dapat menggunakan cara single table atau dual table tergantung pada kebutuhan dan kompleksitas data.
