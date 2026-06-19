@@ -1,0 +1,42 @@
+=== RINGKASAN RAPAT (LexRank 6-Step) ===
+Sumber    : transkrip_implementasi-esg-and-qhse-integrasi-bagi-daya-saing-usaha-zoom-meeting-conference-ytmp4.savetube.vip_20260619_231835.txt
+Dibuat    : 19 June 2026, 23:20:15
+Model     : Whisper small
+========================================
+
+adalah notulensi rapat berdasar transkrip yang diberikan:
+
+**Pembukaan:**
+
+- Yang terhormat kepada Bapak Doktor Ingeni Merdiaman STMT selaku wakil Ketua Umum Itaki dan sebagai dosen aktif teknik sipil Universtitas Tama Jaga Karsan.
+- Selanjutnya, yang terhormat kepada Bapak Ingeni Suban MPSDA IPM selaku Ketua Dewan Penasaat Itaki dan Direktor PT Waskita Tolrock dan sekaligus sebagai pembicara kita pada siang hari ini.
+- Selanjutnya yang terhormat kepada Ibu Indriya Sari, STMT sebagai moderator kita pada kegiatan kita siang hari ini.
+
+**Implementasi Environmental Social Governance (ESG) dan Quality Health Safety and Environment (QHSE):**
+
+- ESG adalah integrasi dari tiga aspek utama yaitu governance atau tata kelola yang baik dan comply, risk management, dan compliant.
+- Top management dan P2K3 dalam penerapan ISG dan KIS dalam setiap proses bisnis sangat penting.
+- Pentingnya peran top management dan P2K3 dalam menentukan ketetapan utama implementasi ESG dan QHSE.
+
+**Poin-Poin Penting:**
+
+- Penjelasan tentang pentingnya peran top management dan P2K3 dalam penerapan ISG dan KIS.
+- Penjelasan tentang pentingnya integrasi dari tiga aspek utama yaitu governance, risk management, dan compliant.
+
+**Pertanyaan dan Diskusi:**
+
+- Pertanyaan: Bagaimana implementasi ESG dan QHSE dapat meningkatkan daya saing usaha?
+- Jawaban: Implementasi ESG dan QHSE dapat meningkatkan daya saing usaha dengan memperbaiki governance, mengurangi risiko, dan meningkatkan konsistensi.
+- Pertanyaan: Bagaimana cara implementasi ESG dan QHSE dalam perusahaan?
+- Jawaban: Implementasi ESG dan QHSE dapat dilakukan dengan memperbaiki governance, mengurangi risiko, dan meningkatkan konsistensi.
+
+**Kesimpulan:**
+
+- Kesimpulan bahwa implementasi ESG dan QHSE sangat penting untuk meningkatkan daya saing usaha.
+- Tindak lanjut dari transkrip rapat adalah perlu dilakukan penelitian lebih lanjut tentang implementasi ESG dan QHSE dalam perusahaan.
+
+**Penutup:**
+
+- Terima kasih kepada Nara Sumer, atas ilmu yang telah disampaikan.
+- Terima kasih kepada Ibu Indriya Sari, sebagai moderator kita pada kegiatan kita siang hari ini.
+- Terima kasih kepada Bapak Ingeni Suban, sebagai pembicara kita pada siang hari ini.

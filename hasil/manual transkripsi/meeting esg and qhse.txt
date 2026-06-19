@@ -1,0 +1,400 @@
+=== TRANSKRIPSI RAPAT ===
+File Video  : implementasi-esg-and-qhse-integrasi-bagi-daya-saing-usaha-zoom-meeting-conference-ytmp4.savetube.vip.mp4
+Dibuat      : 19 June 2026, 23:18:35
+Model       : Whisper small
+Yang terhormat kepada Bapak Doktor Insinyur Merdiaman STMT selaku wakil Ketua Umum Itaki dan sebagai dosen aktif teknik sipil Universitas Tama Jagakarsa.
+Selanjutnya, yang terhormat kepada Bapak Insinyur Subhan MPSDA IPM selaku Ketua Dewan Penasehat Itaki dan Direktur PT Waskita Toll Road dan sekaligus sebagai pembicara kita pada siang hari ini.
+Selanjutnya yang terhormat kepada Ibu Indria Sari, STMT sebagai moderator kita pada kegiatan kita siang hari ini.
+Dan kepada yang terhormat, pada seluruh peserta atau Bapak Ibu yang sudah hadir dalam kegiatan kita pada sore hari ini, dalam judul implementasi environmental, social, governance, ESG, dan quality, health safety and environment, QHSE Integrasi bagi daya saing usaha.
+Baik pada saat ini saya akan membacakan susunan acara webinar kita pada siang hari ini sebagai berikut.
+Yang pertama pembukaan, yang kedua foto bersama, yang ketiga menyanyikan lagu kebangsaan Indonesia Raya, yang keempat sambutan dari ketua umum Itaki, yang kelima pemaparan materi oleh pembicara, Yang ke-6, sesi diskusi dan tanya jawab.
+Yang ke-7, penutup atau closing statement, dan yang terakhir adalah foto bersama.
+Selanjutnya, tata tertib dalam kegiatan kita siang ini sebagai berikut.
+Pada saat acara berlangsung, seluruh peserta dimohon menghidupkan kamera zoom dan mematikan fungsi mikrofon zoom masing-masing.
+Yang kedua, setelah pemaparan materi selesai, peserta yang ingin mengajukan pertanyaan, boleh melambaikan tangan dan bertanya langsung kepada pembicara.
+Dan boleh juga menuliskan pertanyaannya dalam kolom room chat zoom dengan menyebutkan nama asal instansi dan pertanyaan.
+Dan selanjutnya moderator akan membaca pertanyaan tersebut. Yang ketiga, seluruh peserta mohon mengisi daftar hadir melalui link yang akan diberikan melalui room chat zoom.
+Yang terakhir, bagi peserta yang mau e-certificate, silahkan mengisi link daftar hadir dan dibebankan biaya e-certificate sesuai yang disebutkan dalam formulir.
+sesuai yang disebutkan dalam formulir Daftar Hadir. Baik, sebelum saya serahkan kepada moderator, saya perkenalkan secara singkat moderator kita.
+Pada siang hari ini yaitu Ibu Indria Sari, STMT, Ibu ini berprofesi sebagai dosen aktif teknik sipil di Universitas Krisnadwipayana.
+Pada Ibu Indri, waktu dan ruang kami persilakan. Baik, terima kasih kepada mc ibu ririn.
+Ibu Ririn Sihotang yang sudah memperkenalkan saya sebagai moderator pada acara webinar ini.
+Baiklah, saya masuk ke pantun membuka, siang hari makan kelapa, rasanya enak bikin ketawa.
+Kita disini telah berjumpa untuk acara yang istimewa. Assalamualaikum warahmatullahi wabarakatuh. Salam sejahtera bagi yang beragama lain.
+Salam hormat saya sebelumnya kepada Bapak Wakil Ketua Umum Itaki, Bapak Mardiaman, kemudian kepada ibu ririn sebagai direktur eksekutif Itaki, dan Pengurus Itaki Mas Berlinto, dan yang lainnya yang tidak saya sebutkan satu persatu.
+Selamat siang dan selamat datang saya ucapan kepada Narasumber, Bapak Subhan ST MPSDA kepada para peserta dan para undangan yang telah hadir pada acara webinar hari ini.
+Hari Kamis, tanggal 15 September 2022, dengan tema implementasi environmental social governance, ESG dan Quality Health Safety and Environment QHSE.
+Integrasi bagi daya saing usaha. yang diselenggarakan atas kerjasama antara itaki dan beberapa instansi dan institusi.
+Baik, sebelum acara kita mulai mari kita berdoa menurut agama dan kepercayaan masing-masing agar webinar ini dapat berjalan dengan lancar sampai selesai.
+Berdoa dimulai. Acara saya mulai dengan ucapan bismillahirrahmanirrahim selanjutnya, menyanyikan lagu Indonesia Raya, Bapak Ibu dipersilakan membuka kamera mengambil sikap tegap menghadap kamera.
+ untuk Indonesia
+Baik, acara selanjutnya adalah sambutan dari Ketua Umum Itaki, karena beliau berhalangan hadir, jadi diwakilkan oleh Bapak Dr. Insinyur Mardiaman STMT selaku wakil Ketua Umum Itaki, dipersilakan waktunya Bapak dan tempatnya.
+Terima kasih, Bu Indria Sari. Terima kasih, Pak. Assalamualaikum warahmatullahi wabarakatuh, salam sejahtera bagi kita semua, salam om swastiastu namo budaya, salam kebajikan.
+Yang saya hormati, direktur eksekutif dari mami ririn Sihotang, Berlinto yang saya hormati, Pak Subhan sebagai Dewan Penasehat, Itaki, Ibu Indria Sari, sebagai pengurus Itaki, dan yang saya kasihi rekan-rekan teman-teman sejawat semua yang ada di profesi jasa konstruksi.
+Izinkan saya untuk menyampaikan sepatah kata, saya mardiaman sebagai wakil Ketua Umum Itaki Terima kasih.
+sebagai wakil Ketua Umum Itaki, yang sekaligus mewakili Ketua Umum Itaki, Pak eber luluh, yang berhalangan datang.
+Syukur kita panjatkan kepada Tuhan yang maha kuasa karena acara webinar yang menarik ini, ini akan segera berlangsung, semoga nanti acara ini dapat berjalan dengan baik dan kita semua bisa saling bertukar pikiran, menambah pemahaman kita terutama di bidang K3.
+Semoga apa yang dibawakan pada hari ini oleh pembicara yang memang ahli di bidangnya bisa menjadi bekal bagi kita supaya apa yang kita kerjakan di dalam aktivitas kita, dalam bidang jasa konstruksi.
+dalam bidang jasa konstruksi, itu bisa berjalan dengan baik. Dan ini juga perlu saya sampaikan acara ini merupakan sumbangsih untuk dunia jasa konstruksi, sekaligus sebagai pembinaan kepada para ahli atau pun calon ahli konstruksi, Supaya benar-benar paham tentang K-3.
+Barangkali itu yang bisa saya sampaikan akhirkata semoga acara ini bisa berlangsung dengan baik. Terima kasih untuk semuanya.
+Saya kembalikan kepada Ibu Indria Sari. Silahkan Buk. Ya baik, terima kasih Pak Mardiaman atas sambutannya, baiklah kita memasuki acara yang ditunggu-tunggu, yaitu pemaparan.
+acara yang ditunggu-tunggu yaitu pemaparan materi dari Bapak Subhan ST MPSDA dengan judul pentingnya penerapan ESG dan terintegrasi dengan QHSE bagi daya saing, usaha, dan keberlanjutan.
+Yang akan dibawakan selama 30 menit, nanti dilanjutkan dengan sesi tanya jawab 25 menit.
+Jadi sebelum Narasumber memberikan materi Mohon Izin, saya membacakan biodata beliau.
+Baik, Bapak Subhan, ST, MPSDA ini adalah seorang yang luar biasa ya kalau misalnya luar biasa istimewa beliau pekerja keras.
+beliau adalah orang yang antusias dan termotivasi dengan pengalaman kerja yang lebih dari 13 tahun mengelola semua aspek kualitas dan HSE di sektor industri konstruksi.
+Saya langsung bacakan untuk pendidikan formal beliau, dia adalah dari Sarjana Teknik Sipil, Universitas Diponegoro, kemudian Beliau juga menempuh pendidikan di Magister Manajemen Sumber Daya Air di Institut Teknologi Bandung.
+Pengalaman kerja beliau sebagai manajer proyek PT Wijaya Karya, persero TBK, kemudian beliau manager of quality di bidang HSE, Sistem Risk Management, PT Adhi Karya.
+Kemudian selanjutnya pengalaman beliau pernah jadi General Manager Quality HSE, risk management, and management system di PT Brantas Abipraya, kemudian pernah menjadi Senior Vice President quality health safety and environment PT Waskita Karya, dan sekarang Beliau menjabat sebagai Direktur PT Waskita Beton Precast TBK.
+Ini banyak sekali sertifikasi beliau. sertifikasi beliau adalah sebagai ahli utama bendungan besar, K3 konstruksi, manajemen, dan ahli utama manajemen proyek, beliau juga sebagai ahli madya sistem manajemen mutu, sebagai ahli rekanan teknik terowongan, dan sebagai keselamatan dan kesehatan kerja.
+Kemudian pengalaman-pengalaman profesional beliau, yaitu sebagai ketua, Komite Lima, Dewan K3 Nasional.
+K3 Nasional, kemudian sebagai Tim Standardisasi BSN Sertifikat QHSE, APD, APK dan sebagainya, kemudian Beliau sebagai Wakil Ketua Umum Forum QHSE BUMN Konstruksi, sebenarnya sebagai Tenaga Ahli K3 Jakarta Timur.
+Ini sebenarnya banyak sekali pengalaman Beliau, jadi tidak saya bacakan semua.
+baik selanjutnya Kepada Bapak Subhan, saya persilakan Pak untuk menyampaikan materinya. Baik, Bu Indri, Assalamu'alaikum warahmatullahi wabarakatuh.
+Selamat siang, selamat sore, salam sejahtera untuk kita semua. Om Swastiastu, namo budaya, salam kebajikan, salam.
+yang sangat kami hormati, tentunya moderator yang cantik ya Jadi punya moderator yang cantik ya, Bu Indri.
+Jadi saya iri dengan Bu Indri ini karena tetap muda dan awet muda, gitu ya. Kemudian yang berilmu ya.
+Terima kasih, Pak. Sangat menghormati Pak Doktor Insinyur Mardiaman, senior-senior semuanya, rekan-rekan ada adik Mahasiswa dan Bapak-Ibu sekalian tanpa terkecuali, serta para pimpinan, pengurus DPN Abkindo dan Itaki, dimana saja berada.
+pada kesempatan siang hari ini tentu saya bersyukur ada segala kesempatan dan opportunity-nya untuk bisa sharing di kegiatan ini.
+InsyaAllah ini akan menjadi forum rutin yang berkembang di seluruh namanya sektor ya, terutama sektor pengembangan SDM Konstruksi Indonesia.
+Dan ini akan menjadi trigger saya pikir kalau bisa kita Itaki dan kita semua bisa kontinu dan konsisten untuk menjalankan webinar ini akan menjadi manfaat dan faedah yang besar bagi bangsa dan negara dan bagi generasi penerus kita nantinya ya terutama di sektor konstruksi.
+Pada kesempatan ini saya ingin mengaitkannya terkait dengan ESG dan integrasi QHSE ya tentunya bagi kenapa demikian?
+karena jangan sampai kita memahami ESG atau tidak tahu sama sekali atau memahami saja QHSE tanpa tahu outputnya gitu ya.
+Hanya menghindari kecelakaan kerja, penyakit akibat kerja dan sebagainya. Sesungguhnya itu adalah hal kecil yang ingin kita wujudkan.
+Tapi sebenarnya ada hal besar yang hendak kita realisasi gitu loh dari implementasi ESG dan QHSE tersebut.
+Mari kita lanjut ke slide berikutnya. Nah, kenapa ESG ini sangat penting ya? Karena ESG ini adalah Environment Social Governance.
+Sekarang menjadi salah satu syarat prakualifikasi pengajuan pendanaan investasi infrastruktur.
+Jadi, kementerian keuangan loan atau grant dari luar negeri gitu ya, atau dari JICA misalnya, atau dari IDB, dari IMF dan sebagainya, itu sudah sangat mandatori dipersyaratkan wajib lulus ESG assessment investing ya.
+Jadi kalau perusahaan mengajukan pendanaan investasi tanpa bisa meyakinkan lenders gitu atau pendana bahwa perusahaan atau organisasi tersebut komitmen dengan ESG, maka jangan berharap proposal bisnisnya akan dibaca gitu lho apalagi di proses.
+Dan nanti kami akan jelaskan berikutnya ya. Tapi integrasinya dengan QHSE sudah sangat terkait, karena environment itu hakikatnya kita bertanggungjawab terhadap pengendalian dan pengelolaan lingkungan.
+Lalu sosial, pasti keselamatan publiknya kita jaga, public safety-nya kita jaga. Lalu kesehatan lingkungan juga kita jaga dan sebagainya.
+Lalu, governance, ya sudah pasti, governance itu adalah tata kelola organisasi atau perusahaan atau usaha yang sistematis dan sesuai dengan peraturan perundangan atau compliance.
+Jadi kalau tiga aspek ini oke, maka nanti siapapun pendana yang dimaksud akan yakin bahwa investasi uang yang dikeluarkan pada satu proyek akan berjalan dengan lancar.
+Dan relatif akan bisa menghindari risiko legal dispute yang bisa saja terjadi.
+Nah untuk itu saya juga selaku pengurus di forum QHSE BUMN konstruksi terutama ini punya komitmen ya untuk merealisasi bagaimana kemudian ESG dan QHSE menjadi diterapkan lebih baik lagi di semua perusahaan ya dan kita tidak melihat grade perusahaan itu tinggi menengah atau kecil pokoknya semuanya harus baru-baru.
+Dan kita punya target bagaimana forum QHSE ini bisa kolaborasi dengan semua stakeholder ini, terutama Abkindo, Itaki, dan sebagainya, mahasiswa perguruan tinggi untuk mensukseskan seluruh sektor konstruksi yang berkelanjutan.
+Tidak hanya safety saja, tapi aman, selamat, nyaman, dan sustain gitu ya.
+Kemudian yang kedua tentunya sama-sama kita sukseskan IKN ya. IKN atau Ibu Kota Negara Baru yang ada di Kalimantan Timur.
+Lalu kita juga sama-sama merealisasikan gotong royong peningkatan SDM, bidang konstruksi dan bidang K-3, bidang mutu dan sebagainya.
+Dan harus mewujudkan semangat standarisa sini. Jadi ke depan kita punya standar penerapan ESG di perusahaan kontraktor itu kayak apa sih, di tambang kayak apa dan sebagainya.
+Dan tidak bisa berjalan sendiri perlu supportnya teman-teman dari Itaki maupun Abkindo dan Perguruan Tinggi.
+Lalu bagaimana caranya organisasi seperti forum QHSE BUMN melakukan peningkatan kualitas, ya tentunya ESG ini harus dipahami oleh seluruh leaders ya, leaders itu dari mulai middle management sampai top management dan kemudian semuanya mengimplementasikan yang namanya risk thinking, sistem ISO, lalu construction, quality safety management system, dan juga rutin.
+melakukan monitoring dan evaluasi. Artinya pada slide ini kita ingin bercerita bahwa compliance itu tidak hanya ISO integrasi tapi juga komitmennya, manajemen dan juga seluruh pekerja dalam menerapkan ESG dan QHSE ini.
+Sehingga ISO-ISO dan sertifikasi tidak hanya kertas, tapi merupakan sesuatu yang sakral untuk sama-sama dijalankan.
+Lanjut, ya ini resume ya, 6 prinsip utama bagaimana company atau organisasi itu bisa unggul dan berdaya saing.
+Yang pertama dia harus memperhatikan pelanggan. Pelanggan itu kalau kontraktor ya pengguna jasa ya terutama owner, lalu stakeholder vendor dan pemangku kepentingan yang lain.
+Yang kedua, memuaskan dan memenuhi ekspektasi terhadap pemegang saham. Lalu regulator utama kita, yaitu pemerintah.
+Kemudian pegawai ya, pekerja kita, pekerja pihak ketiga dan sebagainya. Lalu mitra kerja lain-lain nih.
+Kemudian yang terakhir tentunya masyarakat ya. Masyarakat juga punya kepentingan atau punya tanggung jawab sama-sama untuk keberlanjutan konstruksi ataupun keselamatan yang berdaya saing tadi.
+Empat hal ini tentunya akan bisa mendorong terwujudnya, kalau orang bilang itu Operational Excellence atau OPEX-nya, bahwa tidak hanya kita memikirkan laba atau pertumbuhan bisnis saja, tapi semua pihak senang dan happy gitu lah dengan adanya kita.
+atau keberadaan kita. Lanjut.
+Ya kemudian BUMN khususnya tentunya dan ASN pada umumnya gitu ya, sudah menerapkan satu core value yang terintegrasi yang namanya AKHLAK.
+Kalau ASN atau PNS ditambahkan ber di depannya, yaitu jadinya Berakhlak, ber nya itu berorientasi pelayanan, A nya itu amanah, K nya kompeten, harmonis, loyal, adaptif, dan kolaboratif.
+Ini tidak perlu dijelaskan satu-satu, tapi kuncinya adalah bagaimana kemudian organisasi atau BUMN atau company itu komitmen untuk meningkatkan terus-menerus kepercayaan seluruh stakeholder, meningkatkan terus-menerus kompetensi personel yang ada di organisasi, lalu melakukan sinkronisasi pekerjaan dan tugas dengan internal dan eksternal, kemudian patuh pada peraturan perundangan dan target-target yang ditentukan, lalu lincah ya, agile atau adaptif terhadap situasi dan kondisi yang serba tidak pasti, tantangan yang fluktuatif ke depan, dan sebagainya, gitu ya, dan tentu harus kolaborasi karena tidak bisa sukses sendiri.
+Ini yang akan menjadi senjata kita dalam mensukseskan program-program ESG dan QHSE.
+Karena kalau tidak dibekali dengan semangat akhlak ini, maka selalu berpikir bahwa ESG dan QHSE adalah cost dan hanya beban saja.
+Padahal output-nya tadi bisa meluluskan proposal pendanaan investasi, proyek atau infrastruktur kita. Lanjut!
+Ya, kemudian ini diagram, diagram resume yang menjelaskan bahwa kolaborasi antara ESG dan QHSE System itu akan menjadi Operational Excellence atau OPEX.
+Kalau sudah OPEX, pasti daya saing usaha meningkat. Kalau daya saing usaha meningkat, terwujud competitiveness.
+Kalau sudah competitiveness berarti keberlanjutan usaha secara jangka panjang harusnya lebih terkendali.
+Nah apa aja yang harus diperhatikan yang pertama tentu SDM yang andal.
+Ada sistem pelatihan, talent mapping, talent development, lalu ada juga coaching mentoring dan counseling, ada rotasi mutasi, lalu yang terakhir ada pelatihan dan sertifikasi.
+Saya selalu mengatakan ke tim saya di perusahaan gitu ya, bahwa syarat kompeten itu minimal 5 aspek Bu Indri yang pertama itu knowledge, yang kedua skill, yang ketiga attitude, yang keempat ability, yang kelima empowerment gitu ya.
+Jadi orang yang berilmu dan pintar saja itu baru memenuhi 1 aspek kompetensi atau kompeten, belum skillnya, skill itu ya cara komunikasi, cara meng-approach, cara menyelesaikan masalah, cara bergaul, cara membuat nyaman pada semua orang itu skill itu.
+Lalu attitude ya, attitude itu ya kejujuran, loyalitas, kesantunan, kemudian compliance terhadap peraturan perundangan gitu kan.
+Lalu yang keempat, ability, ability itu track record lah, rekam jejak ya.
+Orang kalau ditugaskan, dimanapun dengan siapapun timnya berhasil, yaitu berarti dia sudah ability.
+Di semua level yang dilakukan penugasan terhadapnya, kemudian yang kelima empowerment.
+Empowerment itu yang bisa menginspirasi, yang bisa menguatkan yang lemah dan menguatkan yang lebih kuat lagi.
+Dan bisa membantu temen-temennya yang kerjanya tidak secepat dia. Itu namanya empowerment.
+Jadi SDM Andal itu berbasis lima item tadi, kemudian ada sistem terintegrasi, ada SMK3, ISO, sistem manajemen perusahaan, lalu ke knowledge management, learning management dan sebagainya.
+Kemudian terdukungnya biaya dan standardisasi. Jadi kalau organisasi tidak memastikan dukungannya, terutama pada biaya dan standardisasi, maka nanti bisa saja dukungannya jadi abu-abu gitu loh ya ngomongnya sih komitmen tapi begitu butuh program ini yang berbiaya dan sebagainya akan menjadi sulit.
+Kemudian yang keempat adalah komitmen, ini juga tidak kalah penting.
+Untuk mewujudkan sukses ESG dan QHSE sebagai daya saing, maka komitmen dari para leader, dari semua departemen, semua divisi, semua level jabatan, itu menjadi penting.
+Dan kalau bisa, ciri-ciri organisasi atau perusahaan yang maju biasanya dalam rapat-rapat top management atau rapat direksi gitu. Selalu aspek QHSE atau ESG ini dibahas pertama kali gitu loh.
+Sebelum bahas yang lain, rundown pertama tuh pembahasan ini dulu.
+Karena khawatir kalau dibahas lain-lain dulu, Waktunya juga tidak cukup, lalu akan tidak menjadi konsen utama.
+Kalau tidak menjadi konsen utama, nanti bisa saja hal kecil terjadi pada salah satu titik operasi akan menjadi potensi kebangkrutan.
+Bapak-bapak, Ibu sekalian masih ingat tentunya ada tambang di Minahasa, bangkrut hanya karena pencemaran lingkungan yang tidak terkendali.
+Lalu ada juga maskapai nasional yang maju pada tahun-tahun 2004 sampai 2006, lalu kemudian harus jatuh di Mamuju Sulawesi Barat gitu, dan akhirnya bangkrut.
+Makanya ESG itu penting dan QHSE secara terintegrasi juga penting untuk tidak menjadi bangkrutnya satu perusahaan.
+Kemudian yang berikutnya, yang lingkaran putus-putus itu akhlaknya ya, tadi core value-nya organisasi dibalut dengan akhlak disupport dengan IT, maka otomatis seluruh operasinya akan menjadi OPEX tadi ya, operasional excellence atau memenuhi kriteria penilaian kinerja unggul 
+ya, organisasi atau perusahaan namanya KPKU, atau bisnis excellence lah. Lanjut.
+Ini mohon maaf pak Dr. Mardiaman mungkin pembahasannya agak berat ya, karena ya memang harus dikasih pandangan dulu supaya mahasiswa semangat gitu loh, kalau mahasiswa semangat kan nanti negara jadi maju gitu kan.
+Iya, agak berat ini memang Pak Mardiaman, tapi gak apa-apa secara bisnis kita harus sampaikan gitu ya.
+Bagaimana K3 itu dikaitkan dengan bisnis tidak hanya masalah kecelakaan-kecelakaan saja gitu. Oke, selanjutnya ini ESG Implementation ya.
+Jadi ESG itu apa aja sih aspeknya pertama environment ya. Environment itu ada natural resources, ada climate change.
+ada waste management, ada innovation, ada tiga area, tiga area itu reduce, reuse, recycle.
+Lalu governance tuh ya, transparansi, anti-penyuapan, corporate governance, risk management dan sebagainya.
+Lalu kalau sosial ya tentunya human capital management atau leading HCM gitu ya.
+Lalu managing diversity mengelola perbedaan, orang dari mana-mana bisa cocok kompak dan sukses, lalu value chain bisa menguntungkan semua pihak dan mengorkestrasi sosial dan komunitas bisnis, dan kemudian kita akan menguatkan yang namanya sosial.
+Nah ini nanti Abkindo dan Itaki akan merealisasikan ESG ini, Pak Mardiaman, tanggal 20 Oktober dikawinkan antara di Indonesia, Kadin DKI, lalu asosiasi pengguna jasa sekuriti, forum QHSE BUMN, dan Abkindo di Hotel Grand Lake Sunter, yaitu acaranya akan kita praktikkan, biar namanya kolaborasi, social-society, business matching dan sebagainya, ya mudah-mudahan nanti akan membesarkan manfaat bagi para membernya Abkindo, ya dalam meningkatkan usahanya, kira-kira seperti itu.
+Dan di Indonesia sendiri, penerapan ESG ini belum cukup konsisten dan optimal gitu ya, walaupun gaungnya udah lama kita utarakan, mudah-mudahan nanti setelah kita tahu bahwa ESG ini jadi syarat pendanaan investasi itu akan menjadi kunci ya, artinya orang pasti akan berlomba-lomba, sewa konsultan dan sebagainya.
+karena ini mempengaruhi ACC-nya lenders dalam mencairkan pendanaan.
+Lanjut, kemudian poin penting penerapan bagian dari ESG itu adalah green construction atau green building-nya.
+Green construction itu tidak hanya hijau saja, banyak tanaman dan sebagainya.
+Tapi bagaimana kita bisa menghemat semua energi ini, listrik, diesel, terbarukan, energi tidak terbarukan, dan bisa melakukan 3R, reuse, reduce, recycle.
+Sehingga nanti ada yang namanya istilahnya waste to energy, sampah menjadi energi.
+Misalnya sekarang kan sudah ada tuh pembangkit listrik tenaga sampah. Selalu nanti listriknya proyek konstruksi tidak selalu dominan dari PLN.
+Tapi sudah ada solar cell-solar cell yang kita pasang di area-area sekitar konstruksi untuk bisa, paling tidak membiayai penerangan sekitar gitu.
+Kemudian kantor proyek sudah dibuat hemat pencahayaan gitu, sehingga kalau sekarang tidak perlu ada lampu-lampu.
+Dan sebagainya lah termasuk kampanye yang aktif dan pasif di seluruh lokasi proyek yang penting. Ini juga penting.
+Ini butuh dua hal penting, yang pertama adalah komitmen dari leaders dan juga partisipasi aktif dari seluruh stakeholder yang ada di satu kegiatan proyek maupun organisasi atau perusahaan.
+Lanjut. Ya berikutnya ini cara sukses untuk menerapkan ESG atau bagian kecilnya adalah Green Construction, Green Building yang pertama pasti PDCA, Plan Do Check Action yaitu memastikan dokumen pemenuhannya tersedia, planningnya, rencana keselamatan, rencana tata kelola lingkungan, rencana mutu dan sebagainya.
+Lalu pasti identifikasi aspek dampak lingkungan, mutu, safety dan sebagainya.
+Lalu pastikan legislasi terkait atau list register regulasi yang memenuhi, kita list dan kita pelajari, lalu kita terapkan.
+kemudian kita juga memahami life cycle analisisnya operasional, lalu adanya matriks rencana pantau dan pengukuran dan sebagainya.
+Pelaksanaannya gimana? Ya pasti kita menggerakkan empowerment, komunikasi dan kampanye, lalu role model, keteladanan untuk melakukan penghematan, recycle sumber daya yang mungkin awalnya dianggap tidak bermanfaat terus kita make up sedikit jadi bermanfaat dan sebagainya.
+Lalu checking-nya yang pasti dengan audit, pengukuran, lalu inovasi dan sebagainya.
+Lalu tindak lanjutnya, berupa improvement, kemudian inovasi, continuous improvement dan sebagainya. Lanjut. Ya, kemudian, mind map towards leading environment.
+Jadi pasti setelah PDCA tadi sekarang apa saja yang harus diperhatikan ya. Kalau saya singkat ini, PPTI, pertama orangnya dulu, people, people itu ya SDM kita gitu kan.
+Kemudian proses, proses itu apa aja yang kita mesti siapin? Ya tentunya mekanisme komunikasinya lalu terminasi untuk pelatihan dan pengembangan, kemudian infrastruktur seperti sarana-prasarana, kemudian awareness dan sebagainya, gitu ya.
+Untuk teknologi ya, pasti ada software ataupun apps yang kita kembangkan, lalu modifikasi pengukuran, berupa emisi dan net zero dan sebagainya, gitu ya.
+Dan termasuk digitalisasi terkait dengan audit internal dan assessmentnya. lalu inovasinya ya tadi 3R, Green Construction, Green Building, ESG, dan Strategic Partnership.
+Baik itu dengan lembaga sosial atau pun lembaga kementerian dan lembaga terkait dan sebagainya.
+Jadi, people dulu baru proses, kemudian didukung teknologi, lalu disempurnakan dengan inovasi.
+Hal-hal lain yang harus diperhatikan, yang pertama tentu manajemen proyeknya.
+Ada environment management system, ada procurement management system dan sebagainya. Lalu risk management, ini juga perlu dipersiapkan dan diimplementasi.
+Lalu ada EBT, EBT itu energi baru dan terbarukan. Biasanya orang lebih familiar menyebutnya renewable energy ya.
+Lalu ada ekonomi lingkungan ini bagaimana kemudian pengelolaan lingkungan atau ESG itu berdampak signifikan terhadap bisnis atau nilai ekonomi operasional perusahaan yang tadi saya katakan mempengaruhi pendanaan dan sebagainya.
+Kemudian adanya upaya-upaya meningkatkan barang sampah menjadi barang berguna gitu loh.
+Jadi tadi waste to energy, pembangkit listrik tenaga sampah, pembangkit listrik tenaga air, surya dan sebagainya.
+Lalu ada green operation. Green operation ini gabungan dari green construction, green operation, dan juga green building ya, sehingga nanti udah berbasis operasi hijau nih.
+Operasi hijau itu akan menghasilkan green productivity dan green product tentunya.
+Yang mana setelah 2045, sudah menjadi konsensus pada saat G20 di Itali ya, itu hanya produk hijau saja yang akan bersaing dan diterima oleh dunia.
+Produk hijau tuh ya, produk yang sudah memperhatikan tiga R.
+Teman-teman kalau suka belanja di mall, coba deh main ke Uniqlo ya.
+Uniqlo itu adalah Garment dari Jepang yang dia proses sintesis kain dan bahannya itu sudah tidak membutuhkan air yang terlalu banyak pada saat proses pencucian.
+dan dia daur ulang itu, sehingga semangat-semangat inovasi green product tadi, hanya itu yang nanti akan bisa bersaing di dunia, termasuk konstruksi.
+Contoh nih, konstruksi contoh yang sederhana ya, bekisting, formwork. Formwork sistem saat ini banyak yang menggunakan triplek, kayu, kaso dan sebagainya.
+Kedepan, sistem precast itu akan menjadi kunci. Jadi orang akan punya moto membangun gedung di pabrik.
+jadi sampai lokasi itu hanya tinggal knockdown sistem saja, tinggal pasang-pasang saja.
+Memang selalu ada bekisting yang tetap masih diperlukan di lapangan, tapi jumlahnya tidak banyak.
+Dan sudah menggunakan full system, sehingga kita tidak nebang pohon lagi. Tidak menggunakan kayu kaso lagi.
+Lalu tidak bising lagi, taktok-taktok paku lagi. Lalu tidak banyak sampah yang terbuang, tidak ada risiko kebakaran dan sebagainya.
+Nah, itu yang kita namakan dengan green operation to green productivity dan untuk menuju green product itu yang akan laku di dunia setelah 2045. Jadi, semua yang dilakukan dengan cara-cara hijau, energi yang hemat, operasional yang murah itu yang pasti akan dipakai.
+Oke, kemudian leading enviro, ya, yaitu gabungan antara digitalisasi, leadership dan partnership.
+Kemudian assessment ini pasti ya harus diukur targetnya, KPI-nya, kemudian pencapaiannya, kekurangannya apa dan sebagainya. Lanjut.
+Ini prinsip Itaki ya, ingat kompeten. Jadi harus selalu dicek keterampilan dan keahlian, apa saja yang diperlukan dalam ESG dan QHSE ya, ini K3 lingkungan kerja, Enviro Risk Expert, K3 kimia, ahli ISO lingkungan, expert ESG, auditor EMS, Higiene, Green Building Specialist, Green Construction Specialist, lalu ada EBT, EBT itu energi baru dan terbarukan expert, lalu ahli sistem penyediaan air minum dan sebagainya, ini penting nih.
+Untuk menjadi sasaran kita ke depan. Jadi kalau bisa, Itaki selain menjadi ahli dalam mengelola pengembangan SKT dan SKA, ke depan harus punya ciri khasnya, pokoknya semua keahlian profesi yang berbasis ESG dan QHSE hanya bisa dilakukan di ITAKI.
+Harus punya cita-cita ke sana, supaya eksklusif ITAKI itu tidak dimiliki atau lebih terdepan dibanding asosiasi yang lain.
+ya tentu ini perlu tugas dan kerja sama dari kita semua tentu. Lanjut.
+Ya ini kesimpulan nih, sampai pada kesimpulan bahwa Excellence of QHSE Implementation for Good Business adalah bagaimana mengawinkan 6 aspek utama yaitu governance atau tata kelola yang baik dan comply, lalu risk implementation, lalu compliance, lalu ESG ya, Environment, Social and Governance, dan juga hal-hal lain yang sifatnya inovatif ya, seperti kolaborasi dengan kementerian lembaga, lembaga-lembaga swadaya nasional dan regional.
+serta harus ada achievement yang merupakan pengakuan, pengakuan eksternal terhadap organisasi tanpa achievement, kita mau ngomong ngalor ngidul dan sebagainya rasanya jadi sampah gitu ya kalau kita nggak ada pengakuan dari eksternal terutama dalam penerapan ESG maupun QHSE.
+Lanjut. ini contohnya waskita ya udah dapat QHSE dunia, kemudian digital base construction dan sebagainya.
+Ini contoh visual implementasi CQCSMS ya, contractor quality safety management system untuk prakualifikasi vendor yang akan bekerja di kita.
+Jadi kalau dia tidak lulus, maka jangan berharap dia punya tiket untuk ikut pekerjaan di perusahaan.
+ada penilaiannya dan ini sudah digital nih, sudah lebih detail dibanding iProc nih Pak.
+Pak Mardiaman, jadi sudah lebih detail daripada iProc ya, atau e-katalog, lanjut.
+Ah, kemudian ini karena kita pandemi ya, dan kita nggak tahu berakhirnya kapan, pasti penanganan pandemi COVID juga kita akselerasi dan kita monitor terus dengan digital nih.
+ada yang namanya cosmic, cosmic itu yang namanya Cosmic, Covid-Safe Monitoring and System Information Compliance.
+Jadi bagaimana kepatuhan terhadap protokol kesehatan pada pandemi Covid. Lanjut.
+Kemudian ini contoh assessment dari external, baik dari ESG Risk Management dan sebagainya.
+Dan kemudian semua penjelasan ini sudah saya tulis di buku nih, Pak Mardiaman dan Bu Indri ya, di buku ekonomi QHSE.
+Nanti setelah ini saya share ke mas berlinto ya silahkan dipublish di semua gratis mas, free ya.
+Artinya kita berbagi tulisan, berbagi sharing untuk kebaikan dan kemanfaatan.
+Dan sudah dilibrerikan di WSO di Las Vegas, World Safety Organization. Lanjut.
+Ya, ini kira-kira isi buku tadi ya bagaimana cerita ESG, Komitmen QHSE, Integrasi SMK3-nya akan berakhir dengan SMKK-nya.
+PUPR, dan lain sebagainya. Jadi di sini tidak ada pertentangan yang ada kolaborasi.
+Masalah masih belum harmonisasi, yaitu tugas kita, tugas Itaki, tugas sub-indo, dan sebagainya. Lanjut.
+Nah, kemudian poin-poin penting ya dari Paparan ini yang pertama adalah pentingnya peran top management dan P2K3 dalam penerapan ESG dan QHSE dalam setiap proses bisnis.
+Lalu bagaimana leader dan top management itu berperan penting dalam menentukan keputusan utama implementasi supaya konsisten dan kontinu.
+Di semua level dari mulai level staff sampai level management.
+Lalu bagaimana kepatuhan terhadap peraturan perundangan juga menjadi acuan inti dalam proses bisnis.
+Yang keempat, partisipasi aktif dari seluruh pekerja dan stakeholder menjadi kunci keberhasilan.
+Yang kelima, biayanya harus distandarisasi dan di BSKK ini oleh perusahaan ya supaya tidak menjadi simpang siur dan cenderung dicoret duluan kalau pengajuan-pengajuan karena dianggap tidak penting ke fungsi ini dan sebagainya.
+Padahal efeknya tadi bisa kebangkrutan. Selanjutnya, Pak, ririn, ya yang terakhir mungkin integrasi antara quality dan safety, mutu itu mempengaruhi keselamatan dan keselamatan mempengaruhi mutu.
+tidak ada satu proses mutu yang baik, menghasilkan safety yang baik.
+Dan sebaliknya, tidak ada proses safety yang konsisten dan terkendali menghasilkan mutu yang bagus.
+Karena di undang-undang 2 2017 tentang jasa konstruksi, kita tahu semua ya bahwa syarat keselamatan salah satunya adalah syarat keberterimaan peralatan, bahan, dan material konstruksi.
+Artinya mutu, itu menjadi kunci terwujudnya keselamatan konstruksi. Lanjut.
+Ini kira-kira bukunya ya dan sudah pernah kita, apa namanya, bedah di tingkat kementerian, lintas kementerian ini ada kementerian perhubungan, SDM, KEMENAKER, PUPR dan asosiasi profesi.
+Sehingga mudah-mudahan bisa dipakai di semua sektor. Lanjut. Jadi di buku ini, intinya kita tidak cerita masalah kecelakaan kerja ini.
+Itu udah dari jaman nenek moyang udah terjadi. Sekarang kita lihat opportunity dari melakukan QHSE, seperti apa secara bisnis.
+Nah ini banyak pakar juga yang mengatakan ya, good safety atau ESG is good business, ada grafiknya di belakang.
+Jadi semakin besar orang berkomitmen terhadap ESG, perusahaannya pasti semakin berkelas dunia.
+Dan risiko kebangkrutan semakin kecil. Serta reputasi atau kepercayaan pasar, terutama stakeholder internasional akan semakin meningkat.
+Sehingga kita mau mengajukan apa saja lebih dipercaya dibanding tidak menerapkan ESG ini.
+Oke, mungkin dari saya itu Bu Indri yang bisa disampaikan. Terima kasih atas waktu dan kesempatannya.
+bapak ibu sekalian, mohon maaf bila ada hal yang kurang berkenan, selanjutnya kita diskusi.
+Saya akhiri akhirul kalam. Wassalamu'alaikum warahmatullahi wabarakatuh. Terima kasih Bapak atas materi yang sangat luar biasa.
+Memang ini materinya itu mungkin kalau buat mahasiswa materi tambahan yang tidak diajarkan di kampus, Pak.
+Baik mungkin kalau saya lihat disini kayaknya belum ada yang nanya ya. Mungkin ada yang bisa bertanya lah.
+Mungkin ada yang bisa bertanya langsung, dipersilakan kalau ada yang mau bertanya langsung. Boleh bu, saya bu.
+Ya, silakan, Bapak Lukas. Ya. Selamat siang, semua peserta dan pemateri ya.
+Hormat saya untuk Senior-Senior, pertama pembicara, Pak Subhan, Salam Kenal.
+Jadi ada satu hal yang dari pemaparan Bapak tadi. Saya agak curious, jadi aku pengen tau ya Pak ya, dengan bagaimana penerapan QHSE ini bisa membuat sebuah perusahaan itu menjadi tiba-tiba gagal atau bankrupt.
+Jadi mungkin bisa dipaparkan sedikit alurnya bagaimana misalkan pada saat pesawat tersebut jatuh lalu apakah yang terjadi sehingga perusahaan itu akhirnya menjadi bankrupt.
+lalu QHSE-nya berperan dimana. Maksudnya ini loh gara-gara dia tidak menerapkan QHSE, akhirnya jadi begini, nah itu Pak.
+Jadi kita ingin tahu sebenarnya Pak, di sebelah mana dia QHSE berperan di area tersebut.
+Mungkin itu saja Pak, yang lainnya saya mungkin nanti belajar lagi dari materinya. Terima kasih atas kesempatannya.
+Ya baik, terima kasih, Pak Lukas. Dipersilakan Pak Subhan untuk menjawab.
+Ya, makasih Pak Lukas. Mungkin dicicil menjawab. Yang pertama untuk mengurangi risiko kebangkrutan. Jadi kan saya contohin hanya dua, ya.
+Itu perusahaan tambang di Minahasa yang mencemari lingkungan terus bangkrut, hampir sekarang sudah nggak ada.
+Lalu yang kedua, yang maskapai nasional jatuh. Jadi, yaitu betapa pentingnya aspek ESG dan keselamatan bagi keberlanjutan usaha.
+Kadang kalau tidak ada masalah, kayanya biasa-biasas aja. Tapi kalau ada masalah, yaitu bisa sampai potensi kebangkrutan.
+Nah yang harus dijaga, kaitannya ya pertama, bagaimana kita mempreventifnya.
+Mempreventif risiko itu kecil terjadi atau dampaknya diperkecil semaksimal mungkin lah. Itu yang pertama. Kita sudah punya job safety analysis.
+punya HIRA, hazard identification and risk assessment, ada security risk assessment dan semacamlah banyak sekali, ada environment risk assessment dan sebagainya banyak sekali.
+Ada IADL identification aspek dan dampaknya lingkungan sebagainya. Tapi itu hanya mengurangi dan mencegah risiko.
+Tadi ada peluang opportunity yang lebih besar lagi. Kalau kita menerapkan dengan optimal ESG, maka kita mengajukan pendanaan ke lenders manapun, setidaknya akan cukup maksimal dipercaya gitu ya.
+Karena apa? Kita aja kalau mau ngasih utang nih ke temen atau ke saudara gitu ya, untuk usaha kita mesti cek dulu usahanya akan sustain atau tidak gitu ya.
+dia mengelolanya secara manajemen yang baik atau tidak. Dan sebagainya, apalagi yang sekarang besar.
+Karena risikonya, dananya akan mati, akan berhenti dan tidak bisa di feedback, pengembalian maupun sharing keuntungannya. Kira-kira seperti itu.
+Jadi, ya, kami pikir harus digerakkan dua arah di mana ESG dan QHSE-nya selain mengurangi kerugian atau risiko-risiko yang bisa terjadi, juga sesungguhnya kalau diterapkan dengan baik akan menghasilkan big opportunity gitu ya.
+Reputasi meningkat, produktivitas meningkat, lalu dipercaya oleh lenders lebih banyak, kemudian apa namanya target dan lain sebagainya, harusnya lebih optimal ya, karena semakin efektif, produktif dan apa namanya terkendali.
+Mungkin seperti itu Bu Indri, Pak Lukas semoga bisa menjawab. Ya baik, bagaimana Pak Lukas?
+Terima kasih Pak, sudah sangat membantu. Mungkin yang lain ada yang bertanya. Ini kesempatan yang baik, oh ya silahkan.
+Mungkin sebenarnya saya ingin bertanya, tapi di luar materi gak apa-apa ya Pak? Silahkan.
+Jadi saya mau nanya, seberapa pentingnya K3 didalam suatu perusahaan? Kenapa saya dapat informasi?
+Jadi semua perusahaan itu, kalau tanpa K3 itu tidak bisa dibangun. Saya menanya apakah itu betul atau tidak.
+Kalau memang betul, apa alasannya dan kenapa? Terima kasih. Ya silahkan Pak Subhan. Ya, makasih mas rizki ya.
+Jadi, K3 ini bukan tidak bisa dibangun ya, tapi membangunnya itu gampang-gampang susah.
+Kenapa gampang-gampang susah? Ya karena mindset K3 sebagai cost dan beban itu masih terus ada gitu loh faktanya.
+Dan relatif kita melakukan K3 itu menghambat produksi secara fakta gitu ya.
+Tapi sebenarnya kalau kita dalamnya lebih deep lagi gitu ya, deep dive lagi, mestinya dengan kita menerapkan K3, itu adalah realisasi investasi kita jangka panjang.
+Kalau kita sudah menerapkan investasi ini sejak dari awal, mestinya sampai seterusnya operasional akan terjaga.
+Nah, kalau sudah terjagakan otomatis, investasi yang dikeluarkan di awal tadi akan terbayar dengan adanya produktivitas yang meningkat, ya kan?
+dari risiko kecelakaan yang di-saving biasanya, cost-savingnya, kemudian reputasi dari klien dari perbankan dan sebagainya.
+Karena jangan salah lo, kalau ada kecelakaan satu aja di pabrik, misalnya pabriknya ini katakan dapat pendanaannya dari perbankan.
+jangankan perbankan itu, perbankan yang lainnya pun jadi tidak berani gitu loh, memberikan loan atau bantuan jaminan untuk operasi.
+Jadi saya pikir bukan tidak bisa dibangun, bisa dibangun asal secara cara tadi yang saya sebutkan di grafik, ada komitmen bersama, keteladanan, kedisiplinan, lalu konsistensi dan kompak.
+Yang penting itu kuncinya 5K. Kalau itu nggak dilakukan, pasti kemudian seolah-olah sulit dibangun.
+Kalau udah begitu, ya tinggal tunggu bom waktu aja.
+Artinya apa, perusahaan yang tidak menerapkan K3 itu terus dia berhasil terus itu sesungguhnya hoki gitu loh.
+Tapi tidak otomatis bahwa hari berikutnya atau bulan berikutnya pasti hoki karena tidak ada manajemen yang memastikan terkendalikan risikonya.
+Mungkin seperti itu. Ya baik, terima kasih Pak Subhan. Bagi peserta yang lain, silakan kalau ada yang mau bertanya, masih banyak waktunya ini.
+Masih ada yang bertanya, bisa langsung buka mikrofon. Bagaimana ini? Ada 27 orang ini?
+Tidak ada yang bertanya lagi? ini ada di atas Bu indria sari, bisa sedikit ya untuk diskusi, kebetulan disini saya lihat banyak juga Mahasiswa ini kayaknya cocoknya ke orang Manajemen Konstruksi supaya membuka cakrawala ya tadi kalau saya baca itu tadi apa good safety is good business ya itu menjadi topik yang menarik itu ya artinya mungkin nanti jadi antara mahasiswa-mahasiswa terutama ada yang tertarik itu artinya memang benar nggak itu mengenai keselamatan yang dijalankan itu ya dari PDCA itu ya plan 
+do check action. Jadi benar enggak safety yang dilaksanakan itu seperti apa itu ya, kemudian bisa aja nanti itu disurvei kepada perusahaan-perusahaan ya bisa skala kecil menengah besar itu, bagaimana mereka melaksanakan itu bisa diwawancara itu ya.
+Sehingga ada nggak increasement nya, peningkatannya terhadap bisnis, bisnis yang dimaksud apa apakah keuntungan secara uang langsung atau nanti opportunity yang disampaikan oleh Pak Subhan tadi peluang-peluang.
+Artinya apa kalau terjadi kecelakaan, berapa biaya yang harus dikeluarkan perusahaan, berapa lama dia berhenti iya.
+Kalau kecelakaan itu terjadi pada tenaga inti, itu bisa berhenti ah.
+Cakrawala-cakrawala itulah yang dibuka diseminar-seminar ini sehingga menarik ya sehingga apa namanya itu bisa membuka topik-topik baru ya terutama untuk Mahasiswa S2 ya.
+Makanya kita undang juga Mahasiswa-Mahasiswa itu supaya oh bener gak mungkin di antara Mahasiswa ini ada yang sudah bekerja kan.
+Itu aja dari yang sederhana-sederhana semua karena topik ini tadi sudah diarahkan Pak Subhan.
+Saya lihat itu banyak kalimat-kalimat penting yang bisa diambil gitu ya. Bisa di-plan.
+Di plan itu kesehatan yang tadi Quality, Health, Safety and Environmental itu seperti apa plannya.
+Kemudian plan itu kan banyak. Sesuai dengan kondisinya daripada perusahaan tersebut.
+Kemudian do nya dilakukan itu, di-eksekusi. Itu mana saja kan nggak mungkin semua di-eksekusi.
+itu perlu filter daripada penelitian riset-riset, saya rasa itu riset yang menarik, terima kasih kepada Pak Subhan ya, sudah membuka topik-topik yang bisa diambil lah dari apa yang disampaikan Pak Subhan itu.
+Banyak itu berangkali bisa bertukar pikiran, terima kasih Ibu Indria Sari.
+Ya baik, terima kasih atas pertanyaannya Pak Mardiaman, dipersilakan Pak Subhan. Ya, makasih Pak Mardiaman.
+Luar biasa ya analisisnya beliau. Jadi memang betul. Kita menjelaskan ini kulit luarnya sebenarnya.
+Karena kalau terlalu kedalam nanti khawatir waktunya gak cukup dan kontraproduktif ya.
+Tapi nanti biar didetailkan oleh tesis atau juga akhirnya mahasiswa aja. Enak itu produk.
+produk apa namanya bimbingannya Pak Mardiaman dipakai seluruh BUMN Karya kan keren banget gitu kan.
+Dan kalau bisa sistematika penyusunan ESG distandarisasi, sehingga dipatenkan Pak Mardiaman, paten penyusunan standarisasi proposal investing assessment ESG, itu produknya bimbingannya Pak Mardiaman.
+Jadi orang yang mau pake itu ya bagian royalti ataupun apa segala macam untuk kepentingan.
+kemajuan dunia usaha tentunya gitu ya ke depan.
+Itu salah satu pokok penting itu, belum yang 3 R ya, reuse, reduce, recyclable, belum green productivity, belum green operation.
+Banyak sekali sebenarnya perlu kita teliti. Tapi secara singkat, ingin kita sampaikan ke teman-teman sekalian.
+Dampaknya itu ada 2 tadi betul yang disampaikan Pak Mardiaman ya, tangible benefit dan intangible benefit.
+Tangible benefit, ya saving cost, kemudian produktivitas naik, kan waktu lebih cepat, tidak ada idle, tidak ada kerugian akibat idle alat maupun orang, akibat kecelakaan kerja atau pencemaran.
+yang intangible benefit, ya naiknya reputasi, naik kelasnya kita menjadi kelas perusahaan menuju kelas dunia, dan kemudian kepercayaan para lenders atau pendana terhadap kita.
+Jadi luar biasa ini kalau ditekuni, didetailkan oleh rekan-rekan dari perguruan tinggi, kolaborasi dengan dunia industri ini akan sangat berkhasiat nih dampaknya.
+Terima kasih Pak Mardiaman, terima kasih, Pak.
+Terima kasih Pak Subhan. Baik, mungkin peserta yang lain ada yang mau bertanya lagi, dipersilakan, bisa langsung.
+Selamat sore ibu, izin ibu, mau tanya Pak Subhan. Oh dipersilakan Pak Ariberthus ya. Terima kasih Pak Mardiaman.
+Pak Subhan, ini kan Bapak berkaitan dengan yang QHSE ya Pak ya, yang itu kan pada kejadian yang apa ambruknya penerbangan yang bangkrut dan itu yang dicontohkan Bapak tadi lah.
+Ini kan saya, sepengetahuan saya dulu di Tol Becakayu itu Pak ya, Waskita juga terjadi insiden Pak ya, lah bagaimana menyikapi dari, mohon maaf ya Pak Subhan, Waskita setelah kejadian itu Pak, Apakah ada apa eh suatu tindakan tindakan atau garis untuk biar kecelakaan itu nggak terulang tuh Pak.
+Kadang-kadang berapa kali dari precast kita banyak jalan dan kecelakaan banyak. Terima kasih Pak. Ya, makasih Pak Ariberthus.
+Jadi karena kita tahu pentingnya menjaga keselamatan itu bagian dari menjaga keberlangsungan usaha dan mitigasi dari risiko kebangkrutan gitu ya.
+pada waktu itu mungkin 70 persen kecelakaan konstruksi itu terjadi ya di Waskita dan kebetulan saya pada saat itu masih bertugas di luar Waskita ya.
+Ya konsekuensinya sangat banyak. Pertama, 6 dari 7 direktur diganti lho pak padahal bukan kesalahan dia langsung lho pak.
+Tapi secara tanggung jawab kan responsibility pemimpin tertinggi ya direktur gitu lho pak.
+6 dari 7 lho pak, berarti kan 90 persen direksi diganti, walaupun pada saat itu labanya Waskita terbesar seluruh BUMN Karya ya 2017-18, bahkan paretonya BUMN Karya aja belum bisa mengungguli labanya Waskita, tapi diganti juga gitu lho, 90 persen direksinya diganti, karena masalah kecelakaan kerja. Yang kedua, moratorium proyek elevasi, dampaknya bagi karya yang lain juga.
+Jadi karena moratorium kan otomatis selama 2 atau 3 minggu pada waktu itu karya-karya juga berhenti total semua untuk evaluasi, untuk audit silang dan sebagainya.
+Terus yang ketiga ya dampaknya ya tentu kepercayaan, kepercayaan kepada kementerian BUMN, pemerintah bahkan pada saat itu ada isu pilpres itu ya 2017-2018 ya.
+Jadi ada indikasi sabotase ke pemerintah juga gitu sampai apa namanya kita itu pada waktu itu dipanggil tiga huruf yang di Kalibata itu lho pak, ya Pak, ya kan tiga huruf kan ada dua ya Pak di Kuningan dan di Kalibata gitu.
+Dan sebagainya gitu lho pak itu luar biasa dan konsekuensinya sampai seperti itu.
+Nah itu yang intangible Pak, yang tangible sekarang ini saya mau cerita ya sahamnya waskita pada waktu itu dengan beberapa miliar lembar saham.
+Pak, miliar lembar saham, rugi turun 50 perak saja dalam waktu 1 jam itu berapa triliun yang loss, Pak.
+Itu lho, Pak, nilai saham. Jadi, itulah makanya pentingnya QHSE itu tidak sekedar kecelakaan kerja, tapi bisa mendorong ke risiko kebangkrutan dan kerugian yang luar biasa, Pak.
+Mungkin itu ya Pak Ariberthus. Terima kasih, Pak. Iya, Pak. Terima kasih, Pak. Iya.
+Ya baik, mungkin ada lagi pertanyaan yang lain, silahkan. Bagaimana yang lain? Silahkan bisa langsung bertanya.
+Saya mau pertanyaan boleh. Boleh, Mas Rizki, silahkan.
+Jadi kan saya juga awam aja tentang K3 ini, saya ingin bertanya tentang, tadi saya baca itu tentang QHSE Management System, disitu saya ada baca ISO 9001, ISO 14001, ISO 45001, dan ISO 19650, dan terakhir ISO 31000. Itu tentang apa aja ya, kalau saya tahu.
+Ya silahkan Pak Subhan, bisa langsung dijawab. Makasih mas Rizki, itu yang bisa jawab Bu Indri itu kalau itu.
+Sama Pak eber, sama Bu Ririn yang bisa njawab. Saya sedikit aja nanti dilengkapi Bu Indri ya. Ya silahkan Pak.
+31.000 itu risk management compliance atau ERM, enterprise risk management.
+ISO tentang pengelolaan risiko, kalau 19.650 itu tentang BIM, Building Information Modeling.
+Lalu, masih banyak ada 27.001, itu sistem keamanan informasi atau IT Management System.
+Lalu ada 22.301, yaitu Business Continuity Management System atau ISO keberlanjutan usaha. Lalu ada 21.500, Project Management System.
+Banyak mas, nanti mahasiswa bisa mengambil satu tugas akhir juga terkait dengan integrasi antara 19.650 
+BIM dengan SMKI 27001 IT kayak apa. Nanti nggak apa-apa, kami di industri akan membantu murid-murid atau mahasiswanya Pak Mardiaman dan Bapak Ibu sekalian untuk bisa lancar dan bermanfaat hasilnya.
+Mungkin seperti itu ya, Mas Rizki ya. Ya, baik. Terima kasih, Pak Subhan. Bagaimana mas rizki?
+kita bisa cari di searching ya, bisa cari searching di internet untuk ISO-ISO-nya.
+Eh, kepada yang lain, ada yang bertanya lagi, Pak Subhan, saya sedikit tergelitik nih Pak dengan judul buku Bapak ya.
+Untung ruginya apa? Judulnya Pak, untung rugi mengelola QHSE, gitu ya Pak ya?
+nah saya boleh tanya sedikit nggak Pak, disitu isi dari buku tersebut itu menjabarkannya seperti apa ya Pak, maksudnya gini, apakah dengan adanya QHSE itu ada ruginya juga, karena kan disitu judulnya untung rugi mengelola QHSE atau hanya membahas keuntungannya aja kalau menggunakan QHSE, seperti itu Pak 
+Jadi, yang dijelaskan di sini adalah kerugian ketika tidak menerapkan QHSE. Jadi, keuntungan ketika kita menerapkan dan kerugian ketika kita abai atau tidak menerapkan QHSE.
+Tetapi, ada juga insight yang menjelaskan tentang kerugian ketika mengelola QHSE tapi tidak konsisten, misalnya hari ini bagus, nanti besok sudah kurang bagus, besoknya lagi lupa dan sebagainya itu efeknya juga besar sekali.
+Dan lain sebagainya, nanti bisa teman-teman atau bapak-ibu disempatkan ya bisa dibaca atau nanti pada sesi-sesi penelitian atau apa bisa dikaitkan dengan topiknya siapa tahu bermanfaat. Terima kasih.
+Ya, baik-baik, Pak. Terima kasih berarti segala sesuatunya memang kalau untuk kebaikan itu harus konsisten ya Pak.
+Jadi tidak boleh hari ini baik hari ini tidak baik sesuai yang Bapak jelaskan tadi, singkatan dari akhlak tadi bagus sekali Pak kalau saya baca di situ.
+Mungkin yang lain ada yang bertanya lagi? Silahkan? Ya, izin, izin. Oh, ya silahkan, Pak Hamonangan?
+iya Ya maaf ya lagi off-camera. Terima kasih, Pak Subhan. Sungguh luar biasa materinya, materi terkait dengan Health Safety Environment.
+Ada sedikit yang mau saya tanyakan, Pak Subhan pemateri. Ini kan sesuai judul kan QHSE, ya.
+Berarti ada penambahan quality sebelumnya kan mungkin hanya HSE, ya Health Safety Environment.
+Ini kan ada penambahan dengan quality. Mungkin sedikit saja. Mungkin kalau dulu quality itu masih masuk satu departemen, ini kan sekarang masuk bergabung dengan safety ya.
+Mungkin sedikit saja. Itu mungkin bagaimana kira-kira sejarahnya jadi HSE berubah menjadi QHSE-nya seperti yang Bapak materikan hari ini.
+Pokoknya itu saja Pak Subhan, terima kasih dan juga Ibu Indri, terima kasih. Ya baik, dipersilakan Pak Subhan.
+Terima kasih Pak Monang, pertanyaannya luar biasa ya. Mudah tapi jawabnya sulit nih saya juga.
+Jadi gini, quality itu sebenarnya kan ISO-nya tersendiri ya, Quality Management System, kemudian HSE juga OHS, Occupational Safety and Health itu 45.001 itu sendiri juga.
+Tapi dalam konteks Integrated Management System atau IMS gitu, atau Sistem Manajemen Integrasi bahasanya, itu sudah di-annex SL kan, artinya klausul-klausulnya sudah sama-sama sepuluh dan poinnya sama.
+dan poinnya sama.
+Misalnya, Klausul 1 itu tentang definisi dan sebagainya. Terus Klausul 4 tentang konteks organisasi isu internal eksternal. Klausul 5 itu leadership dan empowerment.
+Klausul 6 itu terkait dengan planning ya. Planning, Klausul 7, Dukungan Operasional. Klausul 8 itu Eksekusi atau Operasi.
+Klausul sembilan tuh audit dan tinjauan manajemen, klausul sepuluh itu inovasi dan continuous improvement.
+Itu udah sama. Jadi kalau dijembrengin itu antara 45.001, 9.001, 14.001, itu udah sejajar-sejajar. Jadi terintegrasi.
+Nah, perusahaan akan lebih mudah menerapkan dengan integrasi. Makanya kenapa quality department saat ini di perusahaan besar digabung dengan HSE, karena ISO-nya juga sudah terintegrasi.
+Kalau dulu, sebelum adanya rumpun 2015, itu masih 8 klausul. Jadi, antara quality-nya sudah 10, ISO-nya OHSAS 18.001 2007 itu masih 8 klausul, jadi nggak seimbang.
+Makanya, sebelum 2015, Quality Departemen dan HSE Departemen itu dipisah, tapi setelah 2015 terbentuk integrated manajemen sistem itu kemudian digabung menjadi departemen QHSE.
+Tapi ini kembali lagi nih, kalau komitmen manajemen atau pemimpinnya tetap bagus antara tanggungjawab kualitas dengan HSE, mau dipisah juga nggak masalah.
+Masih banyak perusahaan-perusahaan kelas dunia yang quality departemennya tersendiri, HSE departemennya tersendiri.
+Yang penting, mereka memahaminya sebagai salah satu independensi atau fokus pada aspek-aspek tersebut gitu, Pak.
+Seperti itu, Pak Monang. Makasih, Pak Monang. Pak, terima kasih banyak, Pak Subhan. Ya, terima kasih, Pak Subhan, Pak Monang.
+Masih ada lagi yang ingin bertanya? Mbak Ririn, bertanya Mbak Ririn, Direktur Eksekutif. Terima kasih.
+ngikutin aja. Ini itaki kalau nggak ada mbak ririn, kurang lancar nih, Pak.
+Pak mardiaman ya luar biasa ini mbak ririn. Kalau rapat saya digiring terus nih sama mbak ririn nih, Mas Subhan, rapat pleno nih, nah itu udah doain ya. Terima kasih, mbak ririn. Terima kasih, Pak.
+Baik, kalau sudah nggak ada yang bertanya lagi, Jadi apa kita akhiri bagaimana Pak Mardi?
+Bagaimana Pak Mardi? Apa mau di akhiri kalau sudah, apa masih ada yang mau bertanya? Ibu Ririn yang, apa ya?
+Memastikan selesai nggak gitu. Di-mute bu, memang nggak apa-apa sih kalau misalnya ini sudah menunjukkan pukul 15.37 ya.
+Kalau memang sudah enggak ada yang bertanya, kita tutup bagaimana? Bu ririn masih di mute?
+Langsung saya tutup saja ya, saya bacakan sedikit kesimpulan. Baik, intinya dari webinar hari ini tadi bagaimana QHSE itu dapat diterapkan ke seluruh sektor konstruksi.
+jadi untuk dapat mewujudkan ESG dan QHSE sebagai daya saing itu diperlukan yang pertama tadi SDM-nya Andal, kemudian sistem yang terintegrasi, biaya dan standardisasi, kemudian mempunyai komitmen dan bersinergi, itu yang utama ya bapak-ibu, dan kemudian quality assurance didukung oleh budaya akhlak, yaitu amanah, kompeten, harmonis, loyal, adaptif, dan kolaboratif.
+Kemudian hal-hal lain yang perlu diperhatikan tadi, seperti misalnya manajemen proyek, harus memperhatikan risk management juga, energi baru terbarukan, ekonomi lingkungan, ESG, Inovasi 3R, keberlanjutan, green operation, leading enviro, dan assessment.
+Tapi itu baik sebagai penutup acara ini. Alhamdulillah acara pada hari ini.
+Hari Kamis, 15 September 2022, telah selesai. Saya ucapkan terima kasih kepada Narasumber, atas ilmu yang telah disampaikan, ilmu yang sangat bermanfaat sekali Bapak.
+Dan kita mudah-mudahan bermanfaat bagi kita semua, bagi mahasiswa juga, juga bagi saya sebagai dosen ini tambahan pengetahuan juga ya Bapak.
+Jadi sebagai penutup saya akan bacakan pantun buah nanas, buah seri. Dicampur gula enak sekali. Cukup sekian pertemuan kali ini.
+Semoga bisa bertemu lagi di kemudian hari. Saya kembalikan kepada mc dipersilakan kepada Ibu Ririn.
+Terima kasih Bu Indri untuk kesempatannya. Sekali lagi kami terima kasih kepada Pak Subhan yang sudah menjelaskan materi yang cukup baik dan menarik pada siang hari ini.
+Terima kasih juga untuk para peserta Bapak-Bapak yang sudah bertanya dan kepada Pak Mardiaman yang sudah menambahkan kepada Bu Indri juga Terima kasih untuk kesimpulan.
+Ibu Indri juga terima kasih untuk kesimpulannya dan sudah memandu acara kita ini dengan baik untuk selanjutnya.
+Mendengarkan closing statement dari Pak Mardiaman, tapi sebelum itu saya mengingatkan kepada Bapak-Bapak yang belum mengisi absensi boleh diisi Bapak atau Ibu untuk menyempurnakan laporan kita nantinya.
+Baik untuk closing statement pada Pak Mardiaman dipersilakan Pak. Terima kasih.
+Terima kasih kepada Bu Ririn ya.
+Terima kasih Pak Subhan yang sudah memaparkan bahannya cukup bagus ya.
+Cukup bagus lah menambah informasi kepada kita dan membuka ilmu-ilmu baru yang bisa dikembangkan.
+Terutama kita yang bergerak di bidang akademisi maupun juga yang praktisi itu bisa dikembangkan. Terima kasih kepada Ibu Indria Sari.
+Terima kasih kepada Ibu Indria Sari yang sudah memandu acara ya dari tadi sampai sekarang dengan pantun-pantunnya. Berangkali pantun penutup ada ya Pak Subhan ya. Dan semua rekan ya supaya memberikan semangat kepada kita semua ya.
+Semoga apa yang kita sudah bahas kita diskusikan sama-sama ini bukan mengajari ya. Makanya ini dinamakan pertemuan profesi.
+Artinya itu akan menambah pengetahuan kita, pemahaman kita secara bersama-sama.
+Dan perlu kita sampaikan kegiatan ini sudah kita daftarkan ke LPJK.
+Jadi peserta semua yang mengikuti seminar ini nanti yang mempunyai sertifikat itu terutama untuk perpanjangan itu sudah terdeteksi di dalam sistem itu.
+Karena tanggalannya sudah ditentukan, harinya sudah ditentukan, langsung mendapatkan.
+langsung mendapatkan SKPK 5. Jadi nanti disimpan ya semoga itu bisa bermanfaat.
+Terima kasih ya sudah mengikuti acara ini dari awal sampai selesai ya dari jam 2 tadi itu.
+Semangat semua saya lihat ya sampai sekarang jam 3.42 di zoom saya. Terima kasih.
+Semoga acara ini bisa berlanjut dengan topik-topik yang lebih menarik lagi sebagai tanggung jawab kita, Itaki kepada tenaga-tenaga profesi di bidangnya.
+Terima kasih. Wassalamu'alaikum warahmatullahi wabarakatuh. Selamat sore. Selamat sore Pak. Terima kasih banyak.
+Jangan leave dulu Pak, foto bersama. Saya sudah melakukan bersama. Foto dulu.
+Foto dulu, oke. Ini kita buka kamera kita masing-masing, Pak, untuk foto bersama. Tolong dikasih gaya terbaiknya, Pak. Sama, Ibu.
+Oke, masih ada. Belum buka kamera. Kita tunggu sebentar lagi. Oke, masih ada yang belum.
+Oke, masih ada yang belum bukanya, Pak Henry, Pak Heru, Pak Hamonangan, Pak Lukas, Pak Marganda. Oke, sudah.
+Kita ngambil foto ya, Bapak Ibu? Satu, dua, tiga. Oke, sekali lagi Bapak Ibu, sebentar, saya save dulu.
+Terakhir, satu, dua, tiga. Oke, bapak ibu. Oke, makasih. Terima kasih semua, Pak Subhan.
+Semoga sehat selalu, Pak Subhan. Terima kasih Pak. Pak Monang semuanya. Pak Monang. Terima kasih Pak. Izin leave.
+Izin leave ya. Salam.

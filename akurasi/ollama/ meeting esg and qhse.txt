@@ -1,0 +1,40 @@
+==============================================================
+  HASIL ROUGE SCORE — OLLAMA ABSTRACTIVE SUMMARIZATION
+  Sistem Notulensi — Zoom Meeting ESG & QHSE
+  Implementasi ESG & QHSE Integrasi
+==============================================================
+  Tanggal       : 19 June 2026, 23:38:55
+  Metode        : rouge-score (library)
+  Referensi     : LexRank Extractive Result
+  Hipotesis     : Ollama Abstractive Result
+  Kata Referensi: 578
+  Kata Hipotesis: 294
+--------------------------------------------------------------
+
+  METRIK ROUGE
+  ────────────────────────────────────────────────────
+  Metrik                         F1-Score  Precision     Recall
+  ────────────────────────────────────────────────────
+  ROUGE-1 (Unigram)                22.25%     32.99%     16.78%
+  ROUGE-2 (Bigram)                  5.06%      7.51%      3.81%
+  ROUGE-L (LCS)                    10.55%     15.65%      7.96%
+  ────────────────────────────────────────────────────
+
+  PENILAIAN
+  ────────────────────────────────────────────────────
+  ROUGE-1 : Cukup ~
+  ROUGE-2 : Perlu Peningkatan ✗
+  ROUGE-L : Perlu Peningkatan ✗
+
+==============================================================
+  CATATAN:
+  - Referensi = LexRank (kalimat kunci dari transkripsi Whisper)
+  - Hipotesis = Ollama (notulensi abstraktif hasil LLM)
+  - ROUGE-1 : kecocokan kata tunggal (unigram)
+  - ROUGE-2 : kecocokan 2 kata berurutan (bigram)
+  - ROUGE-L : urutan kata terpanjang yang cocok (LCS)
+  - F1      : harmonic mean antara Precision dan Recall
+  - Precision: seberapa relevan isi ringkasan Ollama
+  - Recall   : seberapa banyak isi LexRank tercakup Ollama
+  - Nilai ideal Bahasa Indonesia: ROUGE-L > 30%
+==============================================================

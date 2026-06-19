@@ -1,0 +1,75 @@
+====================================================================
+   HASIL KORELASI: LexRank <-> Transkripsi Whisper
+   Zoom Meeting ESG & QHSE — Implementasi ESG QHSE Integrasi
+====================================================================
+  Tanggal      : 19 June 2026, 23:36:12
+
+FILE LEXRANK   : lexrank_implementasi-esg-and-qhse-integrasi-bagi-daya-saing-usaha-zoom-meeting-conference-ytmp4.savetube.vip_20260619_231835.txt
+FILE TRANSKRIP : transkrip_implementasi-esg-and-qhse-integrasi-bagi-daya-saing-usaha-zoom-meeting-conference-ytmp4.savetube.vip_20260619_231835.txt
+
+--------------------------------------------------------------------
+  STATISTIK DOKUMEN
+--------------------------------------------------------------------
+  Token LexRank (raw)                      : 575
+  Token Transkrip (raw)                    : 8997
+  Token LexRank (tanpa stopword)           : 287
+  Token Transkrip (tanpa stopword)         : 5248
+  Kosakata unik LexRank                    : 188
+  Kosakata unik Transkrip                  : 1981
+  Kosakata overlap (irisan)                : 185
+  Jumlah kalimat LexRank                   : 26
+
+--------------------------------------------------------------------
+  METRIK KORELASI
+--------------------------------------------------------------------
+  1. Cosine Similarity (TF-IDF)              :  44.67%
+  2. Jaccard Similarity (kosakata unik)      :   9.32%
+  3. Token Retention Rate                    :   5.41%
+  4. Sentence Coverage                       : 100.00%
+  5. Compression Ratio (lex/transkrip)       :   6.39%
+
+--------------------------------------------------------------------
+  INTERPRETASI SETIAP METRIK
+--------------------------------------------------------------------
+  Cosine Similarity  : SEDANG  [~]
+  Jaccard Similarity : RENDAH  [!]
+  Token Retention    : RENDAH  [!]
+  Sentence Coverage  : TINGGI [OK]
+  Compression Ratio  : BAIK (ringkasan padat, 6.4% panjang transkrip)
+
+--------------------------------------------------------------------
+  DETAIL COVERAGE PER KALIMAT LEXRANK
+--------------------------------------------------------------------
+  [ 1] [EXACT] Jaccard=1.000  "Insinyur Mardiaman STNT selaku wakil Ketua Umum Itaki, dipersilakan wa..."
+  [ 2] [EXACT] Jaccard=1.000  "Kalau tidak menjadi konsen utama, nanti bisa saja hal kecil terjadi pa..."
+  [ 3] [EXACT] Jaccard=1.000  "Hal kecil terjadi pada salah satu titik operasi akan menjadi potensi k..."
+  [ 4] [EXACT] Jaccard=1.000  "Lanjut, kemudian poin penting penderapan bagian dari ISG itu adalah gr..."
+  [ 5] [EXACT] Jaccard=1.000  "Sama adalah komitmen dari leaders dan juga partisipasi aktif dari selu..."
+  [ 6] [EXACT] Jaccard=1.000  "Proses-proses itu apa aja yang kita mesti siapin..."
+  [ 7] [EXACT] Jaccard=1.000  "Hal-hal lain yang harus diperhatikan, yang pertama tentu management pr..."
+  [ 8] [EXACT] Jaccard=1.000  "Ada environment management system, ada procurement management system d..."
+  [ 9] [EXACT] Jaccard=1.000  "Tadi was to energy pembangkit listrik tenaga sampah, pembangkit listri..."
+  [10] [EXACT] Jaccard=1.000  "Green operation ini gabungan dari green construction, green operation,..."
+  [11] [EXACT] Jaccard=1.000  "Top management dan P2K3 dalam penerapan ISG dan KIS dalam setiap prose..."
+  [12] [EXACT] Jaccard=1.000  "Terima kasih Bapak atas materi yang sangat luar biasa..."
+  [13] [EXACT] Jaccard=1.000  "Mungkin itu saja Pak, yang lainnya saya mungkin nanti belajar lagi dar..."
+  [14] [EXACT] Jaccard=1.000  "Mungkin seperti itu bahwa Yundri, Pak Lukas semoga bisa menjawab, Ya b..."
+  [15] [EXACT] Jaccard=1.000  "Terima kasih atas pertanyaannya Pak Mardiaman, dipersilakan Pak Subhan..."
+  [16] [EXACT] Jaccard=1.000  "Luar biasa ini kalau ditakuni, ditetilkan oleh rekan-rekan dari perjal..."
+  [17] [MATCH] Jaccard=0.556  "Selamat sore ibu, icin ibu, mau tanya Pak Subhan, Oh dipersilakan Pak,..."
+  [18] [EXACT] Jaccard=1.000  "Itu lah makanya pentingnya GIS itu tidak sekegar kecelakaan kerja, tap..."
+  [19] [EXACT] Jaccard=1.000  "301, yaitu Business Continuity Management System atau ISO keberlanjuta..."
+  [20] [EXACT] Jaccard=1.000  "500, Project Management System..."
+  [21] [EXACT] Jaccard=1.000  "Itu saja Pak Sugun, terima kasih dan juga Ibu Indri, terima kasih, Ya ..."
+  [22] [EXACT] Jaccard=1.000  "Terima kasih Pak Monang, pertanyaannya luar biasa ya, Mudah tapi jawab..."
+  [23] [EXACT] Jaccard=1.000  "Ng penting mereka memaaminya sebagai Yang penting, mereka memahaminya ..."
+  [24] [EXACT] Jaccard=1.000  "Terima kasih juga untuk para peserta Bapak-Bapak yang sudah bertanya d..."
+  [25] [EXACT] Jaccard=1.000  "Untuk closing statement pada Pak Mar Di Aman dipersilakan Pak, Terima ..."
+  [26] [EXACT] Jaccard=1.000  "Terima kasih Pak Subhan yang sudah memaparkan bahannya cukup bagus..."
+
+====================================================================
+  KESIMPULAN
+====================================================================
+  Rata-rata korelasi (4 metrik utama) : 39.85%
+  Kesimpulan                          : LexRank KURANG BERKORELARI dengan transkripsi Whisper.
+====================================================================

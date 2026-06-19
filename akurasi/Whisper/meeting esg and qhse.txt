@@ -1,0 +1,40 @@
+==============================================================
+  HASIL PENGUJIAN AKURASI WHISPER
+  Sistem Notulensi — Meeting ESG and QHSE
+  Implementasi ESG & QHSE Integrasi bagi Daya Saing Usaha
+==============================================================
+  Tanggal     : 19 June 2026, 23:32:15
+  Metode      : jiwer (WER / CER)
+  File Ref    : meeting esg and qhse.txt
+  File Hyp    : transkrip_implementasi-esg-and-qhse...vip_20260619_231835.txt
+  Kata Ref    : 8,289
+  Kata Hyp    : 9,057
+--------------------------------------------------------------
+
+  METRIK UTAMA
+  ──────────────────────────────────────────
+  WER   (Word Error Rate)     :    20.26%
+  WAcc  (Word Accuracy)       :    79.74%
+  CER   (Character Error Rate):    11.57%
+
+  DETAIL ERROR (Word-level)
+  ──────────────────────────────────────────
+  Substitutions (S) :    821
+  Deletions     (D) :     45
+  Insertions    (I) :    813
+  Hits          (H) :   7423
+  Total Ref     (N) :   8289
+
+  PENILAIAN
+  ──────────────────────────────────────────
+  Kualitas WER  :  Perlu Peningkatan ✗
+  Kualitas CER  :  Cukup ~
+
+==============================================================
+  CATATAN:
+  - WER ideal untuk speech-to-text: < 10%
+  - WAcc = 100% - WER
+  - CER lebih ketat karena dihitung per karakter
+  - Normalisasi: lowercase, hapus tanda baca,
+    hapus frasa halusinasi Whisper
+==============================================================
