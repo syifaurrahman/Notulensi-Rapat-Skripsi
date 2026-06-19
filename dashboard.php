@@ -28,16 +28,17 @@ if ($conn) {
         $total_meetings = $row['jml'];
     }
 
-    // Meetings This Week
-    $res = mysqli_query($conn, "SELECT COUNT(*) as jml FROM notulensi_hasil WHERE YEARWEEK(waktu_rapat, 1) = YEARWEEK(CURDATE(), 1)");
+    // Meetings This Week (hanya bulan ini)
+    $res = mysqli_query($conn, "SELECT COUNT(*) as jml FROM notulensi_hasil WHERE MONTH(waktu_rapat) = MONTH(CURDATE()) AND YEAR(waktu_rapat) = YEAR(CURDATE()) AND YEARWEEK(waktu_rapat, 1) = YEARWEEK(CURDATE(), 1)");
     if ($res && $row = mysqli_fetch_assoc($res)) {
         $meetings_this_week = $row['jml'];
     }
 
-    // Meetings Last Week
-    $res = mysqli_query($conn, "SELECT COUNT(*) as jml FROM notulensi_hasil WHERE YEARWEEK(waktu_rapat, 1) = YEARWEEK(CURDATE() - INTERVAL 1 WEEK, 1)");
+    // Meetings Previous Weeks (hanya bulan ini)
+    $meetings_prev_weeks = 0;
+    $res = mysqli_query($conn, "SELECT COUNT(*) as jml FROM notulensi_hasil WHERE MONTH(waktu_rapat) = MONTH(CURDATE()) AND YEAR(waktu_rapat) = YEAR(CURDATE()) AND YEARWEEK(waktu_rapat, 1) < YEARWEEK(CURDATE(), 1)");
     if ($res && $row = mysqli_fetch_assoc($res)) {
-        $meetings_last_week = $row['jml'];
+        $meetings_prev_weeks = $row['jml'];
     }
 
     // Recent meetings (limit 5)
@@ -49,24 +50,27 @@ if ($conn) {
     }
 }
 
-// Menghitung perbedaan
-$diff = $meetings_this_week - $meetings_last_week;
+// Menghitung perbedaan/badge
+$display_number = 0;
 $diff_text = "";
 $diff_icon = "";
 $diff_style = "";
 
-if ($diff > 0) {
-    $diff_text = "+$diff dari minggu lalu";
-    $diff_icon = "fa-arrow-up";
+if ($meetings_this_week > 0) {
+    $display_number = $meetings_this_week;
+    $diff_text = "+$meetings_this_week minggu ini";
+    $diff_icon = "fa-calendar-week";
     $diff_style = "color: #059669; background: #ecfdf5;";
-} elseif ($diff < 0) {
-    $diff_text = "$diff dari minggu lalu";
-    $diff_icon = "fa-arrow-down";
-    $diff_style = "color: #dc2626; background: #fef2f2;";
+} elseif ($meetings_prev_weeks > 0) {
+    $display_number = $meetings_prev_weeks;
+    $diff_text = "+$meetings_prev_weeks minggu lalu";
+    $diff_icon = "fa-history";
+    $diff_style = "color: #64748b; background: #f1f5f9;";
 } else {
-    $diff_text = "Sama dengan minggu lalu";
-    $diff_icon = "fa-minus";
-    $diff_style = "color: #64748b; background: #f1f5f9; border-color: transparent;";
+    $display_number = 0;
+    $diff_text = "0 minggu ini";
+    $diff_icon = "fa-calendar-minus";
+    $diff_style = "color: #94a3b8; background: #f8fafc; border-color: transparent;";
 }
 ?>
 
@@ -117,7 +121,7 @@ if ($diff > 0) {
             <div class="kpi-card">
                 <div class="kpi-left">
                     <span class="kpi-label">Meeting This Week</span>
-                    <span class="kpi-number"><?= $meetings_this_week ?></span>
+                    <span class="kpi-number"><?= $display_number ?></span>
                 </div>
                 <div class="kpi-badge" style="<?= $diff_style ?>">
                     <i class="fas <?= $diff_icon ?>"></i> <?= $diff_text ?>
