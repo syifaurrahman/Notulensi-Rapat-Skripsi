@@ -1,0 +1,40 @@
+==============================================================
+  HASIL PENGUJIAN AKURASI WHISPER
+  Sistem Notulensi — Zoom BNSP K3 Keselamatan Kerja
+  Pelatihan K3 LSPTTI — 19 Mei 2023
+==============================================================
+  Tanggal     : 19 June 2026, 22:49:46
+  Metode      : jiwer (WER / CER)
+  File Ref    : zoom materi keselamatan kerja.txt
+  File Hyp    : transkrip_zoom-bnsp-lsptti...vip_20260619_222933.txt
+  Kata Ref    : 14,269
+  Kata Hyp    : 14,580
+--------------------------------------------------------------
+
+  METRIK UTAMA
+  ──────────────────────────────────────────
+  WER   (Word Error Rate)     :    13.72%
+  WAcc  (Word Accuracy)       :    86.28%
+  CER   (Character Error Rate):     5.27%
+
+  DETAIL ERROR (Word-level)
+  ──────────────────────────────────────────
+  Substitutions (S) :   1518
+  Deletions     (D) :     64
+  Insertions    (I) :    375
+  Hits          (H) :  12687
+  Total Ref     (N) :  14269
+
+  PENILAIAN
+  ──────────────────────────────────────────
+  Kualitas WER  :  Cukup ~
+  Kualitas CER  :  Baik ✓
+
+==============================================================
+  CATATAN:
+  - WER ideal untuk speech-to-text: < 10%
+  - WAcc = 100% - WER
+  - CER lebih ketat karena dihitung per karakter
+  - Normalisasi: lowercase, hapus tanda baca,
+    hapus frasa halusinasi Whisper
+==============================================================

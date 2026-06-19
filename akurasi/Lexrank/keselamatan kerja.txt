@@ -1,0 +1,74 @@
+====================================================================
+   HASIL KORELASI: LexRank <-> Transkripsi Whisper
+   Zoom BNSP K3 — Pelatihan Keselamatan Kesehatan Kerja
+====================================================================
+  Tanggal      : 19 June 2026, 22:53:57
+
+FILE LEXRANK   : lexrank_zoom-bnsp-lsptti-pelatihan-k3-keselamatan-kesehatan-kerja-19-may-2023-break1-13-00-15-45-wib-ytmp4.savetube.vip_20260619_222933.txt
+FILE TRANSKRIP : transkrip_zoom-bnsp-lsptti-pelatihan-k3-keselamatan-kesehatan-kerja-19-may-2023-break1-13-00-15-45-wib-ytmp4.savetube.vip_20260619_222933.txt
+
+--------------------------------------------------------------------
+  STATISTIK DOKUMEN
+--------------------------------------------------------------------
+  Token LexRank (raw)                      : 492
+  Token Transkrip (raw)                    : 14515
+  Token LexRank (tanpa stopword)           : 261
+  Token Transkrip (tanpa stopword)         : 8245
+  Kosakata unik LexRank                    : 132
+  Kosakata unik Transkrip                  : 2423
+  Kosakata overlap (irisan)                : 132
+  Jumlah kalimat LexRank                   : 25
+
+--------------------------------------------------------------------
+  METRIK KORELASI
+--------------------------------------------------------------------
+  1. Cosine Similarity (TF-IDF)              :  65.55%
+  2. Jaccard Similarity (kosakata unik)      :   5.45%
+  3. Token Retention Rate                    :   3.17%
+  4. Sentence Coverage                       : 100.00%
+  5. Compression Ratio (lex/transkrip)       :   3.39%
+
+--------------------------------------------------------------------
+  INTERPRETASI SETIAP METRIK
+--------------------------------------------------------------------
+  Cosine Similarity  : TINGGI [OK]
+  Jaccard Similarity : RENDAH  [!]
+  Token Retention    : RENDAH  [!]
+  Sentence Coverage  : TINGGI [OK]
+  Compression Ratio  : BAIK (ringkasan padat, 3.4% panjang transkrip)
+
+--------------------------------------------------------------------
+  DETAIL COVERAGE PER KALIMAT LEXRANK
+--------------------------------------------------------------------
+  [ 1] [EXACT] Jaccard=1.000  "Baru yang keempat, yaitu melaporkan hasil evaluasi sistem dokumen K3..."
+  [ 2] [EXACT] Jaccard=1.000  "Itu dokumen Indo atau dokumen kada luar sana yang disampaikan..."
+  [ 3] [EXACT] Jaccard=1.000  "Langsung kemudian pada saat dokumen yang tak terkendali maupun terkend..."
+  [ 4] [EXACT] Jaccard=1.000  "Lain setelah itu disimpen di dalam dokumen kada luar sata di paling la..."
+  [ 5] [EXACT] Jaccard=1.000  "Selama dokumen itu tidak dikatakan kada luar saya, berarti masih berla..."
+  [ 6] [EXACT] Jaccard=1.000  "Dan dalam artian itu ada peraturan yang yang update itu Pak, Mengatur,..."
+  [ 7] [EXACT] Jaccard=1.000  "Berarti di sini bisa dikatakan dokumen itu sudah kada luar sana..."
+  [ 8] [EXACT] Jaccard=1.000  "Dokumen Indok yang baru tadi, dimasukkan disitu, dokumen tak terkendal..."
+  [ 9] [EXACT] Jaccard=1.000  "Di dokumen terkendali, lah dokumen-dokumen yang tidak bisa dipakai itu..."
+  [10] [MATCH] Jaccard=1.000  "Artinya tak terkendali baru ke kada luar sana, Itu..."
+  [11] [EXACT] Jaccard=1.000  "Begini Pak, ini kan kalau dari SOP judul SOP kan dokumen katega gitu P..."
+  [12] [EXACT] Jaccard=1.000  "Saya SOP ini berlaku juga untuk departemen itu, gitu Pak..."
+  [13] [EXACT] Jaccard=1.000  "Ng pertama, yaitu menyiapkan syarat dan prosedur K3..."
+  [14] [EXACT] Jaccard=1.000  "Dan kecelakaan, ya di sini nanti kita bahas apa itu kecelakaan kerja d..."
+  [15] [EXACT] Jaccard=1.000  "Di dalam melaksanatkan investigasi kecelakaan tadi ada 3 elemen yang h..."
+  [16] [EXACT] Jaccard=1.000  "Kalau di tempat kerja itu terjadi kecelakaan, misalnya di tempat kerja..."
+  [17] [EXACT] Jaccard=1.000  "Satu, kecelakaan yang terjadi akibat kerja dan atau pada saat bekerja ..."
+  [18] [EXACT] Jaccard=1.000  "Ng pertama, kalau di tempat kerja ini tugas teman-teman melakukan Teri..."
+  [19] [EXACT] Jaccard=1.000  "Disini Nah, di sini teman-teman harus tahu tentang jaminan kecelakaan ..."
+  [20] [EXACT] Jaccard=1.000  "Pada saat dia di jalan, saat nyebrang mau membawa makanan ke kantor, t..."
+  [21] [EXACT] Jaccard=1.000  "Pak, kalau di tempat saya udah jalan seperti itu Pak, Terima kasih Pak..."
+  [22] [EXACT] Jaccard=1.000  "Ada yang mengajukan, ada yang menyutujui, ada yang memverifikasi, Siap..."
+  [23] [MATCH] Jaccard=0.750  "Itu nggak boleh, itu termasuk dokumen apa itu, Terkendali..."
+  [24] [EXACT] Jaccard=1.000  "Kalau itu jadi kasus penyakit akibat kerja kadang-kadang lah, Maka ya ..."
+  [25] [EXACT] Jaccard=1.000  "Pak Dui, Pak Ardi Anda salam nih, Pak Dari Pak Aldu Oh, siap-siap Alum..."
+
+====================================================================
+  KESIMPULAN
+====================================================================
+  Rata-rata korelasi (4 metrik utama) : 43.54%
+  Kesimpulan                          : LexRank CUKUP BERKORELASI dengan transkripsi Whisper.
+====================================================================

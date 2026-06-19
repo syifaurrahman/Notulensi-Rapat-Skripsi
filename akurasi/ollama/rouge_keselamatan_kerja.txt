@@ -1,0 +1,40 @@
+==============================================================
+  HASIL ROUGE SCORE — OLLAMA ABSTRACTIVE SUMMARIZATION
+  Sistem Notulensi — Zoom BNSP K3 Keselamatan Kerja
+  Pelatihan K3 LSPTTI — 19 Mei 2023
+==============================================================
+  Tanggal       : 19 June 2026, 22:59:10
+  Metode        : rouge-score (library)
+  Referensi     : LexRank Extractive Result
+  Hipotesis     : Ollama Abstractive Result
+  Kata Referensi: 497
+  Kata Hipotesis: 272
+--------------------------------------------------------------
+
+  METRIK ROUGE
+  ────────────────────────────────────────────────────
+  Metrik                         F1-Score  Precision     Recall
+  ────────────────────────────────────────────────────
+  ROUGE-1 (Unigram)                24.97%     35.29%     19.32%
+  ROUGE-2 (Bigram)                  4.95%      7.01%      3.83%
+  ROUGE-L (LCS)                    13.78%     19.49%     10.66%
+  ────────────────────────────────────────────────────
+
+  PENILAIAN
+  ────────────────────────────────────────────────────
+  ROUGE-1 : Cukup ~
+  ROUGE-2 : Perlu Peningkatan ✗
+  ROUGE-L : Perlu Peningkatan ✗
+
+==============================================================
+  CATATAN:
+  - Referensi = LexRank (kalimat kunci dari transkripsi Whisper)
+  - Hipotesis = Ollama (notulensi abstraktif hasil LLM)
+  - ROUGE-1 : kecocokan kata tunggal (unigram)
+  - ROUGE-2 : kecocokan 2 kata berurutan (bigram)
+  - ROUGE-L : urutan kata terpanjang yang cocok (LCS)
+  - F1      : harmonic mean antara Precision dan Recall
+  - Precision: seberapa relevan isi ringkasan Ollama
+  - Recall   : seberapa banyak isi LexRank tercakup Ollama
+  - Nilai ideal Bahasa Indonesia: ROUGE-L > 30%
+==============================================================

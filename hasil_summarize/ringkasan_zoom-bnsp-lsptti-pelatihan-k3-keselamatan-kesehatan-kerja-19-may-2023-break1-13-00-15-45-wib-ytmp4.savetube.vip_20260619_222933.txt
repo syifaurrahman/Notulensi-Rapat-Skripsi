@@ -1,0 +1,48 @@
+=== RINGKASAN RAPAT (LexRank 6-Step) ===
+Sumber    : transkrip_zoom-bnsp-lsptti-pelatihan-k3-keselamatan-kesehatan-kerja-19-may-2023-break1-13-00-15-45-wib-ytmp4.savetube.vip_20260619_222933.txt
+Dibuat    : 19 June 2026, 22:31:21
+Model     : Whisper small
+========================================
+
+adalah notulensi rapat berdasarkan transkrip yang diberikan:
+
+**Pembukaan:**
+
+- Rapat dibuka oleh Kamari Basa Sorena sebagai Kepala Kantor Kaya.
+- Hadir dalam rapat adalah teman-teman, Pak Di, dan lain-lain.
+
+**Manglola Sistem Dokumentasi K3:**
+
+- Topik utama pertama: Manglola Sistem Dokumentasi K3.
+- Poin penting dari transkrip terkait topik ini:
+ - Dokumen Indo adalah dokumen asli K3 yang dimiliki perusahaan dan wajib di pelihara.
+ - Dokumen terkendali adalah dokumen Hindu yang digandakan atau diperbanyak untuk unit-unit yang membutuhkan.
+ - Dokumen tak tergendali adalah dokumen yang dimiliki perusahaan tetapi tidak mengendalikan secara khusus dan dapat diberikan kepada siapa saja yang membutuhkannya.
+- Poin lainnya dari transkrip:
+ - Pengelolaan dokumen K3 melibatkan pembuatan, penyimpanan, pengalihan bentuk, legalisasi pemindahan, dan pemindahan dokumen.
+
+**Kecelakaan Kerja:**
+
+- Topik utama kedua: Kecelakaan Kerja.
+- Poin penting dari transkrip terkait topik ini:
+ - Kecelakaan kerja dapat terjadi pada saat perjalanan pergi dan pulang, baik di tempat kerja maupun di luar negeri.
+ - Jaminan kecelakaan kerja melibatkan kompensasi yang sesuai dengan undang-undang jaminan sosial.
+ - Pekerja ASN harus memahami aturan dan peraturan terkait jaminan kecelakaan kerja.
+
+**Pertanyaan dan Diskusi:**
+
+- Pertanyaan: Bagaimana cara mengenali kecelakaan kerja?
+- Jawaban: Kecelakaan kerja dapat terjadi pada saat perjalanan pergi dan pulang, baik di tempat kerja maupun di luar negeri.
+- Pertanyaan lainnya dari transkrip:
+ - Bagaimana cara mengenali kecelakaan kerja?
+ - Apakah pekerja ASN harus memahami aturan dan peraturan terkait jaminan kecelakaan kerja?
+
+**Kesimpulan:**
+
+- Rapat diakhiri dengan kesimpulan bahwa pekerja ASN harus memahami aturan dan peraturan terkait jaminan kecelakaan kerja.
+- Tindak lanjut dari transkrip tidak disebutkan dalam notulensi rapat.
+
+**Penutup:**
+
+- Penutup rapat dibuka oleh Kamari Basa Sorena sebagai Kepala Kantor Kaya.
+- Rapat diakhiri dengan penutupan yang menyatakan bahwa pekerja ASN harus memahami aturan dan peraturan terkait jaminan kecelakaan kerja.

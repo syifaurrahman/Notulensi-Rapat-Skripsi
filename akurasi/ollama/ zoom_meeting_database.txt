@@ -1,0 +1,40 @@
+==============================================================
+  HASIL ROUGE SCORE — OLLAMA ABSTRACTIVE SUMMARIZATION
+  Sistem Notulensi — Zoom Meeting Basis Data
+  Sabtu 3 Juni 2023 — Sistem Informasi Universitas Jambi
+==============================================================
+  Tanggal       : 19 June 2026, 22:35:12
+  Metode        : rouge-score (library)
+  Referensi     : LexRank Extractive Result
+  Hipotesis     : Ollama Abstractive Result
+  Kata Referensi: 565
+  Kata Hipotesis: 233
+--------------------------------------------------------------
+
+  METRIK ROUGE
+  ────────────────────────────────────────────────────
+  Metrik                         F1-Score  Precision     Recall
+  ────────────────────────────────────────────────────
+  ROUGE-1 (Unigram)                29.57%     50.64%     20.88%
+  ROUGE-2 (Bigram)                 12.31%     21.12%      8.69%
+  ROUGE-L (LCS)                    19.30%     33.05%     13.63%
+  ────────────────────────────────────────────────────
+
+  PENILAIAN
+  ────────────────────────────────────────────────────
+  ROUGE-1 : Cukup ~
+  ROUGE-2 : Perlu Peningkatan ✗
+  ROUGE-L : Cukup ~
+
+==============================================================
+  CATATAN:
+  - Referensi = LexRank (kalimat kunci dari transkripsi Whisper)
+  - Hipotesis = Ollama (notulensi abstraktif hasil LLM)
+  - ROUGE-1 : kecocokan kata tunggal (unigram)
+  - ROUGE-2 : kecocokan 2 kata berurutan (bigram)
+  - ROUGE-L : urutan kata terpanjang yang cocok (LCS)
+  - F1      : harmonic mean antara Precision dan Recall
+  - Precision: seberapa relevan isi ringkasan Ollama
+  - Recall   : seberapa banyak isi LexRank tercakup Ollama
+  - Nilai ideal Bahasa Indonesia: ROUGE-L > 30%
+==============================================================
