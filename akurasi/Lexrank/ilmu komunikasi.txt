@@ -1,0 +1,74 @@
+====================================================================
+   HASIL KORELASI: LexRank <-> Transkripsi Whisper
+   Zoom Ilmu Komunikasi Menyapa — Universitas Terbuka
+====================================================================
+  Tanggal      : 20 June 2026, 00:46:20
+
+FILE LEXRANK   : lexrank_FULL HD VIDEO SIARAN ULANG ZOOM ILMU KOMUNIKASI - Dwii HS 480p_20260620_000940.txt
+FILE TRANSKRIP : transkrip_FULL HD VIDEO SIARAN ULANG ZOOM ILMU KOMUNIKASI - Dwii HS 480p_20260620_000940.txt
+
+--------------------------------------------------------------------
+  STATISTIK DOKUMEN
+--------------------------------------------------------------------
+  Token LexRank (raw)                      : 490
+  Token Transkrip (raw)                    : 15558
+  Token LexRank (tanpa stopword)           : 281
+  Token Transkrip (tanpa stopword)         : 8472
+  Kosakata unik LexRank                    : 142
+  Kosakata unik Transkrip                  : 2360
+  Kosakata overlap (irisan)                : 141
+  Jumlah kalimat LexRank                   : 25
+
+--------------------------------------------------------------------
+  METRIK KORELASI
+--------------------------------------------------------------------
+  1. Cosine Similarity (TF-IDF)              :  78.31%
+  2. Jaccard Similarity (kosakata unik)      :   5.97%
+  3. Token Retention Rate                    :   3.31%
+  4. Sentence Coverage                       : 100.00%
+  5. Compression Ratio (lex/transkrip)       :   3.15%
+
+--------------------------------------------------------------------
+  INTERPRETASI SETIAP METRIK
+--------------------------------------------------------------------
+  Cosine Similarity  : TINGGI [OK]
+  Jaccard Similarity : RENDAH  [!]
+  Token Retention    : RENDAH  [!]
+  Sentence Coverage  : TINGGI [OK]
+  Compression Ratio  : BAIK (ringkasan padat, 3.1% panjang transkrip)
+
+--------------------------------------------------------------------
+  DETAIL COVERAGE PER KALIMAT LEXRANK
+--------------------------------------------------------------------
+  [ 1] [EXACT] Jaccard=1.000  "Karena adik-adik semua mungkin sudah ikut OSMD ya, bagaimana membuat p..."
+  [ 2] [MATCH] Jaccard=0.571  "Ini seri yang saya tadi kirim Mas Yuna, Terima kasih, Mas Yuna, Baik, ..."
+  [ 3] [EXACT] Jaccard=1.000  "SKS-nya mata kuliah tap ini adalah 4 SKS, jadi cukup besar ya teman-te..."
+  [ 4] [EXACT] Jaccard=1.000  "Akhirnya terima kasih hanya itu yang bisa saya sampai..."
+  [ 5] [EXACT] Jaccard=1.000  "Terima kasih, Soderama Siswa, semuanya muda-mudan penjelasan saya yang..."
+  [ 6] [EXACT] Jaccard=1.000  "Teman-teman, terkandakan Mahasiswa semuanya, saya akan menjelaskan ten..."
+  [ 7] [EXACT] Jaccard=1.000  "Itu nanti beda lagi tuh dengan tutorial online gitu ya, tutorial webin..."
+  [ 8] [EXACT] Jaccard=1.000  "Tutorial itu dilaksanakan ya jadi mau tutorial online Jadi mau tutoria..."
+  [ 9] [EXACT] Jaccard=1.000  "Teman-teman ya, oh ya tadi informasi saya belum lengkap, jadi tadi tut..."
+  [10] [EXACT] Jaccard=1.000  "Tapi kalau teman-teman nanti ada kendala ya atau ingin bertanya-tanya ..."
+  [11] [EXACT] Jaccard=1.000  "Nanti di setiap sesi-nya teman-teman itu ada yang namanya diskusi..."
+  [12] [EXACT] Jaccard=1.000  "Ketika menjawab teman-teman tolong teman-teman lakukan elaborasi, Elab..."
+  [13] [EXACT] Jaccard=1.000  "Elaborasi itu tuh artinya teman-teman itu kalau bisa berasal dari bebe..."
+  [14] [EXACT] Jaccard=1.000  "Teman-teman berikan tuh contohnya, gitu ya, contohnya tuh seperti ini..."
+  [15] [EXACT] Jaccard=1.000  "Paham sampai di sini, gitu ya teman-teman ya jadi teman-teman ya usaha..."
+  [16] [EXACT] Jaccard=1.000  "Untuk itu, Masiswa akan dibebaskan sampai dengan 20 SKS di semester li..."
+  [17] [EXACT] Jaccard=1.000  "Mata kuliah mata kuliah yang sudah ditempuh terima ka..."
+  [18] [EXACT] Jaccard=1.000  "Seperti itu penjelasannya mungkin Terima kasih, terima kasih, Wida, Te..."
+  [19] [EXACT] Jaccard=1.000  "Itu ya teman-teman, jadi tolong ketika nanti mengerjakan diskusi sama ..."
+  [20] [EXACT] Jaccard=1.000  "Anu, apa namanya, Pak Sita ya, teman-teman semua..."
+  [21] [EXACT] Jaccard=1.000  "Jangan lupa, teman-teman, ketika teman-teman mengikuti program NDKM, j..."
+  [22] [EXACT] Jaccard=1.000  "Begitu ya, teman-teman, jadi jangan lupa untuk tetap meregistrasi, tap..."
+  [23] [MATCH] Jaccard=0.500  "Mungkin selalu mau bisa kali ya, Mbak Sita, Terima kasih, Terima kasih..."
+  [24] [EXACT] Jaccard=1.000  "Apa, Mbak Sita, ampan tentang Kareel ya, silahkan Mbak Sita..."
+  [25] [MATCH] Jaccard=0.500  "Karena Bu Ache sudah tidak ada ya, Bu Ache, Masih ada, Terima kasih, M..."
+
+====================================================================
+  KESIMPULAN
+====================================================================
+  Rata-rata korelasi (4 metrik utama) : 46.90%
+  Kesimpulan                          : LexRank CUKUP BERKORELASI dengan transkripsi Whisper.
+====================================================================
