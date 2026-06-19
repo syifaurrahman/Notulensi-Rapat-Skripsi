@@ -1,0 +1,39 @@
+=== HASIL OLLAMA ABSTRACTIVE ===
+Sumber    : transkrip_FULL HD VIDEO SIARAN ULANG ZOOM ILMU KOMUNIKASI - Dwii HS 480p_20260620_000940.txt
+Dibuat    : 20 June 2026, 00:10:55
+Model     : Whisper small + llama3.2:3b
+========================================
+
+adalah notulensi rapat berdasar transkrip yang diberikan:
+
+**Pembukaan:**
+
+- Siapa yang membuka: Pak Windra
+- Apa agenda: Penyampaian informasi tentang kurikulum Universitas Terbuka (UT) Pusat.
+- Siapa yang hadir: Mahasiswa, Dosen, dan Karyawan UT Pusat.
+
+**Topik Utama 1: Perencanaan Belajar:**
+
+- Bagaimana membuat perencanaan belajar setiap minggu, bulan, dan akhirnya ketika akan ujian sudah siap semua materi di belajari.
+- Pentingnya mengatur waktu, mandiri, dan taat dengan jadwal yang dibuat.
+
+**Topik Utama 2: Kurikulum Universitas Terbuka (UT) Pusat:**
+
+- Alasan pelubahan kurikulum: Kebutuhan pasar dan kebijakan pemerintah.
+- Rencana kurikulum baru untuk tahun 2022.
+- Pertumbuhan pertemuan hari ini yang luar biasa.
+
+**Pertanyaan dan Diskusi:**
+
+- Pertanyaan tentang TAP (Tugas Akhir Proyek) dan Karyel.
+- Jawaban: Ada beberapa orang yang bertanya tentang TAP dan Karyel, termasuk Mas Putra, Mbak Alvinah, dan lain-lain.
+
+**Kesimpulan:**
+
+- Terima kasih kepada semua hadirin atas kehadiran dan entusiasmenya hari ini.
+- Wassalamu'alaikum warahmatullahi wabarakatuh.
+
+**Penutup:**
+
+- Pak Windra memperkenalkan dirinya sebagai Ketua Jurusan Perencanaan Pesan dan Media Universitas Terbuka (UT) Pusat.
+- Prody Ecom mengucapkan terima kasih atas kehadiran dan entusiasmenya hari ini.

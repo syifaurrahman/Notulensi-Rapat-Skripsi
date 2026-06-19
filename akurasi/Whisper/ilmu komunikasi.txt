@@ -1,0 +1,40 @@
+==============================================================
+  HASIL PENGUJIAN AKURASI WHISPER
+  Sistem Notulensi — Zoom Ilmu Komunikasi Menyapa
+  Fakultas Ilmu Komunikasi UT
+==============================================================
+  Tanggal     : 20 June 2026, 00:43:58
+  Metode      : jiwer (WER / CER)
+  File Ref    : ilmu komunikasi.txt
+  File Hyp    : transkrip_FULL HD VIDEO SIARAN ULANG ZOOM..._20260620_000940.txt
+  Kata Ref    : 14,825
+  Kata Hyp    : 15,761
+--------------------------------------------------------------
+
+  METRIK UTAMA
+  ──────────────────────────────────────────
+  WER   (Word Error Rate)     :    17.82%
+  WAcc  (Word Accuracy)       :    82.18%
+  CER   (Character Error Rate):     9.49%
+
+  DETAIL ERROR (Word-level)
+  ──────────────────────────────────────────
+  Substitutions (S) :   1456
+  Deletions     (D) :    125
+  Insertions    (I) :   1061
+  Hits          (H) :  13244
+  Total Ref     (N) :  14825
+
+  PENILAIAN
+  ──────────────────────────────────────────
+  Kualitas WER  :  Cukup ~
+  Kualitas CER  :  Baik ✓
+
+==============================================================
+  CATATAN:
+  - WER ideal untuk speech-to-text: < 10%
+  - WAcc = 100% - WER
+  - CER lebih ketat karena dihitung per karakter
+  - Normalisasi: lowercase, hapus tanda baca,
+    hapus frasa halusinasi Whisper
+==============================================================
