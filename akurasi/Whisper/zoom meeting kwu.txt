@@ -1,0 +1,40 @@
+==============================================================
+  HASIL PENGUJIAN AKURASI WHISPER
+  Sistem Notulensi — Zoom Meeting KWU
+  Sistem Informasi Universitas Jambi
+==============================================================
+  Tanggal     : 20 June 2026, 14:48:10
+  Metode      : jiwer (WER / CER)
+  File Ref    : Zoom Meeting Kwu.txt
+  File Hyp    : transkrip_Zoom Meeting KWU Sabtu 3 Juni 2023..._20260620_143855.txt
+  Kata Ref    : 2,142
+  Kata Hyp    : 2,295
+--------------------------------------------------------------
+
+  METRIK UTAMA
+  ──────────────────────────────────────────
+  WER   (Word Error Rate)     :    11.72%
+  WAcc  (Word Accuracy)       :    88.28%
+  CER   (Character Error Rate):     7.80%
+
+  DETAIL ERROR (Word-level)
+  ──────────────────────────────────────────
+  Substitutions (S) :     96
+  Deletions     (D) :      1
+  Insertions    (I) :    154
+  Hits          (H) :   2045
+  Total Ref     (N) :   2142
+
+  PENILAIAN
+  ──────────────────────────────────────────
+  Kualitas WER  :  Cukup ~
+  Kualitas CER  :  Baik ✓
+
+==============================================================
+  CATATAN:
+  - WER ideal untuk speech-to-text: < 10%
+  - WAcc = 100% - WER
+  - CER lebih ketat karena dihitung per karakter
+  - Normalisasi: lowercase, hapus tanda baca,
+    hapus frasa halusinasi Whisper
+==============================================================

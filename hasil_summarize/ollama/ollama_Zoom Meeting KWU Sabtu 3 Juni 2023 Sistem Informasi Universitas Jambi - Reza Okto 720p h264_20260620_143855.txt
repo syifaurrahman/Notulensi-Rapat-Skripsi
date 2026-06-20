@@ -1,0 +1,37 @@
+=== HASIL OLLAMA ABSTRACTIVE ===
+Sumber    : transkrip_Zoom Meeting KWU Sabtu 3 Juni 2023 Sistem Informasi Universitas Jambi - Reza Okto 720p h264_20260620_143855.txt
+Dibuat    : 20 June 2026, 14:40:23
+Model     : Whisper small + llama3.2:3b
+========================================
+
+**Pembukaan:**
+- Rapat ini dibuka oleh [Nama Pembawa Rapat] yang menjelaskan agenda rapat.
+- Hadir dalam rapat adalah [Daftar Nama-Nama Peserta].
+- Agenda rapat disusun untuk membahas topik-topik penting terkait dengan keberhasilan usaha.
+
+**Kepuasaan dari Jawabannya:**
+- Kepuasaan dari jawaban harus diambil secara objektif dan jujur.
+- Jika tidak memiliki jawaban, maka diberikan alasan untuk tidak ada jawaban terhadap pertanyaan tersebut.
+
+**Beban Relatif:**
+- Beban relatif digunakan untuk menyusun peringkat arti relatif jawaban dalam push-and-run cara mengevaluasinya.
+- Skor dengan nilai di bawah 14 menunjukkan bahwa profilnya tidak sesuai untuk seorang wirausahawan yang sukses.
+
+**Kesimpulan:**
+- Semua skor dibulatkan ke arah angka bulat yang terdekat.
+- Jika semuanya jawab ya, maka skornya adalah 17 kali 1.2, itu skor maksimal.
+- Skor di bawah 14 menunjukkan bahwa profilnya tidak sesuai untuk seorang wirausahawan yang sukses.
+
+**Pertanyaan dan Diskusi:**
+- Pertanyaan: Apakah Anda mempunyai tugas mengawasi suatu keadaan dan kemudian mengambil pertutusan sendiri?
+- Jawaban: Ya, saya jawab iya.
+- Pertanyaan: Apakah Anda mampu memimpin diri sendiri dengan disiplin yang tinggi?
+- Jawaban: Saya jawab tidak.
+
+**Kesimpulan:**
+- Semua skor dibulatkan ke arah angka bulat yang terdekat.
+- Jika semuanya jawab ya, maka skornya adalah 17 kali 1.2, itu skor maksimal.
+- Skor di bawah 14 menunjukkan bahwa profilnya tidak sesuai untuk seorang wirausahawan yang sukses.
+
+**Penutup:**
+- Rapat ini ditutup dengan penutupan yang menjelaskan tindak lanjut dari rapat.
