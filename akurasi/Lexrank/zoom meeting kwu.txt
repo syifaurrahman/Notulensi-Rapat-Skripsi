@@ -1,0 +1,74 @@
+====================================================================
+   HASIL KORELASI: LexRank <-> Transkripsi Whisper
+   Zoom Meeting KWU — Universitas Jambi
+====================================================================
+  Tanggal      : 20 June 2026, 14:50:45
+
+FILE LEXRANK   : lexrank_Zoom Meeting KWU Sabtu 3 Juni 2023 Sistem Informasi Universitas Jambi - Reza Okto 720p h264_20260620_143855.txt
+FILE TRANSKRIP : transkrip_Zoom Meeting KWU Sabtu 3 Juni 2023 Sistem Informasi Universitas Jambi - Reza Okto 720p h264_20260620_143855.txt
+
+--------------------------------------------------------------------
+  STATISTIK DOKUMEN
+--------------------------------------------------------------------
+  Token LexRank (raw)                      : 411
+  Token Transkrip (raw)                    : 2254
+  Token LexRank (tanpa stopword)           : 249
+  Token Transkrip (tanpa stopword)         : 1310
+  Kosakata unik LexRank                    : 141
+  Kosakata unik Transkrip                  : 506
+  Kosakata overlap (irisan)                : 138
+  Jumlah kalimat LexRank                   : 25
+
+--------------------------------------------------------------------
+  METRIK KORELASI
+--------------------------------------------------------------------
+  1. Cosine Similarity (TF-IDF)              :  70.44%
+  2. Jaccard Similarity (kosakata unik)      :  27.11%
+  3. Token Retention Rate                    :  18.78%
+  4. Sentence Coverage                       : 100.00%
+  5. Compression Ratio (lex/transkrip)       :  18.23%
+
+--------------------------------------------------------------------
+  INTERPRETASI SETIAP METRIK
+--------------------------------------------------------------------
+  Cosine Similarity  : TINGGI [OK]
+  Jaccard Similarity : SEDANG  [~]
+  Token Retention    : RENDAH  [!]
+  Sentence Coverage  : TINGGI [OK]
+  Compression Ratio  : BAIK (ringkasan padat, 18.2% panjang transkrip)
+
+--------------------------------------------------------------------
+  DETAIL COVERAGE PER KALIMAT LEXRANK
+--------------------------------------------------------------------
+  [ 1] [EXACT] Jaccard=1.000  "Kepuasaan dari jawabannya, karena nanti akan menyebabkan kecengrungan ..."
+  [ 2] [EXACT] Jaccard=1.000  "Karena nanti akan menyebabkan kecenderungan untuk lebih memilih, membe..."
+  [ 3] [EXACT] Jaccard=1.000  "Ralu yang ketiga, jawaban positif atas pertanyaan harus bidakarkan ata..."
+  [ 4] [EXACT] Jaccard=1.000  "Kalau memang kita tidak punya jawaban, tidak tahu jawabannya atau skil..."
+  [ 5] [EXACT] Jaccard=1.000  "Bisa meminta kepada teman yang dapat dipercaya untuk menjawab pertanya..."
+  [ 6] [EXACT] Jaccard=1.000  "Perlu membantah hasilnya, karena apa namanya, karena yang menilai kita..."
+  [ 7] [EXACT] Jaccard=1.000  "Ng ketuju membuat pertanyaan-pertanyaan sendiri untuk mendapatkan peng..."
+  [ 8] [EXACT] Jaccard=1.000  "Kalian bisa tulis dan tambahkan dan jawab pertanyaan-pertanyaan terseb..."
+  [ 9] [EXACT] Jaccard=1.000  "Ng ketiga, mengajukan pertanyaan-pertanyaan tambahan pada diri sendiri..."
+  [10] [EXACT] Jaccard=1.000  "Jawaban atas pertanyaan di dalam cushioner harus menggambarkan kelebih..."
+  [11] [EXACT] Jaccard=1.000  "Di sini yang pertama adalah kita menilai kemampuan diri kita, kemampua..."
+  [12] [EXACT] Jaccard=1.000  "Caranya adalah kalian nanti harus jujur pada diri sendiri, Kalian meni..."
+  [13] [EXACT] Jaccard=1.000  "Ini menilai kemampuan diri dilakukan oleh diri sendiri secara pribadi..."
+  [14] [EXACT] Jaccard=1.000  "Kita tidak punya jawaban Jika tidak punya jawaban, jadi kalau ragu, sa..."
+  [15] [EXACT] Jaccard=1.000  "Kalau enggak tahu antara iya atau tidak, maka diberikan alasan untuk t..."
+  [16] [EXACT] Jaccard=1.000  "Apakah Anda mampu memimpin diri sendiri dengan disiplin yang tinggi, M..."
+  [17] [EXACT] Jaccard=1.000  "Maka itu nggak konsisten dalam mengerjakan pekerjaan secara tepat wakt..."
+  [18] [EXACT] Jaccard=1.000  "Misalnya nih setelah membuka usaha, apakah Anda bersedia menurunkan st..."
+  [19] [EXACT] Jaccard=1.000  "Semua pertanyaan ini dijawab oleh diri kalian sendiri dan nanti akan k..."
+  [20] [EXACT] Jaccard=1.000  "Kalau semuanya kalian jawab ya, maka skornya skor sempurna, nanti hasi..."
+  [21] [EXACT] Jaccard=1.000  "Adalah kalau skornya di bawah 14 ini tadi..."
+  [22] [EXACT] Jaccard=1.000  "Ng kedua, questionernya ini tentang kecakapan, apa sih skill yang kita..."
+  [23] [EXACT] Jaccard=1.000  "Pertanyaan yang pertama kira-kira kamu bisa Kira-kira kamu bisa sebuti..."
+  [24] [EXACT] Jaccard=1.000  "Misalnya, yang pertama mungkin kecakapan atau keahlihan dalam bidang m..."
+  [25] [EXACT] Jaccard=1.000  "Di bidang akutansi dimanfaatkan entahkannya seperti ini Pemampatannya ..."
+
+====================================================================
+  KESIMPULAN
+====================================================================
+  Rata-rata korelasi (4 metrik utama) : 54.08%
+  Kesimpulan                          : LexRank CUKUP BERKORELASI dengan transkripsi Whisper.
+====================================================================
