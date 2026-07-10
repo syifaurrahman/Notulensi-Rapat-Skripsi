@@ -166,42 +166,46 @@ if ($level_user != 1) {
     <!-- LexRank ROUGE — 2 Kolom Live vs Upload -->
     <div style="display:grid; grid-template-columns:1fr 1fr; gap:20px; margin-bottom:24px;">
 
-        <!-- Kolom Live -->
+        <!-- Kolom Live — Uji Korelasi -->
         <div style="background:#f8faff; border:1.5px solid #bfdbfe; border-radius:14px; padding:18px;">
             <div style="display:flex; align-items:center; gap:8px; margin-bottom:14px;">
                 <span style="width:10px;height:10px;border-radius:50%;background:#0284c7;
                              display:inline-block;box-shadow:0 0 5px #93c5fd;"></span>
-                <span style="font-weight:700; font-size:0.82rem; color:#0369a1; letter-spacing:.04em;">LIVE TRANSCRIPTION</span>
+                <span style="font-weight:700; font-size:0.82rem; color:#0369a1; letter-spacing:.04em;">LIVE TRANSCRIPTION — UJI KORELASI</span>
+            </div>
+            <div style="font-size:0.75rem;color:#0369a1;margin-bottom:12px;">
+                <i class="fas fa-info-circle"></i>
+                LexRank bersifat <strong>ekstraktif</strong> — kalimat dipilih langsung dari transkripsi Whisper.
             </div>
             <div style="display:flex; flex-direction:column; gap:10px;">
                 <div class="mp-kpi-card" style="margin:0;">
-                    <div class="mp-kpi-icon" style="background:#d1fae5;color:#059669;"><i class="fas fa-link"></i></div>
+                    <div class="mp-kpi-icon" style="background:#e0f2fe;color:#0284c7;"><i class="fas fa-wave-square"></i></div>
                     <div class="mp-kpi-info">
-                        <span class="mp-kpi-label">ROUGE-L (F1-Score)</span>
-                        <span class="mp-kpi-value" id="lr-live-f1">—</span>
-                        <span class="mp-kpi-note good">Skor keseimbangan (↑ Semakin besar semakin baik)</span>
+                        <span class="mp-kpi-label">Cosine Similarity</span>
+                        <span class="mp-kpi-value" style="color:#0284c7;">69.15%</span>
+                        <span class="mp-kpi-note good">Relevansi topik (↑ Semakin besar semakin baik)</span>
                     </div>
                 </div>
                 <div class="mp-kpi-card" style="margin:0;">
-                    <div class="mp-kpi-icon" style="background:#dcfce7;color:#16a34a;"><i class="fas fa-bullseye"></i></div>
+                    <div class="mp-kpi-icon" style="background:#d1fae5;color:#059669;"><i class="fas fa-check-double"></i></div>
                     <div class="mp-kpi-info">
-                        <span class="mp-kpi-label">ROUGE-L (Precision)</span>
-                        <span class="mp-kpi-value" id="lr-live-p">—</span>
-                        <span class="mp-kpi-note good">Ketepatan ringkasan (↑ Semakin besar semakin baik)</span>
+                        <span class="mp-kpi-label">Sentence Coverage</span>
+                        <span class="mp-kpi-value" style="color:#059669;">99.00%</span>
+                        <span class="mp-kpi-note good">Kutipan langsung dari kalimat transkrip</span>
                     </div>
                 </div>
                 <div class="mp-kpi-card" style="margin:0;">
-                    <div class="mp-kpi-icon" style="background:#f0fdf4;color:#15803d;"><i class="fas fa-magnet"></i></div>
+                    <div class="mp-kpi-icon" style="background:#f0fdf4;color:#16a34a;"><i class="fas fa-percentage"></i></div>
                     <div class="mp-kpi-info">
-                        <span class="mp-kpi-label">ROUGE-L (Recall)</span>
-                        <span class="mp-kpi-value" id="lr-live-r">—</span>
-                        <span class="mp-kpi-note good">Cakupan informasi (↑ Semakin besar semakin baik)</span>
+                        <span class="mp-kpi-label">Jaccard Similarity</span>
+                        <span class="mp-kpi-value" style="color:#16a34a;">21.01%</span>
+                        <span class="mp-kpi-note neutral">Kecocokan kosakata unik (↑ Semakin besar semakin baik)</span>
                     </div>
                 </div>
             </div>
         </div>
 
-        <!-- Kolom Upload — Korelasi -->
+        <!-- Kolom Upload — Uji Korelasi -->
         <div style="background:#f0fdfa; border:1.5px solid #99f6e4; border-radius:14px; padding:18px;">
             <div style="display:flex; align-items:center; gap:8px; margin-bottom:14px;">
                 <span style="width:10px;height:10px;border-radius:50%;background:#0d9488;
@@ -217,7 +221,7 @@ if ($level_user != 1) {
                     <div class="mp-kpi-icon" style="background:#ccfbf1;color:#0f766e;"><i class="fas fa-wave-square"></i></div>
                     <div class="mp-kpi-info">
                         <span class="mp-kpi-label">Cosine Similarity</span>
-                        <span class="mp-kpi-value" style="color:#0d9488;">67.94%</span>
+                        <span class="mp-kpi-value" style="color:#0d9488;">62.52%</span>
                         <span class="mp-kpi-note good">Relevansi topik (↑ Semakin besar semakin baik)</span>
                     </div>
                 </div>
@@ -225,16 +229,16 @@ if ($level_user != 1) {
                     <div class="mp-kpi-icon" style="background:#d1fae5;color:#059669;"><i class="fas fa-check-double"></i></div>
                     <div class="mp-kpi-info">
                         <span class="mp-kpi-label">Sentence Coverage</span>
-                        <span class="mp-kpi-value" style="color:#059669;">100%</span>
+                        <span class="mp-kpi-value" style="color:#059669;">100.00%</span>
                         <span class="mp-kpi-note good">Semua kalimat berasal dari transkripsi asli</span>
                     </div>
                 </div>
                 <div class="mp-kpi-card" style="margin:0;">
-                    <div class="mp-kpi-icon" style="background:#ecfdf5;color:#047857;"><i class="fas fa-compress-arrows-alt"></i></div>
+                    <div class="mp-kpi-icon" style="background:#ccfbf1;color:#0f766e;"><i class="fas fa-percentage"></i></div>
                     <div class="mp-kpi-info">
-                        <span class="mp-kpi-label">Compression Ratio</span>
-                        <span class="mp-kpi-value" style="color:#047857;">11.32%</span>
-                        <span class="mp-kpi-note good">Ringkasan = 1/9 panjang transkripsi asli</span>
+                        <span class="mp-kpi-label">Jaccard Similarity</span>
+                        <span class="mp-kpi-value" style="color:#0f766e;">10.99%</span>
+                        <span class="mp-kpi-note neutral">Kecocokan kosakata unik (↑ Semakin besar semakin baik)</span>
                     </div>
                 </div>
             </div>
@@ -406,29 +410,41 @@ if ($level_user != 1) {
                     <tr>
                         <td><i class="fas fa-microphone-lines" style="color:#0284c7;margin-right:6px;"></i><strong>Whisper Small</strong></td>
                         <td>Transkripsi Audio</td>
-                        <td>WER</td>
-                        <td><span class="mp-badge best">6.96%</span></td>
+                        <td>WAcc (Live) / WAcc (Upload)</td>
+                        <td>
+                            <span class="mp-badge warn" title="Rata-rata 4 live podcast">44.68% Live</span>
+                            <span class="mp-badge good" title="Pengujian upload aktual">75.50% Upload</span>
+                        </td>
                         <td><span class="mp-badge best">✓ Aktif</span></td>
                     </tr>
                     <tr>
                         <td><i class="fas fa-network-wired" style="color:#059669;margin-right:6px;"></i><strong>LexRank</strong></td>
                         <td>Ringkasan Ekstraktif</td>
-                        <td>ROUGE-L</td>
-                        <td><span class="mp-badge good">10.80%</span></td>
+                        <td>ROUGE-L F1 (Live) / ROUGE-L F1 (Upload)</td>
+                        <td>
+                            <span class="mp-badge good" title="Rata-rata 4 live podcast">27.85% Live</span>
+                            <span class="mp-badge warn" title="Pengujian upload aktual">10.80% Upload</span>
+                        </td>
                         <td><span class="mp-badge best">&#10003; Aktif</span></td>
                     </tr>
                     <tr>
                         <td><i class="fas fa-arrows-left-right" style="color:#0d9488;margin-right:6px;"></i><strong>LexRank Korelasi</strong></td>
                         <td>Korelasi vs Transkripsi</td>
-                        <td>Cosine Similarity</td>
-                        <td><span class="mp-badge good">67.94%</span></td>
+                        <td>Cosine Similarity (Live) / Cosine Similarity (Upload)</td>
+                        <td>
+                            <span class="mp-badge good" title="Rata-rata 4 live podcast">69.15% Live</span>
+                            <span class="mp-badge good" title="Pengujian upload aktual">62.52% Upload</span>
+                        </td>
                         <td><span class="mp-badge best">&#10003; Aktif</span></td>
                     </tr>
                     <tr>
                         <td><i class="fas fa-brain" style="color:#7c3aed;margin-right:6px;"></i><strong>LLM / Ollama</strong></td>
                         <td>Ringkasan Abstraktif</td>
-                        <td>ROUGE-L</td>
-                        <td><span class="mp-badge good">20.25%</span></td>
+                        <td>ROUGE-L F1 (Live) / ROUGE-L F1 (Upload)</td>
+                        <td>
+                            <span class="mp-badge good" title="Rata-rata 4 live podcast">27.85% Live</span>
+                            <span class="mp-badge warn" title="Pengujian upload aktual">16.20% Upload</span>
+                        </td>
                         <td><span class="mp-badge best">✓ Aktif</span></td>
                     </tr>
                 </tbody>
@@ -448,8 +464,8 @@ Chart.defaults.color = '#617388';
 // ── 1. WHISPER: Perbandingan WER, WAcc, CER — Live vs Upload ──
 // !! Ganti nilai di bawah dengan hasil pengujian aktual Anda !!
 const whisperMetrics = {
-    live:   { wer: null, wacc: null, cer: null },    // belum diuji
-    upload: { wer: 6.96, wacc: 93.04, cer: 4.89 },  // hasil pengujian aktual (09 Juni 2026)
+    live:   { wer: 55.32, wacc: 44.68, cer: 43.11 },  // rata-rata 4 live podcast (01 Juli 2026)
+    upload: { wer: 24.50, wacc: 75.50, cer: 17.57 },  // hasil pengujian aktual (21 Juni 2026)
 };
 
 // Fungsi isi nilai pada card Live & Upload
@@ -465,23 +481,27 @@ function fillWhisperMetrics() {
 fillWhisperMetrics();
 
 // ── 2. LEXRANK: ROUGE-L — Live ──
+// Sumber: akurasi/ollama/live_ratarata.txt (rata-rata 4 live podcast, 01 Juli 2026)
 const lexrankMetrics = {
-    live:   { f1: null, precision: null, recall: null }, // belum diuji
+    live:   { f1: 27.85, precision: 33.80, recall: 26.30 }, // rata-rata ROUGE-L Ollama vs LexRank
 };
 
 function fillLexRankMetrics() {
     const fmt = (v, suffix) => (v !== null && v !== undefined) ? v + suffix : '—';
-    document.getElementById('lr-live-f1').textContent   = fmt(lexrankMetrics.live.f1,   '%');
-    document.getElementById('lr-live-p').textContent    = fmt(lexrankMetrics.live.precision, '%');
-    document.getElementById('lr-live-r').textContent    = fmt(lexrankMetrics.live.recall,    '%');
-    // Upload column sekarang menampilkan metrik korelasi (hardcoded di HTML)
+    const elF1 = document.getElementById('lr-live-f1');
+    const elP = document.getElementById('lr-live-p');
+    const elR = document.getElementById('lr-live-r');
+    if (elF1) elF1.textContent = fmt(lexrankMetrics.live.f1, '%');
+    if (elP) elP.textContent = fmt(lexrankMetrics.live.precision, '%');
+    if (elR) elR.textContent = fmt(lexrankMetrics.live.recall, '%');
 }
 fillLexRankMetrics();
 
 // ── 3. LLM / OLLAMA: Perbandingan ROUGE-L — Live vs Upload ──
+// Live: akurasi/ollama/live_ratarata.txt (rata-rata 4 live podcast, 01 Juli 2026)
 const llmMetrics = {
-    live:   { f1: null, precision: null, recall: null }, // belum diuji
-    upload: { f1: 20.25, precision: 22.02, recall: 18.75 }, // hasil pengujian aktual (10 Juni 2026)
+    live:   { f1: 27.85, precision: 33.80, recall: 26.30 }, // rata-rata 4 live podcast
+    upload: { f1: 16.20, precision: 24.10, recall: 12.46 }, // hasil pengujian aktual (21 Juni 2026)
 };
 
 function fillLlmMetrics() {
@@ -546,24 +566,42 @@ new Chart(document.getElementById('whisperCompareChart'), {
     }
 });
 
-// ── 3. LEXRANK: ROUGE-L Components ────────────────────────
+// ── 3. LEXRANK: ROUGE-L Components — Live vs Upload ──────────────────────────
+// Live: akurasi/ollama/live_ratarata.txt (rata-rata 4 live podcast)
+// Upload: data aktual sebelumnya
 new Chart(document.getElementById('lexrankRougeChart'), {
     type: 'bar',
     data: {
         labels: ['Precision', 'Recall', 'F1-Score'],
-        datasets: [{
-            label: 'ROUGE-L',
-            data: [0.0825, 0.1562, 0.1080],
-            backgroundColor: ['#34d399','#10b981','#059669'],
-            borderRadius: 10,
-            borderSkipped: false,
-        }]
+        datasets: [
+            {
+                label: 'Live Transcription',
+                data: [33.80, 26.30, 27.85],
+                backgroundColor: 'rgba(2,132,199,0.75)',
+                borderRadius: 8,
+                borderSkipped: false,
+            },
+            {
+                label: 'Upload File',
+                data: [8.25, 15.62, 10.80],
+                backgroundColor: 'rgba(5,150,105,0.75)',
+                borderRadius: 8,
+                borderSkipped: false,
+            }
+        ]
     },
     options: {
         responsive: true, maintainAspectRatio: false,
-        plugins: { legend: { display: false } },
+        plugins: {
+            legend: { position: 'top', labels: { usePointStyle: true, boxWidth: 8 } },
+            tooltip: {
+                callbacks: {
+                    label: ctx => ctx.dataset.label + ': ' + ctx.raw + '%'
+                }
+            }
+        },
         scales: {
-            y: { beginAtZero: true, max: 1.0, grid: { color: '#f1f5f9' } },
+            y: { beginAtZero: true, max: 100, ticks: { callback: v => v + '%' }, grid: { color: '#f1f5f9' } },
             x: { grid: { display: false } }
         }
     }
@@ -595,23 +633,24 @@ new Chart(document.getElementById('lexrankScoreChart'), {
     }
 });
 
-// ── 5. LLM vs LexRank ROUGE-L Comparison ───────────────────
+// ── 5. LLM vs LexRank ROUGE-L Comparison — Live vs Upload ──────────────────
+// Live: akurasi/ollama/live_ratarata.txt (rata-rata 4 live podcast, 01 Juli 2026)
 new Chart(document.getElementById('llmCompareChart'), {
     type: 'bar',
     data: {
-        labels: ['ROUGE-L (F1-Score)'],
+        labels: ['ROUGE-L F1', 'ROUGE-L Precision', 'ROUGE-L Recall'],
         datasets: [
             {
-                label: 'LexRank',
-                data: [0.1080],
-                backgroundColor: 'rgba(16,185,129,0.7)',
+                label: 'Live Transcription',
+                data: [27.85, 33.80, 26.30],
+                backgroundColor: 'rgba(124,58,237,0.75)',
                 borderRadius: 8,
                 borderSkipped: false,
             },
             {
-                label: 'LLM / Ollama',
-                data: [0.2025],
-                backgroundColor: 'rgba(124,58,237,0.7)',
+                label: 'Upload File',
+                data: [16.20, 24.10, 12.46],
+                backgroundColor: 'rgba(168,85,247,0.45)',
                 borderRadius: 8,
                 borderSkipped: false,
             }
@@ -619,9 +658,16 @@ new Chart(document.getElementById('llmCompareChart'), {
     },
     options: {
         responsive: true, maintainAspectRatio: false,
-        plugins: { legend: { position: 'top' } },
+        plugins: {
+            legend: { position: 'top', labels: { usePointStyle: true, boxWidth: 8 } },
+            tooltip: {
+                callbacks: {
+                    label: ctx => ctx.dataset.label + ': ' + ctx.raw + '%'
+                }
+            }
+        },
         scales: {
-            y: { beginAtZero: true, max: 1.0, grid: { color: '#f1f5f9' } },
+            y: { beginAtZero: true, max: 100, ticks: { callback: v => v + '%' }, grid: { color: '#f1f5f9' } },
             x: { grid: { display: false } }
         }
     }

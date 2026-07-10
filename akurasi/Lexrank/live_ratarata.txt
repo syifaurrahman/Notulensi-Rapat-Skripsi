@@ -1,0 +1,27 @@
+====================================================================
+  RATA-RATA METRIK KORELASI LEXRANK <-> WHISPER
+  Sistem Notulensi — Live Podcast (Rata-rata 4 Podcast)
+====================================================================
+  Jumlah Dokumen Evaluasi : 4
+--------------------------------------------------------------------
+  RINCIAN RATA-RATA METRIK
+--------------------------------------------------------------------
+  1. Cosine Similarity (TF-IDF)          :   69.15%
+  2. Jaccard Similarity (kosakata unik)  :   21.01%
+  3. Token Retention Rate                :   18.38%
+  4. Sentence Coverage                   :   99.00%
+  5. Compression Ratio (lex/transkrip)   :   18.22%
+--------------------------------------------------------------------
+  KESIMPULAN UMUM
+--------------------------------------------------------------------
+  Rata-rata korelasi (4 metrik utama)    :   51.88%
+  Status: CUKUP BERKORELASI
+====================================================================
+
+  DETAIL SKOR PER PODCAST:
+--------------------------------------------------------------------
+  * live_podcast1_depresi_kolerasi.txt         : Cosine=70.19%, Coverage=100.00%, Rata2=55.18%
+  * live_podcast2_genZ_kolerasi.txt            : Cosine=60.83%, Coverage=100.00%, Rata2=47.47%
+  * live_podcast3_pentingBinggris_kolerasi.txt : Cosine=77.24%, Coverage=100.00%, Rata2=54.00%
+  * live_podcast4_disiplin_kolerasi.txt        : Cosine=68.34%, Coverage=96.00%, Rata2=50.89%
+====================================================================

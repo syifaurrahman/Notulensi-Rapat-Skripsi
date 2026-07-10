@@ -1,0 +1,502 @@
+[
+  {
+    "rank": 1,
+    "score": 0.0198,
+    "sentence": "Karena secara spesifik datanya, ya kan teknisnya aja kamu kasih situ bahwa membuat ground truth itu mengidentifikasi syarikat."
+  },
+  {
+    "rank": 2,
+    "score": 0.0197,
+    "sentence": "CIDP dan OCR dalam hal ekstraksi informasi dari N8N itu bagaimana kemampuan N8N-n."
+  },
+  {
+    "rank": 3,
+    "score": 0.0196,
+    "sentence": "Tapi kalau secara desain kan, caranya kamu buat ground truth kan di Bap 3, Oke, baik-baik."
+  },
+  {
+    "rank": 4,
+    "score": 0.0191,
+    "sentence": "Ditingjau dari ketepatan deteksi area itu di ya ini kan si metode dynamic temperate matchingnya kan Iya Pak, sama acarnya kan, Iya Pak, Sama OCR nya kan, I."
+  },
+  {
+    "rank": 5,
+    "score": 0.0187,
+    "sentence": "Ini kamu buat BAP, pandangan sistem, sub-BAP-nya, ini masalah sistem di selain termuka, blah-blah-blah ya, sub-BAP, selanjutnya tentang data."
+  },
+  {
+    "rank": 6,
+    "score": 0.0186,
+    "sentence": "Ini hasil dari Ground Truth itu sih Pak, Jadi saya bandingin sendiri."
+  },
+  {
+    "rank": 7,
+    "score": 0.018,
+    "sentence": "Ini yang kamu buat kan, ground truth-nya kan ini, Dimana sistem kamu akan mengidentifikasi meng- akan mengidentifikasi mengekstrak ini, dia akan mengekstrak ini atau engga?"
+  },
+  {
+    "rank": 8,
+    "score": 0.0179,
+    "sentence": "Disini kamu kan buat metode dan disini kan kamu prancang metode nya saya juga guna ya pak, terkait data tuh saya datanya itu udah ada dari awal jadi saya sudah taro di BAP3 pak itu dibahas lagi di BAP4 ya yang nggak harusnya itu BAP3 itu rancangannya kamu mau ambil, kamu datanya apa mana, Tentu ada, Kamu pakai ini."
+  },
+  {
+    "rank": 9,
+    "score": 0.0175,
+    "sentence": "Ini nggak bisa, nggak bisa dijawab juga dengan 3, 3 tujuan penelitian kamu itu tidak terjawab dengan 3 pengujian yang kamu laku."
+  },
+  {
+    "rank": 10,
+    "score": 0.0175,
+    "sentence": "SIDP bagaimana kemampuan dari SIDP dan OCR dalam hal?"
+  },
+  {
+    "rank": 11,
+    "score": 0.0174,
+    "sentence": "Sehingga kamu bagaimana cara kamu ini ya, dengan cara manual, kasih tunjuk aja bahwa kasih tunjuk sebuah dokumen, screenshotnya dokumen gitu bahwa nanti membuat drone truth dari setiap item atau field yang ada di dalam dokumen tersebut dah gitu Oke, baik-baik, Terus, tidak."
+  },
+  {
+    "rank": 12,
+    "score": 0.0169,
+    "sentence": "Kenapa nggak kamu tanya kan itu bagaimana kemampuan si dynamic itu dalam mengekstrak, Atau ya dalam mengekstrak informasi, Oh jadi jangan spesifik kecetak atau pria, Ya nggak usah, OCR aja ya Pak, Iya langsung aja, Oke baik Pak."
+  },
+  {
+    "rank": 13,
+    "score": 0.0169,
+    "sentence": "Tiga pengujian kamu lakukan itu kan lebih ke kemampuan pendekatan kamu, Mampuan pendekatan kamu ya, Iya kan?"
+  },
+  {
+    "rank": 14,
+    "score": 0.0167,
+    "sentence": "Kalau yang ini pak, dia kan di tinggi kalau yang ini pak, dia kan ditingjau dari ketepatan detek seharia dan ketepatan pembacaan tekst kalau enggak, yang kalau misalnya, ketepatan deteksi area itu sebenarnya buat ngujinya itu ada di ini pak mana ya mana?"
+  },
+  {
+    "rank": 15,
+    "score": 0.0166,
+    "sentence": "Manual kamu jabarkan bahwa manual setiap contoh kamu kasih aja gambar dokumen itu terus kamu kasih contoh bahwa seperti ini contohnya ini yang terus tangan seperti apa yang ketikan gimana jadi terlalu gambar ya?"
+  },
+  {
+    "rank": 16,
+    "score": 0.0165,
+    "sentence": "Buatnya bahwa kamu akan mengidentifikasi semua item yang ada disini, Kalau omongnya kabur kan gitu, ya kan, Ya udah kamu ini aja."
+  },
+  {
+    "rank": 17,
+    "score": 0.0146,
+    "sentence": "Gengori berkat saat itu kan saya masuk ke sini Kayaknya gak ada di."
+  },
+  {
+    "rank": 18,
+    "score": 0.0146,
+    "sentence": "Ini bisa coba nanti coba nge-coba nge-coba ini kayak gini nge-coba, kebaiki ini jangan besar semua itu doi mandalin itu perbaiki di lihat di pendilainya tau ini ya kan?"
+  },
+  {
+    "rank": 19,
+    "score": 0.0146,
+    "sentence": "Di data pak Saya ada tulis di data ya pak Tiga sembilan Kita yang ditabel tadi pak Ke bawah Jadi yang saya, Tiga puluh sindara benar, Pak."
+  },
+  {
+    "rank": 20,
+    "score": 0.0146,
+    "sentence": "Saya juga merasa sistem saya itu kurang maksimal."
+  },
+  {
+    "rank": 21,
+    "score": 0.0142,
+    "sentence": "Ininya sama OCR nya kan, tapi disini kamu bilang diharapkan mampu apa ini?"
+  },
+  {
+    "rank": 22,
+    "score": 0.0136,
+    "sentence": "Ini kamu tadi bilang kamu itu pengen mengetahui seberapa kemampuan metode itu dalam menyelesaikan Dynamic Template Matching ini, Iya kan, Ya, Tapi disini kamu sebutkan apa, Terima kasih sudah menonton, Bagaimana kamu, Ya, apa, Apakah sesuai yang kamu bicara kan?"
+  },
+  {
+    "rank": 23,
+    "score": 0.0128,
+    "sentence": "Mengidentifikasi cara manual dengan cara manual kan gak ada otomatisnya manual kan?"
+  },
+  {
+    "rank": 24,
+    "score": 0.0127,
+    "sentence": "Ng kamu buat harusnya datanya itu isinya ini gitu kan dari isinya ini gitu kan dari posisi ini itu isinya harusnya ini jadi nanti tinggal kamu bandingkan ya sistem kamu ngeluarkan apa di grond trut apa sesuai atau enggak seapa teks yang sesuai berapa yang tidak kan gitu ya tapi kan teknisnya seperti apa kamu buat grond trut itu gimana teknisnya Astaga Barang-barang bikin ini nggak, Pak?"
+  },
+  {
+    "rank": 25,
+    "score": 0.0122,
+    "sentence": "Fokus yang utama yang kamu selesaikan apa, yang pertanyaan apa, Pertanyaan apa yang akan kamu jawab, atau jawaban apa yang kamu cari, So, jawaban apa yang kamu cari?"
+  },
+  {
+    "rank": 26,
+    "score": 0.0122,
+    "sentence": "Implementasi sistemnya, pandangan sistem, parti implementasi sistem, sub-BAP-42 itu terkait dengan data."
+  },
+  {
+    "rank": 27,
+    "score": 0.0122,
+    "sentence": "Ditingjau dari ketepatan deteksi area dan ketepatan pembacaan tekst bagaimana perbedaan tingkat akurasi ekstrasi fitur?"
+  },
+  {
+    "rank": 28,
+    "score": 0.0122,
+    "sentence": "Ini pak udah ada 247 documented Ya kan harusnya enggak seperti ini Kamu datanya apa aja datanya Jadi kayak ngasih tau aja tuh Datanya apa aja Datanya itu apa aja Datanya apa?"
+  },
+  {
+    "rank": 29,
+    "score": 0.012,
+    "sentence": "Di 4, 4-3, baru 4-3 itu harusnya ini, 4-3 ini.gini ya implementasi agonitman atau metode, Di sini kamu kan buat metode dan."
+  },
+  {
+    "rank": 30,
+    "score": 0.0113,
+    "sentence": "Ini kamu cari sumbernya gimana caranya, apa yang gimana caranya nguji N8N-nya, Terima ka."
+  },
+  {
+    "rank": 31,
+    "score": 0.0112,
+    "sentence": "Terkaitan dengan data, sub-BAP selanjutnya dengan terhadap metode, harusnya di sini juga sama."
+  },
+  {
+    "rank": 32,
+    "score": 0.011,
+    "sentence": "Kamu akan maukan apa di tiga puluh sembilan data ini?"
+  },
+  {
+    "rank": 33,
+    "score": 0.0107,
+    "sentence": "Kamu ujikan uanya tiga ini iya dan empat lima lah ini aja iya iya lima lah ini main box kakak Blackbog dan Whitebog, dimana Blackbog dan Whitebog ini lebih ke menjawab ini lah bisanya, Ya, merancang bangun."
+  },
+  {
+    "rank": 34,
+    "score": 0.0101,
+    "sentence": "Kamu akan membuat apa, dimana kamu akan membuat data ini Data ini saya buat hasilnya itu harusnya seperti ini kan gitu, berapa perusahaan kamu buat pronturnya, Berapa data, Datanya?"
+  },
+  {
+    "rank": 35,
+    "score": 0.01,
+    "sentence": "Pengujian isinya blackbop itu ini juga belum berlamentasi ini nya gimana telah buka jangan gunakan air putih ini oke gak boleh kata berikut gitu gak usah gambar gambar 4.4 dah jangan pakai berikut di atas kalau berdasarkan itu gak berikut?"
+  },
+  {
+    "rank": 36,
+    "score": 0.01,
+    "sentence": "Boleh berdasarkan gambar berapa tapi kan gak usah ditulis di atas dibawah gitu kan gak perlu berikut gak perlu langsung aja pada gambar sekian 4.7 dah beres ini apa ya, itu apa sih, implementasi model ini nya gimana, implementasi model apa, model OCR sama, ini pak?"
+  },
+  {
+    "rank": 37,
+    "score": 0.0098,
+    "sentence": "Apakah dengan Apakah dengan melakukan tiga pengujian itu, kamu bisa menjawab, apakah terjawab nih, apakah pengelualan dokumen itu jadi secara terpusat, Terbukti itu gak, Terbukti dengan pengujian itu, terbukti gak, Kan gak, gak terbukti kan, gak bisa, Meminimalkan proses pencarian manual, Hani."
+  },
+  {
+    "rank": 38,
+    "score": 0.0098,
+    "sentence": "Bolah juga bolah juga ada pembasan, di sini ada kamu jabarkan semuanya, iya, masih ada?"
+  },
+  {
+    "rank": 39,
+    "score": 0.0097,
+    "sentence": "Mampuan si Dan Melikten ter matching, OCR sama N8N nya Iya kan?"
+  },
+  {
+    "rank": 40,
+    "score": 0.0096,
+    "sentence": "Apak Apakah dengan kamu menguji dengan cara potometrik, karakter error, rate sama ini, workflow performance ini, akhirnya pencarian manual jadi minimal waktunya, Gak terjauh kan?"
+  },
+  {
+    "rank": 41,
+    "score": 0.0093,
+    "sentence": "Ini tabul-tabul hasil pengujian ini tabel-tabel hasil pengujian kemudian kamu jabarkan semua disini kemudian di pembahasan itu apa yang kamu jabarkan?"
+  },
+  {
+    "rank": 42,
+    "score": 0.0092,
+    "sentence": "Tapi secara penelitian ini, kamu kan nggak bisa menyelesaikan semua masalah dalam satu penelitian, Jadi kamu mau fokus kemananya dulu."
+  },
+  {
+    "rank": 43,
+    "score": 0.0091,
+    "sentence": "Pada esumber PDFSumber, kemudian formula IDF2, dan formula terjangkuk, yaudah data itu di mana kamu jabarkan bahwa data PDFSumber itu apa, data apa, ini kamu jabarkan, ini terkait data apa, dan ini terkait data apa, dah ini kamu masukkan ke 4 karena itu adalah hasilnya gitu Ya, kamu gelap kamu Jadi kamu lakukan apa terhadap data itu, Apa yang kamu lakukan, Gron trutnya itu gimana, Saya sebenarnya ada pertanya juga, Pak, Di Gron trut, kan saya, Jason, Jason lu panjang, Pak."
+  },
+  {
+    "rank": 44,
+    "score": 0.009,
+    "sentence": "Jawabannya yang kamu cari itu adalah, tadi itu adalah."
+  },
+  {
+    "rank": 45,
+    "score": 0.0086,
+    "sentence": "Pas saat main tuning kok lu masuk BlackBog?"
+  },
+  {
+    "rank": 46,
+    "score": 0.0085,
+    "sentence": "Ng dia bener atau engga kan gitu, ada yang salah atau tidak?"
+  },
+  {
+    "rank": 47,
+    "score": 0.0085,
+    "sentence": "Dengan menjabarkan hal itu, itu bisa menjawab yang ini, tapi yang ini dan ini itu saya rasa nggak bisa dijawab itu."
+  },
+  {
+    "rank": 48,
+    "score": 0.0085,
+    "sentence": "Pak Terus ini Pak, yang kemarin di RPC Satu-satu oke, yang dua sama tiga sih Pak Saya bangusin aja sih Pak, bagaimana kemarin?"
+  },
+  {
+    "rank": 49,
+    "score": 0.0084,
+    "sentence": "Mau dulu ke hasil mau lagi pak ah nih, hasil hasil itu cuman mau lagi pak, ada ah ini pak ada total waktu pengujian tim minimum, maksimum, kayak gini lebih karau waktu sih pak ada waktu sih pak nama pengujiannya apa, ini dasarnya ada dimana kamu juga ya, ada dasarnya ga?"
+  },
+  {
+    "rank": 50,
+    "score": 0.0083,
+    "sentence": "Ada outshare nya mana disini juga, ada outshare nya ada OCR-nya mana disini juga, ada OCR-nya nih iya harusnya ada OCR-nya nih disini ada OCR-nya, disini juga harus ada ZULAS OCR-nya nah kalau yang nomor 3, ini juga kan karena hasil dari."
+  },
+  {
+    "rank": 51,
+    "score": 0.0082,
+    "sentence": "Berarti, kalau misalnya yang tadi Bapak bilang itu, itu di Bap 3 atau di Bap 4, Di Bap 4 ya, selain, Hasilnya di Bap 4."
+  },
+  {
+    "rank": 52,
+    "score": 0.0081,
+    "sentence": "Tapi, nyata, itu permasalah kalau misalnya saya nge-scan jauh atau dekat itu memparah masalah, Permasalah, Jadi kotak itu enggak, enggak, ini loh, Itu kemarin saya coba dari."
+  },
+  {
+    "rank": 53,
+    "score": 0.0081,
+    "sentence": "Sama tujuan nya ini sebenernya pak, tujuan nya itu dibangun itu pak buat kayak, saya kan rencang bauan pak jadi saya mau buat sistem yang iya, tapi secara, secara, secara ini nya, secara, apa namanya ya secara fokusnya, kamu itu kan gak bisa semua kemusnah saya kan kamu selesai."
+  },
+  {
+    "rank": 54,
+    "score": 0.008,
+    "sentence": "Karena dari sini, saya cuma bilang, saya kamu buat dengan cara manual key gitu dong, Bap, Mana, Di penyaparan data file ini tuh, Ini saya salah, belum mengganti juga, Bap, Jadi, kita bisa berbunuh."
+  },
+  {
+    "rank": 55,
+    "score": 0.0079,
+    "sentence": "Merancang bangun itu di berhasil dilaksanakan, dimana berhasil dilakukan, dimana pengujian Blackbog dan Whitebog itu hasilnya seperti apa?"
+  },
+  {
+    "rank": 56,
+    "score": 0.0077,
+    "sentence": "Terima kasih Tidak ada gunanya Pak, tapi kan ada N8N-nya ya, jadi kaya kesannya memang maksa, jadi N8N-nya kurang lebih ada di rencangan Pak, di 3 rencangan N8N Bumpulan Ground Truth System, ada gambar, Oh, ini Pak, di Bapempat ya Pak, Pempat, hasil rencangan, Redbook posisi anjir, Ini, Bukan, Pak, Dia ada gambar gitu, Pak, Gambar R8N-nya, Saya ada SES, Redbook, Ini, Bukan, ya, Bukan, Tak, enggak dibaik, Ketangan, Ini lapan ini, Itu, itu, itu, Ah, itu."
+  },
+  {
+    "rank": 57,
+    "score": 0.0077,
+    "sentence": "Ini saya buat nomor 3 itu dari hasil saya sih, Pak nah ini terlalu panjang, terlalu detail ini kamu mau flow N8M-nya ini itu mau apanya?"
+  },
+  {
+    "rank": 58,
+    "score": 0.0076,
+    "sentence": "Tentunya itu berdasarkan dari tujuan atau rumusan masalah berdasarkan, apa namanya hasil pengujian kamu berdasarkan hasil pengujian untuk menjawab rumusan masalah jadi disini itu harus menjawab rumusan masalah pokoknya rumusan masalah kamu umpamannya tadi tiga bareng disini minimal ada tiga penjabaran hal itu pokoknya buat aja tiga paragraf gitu ya kalau ini kan panjang banget ini tipe yang kamu bahas iya bahas,."
+  },
+  {
+    "rank": 59,
+    "score": 0.0075,
+    "sentence": "Nilai ini membangun grondrutnya kan ini kamu grondrut buat grondrutnya Untrutnya kan ini, buat grondrutnya dulu ini, ya kan, buat grondrutnya, Kamu secara teknis itu kamu gimana?"
+  },
+  {
+    "rank": 60,
+    "score": 0.0074,
+    "sentence": "Juga nggak sesuai dengan tujuan nya tadi tujuan yang tadi kan hanya bagaimana tujuan yang tadi kan hanya bagaimana kemampuan model-model metode kamu tadi pendekatan-pendelesaian pendekatan-pendelesaian tadi itu kemampuannya seperti apa, dimana kamu ujinya tuh pake ini?"
+  },
+  {
+    "rank": 61,
+    "score": 0.0073,
+    "sentence": "Coba lihat di contoh kelaran sistem, Pak Di, di contoh kok Tidak, Dicantah ke luar nanti, Ah ke bawah."
+  },
+  {
+    "rank": 62,
+    "score": 0.0071,
+    "sentence": "Bahwa kamu ingin mengetahui si model dynamic mapping ini dalam Proses dokumen ser otomatis Dan OCR untuk ngambil teksnya mana kamu juga mau mengevaluasi N8N nya mau mengevaluasi N8N nya, sesuai ga?"
+  },
+  {
+    "rank": 63,
+    "score": 0.0071,
+    "sentence": "Di Bapempat ini dia punya IDP nya di Bapak di Bap 4 ada di parameter shallows disini kan subbub nya kamu rancangan sistem dulu ya kemudian data subbub selanjutnya subbub Terima kasih sudah menonton."
+  },
+  {
+    "rank": 64,
+    "score": 0.0069,
+    "sentence": "Ini pak, saya cukup mau nanya di Bapempat itu, Saya ada pembahasan pak, itu, Mana, Pernuh gak, Pembahasan itu kayak, Bak-bak yang saya temuin di sisi itu, Pembahasan itu kalau dari, Sini ada kamu, Ini kan penuhian ya, Mana, Ini kan penuhian nih, Aku negeri-negeri mana, ini pengunjian nih?"
+  },
+  {
+    "rank": 65,
+    "score": 0.0068,
+    "sentence": "Tunggu, mandalik kan saya masukin itu, saya gak edit ini ya kayaknya, Iya, harusnya, harusnya, Iya, itu tuh, Harus di, Harus di ini, Saya gak cek dikali lagi, Harus, Ini apa ya, Gak ulang."
+  },
+  {
+    "rank": 66,
+    "score": 0.0067,
+    "sentence": "Enggak, maksud saya pengunjian mau yang mana, yang di kan?"
+  },
+  {
+    "rank": 67,
+    "score": 0.0066,
+    "sentence": "Asli alas contohnya biar orang tuh punya gambaran jadi kayak, saya pasukan gambar terus gambar dokumen terus ini kayak terus kamu jabarkan kamu kasih gambarnya terus tangan menayang ketika nama 4 bars, kemaserlakannya 3 sudah, sudah diharapkan ini Masudlah diharapkan ini."
+  },
+  {
+    "rank": 68,
+    "score": 0.0065,
+    "sentence": "Memang hasil akhirnya tuh ada sistem, sistem yang buat bisa mengelala dokumen itu."
+  },
+  {
+    "rank": 69,
+    "score": 0.0065,
+    "sentence": "Dan saya rasa hal-hal kayak gini bisa dilakukan di Laravela langsung, Hmm, Teranjur sama gimana, Nah, mulainya gimana ya."
+  },
+  {
+    "rank": 70,
+    "score": 0.0064,
+    "sentence": "Kalau dengan cara kamu nguji pake Confusion metric, apakah dengan Confusion metric itu kamu bisa Confusion metric terus apa lagi tadi, Carb, karakter error rate, Itu untuk OCR-nya sama, satu lagi, Efficiency, Efficiency, Efficiency N8N-nya kan?"
+  },
+  {
+    "rank": 71,
+    "score": 0.0063,
+    "sentence": "Coba komentar dunanya dulu lah, saya juga nggak tahu gimana mau ngudinya ya, Ya, itu kayak node biasa aja, Iya kan, Data di mana, Data di Bap3, Bap4 mana?"
+  },
+  {
+    "rank": 72,
+    "score": 0.006,
+    "sentence": "Masalah-saran itu ya, apamanya ada pembahasan, ada yang kurang di hasil pembahasan ini, Oh, apapanya yang kurang, Oh, apa-apanya yang kurang, Bisa kamu kasih saran."
+  },
+  {
+    "rank": 73,
+    "score": 0.006,
+    "sentence": "Karena awalnya, Pak, saya merasa ini kayak kalau bankok ini bisa."
+  },
+  {
+    "rank": 74,
+    "score": 0.0058,
+    "sentence": "Wkwk ok itu aja saya tuli pak, saya mau tanya tadi kan kita ada yang sedang saya mau tahu pak si Trishyananda pak dan dia bilang pak di Rumusan Masala itu kalimatet, kalimatanya tapi nggak boleh ada tanda-tanya, itu gimana pak ya udah buat aja lebih ke kita kan mencari Terima ka."
+  },
+  {
+    "rank": 75,
+    "score": 0.0057,
+    "sentence": "Perbaiki ini juga ada enternya enggak mumpukan nah ini kayak gini nih ini apa, jurnal atau apa nggak ada penerbitnya, nggak ada taunnya, nggak ada halamannya apa ini?"
+  },
+  {
+    "rank": 76,
+    "score": 0.0053,
+    "sentence": "Lebih ke arah misalnya di black box saya nemuin ada oh masalah nih disini nah saya jabarin disini nah untuk kesimpulan nih pak, kesimpulan saya agar rancu juga kesimpulan malah saya bawa pembahasan lagi pak bukan Bukan, Harusnya kata tembakan sa."
+  },
+  {
+    "rank": 77,
+    "score": 0.0053,
+    "sentence": "Asylnya, tapi juga alasannya, analisisnya mengapa jawabannya seperti itu, Sehingga cocoknya itu ya, harus bagaimana, Kemampuan metodemu."
+  },
+  {
+    "rank": 78,
+    "score": 0.0052,
+    "sentence": "Gak bisa mendukung efisensi operasional, efisensi parah rasanya, efisensi apa-apa, dalam hal apa, efisensi biaya, ekonomi, atau secara apa."
+  },
+  {
+    "rank": 79,
+    "score": 0.005,
+    "sentence": "Berasa N8N ini nih, gak ada gunanya Pak."
+  },
+  {
+    "rank": 80,
+    "score": 0.0045,
+    "sentence": "Demat Tempura Matching itu udah di sini udah ada OCR nya, Dynamic Tempura Mapping nya, Mapping nya, Enggak ada Pak, Dynamic Tempura Mapping khusus buat ininya, Mapping nya aja."
+  },
+  {
+    "rank": 81,
+    "score": 0.0045,
+    "sentence": "Ga semua Ga semua pak, data yang dilatih aja Ya iya berapa?"
+  },
+  {
+    "rank": 82,
+    "score": 0.0044,
+    "sentence": "Ada di bawah, kita datang beli nanti Kamu butuh data."
+  },
+  {
+    "rank": 83,
+    "score": 0.0044,
+    "sentence": "Aku rasa asli udah pembasan, kok kan saya pikir harus ada pembasan?"
+  },
+  {
+    "rank": 84,
+    "score": 0.0043,
+    "sentence": "Sesuai dengan humusan masalah kita 3, ya udah 3 itu aja kamu jawab gitu, 3 itu aja kamu jawab jadi tidak perlu kemana-mana yang kamu jawab itu ya cukup humusan masalahmu yang 3 itu dan saya yakin 3 paragraf cukup Satu parahgraf, dua parahgraf, tiga parahgraf, Gak cukup."
+  },
+  {
+    "rank": 85,
+    "score": 0.0041,
+    "sentence": "Harusnya itu ini kisah saya salah dia masuk ke pengujian ini tapi itu yang punya lama saya kayak saya sama kirim tapi memang harusnya bener-bener gak harusnya masuk ke dalam masyir pengujian kini harusnya ada satu subap pengujian isinya BlackBog itu."
+  },
+  {
+    "rank": 86,
+    "score": 0.0037,
+    "sentence": "Dan citra dokumen dalam permatec digital seramanual cuman bilang kayak gitu bapak kamu kan gak kasih contoh?"
+  },
+  {
+    "rank": 87,
+    "score": 0.0037,
+    "sentence": "Kalau disini, ini dokumen baru yang saya tulis tangan pakai tulis tangan saya sendiri, Itu saya coba tes, Ini kan kamu membandingkan hasil bandingnya kan, Tapi kamu bagaimana, Ngebangun hasil banding itu."
+  },
+  {
+    "rank": 88,
+    "score": 0.0032,
+    "sentence": "Dia masuk datanya ke trigger, terus datanya di normalisasi dulu sesuai dengan database, terus database-nya itu bakal, apa namanya?"
+  },
+  {
+    "rank": 89,
+    "score": 0.0031,
+    "sentence": "Kamu field yang ini ya, field yang ini hasilnya itu harus ini nanti."
+  },
+  {
+    "rank": 90,
+    "score": 0.003,
+    "sentence": "Saya yakin kalau kamu ngerti yang sendiri, pasti kamu mengetahui kekurangan dan kelebihan sistem kamu, Sehingga kamu bisa menghidupkan saran, Iya, Pak."
+  },
+  {
+    "rank": 91,
+    "score": 0.0015,
+    "sentence": "Itu ada journal yang di atasnya tuh depannya awalnya cover gitu, bawahnya baru journalnya itu, Iya, harus dulu lagi, Ini juga gak rata kanan kiri ya, Iya, kok, kata kanan kiri ya?"
+  },
+  {
+    "rank": 92,
+    "score": 0.0015,
+    "sentence": "Gila di sini Gila di sini Gila di sini Gila di sini Gila di sini Gila di sini Gila di sini Gila di sini Gila di sini Gila di sini Gila di sini Gila di sini Gila di sini Gila di sini Gila di sini Gila di sini Gila di sini Gila di sini Gila di sini Gila di sini Gila di sini Gila di sini Gila di sini Gila di sini Gila di sini Gila di sini Gila di sini Gila di sini Gila di sini Gila di sini Gila di sini Gila di sini Gila di sini Gila di sini Gila di sini Gila di sini Gila di sini apalagi."
+  },
+  {
+    "rank": 93,
+    "score": 0.0015,
+    "sentence": "Ngirim status gitu status gitu, kayak statusnya lagi queue atau lagi diproses terus digabungin, terus membilsian data, saya lupa sih ya terus di update status, abis itu digabung sebelum CR dikirim ke Python buat menyesuaikan dari data yang di minta dengan Python ya terus abis itu, udah disesain Python, kirim masih ke CR ke dikirim terus dicek confidence-nya Oke, Cuma simpen, Dan saya rasa."
+  },
+  {
+    "rank": 94,
+    "score": 0.0015,
+    "sentence": "Di Bapempat saya nampalin data di bagian tenaga soal itu mau masuknya?"
+  },
+  {
+    "rank": 95,
+    "score": 0.0015,
+    "sentence": "Jatah apapun berbanding jatah Data apa pun berubahnya data, datamu, kembangkan dari prosesnya apa, sampai dia itu selesai nih, ground rootnya, sampai disini."
+  },
+  {
+    "rank": 96,
+    "score": 0.0015,
+    "sentence": "Kamu menjabarkan gron trutmu, itu data-mu, itu seperti apa, Kamu akan mencari apa dari situ?"
+  },
+  {
+    "rank": 97,
+    "score": 0.0015,
+    "sentence": "Itu kira-kira perlu saya contohnya di sini, ya tahu?"
+  },
+  {
+    "rank": 98,
+    "score": 0.0015,
+    "sentence": "Ga ada pak aduh tapi ada ya di New York di N8N1 ini kan N8N1 coba kamu cari jurnal yang berkaitan dengan N8N1 ada yang nanti, dengan N8N, terus kembali ke, Evaluasi N8N, terus, Ya, sama, Ini kemamp, ini aja, N8N ini pun tuh apa-nya, Untuk, apa sih, Business logic ya, Pak, Kayak dia, Data kaplit nih, Terus, Sebenarnya suju tuh Pak, Saya, Mambil jujur N8N, makin kesini kayak."
+  },
+  {
+    "rank": 99,
+    "score": 0.0015,
+    "sentence": "Itu mau apa nya, mau di uji apa nya, efektif tas apa nya ini ini pak, mungkin bisa langsung dilihat di hasil gimana?"
+  },
+  {
+    "rank": 100,
+    "score": 0.0015,
+    "sentence": "Memusalah mengenai dokumen teknis, karena di atas pak."
+  }
+]

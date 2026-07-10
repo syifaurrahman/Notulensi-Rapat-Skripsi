@@ -1,0 +1,327 @@
+=== LAPORAN EVALUASI HALLUCINATION FILTER - PENGUJIAN 1 ===
+Tanggal Pengujian : 03 July 2026, 00:52:20
+Durasi Sesi       : 2 Menit (Kondisi Hening Rapat)
+Kebenaran Asli    : Hening Total (Tidak ada ucapan valid)
+============================================================
+
+METRIK EVALUASI:
+  - True Positive (TP)  : 38 (Halusinasi berhasil dibuang)
+  - False Positive (FP) : 0 (Ucapan valid salah terbuang)
+  - False Negative (FN) : 39 (Halusinasi lolos ke transkrip)
+  - True Negative (TN)  : 59 (Hening berhasil dipertahankan)
+
+PERSENTASE METRIK:
+  - Akurasi Deteksi     : 71.32%
+  - Presisi Filter      : 100.00%
+  - Recall Filter       : 49.35%
+
+LOG DETAIL SEGMEN DETEKSI:
+------------------------------------------------------------
+[00:50:22] Output Whisper: 'Terima kasih.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[00:50:23] Output Whisper: 'Is that...'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[00:50:23] Output Whisper: 'Is that?'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[00:50:24] Output Whisper: 'Is that it?'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[00:50:24] Output Whisper: 'Is that it? Yes.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[00:50:25] Output Whisper: 'Is that, yes, if you see it.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[00:50:26] Output Whisper: 'Is that it? Yes, if you see it.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[00:50:27] Output Whisper: 'Just that, if you see it.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[00:50:27] Output Whisper: 'Is that, yes, if you see it.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[00:50:33] Output Whisper: 'Pesan, pesan, pesan.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[00:50:39] Output Whisper: 'Pesan, pesan, pesan. Dijik-dijik-dijik.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[00:50:41] Output Whisper: 'Pesan, pesan, pesan. Dijik-dijik-dijik.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN (Trailing Flush)
+
+[00:50:42] Output Whisper: 'Pesan, Pesan, Pesan. Kami akan menggunakan bahasa Inggris. Saya harus melihat bahasa Inggris. Kami akan menggunakan bahasa Inggris. Kami akan menggunakan bahasa Inggris.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[00:50:51] Output Whisper: 'Pesan, Pesan, Pesan. Kami akan membuat pembantu. Saya perlu melihatnya. Terima kasih. Terima kasih. Terima kasih.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[00:50:51] Output Whisper: 'Terima kasih.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[00:50:53] Output Whisper: 'Terima kasih. Okay, wow. Jangan lupa, jangan lupa, jangan lupa. Terima kasih. Terima kasih.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[00:50:54] Output Whisper: 'Terima kasih. Okay, wow. Jangan lupa, jangan lupa, jangan lupa. Terima kasih.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[00:50:55] Output Whisper: 'Okay, wow, if she takes first boot, she's gonna... Is it on us? Sure. I'm gonna hate text.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[00:51:03] Output Whisper: 'Okay, wow, if she takes first boot, she's gonna, it's not, sure, I don't need to, just, I don't need to.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[00:51:03] Output Whisper: 'Terima kasih.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[00:51:03] Output Whisper: 'Please stay party.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[00:51:04] Output Whisper: 'Terima kasih.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[00:51:07] Output Whisper: 'Please stay quiet, we will teach you.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[00:51:08] Output Whisper: 'Pada setelah ini, saya akan mengajar.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[00:51:09] Output Whisper: 'Insighting, if you need teaching, be humble.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[00:51:09] Output Whisper: 'Please get mighty, we will teach you, be humble, yes.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[00:51:10] Output Whisper: 'Please get mighty, we need teaching, behind the, yeah.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[00:51:11] Output Whisper: 'Pertahankan kata-kata, we need to teach you, behind the scenes.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[00:51:12] Output Whisper: 'Please get my key, we need to teach you, be humble, yeah, listen.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[00:51:13] Output Whisper: 'Bersama, kita akan mengajar, di-hunger, ya, listen, draft, listen, view.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[00:51:14] Output Whisper: 'Pertahankan kata-kata, we need to teach you, be humble, yeah, listen to this, please hear me.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[00:51:15] Output Whisper: 'Pertahankan kata-kata, we need to teach you, be humble, yeah, listen, this is the end of the day.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[00:51:16] Output Whisper: 'Pertahankan kata-kata inggris menggunakan bahasa Indonesia yang dicampur istilah teknis berbahasa Inggris.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[00:51:25] Output Whisper: 'Pertahankan kata-kata inggris menggunakan bahasa Indonesia yang dicampur istilah teknis berbahasa Inggris.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN (Trailing Flush)
+
+[00:51:26] Output Whisper: 'Dismisai.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[00:51:27] Output Whisper: 'Pertahankan kata-kata, you need to teach you, be humble, yeah, listen, this is me. Anyway, I'm going to give you a yes, I need to see more, take you.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[00:51:27] Output Whisper: 'Jalan!'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[00:51:27] Output Whisper: 'I need to see.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[00:51:28] Output Whisper: 'Ken, I need to see more.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[00:51:28] Output Whisper: 'Gen, I need to see more.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[00:51:29] Output Whisper: 'I need to see more.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[00:51:29] Output Whisper: 'I need to see more, can you?'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[00:51:29] Output Whisper: 'Can, I need to see more, can you do it?'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[00:51:30] Output Whisper: 'Can, I need to see more. Can you give me more?'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[00:51:30] Output Whisper: 'I need to see more. Can you give me more?'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[00:51:31] Output Whisper: 'Gen, you're trying to see more, can you give me more, understand, sir?'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[00:51:32] Output Whisper: 'Ken, I need to see more, can you give me more, understand family, can you...'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[00:51:33] Output Whisper: 'Gen, you're trying to see more, can you give me more, understand, sir, if you need more.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[00:51:34] Output Whisper: 'Gen, you're trying to see more, can you give me more, understand, sir, if you need my end, down the line.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[00:51:35] Output Whisper: 'Sen, you're trying to see more, can you give me more, understand, sen, can you use YN, download your sen?'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[00:51:37] Output Whisper: 'Jeff, you're trying to see more. Can you give me more? Understand, Jeff, if you do YN, you're having fun. You're a chef, you're an engineer, you're living by dream.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP (Trailing Flush)
+
+[00:51:38] Output Whisper: 'Sen, you're trying to see more. Can you give me more, understand, sen? Can you use YN, download, yourself, engineer, and your little country?'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[00:51:39] Output Whisper: 'Terima kasih.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[00:51:43] Output Whisper: 'Terima kasih.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP (Trailing Flush)
+
+[00:51:44] Output Whisper: 'Okay.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[00:51:44] Output Whisper: 'Thank you.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[00:51:46] Output Whisper: 'Okay.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP (Trailing Flush)
+
+[00:51:46] Output Whisper: 'Terima kasih.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[00:51:47] Output Whisper: 'Thank you.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[00:51:47] Output Whisper: 'DB.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[00:51:48] Output Whisper: 'Thank you.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[00:51:48] Output Whisper: 'Deep learning.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[00:51:49] Output Whisper: 'DDP, asempen.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[00:51:50] Output Whisper: 'Dia bilang, asemben, contoh.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[00:51:51] Output Whisper: 'Dia biar saya berbicara tentang...'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[00:51:52] Output Whisper: 'Tidak menggunakan bahasa Inggris.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[00:51:53] Output Whisper: 'Diapain, asempat, pijujung, dilihat.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[00:51:56] Output Whisper: 'DDP, asempen, future, yes.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN (Trailing Flush)
+
+[00:51:57] Output Whisper: 'DDP, and Zephyr, the future here.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[00:51:57] Output Whisper: 'Thank you.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[00:51:59] Output Whisper: 'Terima kasih.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP (Trailing Flush)
+
+[00:52:01] Output Whisper: 'Pertahankan.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP (Trailing Flush)
+
+[00:52:01] Output Whisper: 'Cik.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[00:52:02] Output Whisper: 'Tch.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[00:52:03] Output Whisper: 'Cik.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[00:52:03] Output Whisper: 'Thank you.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[00:52:05] Output Whisper: 'Terima kasih.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP (Trailing Flush)
+

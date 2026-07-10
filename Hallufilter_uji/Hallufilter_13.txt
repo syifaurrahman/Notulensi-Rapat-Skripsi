@@ -1,0 +1,231 @@
+=== LAPORAN EVALUASI HALLUCINATION FILTER - PENGUJIAN 13 ===
+Tanggal Pengujian : 03 July 2026, 01:32:30
+Durasi Sesi       : 2 Menit (Kondisi Hening + Kipas + Percakapan Latar)
+Kebenaran Asli    : Pidato Rapat Aktif (Dengan teks pidatowhisperhalluuji.txt)
+============================================================
+
+METRIK EVALUASI:
+  - True Positive (TP)  : 20 (Halusinasi berhasil dibuang)
+  - False Positive (FP) : 4 (Ucapan valid salah terbuang)
+  - False Negative (FN) : 29 (Halusinasi lolos ke transkrip)
+  - True Negative (TN)  : 4 (Hening berhasil dipertahankan)
+
+PERSENTASE METRIK:
+  - Akurasi Deteksi     : 42.11%
+  - Presisi Filter      : 83.33%
+  - Recall Filter       : 40.82%
+
+LOG DETAIL SEGMEN DETEKSI:
+------------------------------------------------------------
+[01:30:31] Output Whisper: 'goodbye'
+            Keputusan Filter: BUANG
+            Status Evaluasi : FP
+
+[01:30:32] Output Whisper: 'Ya, fighter yang pinta.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:30:33] Output Whisper: 'Ya, paker yang pintar.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:30:33] Output Whisper: 'Dia paker yang pinta, yang bagus, ya.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:30:33] Output Whisper: 'Dia paker yang pinta, yang bagus, jadi dia tahu.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:30:34] Output Whisper: 'Dia fighter yang pinta, yang bagus, jadi dia tahu timingnya.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:30:35] Output Whisper: 'Dia paker yang pinter, yang bagus, jadi dia tahu timingnya.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:30:35] Output Whisper: 'Dia paker yang pinter, yang bagus, jadi dia tahu timingnya menggelang itu.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:30:36] Output Whisper: 'Dia paker yang pinter, yang bagus, jadi dia tahu timingnya menghilangnya cepat.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:30:37] Output Whisper: 'Dia paker yang pinter, yang bagus, jadi dia tahu timingnya, menghilangnya cepat, larinya kabungnya cepat.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:30:38] Output Whisper: 'Dia paker yang pinter, yang bagus, jadi dia tahu timingnya, menghilangnya cepat, larinya kabungnya cepat, kok tidak putus.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:30:39] Output Whisper: 'Dia paker yang pinter, yang bagus, jadi dia tahu timingnya, menghilangnya cepat, larinya kabungnya cepat, maka tidak putus.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:30:40] Output Whisper: 'Dia paker yang pinter, yang bagus, jadi dia tahu timingnya, menghilangnya cepat, larinya kabungnya cepat, waktu tidak putus.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:30:41] Output Whisper: 'Dia paker yang pinter, yang bagus, jadi dia tahu timingnya, menghilangnya cepat, larinya kabungnya cepat, waktu itu dia putus, jadi, ya kita tahu lah dia.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:30:43] Output Whisper: 'Dia paker yang pinter, yang bagus, jadi dia tahu timingnya, menghilangnya cepat, larinya kabungnya cepat, waktu itu dia putus, jadi kita tahu lah dia paker yang cepat.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:30:44] Output Whisper: 'Dia paker yang pintar, yang bagus, jadi dia tahu timingnya, menghilangnya cepat, larinya kabungnya cepat, waktu itu dia putus. Jadi, ya kita tahu lah, dia paker yang cepat, jadi timing.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:30:46] Output Whisper: 'Dia paker yang pintar, yang bagus, jadi dia tahu timingnya, menghilangnya cepat, larinya kabungnya cepat, waktu tidak putus. Jadi, ya kita tahu lah, dia paker yang cepat, jadi, timing yang power yang benar-benar.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:30:48] Output Whisper: 'Dia paker yang pintar, yang bagus, jadi dia tahu timingnya, menghilangnya cepat, larinya kabungnya cepat, waktu tidak putus. Jadi, ya kita tahu lah dia paker yang cepat, jadi, timing yang power yang benar-benar masa gitu.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:30:50] Output Whisper: 'thank you'
+            Keputusan Filter: BUANG
+            Status Evaluasi : FP
+
+[01:30:52] Output Whisper: 'okay'
+            Keputusan Filter: BUANG
+            Status Evaluasi : FP
+
+[01:30:54] Output Whisper: 'yes'
+            Keputusan Filter: BUANG
+            Status Evaluasi : FP
+
+[01:30:54] Output Whisper: 'Terima kasih.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:31:10] Output Whisper: 'Oh, wow. Tuh, terima kasih. Lagi asisten, jadi kalau kaji mau ambil sapuknya, silahkan. Tapi datang ke rumah saya, berantam di rumah.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:31:10] Output Whisper: 'Terima kasih.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:31:12] Output Whisper: 'Yes.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:31:18] Output Whisper: 'Yes.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP (Trailing Flush)
+
+[01:31:19] Output Whisper: 'Terima kasih.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:31:19] Output Whisper: 'Satu.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:31:20] Output Whisper: 'Satya!'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:31:21] Output Whisper: 'Satya. Dari.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:31:22] Output Whisper: 'Satya, daripada...'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:31:22] Output Whisper: 'Satia dari para...'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:31:23] Output Whisper: 'Setia dari para...'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:31:23] Output Whisper: 'Satia dari para naras.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:31:25] Output Whisper: 'Satia dari para haras.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:31:26] Output Whisper: 'Satia dari para ngeras, teriakupah.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:31:26] Output Whisper: 'Satia dari para ngeras dari aku pah.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:31:27] Output Whisper: 'Satya, dari para naras, teriakupah.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:31:28] Output Whisper: 'Satia, dari para hara. Diakupah, ingin ke Inggris.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:31:29] Output Whisper: 'Satya, garipara. Terima kasih. Terima kasih. Inggris apa-apa.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:31:31] Output Whisper: 'Satya, bari para rasa. Iya, kupa. India, Indonesia, satu kipak, satu kipak.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:31:32] Output Whisper: 'Satya. Bari barat. Terima kasih. Terima kasih.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:31:33] Output Whisper: 'Satya. Dari baras. Terima kasih.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:31:34] Output Whisper: 'Satya, daripada. Terima kasih. Terima kasih.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:31:35] Output Whisper: 'Satya, daripada. Terima kasih.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:31:36] Output Whisper: 'Sampia, dari baras.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:31:41] Output Whisper: 'Sabia, daripada... Diberi aku. Diberi aku, jadi aku yang dicampur. Kata-kata, aku yang diterjemahkan. Kata-kata, aku yang diterjemahkan. Kata-kata, aku yang diterjemahkan. Kata-kata, aku yang diterjemahkan. Kata-kata, aku yang diterjemahkan.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:31:43] Output Whisper: 'Sabian, dari baras. Terima kasih, aku bakal.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:31:44] Output Whisper: 'Pertahankan kata-kata, stop team alert, what's tonight, top tonight, what's tonight, what's tonight, what's tonight.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:31:53] Output Whisper: 'Tidak! Tidak! Tidak! Tidak! Tidak! Tidak! Tidak! Tidak! Tidak! Tidak! Tidak! Tidak! Tidak! Tidak! Tidak! Tidak! Tidak! Tidak! Tidak! Tidak! Tidak! Tidak! Tidak! Tidak! Tidak! Tidak! Tidak! Tidak! Tidak! Tidak! Tidak! Tidak! Tidak! Tidak! Tidak! Tidak! Tidak! Tidak! Tidak! Tidak! Tidak! Tidak! Tidak! Tidak! Tidak! Tidak! Tidak! Tidak! Tidak! Tidak! Tidak! Tidak! Tidak! Tidak! Tidak! Tidak'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:32:15] Output Whisper: 'Pertahankan kata-kata, but it is a safety, a lot, but it is a top, but it is a safety, but it is a safety, but it is a safety, but it is a safety, but it is a safety, but it is a safety, but it is a safety, but it is a safety, but it is a safety, but it is a safety, but it is a safety, but it is a safety, but it is a safety, but it is a safety, but it is a safety, but it is a safety, but it is a safety, but it is a safety, but it is a safety, but it is a safety, but it is a safety, but it is a safety, but it is a safety, but it is a safety, but it is a safety, but it is a safety, but it is a safety, but it is a safety, but it is a safety, but it is a safety, but it is a safety, but it is a safety, but it is a safety'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:32:16] Output Whisper: 'Jangan terlalu subarain di nanti ada yang hate.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:32:17] Output Whisper: 'Jangan terlalu subar ID, nanti ada yang haji. Okay, aku ngomong-ngomong gua. Terima kasih, bro.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+

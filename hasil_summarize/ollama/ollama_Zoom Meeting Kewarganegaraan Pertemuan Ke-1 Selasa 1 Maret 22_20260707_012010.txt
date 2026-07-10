@@ -1,0 +1,41 @@
+=== HASIL OLLAMA ABSTRACTIVE ===
+Sumber    : transkrip_Zoom Meeting Kewarganegaraan Pertemuan Ke-1 Selasa 1 Maret 22_20260707_012010.txt
+Dibuat    : 07 July 2026, 01:20:38
+Model     : Whisper small + llama3.2:3b
+========================================
+
+adalah notulisn dari rapat berdasarkan data yang diberikan:
+
+**Pertanyaan tentang MP dan Pendidikan Pancasila:**
+
+- Pertanyaan: Apakah masih dapat dipertanyakan bahwa dia nyusup dalam grup ini atau tidak?
+- Jawaban: Tidak, karena dia bukan anggota grup.
+
+**Perbedaan antara Warganegara dan Warga Negaraan:**
+
+- Definisi:
+ - Warganegara: Orang yang berhak mempunyai hak-hak sebagai warga negara.
+ - Warga Negaraan: Status dari seseorang yang menjadi warga negara.
+
+**Pendidikan Pancasila dan PMP:**
+
+- Pertanyaan: Apakah masih dapat dipertanyakan bahwa dia nyusup dalam grup ini atau tidak?
+- Jawaban: Tidak, karena dia bukan anggota grup.
+- Diskusi tentang pendidikan pancasila dan pmp.
+
+**Pertemuan Kelompok untuk Pendidikan Kewarga Negaraan:**
+
+- Pertemuan pertama: Ceramah
+- Pertemuan kedua: Diskusi kelompok
+- Pertemuan ketiga: Presentasi kelompok
+- Pertemuan keempat: Diskusi kelompok
+- Pertemuan kelima: Presentasi kelompok
+
+**Bahan Presentasi:**
+
+- Sediakan bahan presentasi dalam bentuk powerpoint atau sadian presentasi lainnya.
+- Inisiatif untuk membuat sajian presentasi yang kreatif, seperti animasi infografis.
+
+**Nilai:**
+
+- Nilai akan diberikan berdasarkan kualitas presentasi dan inisiatif.

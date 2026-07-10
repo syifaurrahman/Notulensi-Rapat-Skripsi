@@ -1,0 +1,39 @@
+==============================================================
+  HASIL PENGUJIAN AKURASI WHISPER
+  Sistem Notulensi — Live Podcast Gen Z
+==============================================================
+  Tanggal     : 30 June 2026, 23:15:06
+  Metode      : jiwer (WER / CER)
+  File Ref    : manual_podcast2.txt
+  File Hyp    : live_Podcast2_genZ.txt
+  Kata Ref    : 5,860
+  Kata Hyp    : 4,784
+--------------------------------------------------------------
+
+  METRIK UTAMA
+  ──────────────────────────────────────────
+  WER   (Word Error Rate)     :    47.71%
+  WAcc  (Word Accuracy)       :    52.29%
+  CER   (Character Error Rate):    34.46%
+
+  DETAIL ERROR (Word-level)
+  ──────────────────────────────────────────
+  Substitutions (S) :    994
+  Deletions     (D) :   1439
+  Insertions    (I) :    363
+  Hits          (H) :   3427
+  Total Ref     (N) :   5860
+
+  PENILAIAN
+  ──────────────────────────────────────────
+  Kualitas WER  :  Perlu Peningkatan ✗
+  Kualitas CER  :  Perlu Peningkatan ✗
+
+==============================================================
+  CATATAN:
+  - WER ideal untuk speech-to-text: < 10%
+  - WAcc = 100% - WER
+  - CER lebih ketat karena dihitung per karakter
+  - Normalisasi: lowercase, hapus tanda baca,
+    hapus frasa halusinasi Whisper
+==============================================================

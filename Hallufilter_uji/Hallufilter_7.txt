@@ -1,0 +1,167 @@
+=== LAPORAN EVALUASI HALLUCINATION FILTER - PENGUJIAN 7 ===
+Tanggal Pengujian : 03 July 2026, 01:09:29
+Durasi Sesi       : 2 Menit (Kondisi Hening + Noise Kipas)
+Kebenaran Asli    : Hening Total (Tidak ada ucapan valid)
+============================================================
+
+METRIK EVALUASI:
+  - True Positive (TP)  : 19 (Halusinasi berhasil dibuang)
+  - False Positive (FP) : 0 (Ucapan valid salah terbuang)
+  - False Negative (FN) : 18 (Halusinasi lolos ke transkrip)
+  - True Negative (TN)  : 20 (Hening berhasil dipertahankan)
+
+PERSENTASE METRIK:
+  - Akurasi Deteksi     : 68.42%
+  - Presisi Filter      : 100.00%
+  - Recall Filter       : 51.35%
+
+LOG DETAIL SEGMEN DETEKSI:
+------------------------------------------------------------
+[01:07:30] Output Whisper: 'Diperluasakan bahasa Inggris, memiliki perusahaan menggunakan bahasa Inggris. Pertahankan kata-kata Inggris, memiliki perusahaan menggunakan bahasa Inggris. Pertahankan kata-kata Inggris, memiliki perusahaan menggunakan bahasa Inggris.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:07:36] Output Whisper: 'Terima kasih.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:07:36] Output Whisper: 'Pertahankan kata-kata,'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:07:41] Output Whisper: 'Pertahankan kata-kata Inggris apa adanya, jangan diterjemahkan. Contoh,'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:07:42] Output Whisper: 'Pertahankan kata-kata Inggris apa adanya, jangan diterjemahkan,'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:07:43] Output Whisper: 'Pertahankan kata-kata Inggris apa adanya, jangan diterjemahkan. Contoh,'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:07:50] Output Whisper: 'Tidak ada yang menggunakan bahasa Inggris. Pada tahun 2020, diperkenalkan bahasa Inggris, dan menggunakan bahasa Inggris. Pada tahun 2020, diperkenalkan bahasa Inggris. Pada tahun 2020, diperkenalkan bahasa Inggris. Pada tahun 2020, diperkenalkan bahasa Inggris. Pada tahun 2020, diperkenalkan bahasa Inggris.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:07:51] Output Whisper: 'Pertahankan kata-kata inggris apa adanya, jangan diterjemahkan. Pertahankan kata-kata inggris apa adanya, jangan diterjemahkan.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:07:52] Output Whisper: 'Terima kasih.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:07:53] Output Whisper: 'Pertahankan kata-kata ini menggunakan bahasa Indonesia yang dicampur istilah teknis berbahasa Inggris.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:07:54] Output Whisper: 'Pertahankan kata-kata inggris apa adanya, jangan diterjemahkan.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:07:55] Output Whisper: 'Pertahankan kata-kata Inggris apa adanya, jangan diterjemahkan.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:07:57] Output Whisper: 'Pertahankan kata-kata Inggris apa adanya, jangan diterjemahkan. Contoh-kata Inggris apa adanya, jangan diterjemahkan.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:07:59] Output Whisper: 'Pertahankan kata-kata Inggris apa adanya, jangan diterjemahkan. Contoh-kata Inggris apa adanya, jangan diterjemahkan. Contoh-kata Inggris apa adanya.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:08:11] Output Whisper: 'Pertahankan kata-kata, asa maaf, iya. Pertahankan kata-kata, asa maaf, iya. Pertahankan kata-kata, asa maaf, iya. Pertahankan kata-kata, asa maaf, iya. Pertahankan kata-kata, asa maaf, iya. Pertahankan kata-kata, asa maaf, iya.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:08:19] Output Whisper: 'Pertahankan kata-kata, asa maaf, iya. Pertahankan kata-kata, asa maaf, iya. Pertahankan kata-kata, asa maaf, iya. Pertahankan kata-kata, asa maaf, iya. Pertahankan kata-kata, asa maaf, iya. Pertahankan kata-kata, asa maaf, iya.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP (Trailing Flush)
+
+[01:08:20] Output Whisper: 'Bersama saya, saya menggunakan bahasa Inggris. Saya menggunakan bahasa Inggris. Saya menggunakan bahasa Inggris. Saya menggunakan bahasa Inggris. Saya menggunakan bahasa Inggris. Saya menggunakan bahasa Inggris. Saya menggunakan bahasa Inggris. Saya menggunakan bahasa Inggris. Saya menggunakan bahasa Inggris.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:08:20] Output Whisper: 'Terima kasih.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:08:22] Output Whisper: 'Pertahankan kata-kata.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:08:24] Output Whisper: 'Pertahankan kata-kata Inggris apa adanya, jangan diterjemahkan.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:08:27] Output Whisper: 'Pertahankan kata-kata Inggris apa adanya, jangan diterjemahkan. Contoh.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:08:28] Output Whisper: 'Pertahankan kata-kata ini menggunakan bahasa Inggris. Pertahankan kata-kata ini menggunakan bahasa Inggris.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:08:29] Output Whisper: 'Pertahankan kata-kata ini menggunakan bahasa Indonesia yang dicampur istilah teknis berbahasa Indonesia yang dicampur istilah teknis berbahasa Inggris.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:08:35] Output Whisper: 'Maksudnya, bahasa Indonesia ini akan melakukan perangkatan, untuk melakukan perangkatan, untuk melakukan perangkatan, untuk melakukan perangkatan, untuk melakukan perangkatan, untuk melakukan perangkatan, untuk melakukan perangkatan, untuk melakukan perangkatan.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:08:46] Output Whisper: 'Bagi saya, saya akan menggunakan bahasa Inggris yang menggunakan bahasa Inggris. Pertahankan kata-kata Inggris apa adanya, jangan diterjemahkan. Contoh, ini adalah bahasa Inggris. Contoh, ini adalah bahasa Inggris. Pertahankan kata-kata Inggris.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:08:48] Output Whisper: 'Bagi saya, saya akan menggunakan bahasa Inggris yang menggunakan bahasa Inggris. Pertahankan kata-kata Inggris apa adanya, jangan diterjemahkan. Contoh, ini adalah bahasa Inggris. Contoh, ini adalah bahasa Inggris. Pertahankan kata-kata Inggris.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP (Trailing Flush)
+
+[01:08:56] Output Whisper: 'Pertahankan kata-kata, Kami dapat mengikuti sebuah pembukaan yang bisa dikenali di dalam perjalanan. Kami dapat mengikuti sebuah pembukaan yang bisa dikenali di dalam perjalanan. Kami akan mengikuti pembukaan yang bisa dikenali di dalam perjalanan.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:08:58] Output Whisper: 'Pertahankan kata-kata ini menggunakan bahasa Indonesia yang dicampur istilah teknis berbahasa Inggris.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN (Trailing Flush)
+
+[01:08:59] Output Whisper: 'Thank you.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:09:00] Output Whisper: 'Terima kasih.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:09:01] Output Whisper: 'Pertahankan kata-kata.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:09:02] Output Whisper: 'Pertahankan kata-kata ini menggunakan bahasa Indonesia yang dicampur istilah teknis berbahasa Inggris.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:09:06] Output Whisper: 'Pertahankan kata-kata ini menggunakan bahasa Inggris. Pertahankan kata-kata ini menggunakan bahasa Inggris.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:09:07] Output Whisper: 'Pertahankan kata-kata ini menggunakan bahasa Indonesia yang dicampur istilah teknis berbahasa Inggris.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:09:08] Output Whisper: 'Pertahankan kata-kata ini menggunakan bahasa Inggris. Pertahankan kata-kata ini menggunakan bahasa Inggris.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:09:16] Output Whisper: 'Bersama saya, saya melihat bahasa Indonesia yang menyerahkan bahasa Indonesia. Bersama saya, saya melihat bahasa Indonesia yang menyerahkan bahasa Indonesia. Bersama saya, saya melihat bahasa Indonesia yang menyerahkan bahasa Indonesia. Bersama saya, saya melihat bahasa Indonesia yang menyerahkan bahasa Indonesia.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:09:18] Output Whisper: 'Pertahankan kata-kata ini menggunakan bahasa Inggris. Pertahankan kata-kata ini menggunakan bahasa Indonesia yang dicampur istilah teknis berbahasa Inggris.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+

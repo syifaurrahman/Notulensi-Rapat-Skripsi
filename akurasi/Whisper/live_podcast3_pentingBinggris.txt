@@ -1,0 +1,39 @@
+==============================================================
+  HASIL PENGUJIAN AKURASI WHISPER
+  Sistem Notulensi — Live Podcast Pentingnya Bahasa Inggris
+==============================================================
+  Tanggal     : 30 June 2026, 23:42:36
+  Metode      : jiwer (WER / CER)
+  File Ref    : manual_podcast3.txt
+  File Hyp    : live_podcast3_pentingnya_bahasa_inggris.txt
+  Kata Ref    : 2,993
+  Kata Hyp    : 2,683
+--------------------------------------------------------------
+
+  METRIK UTAMA
+  ──────────────────────────────────────────
+  WER   (Word Error Rate)     :    43.57%
+  WAcc  (Word Accuracy)       :    56.43%
+  CER   (Character Error Rate):    31.86%
+
+  DETAIL ERROR (Word-level)
+  ──────────────────────────────────────────
+  Substitutions (S) :    448
+  Deletions     (D) :    583
+  Insertions    (I) :    273
+  Hits          (H) :   1962
+  Total Ref     (N) :   2993
+
+  PENILAIAN
+  ──────────────────────────────────────────
+  Kualitas WER  :  Perlu Peningkatan ✗
+  Kualitas CER  :  Perlu Peningkatan ✗
+
+==============================================================
+  CATATAN:
+  - WER ideal untuk speech-to-text: < 10%
+  - WAcc = 100% - WER
+  - CER lebih ketat karena dihitung per karakter
+  - Normalisasi: lowercase, hapus tanda baca,
+    hapus frasa halusinasi Whisper
+==============================================================

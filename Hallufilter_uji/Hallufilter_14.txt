@@ -1,0 +1,327 @@
+=== LAPORAN EVALUASI HALLUCINATION FILTER - PENGUJIAN 14 ===
+Tanggal Pengujian : 03 July 2026, 01:40:07
+Durasi Sesi       : 2 Menit (Kondisi Hening + Kipas + Percakapan Latar)
+Kebenaran Asli    : Pidato Rapat Aktif (Dengan teks pidatowhisperhalluuji.txt)
+============================================================
+
+METRIK EVALUASI:
+  - True Positive (TP)  : 52 (Halusinasi berhasil dibuang)
+  - False Positive (FP) : 5 (Ucapan valid salah terbuang)
+  - False Negative (FN) : 20 (Halusinasi lolos ke transkrip)
+  - True Negative (TN)  : 158 (Hening berhasil dipertahankan)
+
+PERSENTASE METRIK:
+  - Akurasi Deteksi     : 89.36%
+  - Presisi Filter      : 91.23%
+  - Recall Filter       : 72.22%
+
+LOG DETAIL SEGMEN DETEKSI:
+------------------------------------------------------------
+[01:38:09] Output Whisper: 'goodbye'
+            Keputusan Filter: BUANG
+            Status Evaluasi : FP
+
+[01:38:10] Output Whisper: 'thank you'
+            Keputusan Filter: BUANG
+            Status Evaluasi : FP
+
+[01:38:11] Output Whisper: 'Inggris ini, ini, ini, ya.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:38:11] Output Whisper: 'Inggris, ini, ini, ya.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:38:12] Output Whisper: 'Inggris, ini, ini, ya, ini.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:38:13] Output Whisper: 'Sini, ini, ya, ini kaca-kaca.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:38:19] Output Whisper: 'Ini, ya, ini tak semua, mau berusia.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:38:19] Output Whisper: 'Pertahankan kata-kata.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:38:20] Output Whisper: 'Pertahankan kata-kata.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN (Trailing Flush)
+
+[01:38:35] Output Whisper: 'Terima kasih, ini, ini, ya, ini kaca-coba, mau bersih ini, ini, ini, ini, ini.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:38:35] Output Whisper: 'okay'
+            Keputusan Filter: BUANG
+            Status Evaluasi : FP
+
+[01:38:36] Output Whisper: 'yes'
+            Keputusan Filter: BUANG
+            Status Evaluasi : FP
+
+[01:38:36] Output Whisper: 'no'
+            Keputusan Filter: BUANG
+            Status Evaluasi : FP
+
+[01:38:37] Output Whisper: 'Terimakasih, chef. Sebelumnya.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:38:38] Output Whisper: 'Terimakasih, chef. Terimakasih.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:38:38] Output Whisper: 'Selamat pagi, chef. Names kap.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:38:39] Output Whisper: 'Terima kasih, chef. Names kap. Saya Susia.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:38:40] Output Whisper: 'Terima kasih, chef. Names kap. Saya susah, chef. Terima kasih.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:38:41] Output Whisper: 'Selamat pagi, chef. Names kap. Saya susah, chef. Saya asku.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:38:43] Output Whisper: 'Selamat pagi, chef. Names, Pat. Saya Sushia. Saya Situ. Selamat pagi.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:38:44] Output Whisper: 'Selamat pagi, chef. Names, Pat. Saya Sushia. Saya Asdu. Fried rice. Wah.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:38:45] Output Whisper: 'Selamat pagi, chef. Names, pack. Saya Sushia. Saya yang stew. Fried rice. Well, a bit simple, no?'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:38:46] Output Whisper: 'Selamat pagi, chef. Names, Pat. Saya Sushia. Saya yang sebuah. Selamat pagi. Well, a bit simple, no?'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:38:47] Output Whisper: 'Selamat pagi, chef. Names, Pat. Saya Sushia. Saya yang sebuah. Selamat pagi. Well, a bit simple, no?'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP (Trailing Flush)
+
+[01:38:48] Output Whisper: 'Selamat pagi, chef. Names, Pat. Saya Sushia. Selamat pagi. Selamat pagi. Well, a bit simple, no?'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:38:49] Output Whisper: 'Selamat pagi, chef, nama saya Pat. Saya Sushia. Selamat pagi. Selamat pagi. Well, a bit simple, no?'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:38:49] Output Whisper: 'Pertahankan kata-kata.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:38:50] Output Whisper: 'Terima kasih.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:38:53] Output Whisper: 'Water.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:38:53] Output Whisper: 'Waka.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:38:54] Output Whisper: 'Bisa. Waka.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:38:54] Output Whisper: 'Terima kasih.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:38:55] Output Whisper: 'Terus, water.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:38:56] Output Whisper: 'Terima kasih.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:38:57] Output Whisper: 'Pada.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:38:59] Output Whisper: 'Pada. Pada. Pada. Pada.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP (Trailing Flush)
+
+[01:39:22] Output Whisper: 'Terus, water,'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:39:23] Output Whisper: 'Terima kasih.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:39:24] Output Whisper: 'New call.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:39:24] Output Whisper: 'You go home.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:39:24] Output Whisper: 'New call.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:39:24] Output Whisper: 'You go.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:39:25] Output Whisper: 'You go home. Yes, chef.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:39:25] Output Whisper: 'New goal. Hei, chef.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:39:26] Output Whisper: 'You go home. Yes, chef. Yes, chef.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:39:26] Output Whisper: 'You go home. Yes, sir.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:39:27] Output Whisper: 'You go home. Yes, chef.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:39:28] Output Whisper: 'You go home. Yes sir. Yes sir.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:39:28] Output Whisper: 'You go home. Yes, chef. Yes, chef. There's no way...'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:39:29] Output Whisper: 'You go home. Yes, chef. Yes, chef. There's no way.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:39:30] Output Whisper: 'You go home. Yes, chef. Yes, chef. There's no way. This kitchen's fine.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:39:31] Output Whisper: 'You go home. Yes, chef. Yes, chef. There's no way. This kid chicks fly way better than me.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:39:32] Output Whisper: 'You go home. Yes, chef. Yes, chef. There's no way. This eight-chicks pie rice is better than mine. I'm a...'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:39:34] Output Whisper: 'You go home. Yes, chef. Yes, chef. There's no way this eight chicks fried rice is better than mine. I'm a graduate. I told you to get...'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:39:35] Output Whisper: 'You go home. Yes, chef. Yes, chef. There's no way this it takes my life's better than mine. I'm a graduate. I told you to get out of here. I won't.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:39:37] Output Whisper: 'You go home. Yes, chef. Yes, chef. There's no way. This it takes my life's better than mine. I'm a graduate. I told you to get out of here. I won't. I told you to get...'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:39:39] Output Whisper: 'You go home. Yes, chef. Yes, chef. There's no way. This it takes my life's better than mine. I'm a graduate. I told you to get out of here. I won't. I told you to get...'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP (Trailing Flush)
+
+[01:39:41] Output Whisper: 'You go home. Yes, chef. Yes, chef. There's no way. This it takes my life's better than mine. I'm a graduate. I told you to get out of here. I won't. I told you to get out of here.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:39:42] Output Whisper: 'Terima kasih.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:39:44] Output Whisper: 'Tak bisa.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:39:45] Output Whisper: 'Taknyemar, update.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:39:45] Output Whisper: 'Tak ada lagi.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:39:47] Output Whisper: 'Jadi kita bisa mengejutkan.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN (Trailing Flush)
+
+[01:39:50] Output Whisper: 'Terima kasih.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP (Trailing Flush)
+
+[01:39:50] Output Whisper: 'Terima kasih.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:39:54] Output Whisper: 'Terima kasih.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP (Trailing Flush)
+
+[01:39:57] Output Whisper: 'Terima kasih.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP (Trailing Flush)
+
+[01:40:00] Output Whisper: 'Ya.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:40:01] Output Whisper: 'Ya, biadu.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:40:01] Output Whisper: 'Ya, beliau dulu.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:40:02] Output Whisper: 'Ya, billyado, chakra di...'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:40:02] Output Whisper: 'Diambil yadu chakra dinarut.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:40:02] Output Whisper: 'Diambil ya dulu.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:40:03] Output Whisper: 'Diambilnya dulu. Chakra Dina Ruto, bagus.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:40:04] Output Whisper: 'Diambilnya dulu, chakra dina ruto, bagus, key.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:40:04] Output Whisper: 'Dia ambilnya dulu, chakra dina ruto, bagus, ki di dragon...'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:40:05] Output Whisper: 'Ya, ambilnya dulu.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+

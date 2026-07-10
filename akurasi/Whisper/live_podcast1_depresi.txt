@@ -1,0 +1,39 @@
+==============================================================
+  HASIL PENGUJIAN AKURASI WHISPER
+  Sistem Notulensi — Live Podcast Depresi
+==============================================================
+  Tanggal     : 30 June 2026, 03:39:52
+  Metode      : jiwer (WER / CER)
+  File Ref    : manual podcast 1.txt
+  File Hyp    : podcast _1.txt
+  Kata Ref    : 1,090
+  Kata Hyp    : 536
+--------------------------------------------------------------
+
+  METRIK UTAMA
+  ──────────────────────────────────────────
+  WER   (Word Error Rate)     :    72.29%
+  WAcc  (Word Accuracy)       :    27.71%
+  CER   (Character Error Rate):    60.42%
+
+  DETAIL ERROR (Word-level)
+  ──────────────────────────────────────────
+  Substitutions (S) :    210
+  Deletions     (D) :    566
+  Insertions    (I) :     12
+  Hits          (H) :    314
+  Total Ref     (N) :   1090
+
+  PENILAIAN
+  ──────────────────────────────────────────
+  Kualitas WER  :  Perlu Peningkatan ✗
+  Kualitas CER  :  Perlu Peningkatan ✗
+
+==============================================================
+  CATATAN:
+  - WER ideal untuk speech-to-text: < 10%
+  - WAcc = 100% - WER
+  - CER lebih ketat karena dihitung per karakter
+  - Normalisasi: lowercase, hapus tanda baca,
+    hapus frasa halusinasi Whisper
+==============================================================

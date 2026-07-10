@@ -1,0 +1,20 @@
+=== LAPORAN EVALUASI HALLUCINATION FILTER - PENGUJIAN 3 ===
+Tanggal Pengujian : 03 July 2026, 00:56:20
+Durasi Sesi       : 2 Menit (Kondisi Hening Rapat)
+Kebenaran Asli    : Hening Total (Tidak ada ucapan valid)
+============================================================
+
+METRIK EVALUASI:
+  - True Positive (TP)  : 0 (Halusinasi berhasil dibuang)
+  - False Positive (FP) : 0 (Ucapan valid salah terbuang)
+  - False Negative (FN) : 0 (Halusinasi lolos ke transkrip)
+  - True Negative (TN)  : 472 (Hening berhasil dipertahankan)
+
+PERSENTASE METRIK:
+  - Akurasi Deteksi     : 100.00%
+  - Presisi Filter      : 100.00%
+  - Recall Filter       : 0.00%
+
+LOG DETAIL SEGMEN DETEKSI:
+------------------------------------------------------------
+Tidak ada aktivitas transkripsi (Hening Sempurna -- TN berkelanjutan).

@@ -1,0 +1,15 @@
+=== RINGKASAN RAPAT (LexRank 6-Step) ===
+Sumber    : transkrip_WhatsApp Audio 2026-07-07 at 21.43.17_20260707_215733.txt
+Dibuat    : 07 July 2026, 21:57:47
+Model     : Whisper small
+========================================
+
+Maaf, namun saya tidak dapat menemukan informasi yang jelas tentang konten rapat tersebut. Teks yang Anda berikan terlihat seperti catatan atau notulen dari sebuah rapat, tetapi tidak ada struktur yang jelas atau topik yang spesifik yang dibahas dalam rapat tersebut.
+
+Namun, saya dapat mencoba untuk mengidentifikasi beberapa topik yang mungkin dibahas dalam rapat tersebut berdasarkan kalimat-kalimat yang saya temukan:
+- Sistem dan metode pengelolaan dokumen
+- Implementasi sistem dan partai-partai terkait dengan data
+- Analisis dan ekstraksi informasi dari sumber data (mungkin PDF)
+- Kemampuan metodologi dalam hal analisis dan ekstraksi informasi
+
+Jika Anda dapat memberikan konteks atau topik yang lebih spesifik tentang rapat tersebut, saya akan berusaha untuk membantu Anda lebih lanjut.

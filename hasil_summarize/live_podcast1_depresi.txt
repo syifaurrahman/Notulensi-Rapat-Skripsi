@@ -1,0 +1,46 @@
+=== RINGKASAN RAPAT (LIVE — LexRank) ===
+Sumber    : transkrip_20260623_215212.txt
+Dibuat    : 23 June 2026, 21:53:54
+Model     : Whisper small
+========================================
+
+**Pembukaan:**
+- Rapat ini dibuka oleh seorang ahli psikologi yang membahas tentang depresi sebagai kondisi psikologis yang kompleks.
+- Agenda rapat adalah untuk memahami apa itu depresi, tanda-tandanya, dan bagaimana mengatasinya.
+
+**Depresi sebagai Kondisi Psikologis:**
+- Depresi bukan hanya perasaan sedih atau kurang bersyukur, melainkan kondisi psikologis yang kompleks.
+- Faktor biologis, psikologis, dan sosial dapat mempengaruhi depresi.
+
+**Tanda-Tanda Depresi:**
+- Berkurangnya energi
+- Munculnya gangguan dalam kehidupan sehari-hari
+- Sulit bangun dari tempat tidur
+- Kelangan motivasi belajar atau bekerja
+- Menarik diri dari lingkungan sosial
+- Pikiran seperti "mengapa ya hidup saya tidak seperti mereka"
+- Tanda-tanda depresi yang perlu diwaspadai:
+ - Ditas yang disukai (meningkatkan kecanduan)
+ - Sulit berkoncentrasi
+ - Mudah lelah
+ - Gangguan tidur
+ - Nabsumakan
+
+**Pola Pikir Negatif:**
+- Konsep negative thinking, patterns, atau pola pikir negatif dapat mempengaruhi depresi.
+- Orang yang mengalami depresi seringkali memiliki tiga pandangan:
+ 1. "Saya gagal karena saya tidak cukup pintar"
+ 2. "Saya gagal karena saya tidak mampu"
+ 3. "Saya gagal karena saya tidak bisa"
+
+**Pengaruh Media Sosial:**
+- Media sosial dapat membuat seseorang membandingkan diri dengan orang lain.
+- Akibatnya, pikiran seperti "mengapa ya hidup saya tidak seperti mereka".
+
+**Kesimpulan:**
+- Depresi bukanlah tanda kelemahan, kemalasan, atau kurangnya keimanan seseorang.
+- Depresi adalah kondisi yang perlu diwaspadai dan diatasi dengan bantuan profesional jika diperlukan.
+
+**Tindak Lanjut:**
+- Penting untuk memahami bahwa depresi bukanlah hal yang dapat dipecahkan sendiri, tetapi memerlukan bantuan profesional.
+- Orang yang mengalami depresi perlu mendapatkan dukungan dari keluarga, teman, dan profesional.

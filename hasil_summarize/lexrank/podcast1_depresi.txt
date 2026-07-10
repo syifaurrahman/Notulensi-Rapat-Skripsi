@@ -1,0 +1,10 @@
+=== HASIL LEXRANK EXTRACTIVE ===
+Sumber    : podcast _1.txt
+Model     : Whisper small
+========================================
+
+Banyak orang yang menganggap depresi hanya sebagai perasaan sedih yang berlebihan atau kurang bersyukur, Padahal depresi adalah kondisi psikologis yang kompetensi. Banyak orang yang menganggap depresi hanya sebagai perasaan sedih yang berlebihan atau kurang bersyukur. Seseorang yang mengalami depresi mungkin merasa sulit bangun dari tempat tidur, kelangan motivasi belajar.
+
+Seseorang yang mengalami depresi mungkin merasa sulit bangun dari tempat tidur, kelangan motivasi belajar atau bekerja, menarik diri dari lingkungan sosial. Apa seseorang mengalami depresi dalam psikologi modern, depresi dipahami sebagai hasil interaksi antara Apa seseorang mengalami depresi? Dalam psikologi modern, depresi dipahami sebagai hasil interaksi antara faktor biologis, psikologis, dan sosial.
+
+Akibatnya muncul pikiran seperti, mengapa ya hidup saya tidak seperti mereka. Tanda-tanda depresi yang perlu diwaspadai, apa saja tanda-tanda depresi yang perlu diperhatikan, Ditas yang disukai, yang ketiga, sulit.

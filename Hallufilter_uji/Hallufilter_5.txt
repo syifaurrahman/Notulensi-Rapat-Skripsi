@@ -1,0 +1,107 @@
+=== LAPORAN EVALUASI HALLUCINATION FILTER - PENGUJIAN 5 ===
+Tanggal Pengujian : 03 July 2026, 01:00:20
+Durasi Sesi       : 2 Menit (Kondisi Hening Rapat)
+Kebenaran Asli    : Hening Total (Tidak ada ucapan valid)
+============================================================
+
+METRIK EVALUASI:
+  - True Positive (TP)  : 10 (Halusinasi berhasil dibuang)
+  - False Positive (FP) : 0 (Ucapan valid salah terbuang)
+  - False Negative (FN) : 12 (Halusinasi lolos ke transkrip)
+  - True Negative (TN)  : 159 (Hening berhasil dipertahankan)
+
+PERSENTASE METRIK:
+  - Akurasi Deteksi     : 93.37%
+  - Presisi Filter      : 100.00%
+  - Recall Filter       : 45.45%
+
+LOG DETAIL SEGMEN DETEKSI:
+------------------------------------------------------------
+[00:58:58] Output Whisper: 'Terima kasih.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[00:59:01] Output Whisper: 'Pertahankan kata-kata.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[00:59:02] Output Whisper: 'Terima kasih.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[00:59:02] Output Whisper: 'Pertahankan kata-kata.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[00:59:03] Output Whisper: 'Pertahankan kata-kata ini menggunakan bahasa Indonesia yang dicampur istilah teknis berbahasa Inggris.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[00:59:04] Output Whisper: 'Pertahankan kata-kata.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[00:59:04] Output Whisper: 'Pertahankan kata-kata Inggris apa adanya, jangan diterjemahkan.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[00:59:06] Output Whisper: 'Pertahankan kata-kata Inggris apa adanya, jangan diterjemahkan. Contoh,'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[00:59:08] Output Whisper: 'Pertahankan kata-kata Inggris apa adanya, jangan diterjemahkan.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[00:59:22] Output Whisper: 'Kami menggunakan bahasa Inggris apa yang menggunakan bahasa Inggris apa yang menggunakan bahasa Inggris apa yang menggunakan bahasa Inggris apa yang menggunakan bahasa Inggris apa yang menggunakan bahasa Inggris apa yang menggunakan bahasa Inggris apa yang menggunakan bahasa Inggris apa yang menggunakan bahasa Inggris apa yang menggunakan bahasa Inggris apa yang menggunakan bahasa Inggris apa yang menggunakan bahasa Inggris apa yang menggunakan bahasa Inggris apa yang menggunakan bahasa Inggris apa yang menggunakan bahasa Inggris apa yang menggunakan bahasa Inggris apa yang menggunakan bahasa Inggris apa yang menggunakan bahasa Inggris apa yang menggunakan bahasa Inggris apa yang menggunakan bahasa Inggris apa yang menggunakan bahasa Inggris apa yang menggunakan bahasa Inggris apa yang meng'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[00:59:22] Output Whisper: 'Terima kasih.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[00:59:29] Output Whisper: 'I'm just gonna start with the things that I've learned from the past. I'm just gonna start with the things that I've learned from the past. I'm just gonna start with the things that I've learned from the past. I'm just gonna start with the things that I've learned from the past. I'm just gonna start with the things that I've learned from the past. I'm just gonna start with the things that I've learned from the past. I'm just gonna start with the things that I've learned from the past.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[00:59:35] Output Whisper: 'Pertahankan kata-kata, asa yang akan diperkenalkan. Pertahankan kata-kata, asa yang akan diperkenalkan. Pertahankan kata-kata, asa yang akan diperkenalkan.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[00:59:45] Output Whisper: 'Pertahankan kata-kata, dan menggunakan bahasa Indonesia yang dicampur istilah teknis berbahasa Inggris. Pertahankan kata-kata, dan menggunakan bahasa Indonesia yang dicampur istilah teknis berbahasa Inggris. Pertahankan kata-kata, dan menggunakan bahasa Inggris. Pertahankan kata-kata, dan menggunakan bahasa Inggris. Pertahankan kata-kata, dan menggunakan bahasa Inggris.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[00:59:46] Output Whisper: 'Pertahankan kata-kata,'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[00:59:56] Output Whisper: 'Pertahankan kata-kata Inggris apa adanya, jangan diterjemahkan. Contoh, machine learning, deep learning, framework, update, meeting, development, data, data, data, data, data, data, data, data, data, data, data, data, data, data, data, data, data, data, data, data, data, data, data, data, data, data, data, data, data, data, data, data, data, data, data, data, data, data, data, data, data, data, data, data, data, data, data, data, data, data, data, data, data, data, data, data, data, data, data, data, data, data, data, data, data, data, data, data, data, data, data, data, data, data, data, data, data, data, data, data, data, data, data, data, data, data, data, data, data, data, data,'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:00:05] Output Whisper: 'Pertahankan kata-kata, Pertahankan kata-kata, Pertahankan kata-kata, Pertahankan kata-kata, Pertahankan kata-kata, Pertahankan kata-kata, Pertahankan kata-kata, Pertahankan kata-kata, Pertahankan kata-kata, Pertahankan kata-kata, Pertahankan kata-kata, Pertahankan kata-kata, Pertahankan kata-kata, Pertahankan kata-kata, Pertahankan kata-kata, Pertahankan kata-kata, Pertahankan kata-kata, Pertahankan kata-kata, Pertahankan kata-kata, Pertahankan'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:00:06] Output Whisper: 'Pertahankan kata-kata, Pertahankan kata-kata,'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:00:11] Output Whisper: 'I think it's a good thing to be able to do that. I'm not going to be doing that. I'm going to do that. I'm going to do that. I'm going to do that. I'm going to do that. I'm going to do that. I'm going to do that.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:00:15] Output Whisper: 'Can you hear me? Can you hear me? Can you hear me? Can you hear me? Can you hear me? Can you hear me? Can you hear me? Can you hear me?'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:00:16] Output Whisper: 'Terima kasih.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:00:17] Output Whisper: 'Pertahankan kata-kata Inggris. Pertahankan kata-kata Inggris.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+

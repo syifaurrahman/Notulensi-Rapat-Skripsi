@@ -420,21 +420,65 @@ def handle_request_summarize(data):
             result = summarizer.summarize_with_debug(summarize_text)
             ringkasan = result['ringkasan']
             ranked_sentences = result.get('ranked_sentences', [])
+            lexrank_extractive  = result.get('lexrank_extractive', '')
+            ollama_result       = result.get('ollama_result', None)
             if not ringkasan:
                 ringkasan = "Tidak ada ringkasan yang dihasilkan."
 
             # Simpan file ringkasan
-            ts_now = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
-            sum_filename = f"ringkasan_live_{ts_now}.txt"
+            if fname and fname.startswith("transkrip_"):
+                sum_filename = fname.replace("transkrip_", "ringkasan_")
+            else:
+                ts_now = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
+                sum_filename = f"ringkasan_live_{ts_now}.txt"
+
+            # ── [1] Simpan ringkasan UTAMA ke hasil_summarize/ ──
             sum_path = os.path.join(HASIL_SUMMARIZE_DIR, sum_filename)
             with open(sum_path, "w", encoding="utf-8") as sf:
-                sf.write("=== RINGKASAN RAPAT (LIVE — LexRank) ===\n")
+                sf.write("=== RINGKASAN RAPAT (LIVE — LexRank 6-Step) ===\n")
                 sf.write(f"Sumber    : {fname}\n")
                 sf.write(f"Dibuat    : {datetime.datetime.now().strftime('%d %B %Y, %H:%M:%S')}\n")
                 sf.write(f"Model     : Whisper {live_cfg.model_size}\n")
                 sf.write(f"{'=' * 40}\n\n")
                 sf.write(ringkasan)
             print(f"[Server] ✓ Ringkasan Live disimpan: {sum_filename}", flush=True)
+
+            # ── [2] Simpan hasil LexRank EXTRACTIVE ke hasil_summarize/Lexrank/ ──
+            if lexrank_extractive:
+                lexrank_filename = "lexrank_" + fname.replace("transkrip_", "") if (fname and fname.startswith("transkrip_")) else f"lexrank_live_{ts_now}.txt"
+                lexrank_path = os.path.join(HASIL_LEXRANK_DIR, lexrank_filename)
+                with open(lexrank_path, "w", encoding="utf-8") as lf:
+                    lf.write("=== HASIL LEXRANK EXTRACTIVE (LIVE) ===\n")
+                    lf.write(f"Sumber    : {fname}\n")
+                    lf.write(f"Dibuat    : {datetime.datetime.now().strftime('%d %B %Y, %H:%M:%S')}\n")
+                    lf.write(f"Model     : Whisper {live_cfg.model_size}\n")
+                    lf.write(f"{'=' * 40}\n\n")
+                    lf.write(lexrank_extractive)
+                print(f"[Server] ✓ LexRank extractive Live disimpan ke Lexrank/{lexrank_filename}", flush=True)
+
+            # ── [3] Simpan hasil OLLAMA ABSTRACTIVE ke hasil_summarize/Ollama/ ──
+            if ollama_result:
+                ollama_filename = "ollama_" + fname.replace("transkrip_", "") if (fname and fname.startswith("transkrip_")) else f"ollama_live_{ts_now}.txt"
+                ollama_path = os.path.join(HASIL_OLLAMA_DIR, ollama_filename)
+                with open(ollama_path, "w", encoding="utf-8") as of:
+                    of.write("=== HASIL OLLAMA ABSTRACTIVE (LIVE) ===\n")
+                    of.write(f"Sumber    : {fname}\n")
+                    of.write(f"Dibuat    : {datetime.datetime.now().strftime('%d %B %Y, %H:%M:%S')}\n")
+                    of.write(f"Model     : Whisper {live_cfg.model_size} + {sum_cfg.ollama_model}\n")
+                    of.write(f"{'=' * 40}\n\n")
+                    of.write(ollama_result)
+                print(f"[Server] ✓ Ollama abstractive Live disimpan ke Ollama/{ollama_filename}", flush=True)
+            else:
+                print(f"[Server] ℹ Ollama tidak tersedia/gagal — file Ollama tidak dibuat (Live)", flush=True)
+
+            # ── Simpan debug JSON ──
+            debug_path = sum_path.replace('.txt', '_debug.json')
+            try:
+                import json as _json
+                with open(debug_path, 'w', encoding='utf-8') as df:
+                    _json.dump(ranked_sentences, df, ensure_ascii=False, indent=2)
+            except Exception:
+                pass
 
             update_summary_in_db(d_id, ringkasan)
             print(f"[Server] ✓ DB ID {d_id} diupdate (Live summarize)", flush=True)

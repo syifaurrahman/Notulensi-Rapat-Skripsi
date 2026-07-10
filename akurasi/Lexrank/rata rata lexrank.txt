@@ -1,0 +1,33 @@
+====================================================================
+  RATA-RATA EVALUASI KORELASI LEXRANK (DATASET UPLOAD - 9 TOPIK)
+  Sistem Notulensi — Upload Rapat (Rata-rata 9 Rapat)
+====================================================================
+  Jumlah Dataset Pengujian : 9 file rapat
+  Tanggal Perhitungan      : 01 July 2026
+--------------------------------------------------------------------
+  RINCIAN RATA-RATA METRIK
+--------------------------------------------------------------------
+  1. Cosine Similarity (TF-IDF)          :   62.52%
+  2. Jaccard Similarity (kosakata unik)  :   10.99%
+  3. Token Retention Rate                :    7.29%
+  4. Sentence Coverage                   :  100.00%
+  5. Compression Ratio (lex/transkrip)   :    7.25%
+--------------------------------------------------------------------
+  KESIMPULAN UMUM
+--------------------------------------------------------------------
+  Rata-rata korelasi (4 metrik utama)    :   45.20%
+  Status: CUKUP BERKORELASI
+====================================================================
+
+  DETAIL METRIK PER TOPIK RAPAT:
+--------------------------------------------------------------------
+  *  meeting esg and qhse.txt                  : Cosine=44.67%, Jaccard=9.32%, Coverage=100.00%
+  * ilmu komunikasi.txt                        : Cosine=78.31%, Jaccard=5.97%, Coverage=100.00%
+  * keselamatan kerja.txt                      : Cosine=65.55%, Jaccard=5.45%, Coverage=100.00%
+  * kolerasi_lexrank_digital marketing.txt     : Cosine=78.76%, Jaccard=4.26%, Coverage=100.00%
+  * kolerasi_lexrank_psikologi.txt             : Cosine=67.94%, Jaccard=16.17%, Coverage=100.00%
+  * manajemen bisnis.txt                       : Cosine=63.54%, Jaccard=20.67%, Coverage=100.00%
+  * rapat komisi dpr.txt                       : Cosine=27.99%, Jaccard=2.33%, Coverage=100.00%
+  * zoom meeting basis data.txt                : Cosine=65.47%, Jaccard=7.67%, Coverage=100.00%
+  * zoom meeting kwu.txt                       : Cosine=70.44%, Jaccard=27.11%, Coverage=100.00%
+====================================================================

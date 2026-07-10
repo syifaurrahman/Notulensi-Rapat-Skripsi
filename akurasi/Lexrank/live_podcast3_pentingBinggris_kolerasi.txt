@@ -1,0 +1,73 @@
+====================================================================
+   HASIL KORELASI: LexRank <-> Transkripsi Whisper
+   Sistem Notulensi — Live Podcast Pentingnya Bahasa Inggris
+====================================================================
+
+FILE LEXRANK   : hasil_summarize/lexrank/podcast3_pentingnya_bahasa_inggris.txt
+FILE TRANSKRIP : hasil/live_podcast3_pentingnya_bahasa_inggris.txt
+
+--------------------------------------------------------------------
+  STATISTIK DOKUMEN
+--------------------------------------------------------------------
+  Token LexRank (raw)                      : 458
+  Token Transkrip (raw)                    : 2679
+  Token LexRank (tanpa stopword)           : 341
+  Token Transkrip (tanpa stopword)         : 1959
+  Kosakata unik LexRank                    : 193
+  Kosakata unik Transkrip                  : 896
+  Kosakata overlap (irisan)                : 192
+  Jumlah kalimat LexRank                   : 25
+
+--------------------------------------------------------------------
+  METRIK KORELASI
+--------------------------------------------------------------------
+  1. Cosine Similarity (TF-IDF)              :  77.24%
+  2. Jaccard Similarity (kosakata unik)      :  21.40%
+  3. Token Retention Rate                    :  17.36%
+  4. Sentence Coverage                       : 100.00%
+  5. Compression Ratio (lex/transkrip)       :  17.10%
+
+--------------------------------------------------------------------
+  INTERPRETASI SETIAP METRIK
+--------------------------------------------------------------------
+  Cosine Similarity  : TINGGI [OK]
+  Jaccard Similarity : RENDAH  [!]
+  Token Retention    : RENDAH  [!]
+  Sentence Coverage  : TINGGI [OK]
+  Compression Ratio  : BAIK (ringkasan padat, 17.1% panjang transkrip)
+
+--------------------------------------------------------------------
+  DETAIL COVERAGE PER KALIMAT LEXRANK
+--------------------------------------------------------------------
+  [ 1] [EXACT] Jaccard=1.000  "Namun kalau kita melihat landscape hari ini, apakah cara pendeng seper..."
+  [ 2] [EXACT] Jaccard=1.000  "Kita hidup di era dimana dunia sudah terdigitalisasi secara total tanp..."
+  [ 3] [EXACT] Jaccard=1.000  "Percent konten di internet itu, itu produksi dalam bahasa Inggris, sem..."
+  [ 4] [EXACT] Jaccard=1.000  "Tepat sekali ya di era dimana perubahan terjadi setiap detik kecepatan..."
+  [ 5] [EXACT] Jaccard=1.000  "Untuk utama siapa yang memimpin dan siapa mengekorkan, anak yang mengu..."
+  [ 6] [EXACT] Jaccard=1.000  "Sekarang mari kita geser ke proyeksi masa depan mereka, yaitu dunia ke..."
+  [ 7] [EXACT] Jaccard=1.000  "Sekali di era dimana perubahan terjadi setiap detik, kecepatan akses i..."
+  [ 8] [EXACT] Jaccard=1.000  "Anak yang menguasai bahasa Inggris memiliki kedaulatan penuh atas apa ..."
+  [ 9] [EXACT] Jaccard=1.000  "Tantangan dunia kerja masa depan itu sangat menentang sekaligus membuk..."
+  [10] [EXACT] Jaccard=1.000  "Karir, atau karir tanpa batas negara, anak-anak zaman sekarang tidak l..."
+  [11] [EXACT] Jaccard=1.000  "Pertahankan kata-kata atau management project akan terkunci di pasar d..."
+  [12] [EXACT] Jaccard=1.000  "Ini adalah sisi science yang sangat menarik dari linguistik masrihan..."
+  [13] [EXACT] Jaccard=1.000  "Bahasa Inggris bagi anak zaman sekarang, bukan lagi sebuah opsi kuriku..."
+  [14] [EXACT] Jaccard=1.000  "Di internet ada perbedaan kualitas yang sangat mencolok antara algorit..."
+  [15] [EXACT] Jaccard=1.000  "Namun, mas Bhaskara, kalau kita biterah soal penerapan bahasa Inggris ..."
+  [16] [EXACT] Jaccard=1.000  "Bagaimana kita harus mennafikasi ketegangan antara pentingnya belajar ..."
+  [17] [EXACT] Jaccard=1.000  "Namun bagi anak-anak zaman sekarang yang visioner, mereka harus meliha..."
+  [18] [EXACT] Jaccard=1.000  "Sekarang kita masuk ke sektor yang sedang sangat digerandungi anak zam..."
+  [19] [EXACT] Jaccard=1.000  "Bahasa Indonesia, bahasa Inggris membebaskan anak-anak zaman sekarang ..."
+  [20] [EXACT] Jaccard=1.000  "Pertahankan kata-kata dengan bahasa Inggris yang kuat sejak diini, kit..."
+  [21] [EXACT] Jaccard=1.000  "Penggasaan bahasa Inggris tingkat lanjut menjadi semakin crucial bagi ..."
+  [22] [EXACT] Jaccard=1.000  "Pertahankan kata-kata, berarti ada perbedaan kualitas output yang diha..."
+  [23] [EXACT] Jaccard=1.000  "Playa dari perubahan iklim, pergesaran peta ekonomi dunia hingga Seber..."
+  [24] [EXACT] Jaccard=1.000  "Terima kasih berbahasa Inggris memiliki kemampuan untuk melakukan navi..."
+  [25] [EXACT] Jaccard=1.000  "Terima kasih, mas Bhaskara sudah berhadir di program edukasi ini..."
+
+====================================================================
+  KESIMPULAN
+====================================================================
+  Rata-rata korelasi (4 metrik utama) : 54.00%
+  Kesimpulan                          : LexRank CUKUP BERKORELASI dengan transkripsi Whisper.
+====================================================================

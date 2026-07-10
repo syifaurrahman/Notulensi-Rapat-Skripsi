@@ -1,0 +1,179 @@
+=== LAPORAN EVALUASI HALLUCINATION FILTER - PENGUJIAN 6 ===
+Tanggal Pengujian : 03 July 2026, 01:07:29
+Durasi Sesi       : 2 Menit (Kondisi Hening + Noise Kipas)
+Kebenaran Asli    : Hening Total (Tidak ada ucapan valid)
+============================================================
+
+METRIK EVALUASI:
+  - True Positive (TP)  : 10 (Halusinasi berhasil dibuang)
+  - False Positive (FP) : 0 (Ucapan valid salah terbuang)
+  - False Negative (FN) : 30 (Halusinasi lolos ke transkrip)
+  - True Negative (TN)  : 94 (Hening berhasil dipertahankan)
+
+PERSENTASE METRIK:
+  - Akurasi Deteksi     : 77.61%
+  - Presisi Filter      : 100.00%
+  - Recall Filter       : 25.00%
+
+LOG DETAIL SEGMEN DETEKSI:
+------------------------------------------------------------
+[01:05:31] Output Whisper: 'Terima kasih.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:05:35] Output Whisper: 'Pertahankan kata-kata.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:05:39] Output Whisper: 'Pertahankan kata-kata.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN (Trailing Flush)
+
+[01:06:00] Output Whisper: 'Pertahankan kata-kata, Pertahankan kata-kata, Pertahankan kata-kata, Pertahankan kata-kata, Pertahankan kata-kata.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:06:01] Output Whisper: 'Terima kasih.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:06:04] Output Whisper: 'Pertahankan kata-kata.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:06:05] Output Whisper: 'Terima kasih.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:06:05] Output Whisper: 'Pertahankan kata-kata.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:06:06] Output Whisper: 'Pertahankan kata-kata inggris apa adanya, jangan diterjemahkan.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:06:06] Output Whisper: 'Pertahankan kata-kata.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:06:07] Output Whisper: 'Terima kasih.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:06:08] Output Whisper: 'Pertahankan kata-kata Inggris apa adanya, jangan diterjemahkan. Contoh,'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN (Trailing Flush)
+
+[01:06:09] Output Whisper: 'Pertahankan kata-kata Inggris apa adanya, jangan diterjemahkan.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:06:09] Output Whisper: 'Terima kasih.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:06:16] Output Whisper: 'Pertahankan kata-kata.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:06:17] Output Whisper: 'Pertahankan kata-kata inggris apa adanya, jangan diterjemahkan.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:06:20] Output Whisper: 'Pertahankan kata-kata inggris apa adanya, jangan diterjemahkan. Contoh, Terima kasih kerana menonton.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:06:22] Output Whisper: 'Pertahankan kata-kata inggris apa adanya, jangan diterjemahkan. Contoh, Terima kasih.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:06:22] Output Whisper: 'Pertahankan kata-kata,'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:06:23] Output Whisper: 'Pertahankan kata-kata Inggris apa adanya, jangan diterjemahkan,'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:06:25] Output Whisper: 'Pertahankan kata-kata Inggris apa adanya, jangan diterjemahkan,'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN (Trailing Flush)
+
+[01:06:29] Output Whisper: 'Pertahankan kata-kata, pilihnya, melihat kecantikan, memperhatikan, melihat, melihat, melihat, melihat, melihat, melihat, melihat, melihat, melihat, melihat, melihat, melihat, melihat, melihat, melihat, melihat.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:06:36] Output Whisper: 'Pertahankan kata-kata, Pertahankan, Pertahankan, Pertahankan, Pertahankan, Pertahankan, Pertahankan, Pertahankan, Pertahankan, Pertahankan, Pertahankan, Pertahankan, Pertahankan, Pertahankan, Pertahankan, Pertahankan, Pertahankan.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:06:36] Output Whisper: 'Terima kasih.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:06:42] Output Whisper: 'Bagaimana dengan perasaan, perasaan, perasaan, perasaan, perasaan, perasaan? Bagaimana dengan perasaan, perasaan, perasaan, perasaan, perasaan, perasaan?'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:06:48] Output Whisper: 'Pertahankan kata-kata, Pertahankan kata-kata, Pertahankan kata-kata, Pertahankan kata-kata, Pertahankan kata-kata, Pertahankan kata-kata, Pertahankan kata-kata, Pertahankan kata-kata, Pertahankan kata-kata.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:06:55] Output Whisper: 'Bagaimana dengan penggunaan kemarenan? Kami akan membuat perusahaan untuk menggunakan bahasa Indonesia. Kami akan membuat perusahaan untuk menggunakan bahasa Indonesia. Kami akan membuat perusahaan untuk menggunakan bahasa Indonesia. Kami akan membuat perusahaan untuk menggunakan bahasa Indonesia. Kami akan membuat perusahaan untuk menggunakan bahasa Indonesia.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:06:55] Output Whisper: 'Terima kasih.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:06:56] Output Whisper: 'Pertahankan kata-kata,'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:06:57] Output Whisper: 'Pertahankan kata-kata inggris apa adanya, jangan diterjemahkan'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:06:57] Output Whisper: 'Pertahankan kata-kata,'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:06:58] Output Whisper: 'Pertahankan kata-kata Inggris apa adanya, jangan diterjemahkan,'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:06:59] Output Whisper: 'Pertahankan kata-kata,'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:07:01] Output Whisper: 'Pertahankan kata-kata Inggris apa adanya, jangan diterjemahkan,'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:07:03] Output Whisper: 'Pertahankan kata-kata Inggris apa adanya, jangan diterjemahkan. Contoh,'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:07:05] Output Whisper: 'Pertahankan kata-kata Inggris apa adanya, jangan diterjemahkan. Contoh-kata Inggris apa adanya, jangan diterjemahkan.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:07:06] Output Whisper: 'Pertahankan kata-kata Inggris apa adanya, jangan diterjemahkan. Contoh-kata Inggris apa adanya, jangan diterjemahkan.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN (Trailing Flush)
+
+[01:07:10] Output Whisper: 'Pertahankan kata-kata.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:07:18] Output Whisper: 'Pertahankan kata-kata, PTA, PTA, PTA, PTA, PTA, PTA, PTA, PTA, PTA, PTA, PTA, PTA, PTA, PTA, PTA, PTA, PTA, PTA, PTA, PTA, PTA, PTA, PTA, PTA, PTA, PTA, PTA, PTA, PTA, PTA, PTA, PTA, PTA, PTA, PTA, PTA, PTA, PTA, PTA, PTA, PTA, PTA, PTA, PTA, PTA, PTA, PTA, PTA, PTA, PTA, PTA, PTA, PTA, PTA, PTA, PTA, PTA, PTA, PTA, PTA, PTA, PTA, PTA, PTA, PTA, PTA, PTA, PTA, PTA, PTA, PTA'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:07:18] Output Whisper: 'Terima kasih.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+

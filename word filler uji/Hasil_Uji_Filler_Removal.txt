@@ -1,0 +1,12 @@
+=== LAPORAN PENGUJIAN WORD FILLER REMOVAL ===
+Metode: Pengukuran reduksi jumlah kata (Word Count) sebelum dan sesudah filtering.
+--------------------------------------------------------------------------------
+
+| No | Teks Asli (Raw Transcript) | Teks Bersih (Cleaned) | Kata Awal | Kata Akhir | Kata Dihapus | Reduksi (%) |
+|----|----------------------------|-----------------------|-----------|------------|--------------|-------------|
+| 1 | 'Nah, jadi gini rekan-rekan, pada kesempatan ini eee kita akan membahas attml dan css ya kan.' | 'Gini rekan-rekan, pada kesempatan ini kita akan membahas attml dan css.' | 16 | 11 | 5 | 31.25% |
+| 2 | 'Oke baik ya, untuk materi Bootstrap itu nanti silakan dipelajari terus dicoba juga ya.' | 'Untuk materi Bootstrap itu nanti silakan dipelajari terus dicoba juga.' | 14 | 10 | 4 | 28.57% |
+| 3 | 'Eh... mmm... intinya kita harus menyelesaikan update layout web ini sih, dong, ya.' | '... mmm... intinya kita harus menyelesaikan update layout web ini.' | 13 | 10 | 3 | 23.08% |
+| 4 | 'Jadi, untuk database kita pakai meskel ya kan, terus jangan lupa di-backup dulu deh.' | 'Untuk database kita pakai meskel ya kan, terus jangan lupa di-backup dulu.' | 14 | 12 | 2 | 14.29% |
+| 5 | 'Nah ini, untuk codingan kita nanti taruh di github aja ya, oke?' | 'Ini, untuk codingan kita nanti taruh di github aja ya, oke?' | 12 | 11 | 1 | 8.33% |
+| | **TOTAL REKAPITULASI** | | **69** | **54** | **15** | **21.74%** |

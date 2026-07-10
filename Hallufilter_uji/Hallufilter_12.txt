@@ -1,0 +1,175 @@
+=== LAPORAN EVALUASI HALLUCINATION FILTER - PENGUJIAN 12 ===
+Tanggal Pengujian : 03 July 2026, 01:21:51
+Durasi Sesi       : 2 Menit (Kondisi Hening + Kipas + Percakapan Latar)
+Kebenaran Asli    : Pidato Rapat Aktif (Dengan teks pidatowhisperhalluuji.txt)
+============================================================
+
+METRIK EVALUASI:
+  - True Positive (TP)  : 21 (Halusinasi berhasil dibuang)
+  - False Positive (FP) : 4 (Ucapan valid salah terbuang)
+  - False Negative (FN) : 14 (Halusinasi lolos ke transkrip)
+  - True Negative (TN)  : 4 (Hening berhasil dipertahankan)
+
+PERSENTASE METRIK:
+  - Akurasi Deteksi     : 58.14%
+  - Presisi Filter      : 84.00%
+  - Recall Filter       : 60.00%
+
+LOG DETAIL SEGMEN DETEKSI:
+------------------------------------------------------------
+[01:19:53] Output Whisper: 'Bukti ini kan sudah bisa apa-apa, akhirnya saya sudah keram, gue ngerti nggak.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN (Trailing Flush)
+
+[01:19:55] Output Whisper: 'Bukti, kok sudah bisa apa-apa kok akhirnya, saya sudah keram, kok ngerti nggak? Udah lepid, ya pernah.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:19:55] Output Whisper: 'Buksi ini kan sudah bisa apa-apa, akhirnya saya sudah kram, gue ngerti nggak, sudah lepid, nggak pernah kram saya.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:19:55] Output Whisper: 'goodbye'
+            Keputusan Filter: BUANG
+            Status Evaluasi : FP
+
+[01:19:56] Output Whisper: 'Pertahankan kata-kata.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:19:58] Output Whisper: 'Pertahankan kata-kata,'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:20:00] Output Whisper: 'Nah, nah, nah, nah. Salam!'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:20:00] Output Whisper: 'thank you'
+            Keputusan Filter: BUANG
+            Status Evaluasi : FP
+
+[01:20:01] Output Whisper: 'okay'
+            Keputusan Filter: BUANG
+            Status Evaluasi : FP
+
+[01:20:02] Output Whisper: 'yes'
+            Keputusan Filter: BUANG
+            Status Evaluasi : FP
+
+[01:20:03] Output Whisper: 'Terima kasih kerana menonton.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:20:04] Output Whisper: 'Terima kasih.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:20:06] Output Whisper: 'Hei, maaf, maaf. Salam, salam ini, salam hari. Awas ya, bukan. bilang itu bukan kelas saya'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:20:10] Output Whisper: 'Eh, maaf, maaf. Salam, salam hari, salam hari. Awas ya, bukan. Bila, itu bukan kelas saya.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:20:17] Output Whisper: 'Hei, maaf, maaf. Salam, apa? Salam, disalamari. Apa sih? Bukan. Mereka bilang, itu bukan kelas saya, kelas saya 60.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:20:23] Output Whisper: 'Eh, salah apa? Salam, disalam hari. Awas ya, bukannya. Belum, itu bukan kelas saya. Kelas saya 60, 57. Emang ada yang berani dalam saya 57 kau.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:20:24] Output Whisper: 'So, no, I don't respect the class at all.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:20:25] Output Whisper: 'Kamu ada risiko, lah, segalanya. Saya juga nggak lakiin mopi aja, saya, saya diwarung terus, ya.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:20:26] Output Whisper: 'Semua ada rispe kelahan segala, tahu. Saya juga nggak lakiin mopi aja, saya. Saya diwarung terus, ya.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:20:28] Output Whisper: 'Semua ada risiko lah segala itu. Saya juga nggak lakin, mau biar aja saya. Saya di luar tentu-tutup saya.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:20:30] Output Whisper: 'Semua ada respect-less yang mengawal. Saya juga nggak lakuin waktunya saja, saya di luar berkura. Saya di luar terkaji.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:20:31] Output Whisper: 'Semua hadirisbek lah, semua orang, saya juga nggak lakiin movie aja saya, saya di luar keurusnya.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:20:33] Output Whisper: 'Semua hadirisbe kelas semua orang, saya juga nggak lakiin mopi aja saya, saya di luar keurusnya. Jadi, power technology diberikan, beneran sekejang atau operator gitu? Nggak biasa, I guess.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:20:35] Output Whisper: 'Kamu ada rispe kelahan semua orang, saya juga nggak lakiin mopi aja saya, saya di luar keurusnya. Jadi, power technology diperkenalkan, beneran sekejang atau pertengungan? Nggak biasa, I guess. Besan.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:20:38] Output Whisper: 'Semua hadirisbek lah segala orang, saya juga nggak lakiin mopi aja saya, saya di luar keurusnya. Sari, power technology, ibu, benar-benar kejang atau friend? Enggak biasa, I guess. Besarnya kesadu? Besarnya, besarnya.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:20:38] Output Whisper: 'Terima kasih.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:20:39] Output Whisper: 'Terima kasih. Terima kasih.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:20:39] Output Whisper: 'Terima kasih.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:20:40] Output Whisper: 'Bersenang, apa yang terjadi, reda-reda, gaks.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:20:43] Output Whisper: 'Bersenang, bahasa Indonesia tidak tahu ga. Mungkin bisa, itu sorok-sengotik.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:20:44] Output Whisper: 'Pertahankan kata-kata,'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:20:46] Output Whisper: 'Bersama saya, apa yang saya tahu, bisa, ya? Surupnya 2 dekate.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:20:47] Output Whisper: 'Terima kasih.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:20:51] Output Whisper: 'Bersenjata, apa? Saya tidak tahu, gaks. Bukit bisa, saya sudah pasang dua dekade. Saya sudah pasang dua dekade. Bersenjata. Sama mobil, drablok, saya sudah.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:20:53] Output Whisper: 'Pertahankan kata-kata inggris apa adanya, jangan diterjemahkan. Pertahankan kata-kata inggris apa adanya, jangan diterjemahkan.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:20:55] Output Whisper: 'Bisa-bisa, apa? Saya tidak tahu. Mungkin sebabnya. Surupusnya nge-dek aja. Akan, saya melakukan. Sama mobil, drablok, sebuah food. Buat food. Aku makan. Ya, mau. Kami minta kamu.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:20:56] Output Whisper: 'Pertahankan kata-kata inggris. Pertahankan kata-kata inggris.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:20:57] Output Whisper: 'Okay.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:20:57] Output Whisper: 'Thank you very much.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+

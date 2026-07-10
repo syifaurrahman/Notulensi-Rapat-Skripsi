@@ -1,0 +1,35 @@
+==============================================================
+  HASIL PENGUJIAN AKURASI SUMMARIZATION
+  Sistem Notulensia — LLM (Ollama / Llama 3.2)
+  Topik: Live Podcast Gen Z
+==============================================================
+  Tanggal      : 30 June 2026, 23:31:24
+  Metode       : rouge-score (library)
+  File Sistem  : hasil_summarize/live_podcast2_genz_pilih_tidak_nikah.txt
+  File Ref     : hasil_summarize/lexrank/podcast2_genZ.txt
+  Kata Sistem  : 276
+  Kata Ref     : 532
+--------------------------------------------------------------
+
+  METRIK ROUGE (F1 Score)
+  ──────────────────────────────────────────────────
+  ROUGE-1  (unigram)    :  38.37%   [P: 56.16%  R: 29.14%]
+  ROUGE-2  (bigram)     :  19.85%   [P: 29.09%  R: 15.07%]
+  ROUGE-L  (LCS)        :  23.76%   [P: 34.78%  R: 18.05%]
+
+  PENILAIAN
+  ──────────────────────────────────────────────────
+  ROUGE-1 : Baik ✓
+  ROUGE-2 : Cukup ~
+  ROUGE-L : Cukup ~
+
+==============================================================
+  CATATAN:
+  - ROUGE-1 mengukur kecocokan kata tunggal (unigram)
+  - ROUGE-2 mengukur kecocokan 2 kata berurutan (bigram)
+  - ROUGE-L mengukur urutan kata terpanjang yang cocok
+  - F1 = harmonic mean antara Precision dan Recall
+  - Nilai ideal untuk Bahasa Indonesia: ROUGE-L > 30%
+  - P (Precision): seberapa relevan ringkasan sistem
+  - R (Recall)   : seberapa lengkap isi referensi tercakup
+==============================================================

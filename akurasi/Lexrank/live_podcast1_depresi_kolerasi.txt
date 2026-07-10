@@ -1,0 +1,56 @@
+====================================================================
+   HASIL KORELASI: LexRank <-> Transkripsi Whisper
+   Sistem Notulensi — Live Podcast Depresi
+====================================================================
+
+FILE LEXRANK   : hasil_summarize/lexrank/podcast1_depresi.txt
+FILE TRANSKRIP : hasil/live_podcast 1_depresi.txt
+
+--------------------------------------------------------------------
+  STATISTIK DOKUMEN
+--------------------------------------------------------------------
+  Token LexRank (raw)                      : 132
+  Token Transkrip (raw)                    : 514
+  Token LexRank (tanpa stopword)           : 100
+  Token Transkrip (tanpa stopword)         : 370
+  Kosakata unik LexRank                    : 51
+  Kosakata unik Transkrip                  : 217
+  Kosakata overlap (irisan)                : 51
+  Jumlah kalimat LexRank                   : 8
+
+--------------------------------------------------------------------
+  METRIK KORELASI
+--------------------------------------------------------------------
+  1. Cosine Similarity (TF-IDF)              :  70.19%
+  2. Jaccard Similarity (kosakata unik)      :  23.50%
+  3. Token Retention Rate                    :  27.03%
+  4. Sentence Coverage                       : 100.00%
+  5. Compression Ratio (lex/transkrip)       :  25.68%
+
+--------------------------------------------------------------------
+  INTERPRETASI SETIAP METRIK
+--------------------------------------------------------------------
+  Cosine Similarity  : TINGGI [OK]
+  Jaccard Similarity : RENDAH  [!]
+  Token Retention    : SEDANG  [~]
+  Sentence Coverage  : TINGGI [OK]
+  Compression Ratio  : BAIK (ringkasan padat, 25.7% panjang transkrip)
+
+--------------------------------------------------------------------
+  DETAIL COVERAGE PER KALIMAT LEXRANK
+--------------------------------------------------------------------
+  [ 1] [EXACT] Jaccard=1.000  "Banyak orang yang menganggap depresi hanya sebagai perasaan sedih yang..."
+  [ 2] [EXACT] Jaccard=1.000  "Banyak orang yang menganggap depresi hanya sebagai perasaan sedih yang..."
+  [ 3] [EXACT] Jaccard=1.000  "Seseorang yang mengalami depresi mungkin merasa sulit bangun dari temp..."
+  [ 4] [EXACT] Jaccard=1.000  "Seseorang yang mengalami depresi mungkin merasa sulit bangun dari temp..."
+  [ 5] [EXACT] Jaccard=1.000  "Apa seseorang mengalami depresi dalam psikologi modern, depresi dipaha..."
+  [ 6] [EXACT] Jaccard=1.000  "Dalam psikologi modern, depresi dipahami sebagai hasil interaksi antar..."
+  [ 7] [EXACT] Jaccard=1.000  "Akibatnya muncul pikiran seperti, mengapa ya hidup saya tidak seperti ..."
+  [ 8] [EXACT] Jaccard=1.000  "Tanda-tanda depresi yang perlu diwaspadai, apa saja tanda-tanda depres..."
+
+====================================================================
+  KESIMPULAN
+====================================================================
+  Rata-rata korelasi (4 metrik utama) : 55.18%
+  Kesimpulan                          : LexRank CUKUP BERKORELASI dengan transkripsi Whisper.
+====================================================================

@@ -1,0 +1,23 @@
+=== HASIL LEXRANK EXTRACTIVE ===
+Sumber    : transkrip_WhatsApp Audio 2026-07-07 at 21.43.17_20260707_215733.txt
+Dibuat    : 07 July 2026, 21:57:47
+Model     : Whisper small
+========================================
+
+Ininya sama OCR nya kan, tapi disini kamu bilang diharapkan mampu apa ini? Ini kamu tadi bilang kamu itu pengen mengetahui seberapa kemampuan metode itu dalam menyelesaikan Dynamic Template Matching ini, Iya kan, Ya, Tapi disini kamu sebutkan apa, Terima kasih sudah menonton, Bagaimana kamu, Ya, apa, Apakah sesuai yang kamu bicara kan? Fokus yang utama yang kamu selesaikan apa, yang pertanyaan apa, Pertanyaan apa yang akan kamu jawab, atau jawaban apa yang kamu cari, So, jawaban apa yang kamu cari?
+
+Ini nggak bisa, nggak bisa dijawab juga dengan 3, 3 tujuan penelitian kamu itu tidak terjawab dengan 3 pengujian yang kamu laku. Tiga pengujian kamu lakukan itu kan lebih ke kemampuan pendekatan kamu, Mampuan pendekatan kamu ya, Iya kan? Kalau yang ini pak, dia kan di tinggi kalau yang ini pak, dia kan ditingjau dari ketepatan detek seharia dan ketepatan pembacaan tekst kalau enggak, yang kalau misalnya, ketepatan deteksi area itu sebenarnya buat ngujinya itu ada di ini pak mana ya mana?
+
+Ditingjau dari ketepatan deteksi area itu di ya ini kan si metode dynamic temperate matchingnya kan Iya Pak, sama acarnya kan, Iya Pak, Sama OCR nya kan, I. Kenapa nggak kamu tanya kan itu bagaimana kemampuan si dynamic itu dalam mengekstrak, Atau ya dalam mengekstrak informasi, Oh jadi jangan spesifik kecetak atau pria, Ya nggak usah, OCR aja ya Pak, Iya langsung aja, Oke baik Pak. Ini kamu buat BAP, pandangan sistem, sub-BAP-nya, ini masalah sistem di selain termuka, blah-blah-blah ya, sub-BAP, selanjutnya tentang data.
+
+Disini kamu kan buat metode dan disini kan kamu prancang metode nya saya juga guna ya pak, terkait data tuh saya datanya itu udah ada dari awal jadi saya sudah taro di BAP3 pak itu dibahas lagi di BAP4 ya yang nggak harusnya itu BAP3 itu rancangannya kamu mau ambil, kamu datanya apa mana, Tentu ada, Kamu pakai ini. Di data pak Saya ada tulis di data ya pak Tiga sembilan Kita yang ditabel tadi pak Ke bawah Jadi yang saya, Tiga puluh sindara benar, Pak. Ng kamu buat harusnya datanya itu isinya ini gitu kan dari isinya ini gitu kan dari posisi ini itu isinya harusnya ini jadi nanti tinggal kamu bandingkan ya sistem kamu ngeluarkan apa di grond trut apa sesuai atau enggak seapa teks yang sesuai berapa yang tidak kan gitu ya tapi kan teknisnya seperti apa kamu buat grond trut itu gimana teknisnya Astaga Barang-barang bikin ini nggak, Pak?
+
+Ini hasil dari Ground Truth itu sih Pak, Jadi saya bandingin sendiri. Buatnya bahwa kamu akan mengidentifikasi semua item yang ada disini, Kalau omongnya kabur kan gitu, ya kan, Ya udah kamu ini aja. Karena secara spesifik datanya, ya kan teknisnya aja kamu kasih situ bahwa membuat ground truth itu mengidentifikasi syarikat.
+
+Mengidentifikasi cara manual dengan cara manual kan gak ada otomatisnya manual kan? Manual kamu jabarkan bahwa manual setiap contoh kamu kasih aja gambar dokumen itu terus kamu kasih contoh bahwa seperti ini contohnya ini yang terus tangan seperti apa yang ketikan gimana jadi terlalu gambar ya? Ini yang kamu buat kan, ground truth-nya kan ini, Dimana sistem kamu akan mengidentifikasi meng- akan mengidentifikasi mengekstrak ini, dia akan mengekstrak ini atau engga?
+
+Sehingga kamu bagaimana cara kamu ini ya, dengan cara manual, kasih tunjuk aja bahwa kasih tunjuk sebuah dokumen, screenshotnya dokumen gitu bahwa nanti membuat drone truth dari setiap item atau field yang ada di dalam dokumen tersebut dah gitu Oke, baik-baik, Terus, tidak. Tapi kalau secara desain kan, caranya kamu buat ground truth kan di Bap 3, Oke, baik-baik. Saya juga merasa sistem saya itu kurang maksimal.
+
+Ini bisa coba nanti coba nge-coba nge-coba ini kayak gini nge-coba, kebaiki ini jangan besar semua itu doi mandalin itu perbaiki di lihat di pendilainya tau ini ya kan? Gengori berkat saat itu kan saya masuk ke sini Kayaknya gak ada di. SIDP bagaimana kemampuan dari SIDP dan OCR dalam hal?
+
+CIDP dan OCR dalam hal ekstraksi informasi dari N8N itu bagaimana kemampuan N8N-n.

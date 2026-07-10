@@ -1,0 +1,43 @@
+=== HASIL OLLAMA ABSTRACTIVE ===
+Sumber    : podcast_lexrank1.txt
+Dibuat    : 24 June 2026, 04:58:16
+Model     : Whisper small + llama3.2:3b
+========================================
+
+**Pembukaan:**
+- Rapat ini dibuka oleh seorang ahli psikologi yang membahas tentang depresi sebagai kondisi psikologis yang kompleks.
+- Agenda rapat ini adalah untuk memahami apa itu depresi, bagaimana depresi dipengaruhi, dan tanda-tandanya.
+
+**Depresi sebagai Kondisi Psikologis:**
+- Depresi bukan hanya perasaan sedih atau kurang bersyukur, melainkan kondisi psikologis yang kompleks.
+- Depresi dapat dipengaruhi oleh faktor biologis, psikologis, dan sosial.
+
+**Faktor Biologis:**
+- Faktor biologis yang mempengaruhi depresi antara lain:
+ - Berkurangnya energi
+ - Munculnya gangguan dalam kehidupan sehari-hari
+
+**Faktor Psikologis:**
+- Faktor psikologis yang mempengaruhi depresi antara lain:
+ - Negative thinking (pola pikir negatif)
+ - Perasaan gagal atau tidak cukup pintar
+ - Kurangnya dukungan sosial
+
+**Faktor Sosial:**
+- Faktor sosial yang mempengaruhi depresi antara lain:
+ - Tekanan dan stres berkepanjangan
+ - Pengaruh media sosial (membandingkan diri dengan orang lain)
+ - Kurangnya olahraga
+
+**Tanda-Tanda Depresi:**
+- Tanda-tanda depresi yang perlu diwaspadai antara lain:
+ - Ditas yang disukai
+ - Sulit berkoncentrasi
+ - Mudah lelah
+ - Gangguan tidur
+ - Nabsumakan (kehilangan nafsu makan)
+ - Kesimbilan menarik
+
+**Penutup:**
+- Rapat ini diakhiri dengan kesimpulan bahwa depresi bukanlah tanda kelemahan, kemalasan, atau kurangnya keimanan seseorang.
+- Depresi adalah kondisi yang memerlukan perhatian dan bantuan profesional.

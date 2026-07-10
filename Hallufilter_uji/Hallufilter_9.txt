@@ -1,0 +1,59 @@
+=== LAPORAN EVALUASI HALLUCINATION FILTER - PENGUJIAN 9 ===
+Tanggal Pengujian : 03 July 2026, 01:13:29
+Durasi Sesi       : 2 Menit (Kondisi Hening + Noise Kipas)
+Kebenaran Asli    : Hening Total (Tidak ada ucapan valid)
+============================================================
+
+METRIK EVALUASI:
+  - True Positive (TP)  : 7 (Halusinasi berhasil dibuang)
+  - False Positive (FP) : 0 (Ucapan valid salah terbuang)
+  - False Negative (FN) : 3 (Halusinasi lolos ke transkrip)
+  - True Negative (TN)  : 327 (Hening berhasil dipertahankan)
+
+PERSENTASE METRIK:
+  - Akurasi Deteksi     : 99.11%
+  - Presisi Filter      : 100.00%
+  - Recall Filter       : 70.00%
+
+LOG DETAIL SEGMEN DETEKSI:
+------------------------------------------------------------
+[01:11:30] Output Whisper: 'Pertahankan kata-kata,'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:11:37] Output Whisper: 'I'm just going to say that I'm not a machine learning, I'm just going to say that I'm a machine learning. I'm just going to say that I'm a machine learning. I'm just going to say that I'm a machine learning. I'm just going to say that I'm a machine learning.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:11:45] Output Whisper: 'I don't know what you're talking about. I don't know what you're talking about. I don't know what you're talking about. I'm not sure what you're talking about. I don't know what you're talking about. I don't know what you're talking about. I don't know what you're talking about. I don't know what you're talking about.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:11:46] Output Whisper: 'Terima kasih.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:11:47] Output Whisper: 'Pertahankan kata-kata inggris apa adanya, jangan diterjemahkan. Pertahankan kata-kata inggris apa adanya, jangan diterjemahkan.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:11:49] Output Whisper: 'Pertahankan kata-kata inggris apa adanya, jangan diterjemahkan. Contoh. Pertahankan kata-kata menggunakan bahasa Inggris.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:12:01] Output Whisper: 'Kami berhenti menggunakan bahasa Inggris, yang menggunakan bahasa Inggris, yang menggunakan bahasa Inggris. Kami menggunakan bahasa Inggris, yang menggunakan bahasa Inggris, yang menggunakan bahasa Inggris.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:12:03] Output Whisper: 'Kami berhenti menggunakan bahasa Inggris, yang menggunakan bahasa Inggris, yang menggunakan bahasa Inggris. Kami menggunakan bahasa Inggris, yang menggunakan bahasa Inggris, yang menggunakan bahasa Inggris.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN (Trailing Flush)
+
+[01:12:22] Output Whisper: 'Terima kasih.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:12:24] Output Whisper: 'Terima kasih.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP (Trailing Flush)
+

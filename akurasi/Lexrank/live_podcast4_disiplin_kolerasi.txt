@@ -1,0 +1,73 @@
+====================================================================
+   HASIL KORELASI: LexRank <-> Transkripsi Whisper
+   Sistem Notulensi — Live Podcast Disiplin
+====================================================================
+
+FILE LEXRANK   : hasil_summarize/lexrank/podcast4_disiplin.txt
+FILE TRANSKRIP : hasil/live_podcast4_disiplin.txt
+
+--------------------------------------------------------------------
+  STATISTIK DOKUMEN
+--------------------------------------------------------------------
+  Token LexRank (raw)                      : 541
+  Token Transkrip (raw)                    : 2852
+  Token LexRank (tanpa stopword)           : 344
+  Token Transkrip (tanpa stopword)         : 1899
+  Kosakata unik LexRank                    : 208
+  Kosakata unik Transkrip                  : 938
+  Kosakata overlap (irisan)                : 203
+  Jumlah kalimat LexRank                   : 25
+
+--------------------------------------------------------------------
+  METRIK KORELASI
+--------------------------------------------------------------------
+  1. Cosine Similarity (TF-IDF)              :  68.34%
+  2. Jaccard Similarity (kosakata unik)      :  21.53%
+  3. Token Retention Rate                    :  17.69%
+  4. Sentence Coverage                       :  96.00%
+  5. Compression Ratio (lex/transkrip)       :  18.97%
+
+--------------------------------------------------------------------
+  INTERPRETASI SETIAP METRIK
+--------------------------------------------------------------------
+  Cosine Similarity  : TINGGI [OK]
+  Jaccard Similarity : RENDAH  [!]
+  Token Retention    : RENDAH  [!]
+  Sentence Coverage  : TINGGI [OK]
+  Compression Ratio  : BAIK (ringkasan padat, 19.0% panjang transkrip)
+
+--------------------------------------------------------------------
+  DETAIL COVERAGE PER KALIMAT LEXRANK
+--------------------------------------------------------------------
+  [ 1] [EXACT] Jaccard=1.000  "Seseat yang merusak masa depan mereka, disiplin adalah jembatan yang m..."
+  [ 2] [EXACT] Jaccard=1.000  "Ini adalah salah satu mitos paling berbahara yang beredar di masyaraka..."
+  [ 3] [EXACT] Jaccard=1.000  "Setiap kali Anda memilih untuk melakukan sesuatu yang sulit, meskipun ..."
+  [ 4] [EXACT] Jaccard=1.000  "Kalau motivasi itu seperti bahan bakar yang habis disiplin, itu sepert..."
+  [ 5] [EXACT] Jaccard=1.000  "Kedua, kita harus memilih, Kalau kita sudah membahas disiplin di level..."
+  [ 6] [EXACT] Jaccard=1.000  "Dan ini bukan sekadar soal hemat atau tidak, inilah cerminan langsung ..."
+  [ 7] [EXACT] Jaccard=1.000  "Ini menunjukkan bahwa kemampuan menundak kekuasa adalah predikator..."
+  [ 8] [EXACT] Jaccard=1.000  "Ini menunjukkan bahwa kemampuan menundak kekuasa adalah predikator, pr..."
+  [ 9] [LOW  ] Jaccard=0.273  "Pertahankan kata-kata inggris apa adanya, jangan diterjemahkan, Pertah..."
+  [10] [EXACT] Jaccard=1.000  "Sekarang saya ingin membawa percakapan ini ke dimensi yang lebih perso..."
+  [11] [EXACT] Jaccard=1.000  "Orang-orang yang tidak pernah marah atau tidak pernah kecewa, itu tida..."
+  [12] [EXACT] Jaccard=1.000  "Ini adalah dimensi yang sangat dalam masrihan, dan saya rasa sangat pe..."
+  [13] [EXACT] Jaccard=1.000  "Bawah kita tidak bisa mendalikan apa yang terjadi di luar diri kita, t..."
+  [14] [EXACT] Jaccard=1.000  "Saya ingin membawa percakapan kita kerana yang mungkin terlengar parad..."
+  [15] [EXACT] Jaccard=1.000  "Ini adalah salah satu paradox yang paling menarik..."
+  [16] [EXACT] Jaccard=1.000  "Cikai Kov Skai berpaktir sisi-sisi setiap hari meskipun dia berkata ba..."
+  [17] [EXACT] Jaccard=1.000  "Cikai KOF Sky, dua panggung sisi-sisi tiap hari meskipun dia berkata b..."
+  [18] [EXACT] Jaccard=1.000  "Mas Bhaskara, kita sudah membahas disiplin dari berbagai sudut pandang..."
+  [19] [EXACT] Jaccard=1.000  "Apakah ada hubungan antara tingkat disiplin individu dalam suatu masya..."
+  [20] [EXACT] Jaccard=1.000  "Mas Bhaskara, kita sudah membahas disiplin dari berbagai sudut pandang..."
+  [21] [EXACT] Jaccard=1.000  "Ini adalah pertanyaan yang sangat makro dan sangat penting mas Rian, d..."
+  [22] [EXACT] Jaccard=1.000  "Ketika institusi-institusi ini secara konsisten mengodalkan dan mengua..."
+  [23] [EXACT] Jaccard=1.000  "Dalam konteks Indonesia, bagaimana kita bisa membangun budaya disiplin..."
+  [24] [EXACT] Jaccard=1.000  "Kita masing-masing adalah agent berupa budaya setiap kali Anda memilih..."
+  [25] [EXACT] Jaccard=1.000  "Saya rasa tidak ada cara yang lebih baik untuk menurut percakapan yang..."
+
+====================================================================
+  KESIMPULAN
+====================================================================
+  Rata-rata korelasi (4 metrik utama) : 50.89%
+  Kesimpulan                          : LexRank CUKUP BERKORELASI dengan transkripsi Whisper.
+====================================================================

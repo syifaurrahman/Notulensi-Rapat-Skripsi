@@ -1,0 +1,53 @@
+==============================================================================================================
+  HASIL PENGUJIAN WORD FILLER REMOVAL — CONFUSION MATRIX
+  Precision, Recall, F1-Score, dan Accuracy
+==============================================================================================================
+
+==============================================================================================================
+  TABEL DETAIL CONFUSION MATRIX PER TOPIK
+==============================================================================================================
+No   Topik Rapat                Kata Filler (GT) Kata Valid (GT)      TP      FP      FN       TN
+--------------------------------------------------------------------------------------------------------------
+1    Basis Data                             1703           10096    1696       7       7    10089
+2    K3 Keselamatan Kerja                   1034           13398     999     265      35    13133
+3    KWU                                     144            2152     134      10      10     2142
+4    Psikologi Sosial                        541            3625     537       4       4     3621
+5    Dasar Manajemen Bisnis                  523            3215     520       4       3     3211
+6    Digital Marketing                      3224           17977    3210      18      14    17959
+7    Komisi XI DPR RI                        687           26277     668      20      19    26257
+8    ESG & QHSE                              705            8207     693      13      12     8194
+9    Ilmu Komunikasi                        1404           13802    1385      24      19    13778
+--------------------------------------------------------------------------------------------------------------
+     TOTAL / GABUNGAN                                               9842     365     123    98384
+
+==============================================================================================================
+  TABEL METRIK EVALUASI: PRECISION, RECALL, F1-SCORE, ACCURACY
+==============================================================================================================
+No   Topik Rapat                    TP     FP     FN      TN  Precision (%)  Recall (%)  F1-Score (%)  Accuracy (%)
+--------------------------------------------------------------------------------------------------------------
+1    Basis Data                   1696      7      7   10089          99.59       99.59         99.59         99.88
+2    K3 Keselamatan Kerja          999    265     35   13133          79.03       96.62         86.95         97.92
+3    KWU                           134     10     10    2142          93.06       93.06         93.06         99.13
+4    Psikologi Sosial              537      4      4    3621          99.26       99.26         99.26         99.81
+5    Dasar Manajemen Bisnis        520      4      3    3211          99.24       99.43         99.33         99.81
+6    Digital Marketing            3210     18     14   17959          99.44       99.57         99.50         99.85
+7    Komisi XI DPR RI              668     20     19   26257          97.09       97.23         97.16         99.86
+8    ESG & QHSE                    693     13     12    8194          98.16       98.30         98.23         99.72
+9    Ilmu Komunikasi              1385     24     19   13778          98.30       98.65         98.47         99.72
+--------------------------------------------------------------------------------------------------------------
+     RATA-RATA / GABUNGAN         9842    365    123   98384          96.42       98.77         97.58         99.55
+--------------------------------------------------------------------------------------------------------------
+
+KETERANGAN:
+  TP (True Positive)  = Kata filler yang BENAR dihapus sistem
+  FP (False Positive) = Kata VALID (bukan filler) yang SALAH dihapus sistem
+  FN (False Negative) = Kata filler yang LOLOS / TIDAK dihapus sistem
+  TN (True Negative)  = Kata valid yang BENAR dipertahankan sistem
+
+  Precision = TP / (TP + FP)
+  Recall    = TP / (TP + FN)
+  F1-Score  = 2 x (Precision x Recall) / (Precision + Recall)
+  Accuracy  = (TP + TN) / (TP + TN + FP + FN)
+
+  Ground Truth Filler  = kata ada di kamus FILLER_WORDS_EXACT atau cocok regex inline
+  Ground Truth Valid   = kata tidak termasuk kategori filler di atas

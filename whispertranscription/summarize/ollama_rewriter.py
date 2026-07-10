@@ -70,7 +70,7 @@ class OllamaRewriter:
 
         context_section = ""
         if context:
-            max_ctx = 12000  # ~3000 token — cukup untuk konteks, hemat ruang agar output tidak terpotong
+            max_ctx = 4000   # ~1000 token — diperkecil agar pas dengan num_ctx 2048 tanpa out of memory
             if len(context) <= max_ctx:
                 context_section = f"\n\nTRANSKRIP LENGKAP RAPAT (gunakan sebagai sumber utama):\n{context}\n"
             else:
@@ -157,8 +157,8 @@ NOTULENSI RAPAT (berdasarkan data di atas):"""
             "options": {
                 "temperature": 0.15,       # Sangat rendah = format konsisten, tidak keluar jalur
                 "top_p": 0.90,
-                "num_predict": 4096,       # Maksimum token output
-                "num_ctx": 16384,          # Dinaikkan 8192 → 16384 agar prompt panjang tidak memotong output
+                "num_predict": 1500,       # Maksimum token output
+                "num_ctx": 2048,           # Diturunkan ke 2048 untuk mencegah Out-Of-Memory (OOM) 500 Error
                 "repeat_penalty": 1.15,
                 "top_k": 40,
             },

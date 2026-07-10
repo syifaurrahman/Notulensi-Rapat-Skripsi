@@ -1,0 +1,57 @@
+Selamat pagi bapak ibu dan teman-teman sekalian. Pada kesempatan kali ini saya akan menyampaikan sedikit pemaparan mengenai pentingnya pemanfaatan teknologi kecerdasan buatan dalam mendukung proses dokumentasi rapat. Teknologi ini berkembang sangat pesat dan mulai banyak digunakan pada berbagai bidang pekerjaan. Salah satu teknologi yang banyak dimanfaatkan adalah speech recognition atau pengenalan ucapan menjadi teks. Dengan adanya teknologi tersebut proses pencatatan hasil rapat dapat dilakukan secara otomatis sehingga peserta rapat tidak perlu lagi menulis notulen secara manual.
+
+Pada penelitian ini sistem yang dikembangkan memanfaatkan model Whisper sebagai mesin transkripsi suara menjadi teks. Model tersebut mampu mengenali ucapan pembicara secara otomatis kemudian menghasilkan transkripsi yang nantinya digunakan sebagai masukan untuk proses peringkasan rapat. Namun demikian kualitas transkripsi sangat dipengaruhi oleh kondisi audio yang digunakan. Apabila terdapat gangguan suara, kebisingan, ataupun kondisi ruangan yang kurang baik maka hasil transkripsi dapat mengalami kesalahan pengenalan kata bahkan menghasilkan kalimat yang sebenarnya tidak pernah diucapkan oleh pembicara.
+
+Okay.
+
+Fenomena tersebut dikenal dengan istilah hallucination. Hallucination menyebabkan model menghasilkan kata ataupun kalimat yang tidak berasal dari audio sebenarnya. Akibatnya isi transkripsi menjadi kurang akurat dan dapat memengaruhi kualitas ringkasan rapat yang dihasilkan. Oleh karena itu diperlukan suatu mekanisme penyaringan atau Hallucination Filter untuk mengurangi kemunculan kalimat-kalimat yang tidak relevan tersebut.
+
+Dalam penelitian ini Hallucination Filter dirancang menggunakan kombinasi beberapa metode. Metode pertama menggunakan pencocokan frasa yang sering muncul sebagai hallucination. Metode kedua menggunakan pemeriksaan pengulangan kalimat yang berlebihan. Selain itu digunakan pula beberapa parameter bawaan Whisper seperti no speech threshold dan compression ratio threshold agar proses transkripsi lebih stabil ketika menghadapi kondisi hening ataupun gangguan suara.
+
+Thank you.
+
+Selanjutnya dilakukan pengujian terhadap Hallucination Filter menggunakan beberapa kondisi lingkungan. Kondisi pertama dilakukan pada ruangan yang benar-benar hening selama satu menit. Kondisi kedua dilakukan ketika terdapat suara kipas sebagai sumber noise. Kondisi ketiga dilakukan ketika terdapat percakapan disertai suara kipas sehingga sistem harus mampu membedakan antara ucapan yang benar dengan hasil hallucination yang muncul akibat gangguan suara.
+
+Pada setiap pengujian hasil transkripsi dibandingkan dengan kondisi sebenarnya menggunakan pendekatan Confusion Matrix. Dari hasil tersebut diperoleh nilai True Positive, False Positive, False Negative, dan True Negative. Nilai tersebut kemudian digunakan untuk menghitung Precision, Recall, F1 Score, dan Accuracy sebagai indikator performa Hallucination Filter dalam mendeteksi hasil hallucination.
+
+Terima kasih.
+
+Berdasarkan hasil pengujian diketahui bahwa Hallucination Filter mampu mengurangi sebagian besar hasil hallucination tanpa menghapus ucapan valid dari pembicara. Hal ini ditunjukkan oleh nilai Precision yang tinggi sehingga dapat disimpulkan bahwa setiap segmen yang dihapus oleh filter memang merupakan hallucination. Meskipun demikian masih terdapat beberapa hallucination yang tidak berhasil dideteksi sehingga nilai Recall masih dapat ditingkatkan melalui pengembangan metode pada penelitian berikutnya.
+
+Yes.
+
+Selain Hallucination Filter penelitian ini juga menerapkan Word Filler Removal untuk menghilangkan kata-kata pengisi seperti eh, emm, atau kata lain yang tidak memberikan informasi penting pada isi rapat. Setelah proses tersebut selesai hasil transkripsi kemudian diringkas menggunakan model bahasa sehingga menghasilkan notulen rapat yang lebih singkat namun tetap mempertahankan informasi utama yang disampaikan oleh pembicara.
+
+No.
+
+Dengan adanya rangkaian proses tersebut diharapkan sistem mampu menghasilkan notulen rapat secara otomatis dengan kualitas yang lebih baik dibandingkan hanya menggunakan proses transkripsi saja. Sistem ini juga diharapkan dapat membantu berbagai instansi maupun organisasi dalam mendokumentasikan hasil rapat secara lebih efisien sehingga waktu yang dibutuhkan untuk menyusun notulen menjadi lebih singkat.
+
+See you later.
+
+Pengembangan sistem seperti ini masih memiliki beberapa keterbatasan. Salah satunya adalah kemampuan model dalam menghadapi aksen yang berbeda, kondisi ruangan yang sangat bising, serta percakapan yang dilakukan secara bersamaan oleh beberapa pembicara. Oleh karena itu penelitian selanjutnya dapat mengembangkan metode diarization, peningkatan kualitas audio, maupun penggunaan model transkripsi yang memiliki akurasi lebih tinggi.
+
+Thanks.
+
+Demikian pemaparan yang dapat saya sampaikan pada kesempatan kali ini. Semoga penelitian mengenai sistem notulensi rapat otomatis ini dapat memberikan manfaat bagi pengembangan teknologi pengolahan suara serta membantu proses dokumentasi rapat menjadi lebih efektif dan efisien. Terima kasih atas perhatian bapak ibu sekalian.
+
+Terima kasih.
+
+Thank you.
+
+Sampai jumpa.
+
+See you.
+
+Bye.
+
+Bye bye.
+
+Goodbye.
+
+Okay.
+
+Yes.
+
+No.
+
+You.

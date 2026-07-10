@@ -1,0 +1,74 @@
+====================================================================
+   HASIL KORELASI: LexRank <-> Transkripsi Whisper
+   Sistem Notulensi — Live Podcast Gen Z
+====================================================================
+
+FILE LEXRANK   : hasil_summarize/lexrank/podcast2_genZ.txt
+FILE TRANSKRIP : hasil/live_Podcast2_genZ.txt
+
+--------------------------------------------------------------------
+  STATISTIK DOKUMEN
+--------------------------------------------------------------------
+  Token LexRank (raw)                      : 532
+  Token Transkrip (raw)                    : 4775
+  Token LexRank (tanpa stopword)           : 386
+  Token Transkrip (tanpa stopword)         : 3372
+  Kosakata unik LexRank                    : 233
+  Kosakata unik Transkrip                  : 1323
+  Kosakata overlap (irisan)                : 233
+  Jumlah kalimat LexRank                   : 26
+
+--------------------------------------------------------------------
+  METRIK KORELASI
+--------------------------------------------------------------------
+  1. Cosine Similarity (TF-IDF)              :  60.83%
+  2. Jaccard Similarity (kosakata unik)      :  17.61%
+  3. Token Retention Rate                    :  11.45%
+  4. Sentence Coverage                       : 100.00%
+  5. Compression Ratio (lex/transkrip)       :  11.14%
+
+--------------------------------------------------------------------
+  INTERPRETASI SETIAP METRIK
+--------------------------------------------------------------------
+  Cosine Similarity  : TINGGI [OK]
+  Jaccard Similarity : RENDAH  [!]
+  Token Retention    : RENDAH  [!]
+  Sentence Coverage  : TINGGI [OK]
+  Compression Ratio  : BAIK (ringkasan padat, 11.1% panjang transkrip)
+
+--------------------------------------------------------------------
+  DETAIL COVERAGE PER KALIMAT LEXRANK
+--------------------------------------------------------------------
+  [ 1] [EXACT] Jaccard=1.000  "Menarik sekali, jika ada pergeseran dari awalnya berbasis pada keberan..."
+  [ 2] [EXACT] Jaccard=1.000  "Di sisi lain, dunia kerja memberikan sesuatu yang berhasil..."
+  [ 3] [EXACT] Jaccard=1.000  "Jika kita tarik lebih dalam lagi, selain masalah ekonomi dan definisi ..."
+  [ 4] [EXACT] Jaccard=1.000  "Jika kita tarik lebih dalam lagi, selain masalah ekonomi dan definisi ..."
+  [ 5] [EXACT] Jaccard=1.000  "Ketika kita bicara tentang menunggu siap secara finansial..."
+  [ 6] [EXACT] Jaccard=1.000  "Ketika kita bicara tentang menunggu secara finansial dan mental, apaka..."
+  [ 7] [EXACT] Jaccard=1.000  "G ini sedang mengajar sesuatu yang nyata atau jangan-jangan kita sedan..."
+  [ 8] [EXACT] Jaccard=1.000  "Pertanyaan yang sangat filosofis dan langsung menembak keakarnya ya, k..."
+  [ 9] [EXACT] Jaccard=1.000  "Kalo kita melihat dari sudut pandemi, Inggris, institusi pernikahan za..."
+  [10] [EXACT] Jaccard=1.000  "Identifikasi identitas ini yang membuat ruang domestik atau rumah tang..."
+  [11] [EXACT] Jaccard=1.000  "Anda melihat, secara sutular, sistem ekonomi muderan memang dulu..."
+  [12] [EXACT] Jaccard=1.000  "Pembahasan yang sangat mendalam dan membuka mata kita semua bahwa feno..."
+  [13] [EXACT] Jaccard=1.000  "Di tengah dunia yang semakin menuntut kita menjadi makhluk individuali..."
+  [14] [EXACT] Jaccard=1.000  "Terima kasih banyak Mas Bhaskara atas perspektif luar biasa yang memba..."
+  [15] [EXACT] Jaccard=1.000  "Ada satu premis yang menarik ketika kita bicara tentang menunggu siap ..."
+  [16] [EXACT] Jaccard=1.000  "Ketakutan akan kegegalan ini akhirnya membuat garis finansial dan ment..."
+  [17] [EXACT] Jaccard=1.000  "Kalau kita melihat dari sudut pandang sosiologis, institusi pernikahan..."
+  [18] [EXACT] Jaccard=1.000  "Jika calon pasangan tidak mampu menawarkan hal tersebut atau justru be..."
+  [19] [EXACT] Jaccard=1.000  "Jika calon pasangan tidak mampu menawarkan hal tersebut atau justru be..."
+  [20] [EXACT] Jaccard=1.000  "Kurang menarik atau bahkan dianggap sebagai penghambat potensi optimal..."
+  [21] [EXACT] Jaccard=1.000  "Tembahan yang sangat mendalam dan membuka mata kita semua bahwa fenome..."
+  [22] [EXACT] Jaccard=1.000  "Jika trend ini tersebelanjut, dimana prioritas karir tetap berada jauh..."
+  [23] [EXACT] Jaccard=1.000  "Tak bisa menjaga kohesi, sosial, dan ruang empati manusia di tengah du..."
+  [24] [EXACT] Jaccard=1.000  "Sebuah kesimpulan yang sangat mendalam dan menutup trilogi pembahasan ..."
+  [25] [EXACT] Jaccard=1.000  "Dan tempat itu adalah dunia kerja serta pencapaian profesional..."
+  [26] [EXACT] Jaccard=1.000  "Terima kasih banyak mas Baskara atas seluruh pemikiran analisis dan pe..."
+
+====================================================================
+  KESIMPULAN
+====================================================================
+  Rata-rata korelasi (4 metrik utama) : 47.47%
+  Kesimpulan                          : LexRank CUKUP BERKORELASI dengan transkripsi Whisper.
+====================================================================

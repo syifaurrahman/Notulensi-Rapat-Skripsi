@@ -1,0 +1,24 @@
+==============================================================
+  RATA-RATA AKURASI RINGKASAN OLLAMA (ROUGE Score)
+  Sistem Notulensia — LLM (Rata-rata 4 Podcast)
+==============================================================
+  Jumlah Dokumen Evaluasi : 4
+--------------------------------------------------------------
+  RATA-RATA METRIK ROUGE (F1 Score)
+--------------------------------------------------------------
+  ROUGE-1  (unigram)    :   43.25%   [P: 52.79%  R: 40.62%]
+  ROUGE-2  (bigram)     :   24.71%   [P: 29.76%  R: 23.50%]
+  ROUGE-L  (LCS)        :   27.85%   [P: 33.80%  R: 26.30%]
+--------------------------------------------------------------
+  PENILAIAN UMUM ROUGE-L
+--------------------------------------------------------------
+  Status: Cukup
+==============================================================
+
+  DETAIL SKOR PER PODCAST:
+--------------------------------------------------------------
+  * live_podcast1_depresi_ollama.txt         : ROUGE-1=46.63%, ROUGE-L=30.90%
+  * live_podcast2_genZ_ollama.txt            : ROUGE-1=38.37%, ROUGE-L=23.76%
+  * live_podcast3_PentingBinggris_ollama.txt : ROUGE-1=51.38%, ROUGE-L=34.26%
+  * live_podcast4_disiplin_ollama.txt        : ROUGE-1=36.60%, ROUGE-L=22.49%
+==============================================================

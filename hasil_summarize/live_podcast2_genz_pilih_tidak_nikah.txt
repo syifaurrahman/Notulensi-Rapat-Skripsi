@@ -1,0 +1,28 @@
+=== RINGKASAN RAPAT (LIVE — LexRank) ===
+Sumber    : transkrip_20260626_014756.txt
+Dibuat    : 26 June 2026, 01:49:39
+Model     : Whisper small
+========================================
+
+**Pembukaan:**
+- Rapat dibuka oleh Mas Bhaskara.
+- Agenda rapat adalah membahas fenomena sosial yang cukup masif terjadi, yaitu pilihan generasi Z untuk memprioritaskan karir dan stabilitas finansial terlebih dahulu.
+
+**Pertanyaan dan Diskusi:**
+- Pertanyaan: Bagaimana sudut pandang genji terhadap prinsip seperti itu di era sekarang?
+- Jawaban: Genji adalah generasi yang diberserakan dari era keterbukaan informasi. Mereka melihat data dan realitas, dan menarik sekali jika ada pergeseran dari awalnya berbasis pada keberanian menyedihkan menjadi berbasis pada kesiapan data dan logika.
+- Pertanyaan: Bagaimana dunia kerja memberikan sesuatu yang berhasil kepada generasi Z?
+- Jawaban: Dunia kerja memberikan sesuatu yang lebih bisa diukur secara langsung, seperti kompensasi. Oleh karena itu, banyak orang memilih untuk mengamankan apa yang bisa mereka kendalikan terlebih dahulu.
+- Pertanyaan: Apakah kesadaran psikologis ini turut mempengaruhi keputusan mereka dalam menunda pembentukan keluarga?
+- Jawaban: Ya, banyak anak muda saat ini yang merasa bahwa mereka masih dalam proses menyumbuhkan diri sendiri dan belajar mengenal emosi.
+- Pertanyaan: Bagaimana Gen Z istirahat tidak sadar telah melakukan hyperrationalisasi terhadap hubungan emosional?
+- Jawaban: Mereka menjadi sangat rapuh dan mudahan karena merasa harus bisa melakukan segalanya sendiri dan enggan bergantung pada institusi rumah tangga.
+
+**Kesimpulan:**
+- Kesimpulan yang sangat mendalam bahwa fenomena ini memiliki lapisan-lapisan psikologis dan struktural yang sangat tebal.
+- Jika trend ini tersebelanjut, dimana prioritas karir tetap berada jauh di atas institusi keluarga?
+- Tidak bisa menjaga kohesi, sosial, dan ruang empati manusia di tengah dunia yang semakin menuntut kita menjadi makhluk individualis dan transitor.
+- Sebuah kesimpulan yang sangat mendalam bagi kita semua dalam menantukan lengkah hidup ke depan.
+
+**Penutup:**
+- Penutupan rapat oleh Mas Bhaskara, di mana dia memberikan pesan bahwa kita harus menjadi berani melepaskan diri dan memperlihatkan untuk menjata dan berkata parah tangan.

@@ -1,0 +1,227 @@
+=== LAPORAN EVALUASI HALLUCINATION FILTER - PENGUJIAN 15 ===
+Tanggal Pengujian : 03 July 2026, 01:42:07
+Durasi Sesi       : 2 Menit (Kondisi Hening + Kipas + Percakapan Latar)
+Kebenaran Asli    : Pidato Rapat Aktif (Dengan teks pidatowhisperhalluuji.txt)
+============================================================
+
+METRIK EVALUASI:
+  - True Positive (TP)  : 28 (Halusinasi berhasil dibuang)
+  - False Positive (FP) : 3 (Ucapan valid salah terbuang)
+  - False Negative (FN) : 21 (Halusinasi lolos ke transkrip)
+  - True Negative (TN)  : 130 (Hening berhasil dipertahankan)
+
+PERSENTASE METRIK:
+  - Akurasi Deteksi     : 86.81%
+  - Presisi Filter      : 90.32%
+  - Recall Filter       : 57.14%
+
+LOG DETAIL SEGMEN DETEKSI:
+------------------------------------------------------------
+[01:40:13] Output Whisper: 'goodbye'
+            Keputusan Filter: BUANG
+            Status Evaluasi : FP
+
+[01:40:13] Output Whisper: 'thank you'
+            Keputusan Filter: BUANG
+            Status Evaluasi : FP
+
+[01:40:15] Output Whisper: 'okay'
+            Keputusan Filter: BUANG
+            Status Evaluasi : FP
+
+[01:40:18] Output Whisper: 'Cakra Dinaruto, bagus. Key di Dragon Ball, iconic. Tapi kalau kita bicara soal sistem kekuatan terbaik, paling logis dan paling adil di seluruh sejarah anime, jawabannya cuma satu, man dairy hunter-hunter.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:40:19] Output Whisper: 'Ya, ambilnya dulu.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:40:21] Output Whisper: 'Cakra Dinaruto, bagus. Key di Dragon Ball, iconic. Tapi kalau kita bicara soal sistem kekuatan terbaik, paling logis dan paling adil di seluruh sejarah anime, jawabannya cuma satu. Men dari Hunter-Hunter. Kenapa kreator anime lain sampai sekarang belum ada yang bisa meniru?'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:40:23] Output Whisper: 'Cakra Dinaruto, bagus. Key di Dragon Ball, iconic. Tapi kalau kita bicara soal sistem kekuatan terbaik, paling logis dan paling adil di seluruh sejarah anime, jawabannya cuma satu. Men dari Hunter-Hunter. Kenapa kreator anime lain sampai sekarang belum ada yang bisa meniru kesempur?'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:40:24] Output Whisper: 'Nahan konsep ini, yuk kita berdiri.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:40:25] Output Whisper: 'Pertahankan konsep ini, yuk kita beda detailnya, secara harpi ya.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:40:25] Output Whisper: 'Pertahankan konsep ini, yuk kita beda detailnya. Secara harpi ya, NEN atas.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:40:27] Output Whisper: 'Pertahankan konsep ini, yuk kita beda detailnya. Secara harpi ya, nen artinya adalah end.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:40:28] Output Whisper: 'Pertahankan konsep ini, yuk kita beda detailnya. Secara harpi ya, NEN artinya adalah energi hidup.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:40:29] Output Whisper: 'Pertahankan konsep ini, yuk kita beda detailnya. Secara harpi ya, NEN artinya adalah energi hidup atau aura yang...'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:40:30] Output Whisper: 'Kita berbicara tentang konsep ini. Yuk, kita berda detailnya. Secara harpi ya, NEN artinya adalah energi hidup atau aura yang ada di dalam setiap...'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:40:32] Output Whisper: 'Pertahankan konsep ini, yuk kita beda detailnya. Secara harpi ya, NEN artinya adalah energi hidup atau aura yang ada di dalam setiap malu hidup.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:40:33] Output Whisper: 'Pertahankan konsep ini, yuk kita beda detailnya. Secara harpi ya, NEN artinya adalah energi hidup atau aura yang ada di dalam setiap malu hidup. Tapi bedanya dengan animulasi.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:40:35] Output Whisper: 'Pertahankan konsep ini, yuk kita beda detailnya. Secara harpi ya, NEN artinya adalah energi hidup atau aura yang ada di dalam setiap malu hidup. Tapi bedanya dengan anima lain di dunia hunter-hunter.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:40:37] Output Whisper: 'Pertahankan konsep ini, yuk kita beda detailnya. Secara harpi ya, NEN artinya adalah energi hidup atau aura yang ada di dalam setiap malu hidup. Tapi bedanya dengan anima lain, di dunia hunter-hunter, aura ini secara alam.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:40:39] Output Whisper: 'Pertahankan konsep ini, yuk kita beda detailnya. Secara harpi ya, NEN artinya adalah energi hidup atau aura yang ada di dalam setiap malu hidup. Tapi bedanya dengan anima lain, di dunia hunter-hunter, aura ini secara alami bocor dan terbuang siasinya.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:40:42] Output Whisper: 'Pertahankan konsep ini, yuk kita beda detailnya. Secara harpi ya, nen artinya adalah energi hidup atau aura yang ada di dalam setiap malu hidup. Tapi bedanya dengan anima lain, di dunia hunter-hunter, aura ini secara alami bocor dan terbuang siasia dari tubuh kita.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:40:42] Output Whisper: 'Terima kasih.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:40:43] Output Whisper: 'Orang yang berhasil membuka lubang aura mereka dan beli.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:40:43] Output Whisper: 'Orang yang berhasil membuka lubang aura mereka dan belajar.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:40:44] Output Whisper: 'Orang yang berhasil membuka lubang aura mereka dan belajar mengedalikan.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:40:45] Output Whisper: 'Orang yang berhasil membuka lubang aura mereka dan belajar mengedalikannya.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:40:45] Output Whisper: 'Orang yang berhasil membuka lubang aura mereka dan belajar mengedalikannya untuk meng...'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:40:46] Output Whisper: 'Orang yang berhasil membuka lubang aura mereka dan belajar mengedalikannya. Untuk menguasainya,'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:40:48] Output Whisper: 'Orang yang berhasil membuka lubang aura mereka dan belajar mengedalikannya. Untuk menguasainya, ada empat...'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:40:49] Output Whisper: 'Orang yang berhasil membuka lubang aura mereka dan belajar mengedalikannya. Untuk menguasainya, ada empat prinsip dasar yang...'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:40:50] Output Whisper: 'Orang yang berhasil membuka lubang aura mereka dan belajar mengedalikannya. Untuk menguasainya, ada empat prinsip dasar yang wajib dipelajari.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:40:53] Output Whisper: 'Yang berhasil membuka lubang aura mereka dan belajar mengedalikannya. Untuk menguasainya, ada empat prinsip dasar yang wajib dipelajari.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:40:56] Output Whisper: 'Yang berhasil membuka lubang aura mereka dan belajar mengedalikannya. Untuk menguasainya, ada empat prinsip dasar yang wajib dipelajari.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN (Trailing Flush)
+
+[01:41:00] Output Whisper: 'Terima kasih.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:41:01] Output Whisper: 'Capsule.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:41:01] Output Whisper: 'Perhaps, a little bit.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:41:01] Output Whisper: 'Perhaps, well, good.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:41:02] Output Whisper: 'Perhaps, well, good, good.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:41:02] Output Whisper: 'Past well good. Good.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:41:04] Output Whisper: 'Capsule, good. Good.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP (Trailing Flush)
+
+[01:41:04] Output Whisper: 'Terima kasih.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:41:05] Output Whisper: 'Thank you.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:41:06] Output Whisper: 'Terima kasih.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:41:07] Output Whisper: 'Oh, wow.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:41:08] Output Whisper: 'Oh, wow. Baik, ya sudah.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:41:08] Output Whisper: 'Oh, wow. Baik, ini sudah.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:41:10] Output Whisper: 'Oh, wow. Baik, ini mudah.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:41:25] Output Whisper: 'Oh, wow, everybody wanna say shit, I don't care what they say about us, I don't know.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN (Trailing Flush)
+
+[01:41:32] Output Whisper: 'Terima kasih.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP (Trailing Flush)
+
+[01:41:54] Output Whisper: 'Terima kasih.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:41:56] Output Whisper: 'Terima kasih.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP (Trailing Flush)
+
+[01:42:02] Output Whisper: 'Terima kasih, I love you.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:42:03] Output Whisper: 'Terima kasih.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+

@@ -1,0 +1,56 @@
+================================================================================
+  EVALUASI BERTScore — OLLAMA ABSTRACTIVE SUMMARIZATION
+  Metrik: Precision, Recall, F1-Score (Semantic Similarity)
+  Model : bert-base-multilingual-cased (lang=id)
+  Referensi: Transkripsi Manual Manusia
+================================================================================
+
+================================================================================
+  TABEL 1 — BERTScore FITUR LIVE (4 Podcast)
+================================================================================
+No   Topik                             Precision     Recall   F1-Score
+--------------------------------------------------------------------------------
+1    Depresi                              65.31%     67.34%     66.31%
+2    Gen-Z & Pernikahan                   65.67%     68.18%     66.90%
+3    Pentingnya B. Inggris                61.52%     62.67%     62.09%
+4    Disiplin                             63.64%     65.00%     64.31%
+--------------------------------------------------------------------------------
+     Rata-rata                            64.03%     65.80%     64.90%
+--------------------------------------------------------------------------------
+
+================================================================================
+  TABEL 2 — BERTScore FITUR UPLOAD (9 Topik Rapat)
+================================================================================
+No   Topik                             Precision     Recall   F1-Score
+--------------------------------------------------------------------------------
+1    Basis Data                           65.74%     64.91%     65.32%
+2    K3 Keselamatan Kerja                 63.64%     60.91%     62.25%
+3    KWU                                  64.99%     64.55%     64.77%
+4    Psikologi Sosial                     68.18%     66.14%     67.14%
+5    Dasar Manajemen Bisnis               63.09%     63.41%     63.25%
+6    Digital Marketing                    62.79%     60.46%     61.60%
+7    Komisi XI DPR RI                     66.06%     64.65%     65.35%
+8    ESG & QHSE                           69.39%     69.31%     69.35%
+9    Ilmu Komunikasi                      61.03%     60.46%     60.74%
+--------------------------------------------------------------------------------
+     Rata-rata                            64.99%     63.87%     64.42%
+--------------------------------------------------------------------------------
+
+================================================================================
+  REKAPITULASI PERBANDINGAN FITUR LIVE vs UPLOAD
+================================================================================
+Fitur                   Precision     Recall   F1-Score
+--------------------------------------------------------------------------------
+Live                       64.03%     65.80%     64.90%
+Upload                     64.99%     63.87%     64.42%
+--------------------------------------------------------------------------------
+
+KETERANGAN:
+  BERTScore menggunakan model multilingual BERT untuk mengukur kemiripan SEMANTIK
+  antara ringkasan Ollama dengan transkripsi manual manusia (ground truth).
+  Berbeda dengan ROUGE yang menghitung kecocokan kata-per-kata, BERTScore
+  mengukur kemiripan makna meskipun kata-katanya berbeda.
+
+  Precision = seberapa tepat kata dalam ringkasan (tidak ada info tidak relevan)
+  Recall    = seberapa banyak informasi penting dari referensi tercakup
+  F1-Score  = keseimbangan antara Precision dan Recall

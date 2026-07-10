@@ -1,0 +1,24 @@
+==============================================================
+  RATA-RATA AKURASI TRANSKRIPSI WHISPER (WER / CER)
+  Sistem Notulensi — Live Podcast (Rata-rata 4 Podcast)
+==============================================================
+  Jumlah Dokumen Evaluasi : 4
+--------------------------------------------------------------
+  RATA-RATA METRIK UTAMA
+--------------------------------------------------------------
+  WER   (Word Error Rate)     :   55.32%
+  WAcc  (Word Accuracy)       :   44.68%
+  CER   (Character Error Rate):   43.11%
+--------------------------------------------------------------
+  PENILAIAN UMUM WHISPER (WAcc)
+--------------------------------------------------------------
+  Status: Perlu Peningkatan
+==============================================================
+
+  DETAIL SKOR PER PODCAST:
+--------------------------------------------------------------
+  * live_podcast1_depresi.txt            : WER=72.29%, WAcc=27.71%, CER=60.42%
+  * live_podcast2_genZ.txt               : WER=47.71%, WAcc=52.29%, CER=34.46%
+  * live_podcast3_pentingBinggris.txt    : WER=43.57%, WAcc=56.43%, CER=31.86%
+  * live_podcast4_disiplin.txt           : WER=57.72%, WAcc=42.28%, CER=45.68%
+==============================================================

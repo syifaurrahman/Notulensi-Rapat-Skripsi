@@ -1,0 +1,291 @@
+=== LAPORAN EVALUASI HALLUCINATION FILTER - PENGUJIAN 11 ===
+Tanggal Pengujian : 03 July 2026, 01:19:51
+Durasi Sesi       : 2 Menit (Kondisi Hening + Kipas + Percakapan Latar)
+Kebenaran Asli    : Pidato Rapat Aktif (Dengan teks pidatowhisperhalluuji.txt)
+============================================================
+
+METRIK EVALUASI:
+  - True Positive (TP)  : 30 (Halusinasi berhasil dibuang)
+  - False Positive (FP) : 5 (Ucapan valid salah terbuang)
+  - False Negative (FN) : 33 (Halusinasi lolos ke transkrip)
+  - True Negative (TN)  : 31 (Hening berhasil dipertahankan)
+
+PERSENTASE METRIK:
+  - Akurasi Deteksi     : 61.62%
+  - Presisi Filter      : 85.71%
+  - Recall Filter       : 47.62%
+
+LOG DETAIL SEGMEN DETEKSI:
+------------------------------------------------------------
+[01:17:52] Output Whisper: 'goodbye'
+            Keputusan Filter: BUANG
+            Status Evaluasi : FP
+
+[01:17:54] Output Whisper: 'thank you'
+            Keputusan Filter: BUANG
+            Status Evaluasi : FP (Trailing Flush)
+
+[01:18:02] Output Whisper: 'okay'
+            Keputusan Filter: BUANG
+            Status Evaluasi : FP
+
+[01:18:03] Output Whisper: 'Terus sekali, tidak mengganggu.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:18:07] Output Whisper: 'Jangan terlalu terlalu terlalu terlalu terlalu terlalu terlalu terlalu terlalu terlalu terlalu terlalu terlalu terlalu terlalu terlalu terlalu terlalu terlalu terlalu terlalu terlalu terlalu terlalu terlalu terlalu terlalu terlalu terlalu terlalu terlalu terlalu terlalu terlalu terlalu terlalu terlalu terlalu terlalu terlalu terlalu terlalu terlalu terlalu terlalu terlalu terlalu terlalu terlalu terlalu terlalu terlalu terlalu terlalu terlalu terlalu terlalu terlalu terlalu terlalu terlalu terlalu terlalu terlalu terlalu terlalu terlalu terlalu terlalu terlalu terlalu terlalu terlalu terl'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:18:08] Output Whisper: 'Music is stress. Masa.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:18:09] Output Whisper: 'yes'
+            Keputusan Filter: BUANG
+            Status Evaluasi : FP
+
+[01:18:09] Output Whisper: 'Terus di-stress. Masa? Iya, berantah bersama kami di sini, stress.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:18:10] Output Whisper: 'Masa? Iya, berhantar bersama-sama di sini, stres ya.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:18:14] Output Whisper: 'no'
+            Keputusan Filter: BUANG
+            Status Evaluasi : FP
+
+[01:18:17] Output Whisper: 'Terus di-stress ya, masa? Iya, berantem sama kamu disini, stress aja. Saya ya, jadi prioritasnya...'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:18:20] Output Whisper: 'Jangan lupa, jangan lupa, jangan lupa. Jangan lupa. Jangan lupa. Jangan lupa. Jangan lupa. Jangan lupa. Jangan lupa. Jangan lupa. Jangan lupa. Jangan lupa. Jangan lupa. Jangan lupa. Jangan lupa. Jangan lupa.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:18:21] Output Whisper: 'Maksud saya, saya ya, tapi prioritasnya itu. Apa ya? Emang kita kalau misalkan ini, itu paling susah demi.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:18:22] Output Whisper: 'Maksudnya, kalau kita berhati-hati dengan makament di sini, stres saja. Saya ya, tapi prioritasnya, gitu. Apa ya? Emang kita kalau misalkan dia, itu paling susah di sini. Ini selalu ada, ada aja.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:18:23] Output Whisper: 'Terima kasih.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:18:26] Output Whisper: 'Ini, Taiwan, terus ikut kembali melawan Aki Jali.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:18:27] Output Whisper: 'Dan ini kawan atau seingin pun, ketadi, pengelawan lagi jali.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:18:27] Output Whisper: 'Terima kasih. Terima kasih.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:18:28] Output Whisper: 'I want to include, atas, I want to introduce, yes, yes, yes, yes.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:18:29] Output Whisper: 'Terima kasih.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:18:30] Output Whisper: 'Ini, kawan atau seingkun ketadi melawan lagi jali. Ya, jadi bahap, peringat-ingat saya benar-benar kata-kata.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:18:31] Output Whisper: 'Ini, Taiwan, terus inggris, ke tadi, melawan, lagi jali. Ya, ini bahasa Indonesia yang benar-benar kata-kata.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:18:31] Output Whisper: 'Mereka menggunakan bahasa Indonesia yang dicampur istilah teknis berbahasa Inggris.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:18:33] Output Whisper: 'Semua, ini, Taiwan, atau seingkun, ketadi, melawan, lagi jali, ya. Ya, ini buffer, yang sama banyak kata-kata. Mordy ke tax dikit, langsung buffer, ya. Mana sih?'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:18:35] Output Whisper: 'Semuanya, ya, ya, ya, ya. Semuanya, ya, ya, ya, ya. Ya, ya, ya, ya. Ya, ya, ya. Ya, ya. Ya, ya, ya. Ya, ya, ya. Ya, ya. Ya, ya. Ya, ya. Ya, ya. Ya, ya. Ya, ya. Ya, ya.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:18:36] Output Whisper: 'Mereka menggunakan bahasa Inggris, ya, ya.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:18:38] Output Whisper: 'Bukankah kamu, Timmy? Kehwan, terus ngumpul, tetanik, melawan, lagi jali. Ya, dia baper ya, nggak sama banyak kata-kata. Mordi ke tax dikir, langsung baper ya. Mana sih? Dimana mau ini, ya? Nah, saya, gitu, tahu nggak? Pas sangat.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:18:39] Output Whisper: 'Mereka menggunakan bahasa Indonesia yang dicampur istilah teknis berbahasa Inggris.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:18:48] Output Whisper: 'Mereka menggunakan bahasa Inggris.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:18:49] Output Whisper: 'Ini, kawan atau seumpun ketadi melawan lagi jali. Ya, ini buffer, ya, saya banyak kata-kata. Mordi ke taxidiki langsung buffer ya. Mana sih? Bagaimana mau ini? Maksudnya saya gitu tau nggak pasangan tau. Ya, jangan, saya udah menang.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:18:50] Output Whisper: 'Ini juga asiskan terlalu, terlalu, bye.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:18:51] Output Whisper: 'Terima kasih, saya juga, saya akan terlalu, terlalu baik. Sebelah lalu sebar, ya, kegerakau? Gara-gara kamu juga. Gara-gara kau lah.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:18:56] Output Whisper: 'Ini juga, saya akan terlalu baik. Semilal-lalu sebar deh, ya, karena kamu? Eh, karena kamu juga. Eh, karena kamu lah. Oh, dulu, maaf, kamu susahin saya juga tau. Sekarang bagus, ya?'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:18:59] Output Whisper: 'Ini juga, saya sekian terlalu baik. Semilal lalu sebar ya, kegaraku? Gara-gara kamu juga. Gara-gara kau lah, kamu lah. Oh, dulu, kalau lalu kamu susahin saya juga tau. Sekarang bagus kan? Sekarang kamu minta. Bagus kan?'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:19:01] Output Whisper: 'Ini juga, ya, sih. Ini terlalu baik. Semilal lusbar ya, kegara kau? Eh, kegara-gara kamu juga. Eh, karena kau lah, ya kamu lah. Oh, dulu, kalau lah, kamu susahin saya juga tau. Sekarang bagus kan? Sekarang kamu minta. Bagus kan? Ya, minta.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:19:02] Output Whisper: 'Ini juga istirahat. Terlalu baik. Sembilan lalu sebar ya, kegara kamu? Gara-gara kamu juga. Gara kamu lah, ya kamu lah. Oh dulu, maaf lah, kamu susahin saya juga tau. Bagus kan? Sekarang kamu minta. Bagus kan? Ya minta, apa ya? Dah tau dia, ya sama.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:19:03] Output Whisper: 'Terima kasih.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:19:03] Output Whisper: 'Pertahankan kata-kata.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:19:03] Output Whisper: 'Terima kasih.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:19:08] Output Whisper: 'Dua tahun ini. Dua em. Iya. Kenapa kamu harus nge-info daripada orangku tinggal faiz sama selanjutnya?'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:19:09] Output Whisper: 'Dua tahun ini. Dua tahun ini. Kenapa kamu harus mengingatkan follower di orangku tinggal faiz sama selanjutnya?'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:19:10] Output Whisper: 'Dua tahun ini. Dua em. Iya. Kenapa kamu harus nge-info daripada orang kok tinggal faiz sama selanjutnya naik?'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:19:12] Output Whisper: 'Dua tahun ini. Dua em. Iya. Kenapa kamu harus nge-info daripada orang? Kok tinggal faiz sama selanjutnya naik? Hei!'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:19:13] Output Whisper: 'Dua tahun ini. Dua tahun ini. Kenapa kamu harus naik informasi dari orangku tinggal faiz sama selanjutnya? Hei! Hei!'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:19:15] Output Whisper: 'Dua tahun. Dua em. Dua em. Dua. Kenapa kamu harus nge-info daripada orang kok tinggal faiz sama selanjutnya? Hei! Hei! Tak mau tanpa. Sakit apa?'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:19:17] Output Whisper: 'Dua tahun ini. Dua tahun ini. Kenapa kamu harus menggabungi orang-orang kok tinggal faiz sama selanjutnya? Hei! Hei! Sakit apa? Sakit apa?'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:19:19] Output Whisper: 'Dua tahun ini. Dua em. Iya. Kenapa kamu harus naikin follow-up dari orangku tinggal faiz sama selanjutnya naik? Hei! Hei! Tak mau tanpa. Sakit naopa, sakit naopa! Jadi ada pelot, pis ini kayak...'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:19:21] Output Whisper: 'Dua tahun ini. Dua em. Kenapa kamu harus menggunakan follower di orangku tinggal faiz sama selanjutnya? Hei! Hei! Sakit apa? Sakit apa? Jadi ada pelot, tapi ini kayak film. Masihnya?'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:19:22] Output Whisper: 'Pertahankan kata-kata ini menggunakan bahasa Inggris. Pertahankan kata-kata ini menggunakan'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:19:22] Output Whisper: 'Thank you.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:19:23] Output Whisper: 'Terima kasih.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:19:24] Output Whisper: 'Tidak lalu.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:19:24] Output Whisper: 'Terima kasih.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:19:25] Output Whisper: 'Yang mangg, aku bukan subut, tapi okay subut saya.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:19:26] Output Whisper: 'Emang aku bukan subut tapi aku kesubut saya.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:19:27] Output Whisper: 'Emang aku bukan sebut tapi okey sebut saya.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:19:28] Output Whisper: 'Emang, aku bukan sebut, tapi okay sebut saya.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:19:29] Output Whisper: 'Emang, aku bukan sebut tapi okey sebut saya, siapa yang bahas okey sebut kau dan Tina?'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:19:30] Output Whisper: 'Emang, aku bukan sebut tapi okey sebut saya. Siapa yang bahas okey sebut kau dan tidak? Makanya saya bilang...'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:19:32] Output Whisper: 'Emang, aku bukan sebut, tapi okey sebut saya. Siapa yang bahas okey sebut kau dan tidak? Makanya saya bilang, saya kan bahas sih, kenapa?'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:19:33] Output Whisper: 'Emang, aku bukan sebut, tapi okay sebut saya. Siapa yang mengubahkan okay sebut kau dan tidak? Makanya saya bilang, saya kan mengubahkan, kenapa kau pilih okay?'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:19:34] Output Whisper: 'Emang, aku bukan sebut, tapi okay sebut saya. Siapa yang menguas okay sebut kau dan tidak? Makanya saya bilang, saya kan masih kenapa tau pilih okay dalam moment boxy.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:19:36] Output Whisper: 'Emang, aku bukan sebut tapi okay sebut saya. Siapa yang mas okay sebut kau dan tidak? Makanya saya bilang, saya kan masih kenapa tau pilih okay. Ini, sekarang, itu karena...'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:19:38] Output Whisper: 'Emang, aku bukan sebut tapi Ongkir sebut saya, siapa yang menguas Ongkir sebut kau dan tidak? Makanya saya bilang, saya kan masih kenapa tau pilih Ongkir di moment boxy, itu kan saja, gimana kalau Ongkir boxy saya mau itu?'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:19:40] Output Whisper: 'Emang, aku bukan sebut tapi Ongkir sebut saya, siapa yang menguas Ongkir sebut kau dan tidak? Makanya saya bilang, saya kan masih kenapa tau pilih Ongkir di moment boxy, itu kan saja, gimana kalau Ongkir boxy saya mau itai.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:19:42] Output Whisper: 'Emang, aku bukan sebut tapi okey sebut saya, siapa yang menguas okey sebut kau dan tidak, makanya saya bilang, saya kan masyik, kenapa kau pilih okey? Ini, sekarang, itu kan saja, gimana kalau okey moksik saya mau itu? Ya, nggak bisa.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+
+[01:19:46] Output Whisper: 'Emang, aku bukan sebut, tapi Ongkai sebut saya. Siapa yang menguas Ongkai sebut kau dan tidak? Makanya saya bilang kalau... Saya kan menguas Ongkai, kenapa kau pilih Ongkai? Ini... Sekarang... Itu kan saja, gimana kalau Ongkai Ongkai Ongkai Ongkai Ongkai Ongkai? Nah, nggak bisa. Iya, Ongkai Ongkai Ongkai, tidak apa.'
+            Keputusan Filter: BUANG
+            Status Evaluasi : TP
+
+[01:19:47] Output Whisper: 'Bukti ini kan sudah bisa apa-apa, akhirnya saya sudah keram, gue ngerti nggak.'
+            Keputusan Filter: LOLOS
+            Status Evaluasi : FN
+

@@ -1,0 +1,52 @@
+=== HASIL OLLAMA ABSTRACTIVE (LIVE) ===
+Sumber    : transkrip_20260629_232722.txt
+Dibuat    : 29 June 2026, 23:29:04
+Model     : Whisper small + llama3.2:3b
+========================================
+
+**Pembukaan:**
+
+- Rapat dibuka oleh Mas Rian.
+- Agenda rapat: membahas topik disiplin dan hubungannya dengan kebebasan, kemaduan peradaban, dan budaya nasional.
+
+**Disiplin sebagai Jembatan Kebebasan:**
+
+- Disiplin adalah jembatan yang mengubah kebebasan apa.
+- Disiplin tidak hanya tentang mematuhi aturan, tetapi juga tentang membuat pilihan yang bijak dan bertanggung jawab.
+- Orang yang berdisiplin memiliki kemampuan menunda kepuasan dan dapat melakukan sesuatu yang sulit karena rasanya tidak ingin.
+
+**Mitos Disiplin:**
+
+- Mitos disiplin adalah salah satu mitos paling berbahara di masyarakat kita.
+- Mitos ini menyatakan bahwa disiplin hanya tentang mematuhi aturan, tetapi sebenarnya adalah tentang membuat pilihan yang bijak dan bertanggung jawab.
+
+**Kemampuan Menunda Kekuasa:**
+
+- Kemampuan menunda kekuasa adalah prediktor yang sangat kuat untuk menunggu.
+- Dalam konteks keuangan, disiplin dapat membantu seseorang untuk menginvestasikan uang sekarang untuk mendapatkan keuntungan di masa depan.
+
+**Disiplin dalam Hubungan:**
+
+- Disiplin dalam hubungan adalah tentang kehadiran yang tepat waktu dan mengolak emosi.
+- Orang-orang yang tidak pernah marah atau tidak pernah kecewa memiliki kemampuan untuk merespons diri daripada reaksi terhadap emosi.
+
+**Kreativitas dan Disiplin:**
+
+- Kreativitas dapat bergembang dengan disiplin yang konsisten.
+- Teknik dan keahlian dapat dikembangkan dengan disiplin yang kuat.
+
+**Hubungan antara Tingkat Disiplin Individu dan Kemaduan Peradaban:**
+
+- Ada hubungan yang sangat langsung dan kuat antara tingkat disiplin individu dalam suatu masyarakat dan kemaduan peradaban itu secara keseluruhan.
+- Budaya disiplin yang tertanam dalam level masyarakat dapat membantu meningkatkan kemaduan peradaban.
+
+**Budaya Disiplin di Level Nasional:**
+
+- Dalam konteks Indonesia, membangun budaya disiplin yang lebih kuat di level nasional memerlukan perubahan budaya bersekala besar.
+- Perubahan budaya dapat dimulai dari individu dan kemudian menyebar ke masyarakat.
+
+**Kesimpulan:**
+
+- Disiplin adalah tentang membuat pilihan yang bijak dan bertanggung jawab.
+- Disiplin dapat membantu seseorang untuk mencapai tujuan mereka dan meningkatkan kualitas hidup mereka.
+- Budaya disiplin yang kuat dapat membantu meningkatkan kemaduan peradaban di suatu masyarakat.
