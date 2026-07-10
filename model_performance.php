@@ -160,7 +160,7 @@ if ($level_user != 1) {
                 <i class="fas fa-desktop" style="color:#2196F3;"></i>
                 <span>Visual Dashboard Summary Kinerja Sistem</span>
             </div>
-            <img src="visual uji/0_dashboard_summary.png" alt="Dashboard Summary">
+            <img src="visual%20uji/0_dashboard_summary.png" alt="Dashboard Summary">
         </div>
 
         <!-- Overall Table -->
@@ -330,7 +330,7 @@ if ($level_user != 1) {
                 <i class="fas fa-chart-line" style="color:#4CAF50;"></i>
                 <span>Distribusi Akurasi Whisper per Topik Rapat & Podcast</span>
             </div>
-            <img src="visual uji/1_whisper_accuracy.png" alt="Whisper Accuracy Detailed">
+            <img src="visual%20uji/1_whisper_accuracy.png" alt="Whisper Accuracy Detailed">
         </div>
     </div>
 
@@ -383,14 +383,14 @@ if ($level_user != 1) {
                     <i class="fas fa-chart-column" style="color:#ef5350;"></i>
                     <span>Perbandingan Metrik Sebelum vs Sesudah Noise Reduction</span>
                 </div>
-                <img src="visual uji/2_noise_reduction.png" alt="Noise Reduction Bar">
+                <img src="visual%20uji/2_noise_reduction.png" alt="Noise Reduction Bar">
             </div>
             <div class="mp-image-card" style="margin-bottom:0;">
                 <div class="mp-image-title">
                     <i class="fas fa-circle-nodes" style="color:#1e88e5;"></i>
                     <span>Radar Chart Cakupan Perbaikan WAcc</span>
                 </div>
-                <img src="visual uji/2b_noise_radar.png" alt="Noise Reduction Radar">
+                <img src="visual%20uji/2b_noise_radar.png" alt="Noise Reduction Radar">
             </div>
         </div>
 
@@ -440,7 +440,7 @@ if ($level_user != 1) {
                 <i class="fas fa-table" style="color:#4caf50;"></i>
                 <span>Confusion Matrix & Metrik Word Filler Removal</span>
             </div>
-            <img src="visual uji/3_word_filler_removal.png" alt="Word Filler Removal Charts">
+            <img src="visual%20uji/3_word_filler_removal.png" alt="Word Filler Removal Charts">
         </div>
 
         <div class="mp-divider"></div>
@@ -489,7 +489,7 @@ if ($level_user != 1) {
                 <i class="fas fa-chart-bar" style="color:#ff9800;"></i>
                 <span>Metrik & Distribusi Deteksi Hallucination Filter per Kondisi</span>
             </div>
-            <img src="visual uji/4_hallucination_filter.png" alt="Hallucination Filter Charts">
+            <img src="visual%20uji/4_hallucination_filter.png" alt="Hallucination Filter Charts">
         </div>
     </div>
 
@@ -552,7 +552,7 @@ if ($level_user != 1) {
                 <i class="fas fa-diagram-project" style="color:#009688;"></i>
                 <span>Metrik Detail, Hubungan Kompresi, dan Cosine Similarity LexRank</span>
             </div>
-            <img src="visual uji/5_lexrank_summarization.png" alt="LexRank Charts">
+            <img src="visual%20uji/5_lexrank_summarization.png" alt="LexRank Charts">
         </div>
 
         <div class="mp-divider"></div>
@@ -612,7 +612,7 @@ if ($level_user != 1) {
                 <i class="fas fa-brain" style="color:#7c3aed;"></i>
                 <span>Evaluasi Semantik: BERTScore (Precision, Recall, F1) Ollama per Topik</span>
             </div>
-            <img src="visual uji/6_bertscore_ollama.png" alt="BERTScore Ollama Charts">
+            <img src="visual%20uji/6_bertscore_ollama.png" alt="BERTScore Ollama Charts">
         </div>
     </div>
 
