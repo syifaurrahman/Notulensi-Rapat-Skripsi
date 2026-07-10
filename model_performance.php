@@ -159,8 +159,14 @@ if ($level_user != 1) {
             <div class="mp-image-title">
                 <i class="fas fa-desktop" style="color:#2196F3;"></i>
                 <span>Visual Dashboard Summary Kinerja Sistem</span>
+                <span style="margin-left:auto;font-size:0.78rem;color:#94a3b8;font-weight:400;">
+                    <i class="fas fa-clock" style="margin-right:4px;"></i>
+                    Diperbarui: <?php echo date('d M Y H:i', filemtime(__DIR__ . '/visual uji/0_dashboard_summary.png')); ?> WIB
+                </span>
             </div>
-            <img src="visual%20uji/0_dashboard_summary.png" alt="Dashboard Summary">
+            <img src="visual%20uji/0_dashboard_summary.png?v=<?php echo filemtime(__DIR__ . '/visual uji/0_dashboard_summary.png'); ?>"
+                 alt="Dashboard Summary Kinerja Sistem"
+                 style="width:100%;border-radius:8px;display:block;">
         </div>
 
         <!-- Overall Table -->
