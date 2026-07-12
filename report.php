@@ -82,6 +82,78 @@ if ($conn) {
             cursor: not-allowed;
         }
 
+        /* ── Search Bar ─────────────────────────────────── */
+        .search-bar-wrap {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-left: auto;
+            position: relative;
+        }
+        .search-input {
+            display: flex;
+            align-items: center;
+            background: #fff;
+            border: 1.5px solid #dde5f5;
+            border-radius: 10px;
+            padding: 0 14px 0 38px;
+            height: 38px;
+            font-size: 0.85rem;
+            color: #1e3a5f;
+            font-family: inherit;
+            width: 220px;
+            transition: all 0.25s ease;
+            outline: none;
+        }
+        .search-input:focus {
+            border-color: #2463eb;
+            box-shadow: 0 0 0 3px rgba(36,99,235,0.1);
+            width: 280px;
+        }
+        .search-input::placeholder { color: #94a3b8; }
+        .search-icon {
+            position: absolute;
+            left: 12px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #94a3b8;
+            font-size: 0.82rem;
+            pointer-events: none;
+            transition: color 0.2s;
+        }
+        .search-bar-wrap:focus-within .search-icon { color: #2463eb; }
+        .search-clear-btn {
+            display: none;
+            position: absolute;
+            right: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            background: none;
+            border: none;
+            color: #94a3b8;
+            cursor: pointer;
+            font-size: 0.78rem;
+            padding: 2px 4px;
+            border-radius: 4px;
+            transition: color 0.2s;
+        }
+        .search-clear-btn:hover { color: #dc2626; }
+        .no-search-result {
+            padding: 40px;
+            text-align: center;
+            color: #94a3b8;
+            font-size: 0.9rem;
+            display: none;
+        }
+        .no-search-result i { font-size: 2rem; margin-bottom: 10px; opacity: 0.4; display: block; }
+        .highlight-match {
+            background: #fef9c3;
+            border-radius: 3px;
+            padding: 0 2px;
+            font-weight: 600;
+            color: #854d0e;
+        }
+
         /* ── Loading Spinner ───────────────────────────── */
         .spinner {
             display: inline-block;
@@ -451,10 +523,31 @@ if ($conn) {
         <div class="report-header">
             <h2><i class="fas fa-file-lines" style="color:#2463eb; margin-right: 8px;"></i> Hasil Rapat</h2>
         </div>
-        <div class="filter-bar">
+        <div class="filter-bar" style="display:flex; align-items:center; gap:8px; flex-wrap:wrap;">
             <button class="filter-btn active" onclick="filterTable('all', this)">Semua</button>
             <button class="filter-btn" onclick="filterTable('Live', this)"><i class="fas fa-microphone"></i> Live</button>
             <button class="filter-btn" onclick="filterTable('Upload', this)"><i class="fas fa-film"></i> Upload</button>
+            <!-- Search Bar -->
+            <div class="search-bar-wrap">
+                <i class="fas fa-search search-icon"></i>
+                <input
+                    type="text"
+                    id="reportSearchInput"
+                    class="search-input"
+                    placeholder="Cari judul rapat..."
+                    autocomplete="off"
+                    aria-label="Cari judul rapat"
+                    oninput="handleSearch(this.value)"
+                >
+                <button class="search-clear-btn" id="searchClearBtn" onclick="clearSearch()" title="Hapus pencarian">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+        </div>
+        <!-- Pesan tidak ada hasil pencarian -->
+        <div class="no-search-result" id="noSearchResult">
+            <i class="fas fa-search-minus"></i>
+            Tidak ada rapat ditemukan untuk kata kunci <strong id="noResultKeyword"></strong>
         </div>
 
         <!-- Tabel -->
@@ -714,12 +807,38 @@ if ($conn) {
 
         // ── Pagination State ─────────────────────────────
         const ITEMS_PER_PAGE = 10;
-        let currentPage  = 1;
+        let currentPage   = 1;
         let currentFilter = 'all';
+        let currentSearch = '';
+
+        function normalizeStr(s) {
+            return s.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+        }
 
         function getFilteredRows() {
+            const q = normalizeStr(currentSearch.trim());
             return Array.from(document.querySelectorAll('.table-row:not(.header)')).filter(row => {
-                return currentFilter === 'all' || row.dataset.tipe === currentFilter;
+                const matchTipe = currentFilter === 'all' || row.dataset.tipe === currentFilter;
+                if (!matchTipe) return false;
+                if (!q) return true;
+                const judulEl = row.querySelector('.judul');
+                const judul   = judulEl ? normalizeStr(judulEl.textContent) : '';
+                return judul.includes(q);
+            });
+        }
+
+        // Highlight kata yang cocok di judul
+        function applyHighlights() {
+            const q = currentSearch.trim();
+            document.querySelectorAll('.table-row:not(.header) .judul').forEach(el => {
+                const orig = el.getAttribute('data-orig') || el.textContent;
+                el.setAttribute('data-orig', orig);
+                if (!q) {
+                    el.innerHTML = orig;
+                    return;
+                }
+                const regex = new RegExp(`(${q.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})`, 'gi');
+                el.innerHTML = orig.replace(regex, '<mark class="highlight-match">$1</mark>');
             });
         }
 
@@ -799,9 +918,45 @@ if ($conn) {
             document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
             btn.classList.add('active');
             currentFilter = tipe;
-            currentPage   = 1; // Reset ke halaman 1 saat ganti filter
+            currentPage   = 1;
             renderPage();
         }
+
+        // ── Search ──────────────────────────────────────
+        function handleSearch(val) {
+            currentSearch = val;
+            currentPage   = 1;
+            // Tampilkan/sembunyikan tombol clear
+            const clearBtn = document.getElementById('searchClearBtn');
+            clearBtn.style.display = val ? 'block' : 'none';
+            applyHighlights();
+            renderPage();
+            // Tampilkan pesan jika tidak ada hasil
+            const noResult = document.getElementById('noSearchResult');
+            const keyword  = document.getElementById('noResultKeyword');
+            const rows     = getFilteredRows();
+            if (val && rows.length === 0) {
+                keyword.textContent = `"${val}"`;
+                noResult.style.display = 'block';
+            } else {
+                noResult.style.display = 'none';
+            }
+        }
+
+        function clearSearch() {
+            const input = document.getElementById('reportSearchInput');
+            input.value = '';
+            input.focus();
+            handleSearch('');
+        }
+
+        // Shortcut: tekan '/' untuk fokus ke search
+        document.addEventListener('keydown', e => {
+            if (e.key === '/' && document.activeElement.tagName !== 'INPUT') {
+                e.preventDefault();
+                document.getElementById('reportSearchInput').focus();
+            }
+        });
 
         // Init pagination saat halaman load
         document.addEventListener('DOMContentLoaded', () => renderPage());
