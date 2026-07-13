@@ -1,9 +1,9 @@
-==============================================================
+﻿==============================================================
   RATA-RATA AKURASI TRANSKRIPSI WHISPER (ALL TOPICS)
 ==============================================================
   Jumlah Dataset Pengujian : 9 file rapat
   Metode Evaluasi          : Word Error Rate (WER) & Character Error Rate (CER)
-  Tanggal Perhitungan      : 21 June 2026
+  Tanggal Perhitungan      : 13 July 2026 (diperbarui dari data 06 July 2026)
 --------------------------------------------------------------
 
 DETAIL AKURASI PER TOPIK RAPAT:
@@ -28,9 +28,9 @@ DETAIL AKURASI PER TOPIK RAPAT:
      - CER  : 5.27%
 --------------------------------------------------------------
   5. manajemen bisnis
-     - WER  : 95.13%
-     - WAcc : 4.87%
-     - CER  : 83.30%
+     - WER  : 30.05%
+     - WAcc : 69.95%
+     - CER  : 21.50%
 --------------------------------------------------------------
   6. meeting esg and qhse
      - WER  : 20.26%
@@ -55,16 +55,22 @@ DETAIL AKURASI PER TOPIK RAPAT:
 
 RATA-RATA AKURASI KESELURUHAN:
   ------------------------------------------
-  Rata-rata WER (Word Error Rate)      : 24.50%
-  Rata-rata WAcc (Word Accuracy)        : 75.50%
-  Rata-rata CER (Character Error Rate) : 17.57%
+  Rata-rata WER (Word Error Rate)      : 17.26%
+  Rata-rata WAcc (Word Accuracy)        : 82.74%
+  Rata-rata CER (Character Error Rate) : 10.71%
   ------------------------------------------
 
+CATATAN PEMBARUAN:
+  - Data manajemen bisnis diperbarui dari hasil pengujian ulang
+    tanggal 06 July 2026 (WER lama: 95.13% -> WER baru: 30.05%)
+  - Perhitungan lama (WER 24.50%, WAcc 75.50%, CER 17.57%)
+    menggunakan data manajemen bisnis yang belum dikoreksi.
+
 KESIMPULAN KINERJA WHISPER:
-  - Nilai Rata-rata WAcc sebesar 75.50% menunjukkan bahwa model Whisper
-    memiliki akurasi pengenalan kata yang sangat baik (> 85% rata-rata) 
-    pada berbagai topik rapat/perkuliahan dalam Bahasa Indonesia.
-  - Nilai CER yang sangat rendah (17.57%) mengindikasikan tingkat
-    kesalahan ejaan karakter yang minim, membuat hasil transkripsi sangat
+  - Nilai Rata-rata WAcc sebesar 82.74% menunjukkan bahwa model Whisper
+    memiliki akurasi pengenalan kata yang baik pada berbagai topik
+    rapat/perkuliahan dalam Bahasa Indonesia.
+  - Nilai CER rata-rata 10.71% mengindikasikan tingkat kesalahan
+    ejaan karakter yang rendah, membuat hasil transkripsi sangat
     layak digunakan sebagai input ke tahap peringkasan (LexRank & Llama 3.2).
 ==============================================================
