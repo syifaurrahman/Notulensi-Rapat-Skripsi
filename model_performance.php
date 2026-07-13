@@ -223,9 +223,9 @@ if ($level_user != 1) {
                         <tr>
                             <td><strong>Hallucination Filter</strong></td>
                             <td>Pembersihan Teks Halusinasi</td>
-                            <td>Precision / Recall</td>
+                            <td>Acc / Prec / Recall</td>
                             <td>—</td>
-                            <td><strong>95.93% / 48.60%</strong></td>
+                            <td><strong>91.59% / 92.47% / 50.49%</strong></td>
                             <td><span class="mp-badge good">Aman & Presisi</span></td>
                         </tr>
                         <tr>
@@ -467,7 +467,7 @@ if ($level_user != 1) {
                 <div class="mp-kpi-icon" style="background:#e3f2fd;color:#1565c0;"><i class="fas fa-check"></i></div>
                 <div class="mp-kpi-info">
                     <span class="mp-kpi-label">Average Precision</span>
-                    <span class="mp-kpi-value">95.93%</span>
+                    <span class="mp-kpi-value">92.47%</span>
                     <span class="mp-kpi-note good">Sangat aman (tidak salah hapus)</span>
                 </div>
             </div>
@@ -475,7 +475,7 @@ if ($level_user != 1) {
                 <div class="mp-kpi-icon" style="background:#ffebee;color:#c62828;"><i class="fas fa-eye-slash"></i></div>
                 <div class="mp-kpi-info">
                     <span class="mp-kpi-label">Average Recall</span>
-                    <span class="mp-kpi-value">48.60%</span>
+                    <span class="mp-kpi-value">50.49%</span>
                     <span class="mp-kpi-note warn">Sebagian halusinasi masih lolos</span>
                 </div>
             </div>
@@ -483,7 +483,7 @@ if ($level_user != 1) {
                 <div class="mp-kpi-icon" style="background:#f3e5f5;color:#6a1b9a;"><i class="fas fa-chart-pie"></i></div>
                 <div class="mp-kpi-info">
                     <span class="mp-kpi-label">Average Accuracy</span>
-                    <span class="mp-kpi-value">88.42%</span>
+                    <span class="mp-kpi-value">91.59%</span>
                     <span class="mp-kpi-note good">Akurasi klasifikasi filter</span>
                 </div>
             </div>
