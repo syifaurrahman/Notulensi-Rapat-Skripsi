@@ -4,6 +4,7 @@ config.py — Konfigurasi LexRank Summarizer (Enhanced 6-Step Pipeline)
 Edit nilai di sini untuk menyesuaikan perilaku ringkasan.
 """
 
+import os
 from dataclasses import dataclass, field
 
 
@@ -60,8 +61,8 @@ class SummaryConfig:
     ])
 
     # ── Step 6: Abstractive Rewriting (Ollama) ────────────
-    # URL default Ollama
-    ollama_base_url: str = "http://localhost:11434"
+    # URL default Ollama — Docker-aware (env var OLLAMA_HOST)
+    ollama_base_url: str = os.getenv('OLLAMA_HOST', 'http://ollama:11434')
 
     # Model yang direkomendasikan: llama3.2:3b atau gemma2:9b
     ollama_model: str = "llama3.2:3b"

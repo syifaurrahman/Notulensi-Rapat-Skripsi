@@ -1,0 +1,44 @@
+# ============================================================
+# .dockerignore — File yang TIDAK perlu disalin ke container
+# ============================================================
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Git
+.git/
+.gitignore
+
+# File besar / video
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.mp3
+*.wav
+
+# Folder hasil (diisi runtime, bukan build)
+hasil/
+hasil_summarize/
+
+# Development tools
+tests/
+akurasi/
+noise_reduction/
+"visual uji"/
+"word filler uji"/
+Hallufilter_uji/
+whispertranscription/uploads/
+whispertranscription/hasil/
+
+# Environment
+.env
+
+# OS files
+.DS_Store
+Thumbs.db

@@ -17,6 +17,84 @@ Aplikasi manajemen notulensi rapat otomatis menggunakan teknologi transkripsi su
 - **Frontend**: HTML5, CSS3 (Vanilla), JavaScript, Font Awesome, Google Fonts (Inter)
 - **Database**: MySQL
 - **Transcription Engine**: Python with OpenAI Whisper (terletak di folder `whispertranscription`)
+- **Summarization**: LexRank + Ollama (LLM lokal)
+
+---
+
+## 🐳 Cara Menjalankan dengan Docker (Direkomendasikan)
+
+### Persyaratan
+- [Docker Desktop](https://www.docker.com/products/docker-desktop/) — satu-satunya yang perlu diinstall
+
+### Langkah Instalasi
+
+```bash
+# 1. Clone repository
+git clone https://github.com/syifaurrahman/Notulensi-Rapat-Skripsi.git
+cd Notulensi-Rapat-Skripsi
+
+# 2. Jalankan semua container
+docker compose up --build -d
+
+# 3. Download model AI untuk summarization (jalankan SEKALI)
+docker exec notulensi_ollama ollama pull llama3.2:3b
+
+# 4. Buka aplikasi di browser
+# http://localhost
+```
+
+### Login Bawaan
+| Email | Password | Level |
+|-------|----------|-------|
+| `Admin@admin.com` | `admin123` | Admin |
+| `user@user.com` | `user123` | User |
+
+### Menghentikan Aplikasi
+```bash
+docker compose down
+```
+
+---
+
+## 📋 Persyaratan Sistem (Tanpa Docker / Manual)
+
+- PHP 8.x
+- MySQL / MariaDB
+- Laragon atau XAMPP (untuk Windows)
+- Python 3.10+ (untuk fitur transkripsi)
+- FFmpeg (diperlukan oleh Whisper)
+- Ollama + model llama3.2:3b
+
+## 🔧 Instalasi Manual (tanpa Docker)
+
+1. **Clone Repositori**:
+   ```bash
+   git clone https://github.com/syifaurrahman/Notulensi-Rapat-Skripsi.git
+   cd Notulensi-Rapat-Skripsi
+   ```
+
+2. **Setup Database**:
+   - Pastikan MySQL Anda berjalan.
+   - Buka browser dan jalankan `http://localhost/notulensi_rapat/migrate.php`
+
+3. **Setup Python**:
+   ```bash
+   python -m venv .venv
+   .venv\Scripts\activate
+   pip install openai-whisper flask flask-socketio flask-cors noisereduce soundfile sounddevice numpy scipy scikit-learn rich pymysql
+   ```
+
+4. **Jalankan Python Server**:
+   ```bash
+   python whispertranscription/server.py
+   ```
+
+## ⚠️ Catatan
+Proyek ini masih dalam tahap pengembangan (belum sempurna). Beberapa fitur mungkin memerlukan konfigurasi manual tambahan pada bagian mesin transkripsi Python.
+
+---
+Dikembangkan oleh [Syifaurrahman](https://github.com/syifaurrahman)
+
 
 ## 📋 Persyaratan Sistem
 

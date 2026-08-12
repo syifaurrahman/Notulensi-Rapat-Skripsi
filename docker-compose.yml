@@ -1,0 +1,105 @@
+# ============================================================
+# docker-compose.yml — Orkestrasi semua container
+# Notulensi Rapat — PHP + Python Whisper + MySQL + Ollama
+# ============================================================
+version: '3.9'
+
+services:
+
+  # ── 1. DATABASE MySQL ──────────────────────────────────────
+  db:
+    image: mysql:8.0
+    container_name: notulensi_db
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: ""
+      MYSQL_ALLOW_EMPTY_PASSWORD: "yes"
+      MYSQL_DATABASE: notulensi
+    volumes:
+      - db_data:/var/lib/mysql
+      - ./notulensi.sql:/docker-entrypoint-initdb.d/01_schema.sql
+    ports:
+      - "3306:3306"
+    networks:
+      - notulensi_network
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "--silent"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # ── 2. WEB PHP (Apache) ────────────────────────────────────
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile.php
+    container_name: notulensi_web
+    restart: unless-stopped
+    ports:
+      - "80:80"
+    environment:
+      DB_HOST: db
+      DB_USER: root
+      DB_PASS: ""
+      DB_NAME: notulensi
+    volumes:
+      # Mount folder hasil agar PHP & Python bisa akses file yang sama
+      - hasil_volume:/var/www/html/hasil
+      - hasil_summarize_volume:/var/www/html/hasil_summarize
+    depends_on:
+      db:
+        condition: service_healthy
+    networks:
+      - notulensi_network
+
+  # ── 3. PYTHON WHISPER SERVER (Flask + Socket.IO) ───────────
+  python:
+    build:
+      context: .
+      dockerfile: Dockerfile.python
+    container_name: notulensi_python
+    restart: unless-stopped
+    ports:
+      - "5000:5000"
+    environment:
+      DB_HOST: db
+      DB_USER: root
+      DB_PASS: ""
+      DB_NAME: notulensi
+    volumes:
+      # Shared volume agar hasil transkripsi bisa diakses PHP
+      - hasil_volume:/app/hasil
+      - hasil_summarize_volume:/app/hasil_summarize
+      - uploads_volume:/app/whispertranscription/uploads
+    depends_on:
+      db:
+        condition: service_healthy
+    networks:
+      - notulensi_network
+
+  # ── 4. OLLAMA (LLM Lokal untuk Summarization) ─────────────
+  ollama:
+    image: ollama/ollama:latest
+    container_name: notulensi_ollama
+    restart: unless-stopped
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama_data:/root/.ollama
+    networks:
+      - notulensi_network
+    # Ollama akan download model saat pertama kali dibutuhkan
+    # Model: llama3.2:3b (sesuai config.py)
+
+# ── Volume Bersama ─────────────────────────────────────────
+volumes:
+  db_data:
+  ollama_data:
+  hasil_volume:
+  hasil_summarize_volume:
+  uploads_volume:
+
+# ── Network Internal ───────────────────────────────────────
+networks:
+  notulensi_network:
+    driver: bridge

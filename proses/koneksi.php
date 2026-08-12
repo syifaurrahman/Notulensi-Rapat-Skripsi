@@ -1,9 +1,12 @@
 <?php
-// koneksi.php
-$host = 'localhost'; // default laragon
-$username = 'root'; // default laragon
-$password = ''; // default laragon (kosong)
-$database = 'notulensi'; // nama database Anda
+// koneksi.php — Docker-aware database connection
+// Menggunakan environment variable jika tersedia (Docker),
+// fallback ke localhost (Laragon/XAMPP)
+
+$host     = getenv('DB_HOST') ?: 'localhost';
+$username = getenv('DB_USER') ?: 'root';
+$password = getenv('DB_PASS') ?: '';
+$database = getenv('DB_NAME') ?: 'notulensi';
 
 // Buat koneksi
 $conn = mysqli_connect($host, $username, $password, $database);

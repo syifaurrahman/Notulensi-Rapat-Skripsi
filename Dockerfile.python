@@ -1,0 +1,57 @@
+# ============================================================
+# Dockerfile.python — Container untuk Python Whisper + Flask
+# ============================================================
+FROM python:3.11-slim
+
+# Install dependensi sistem (FFmpeg wajib untuk Whisper)
+RUN apt-get update && apt-get install -y \
+    ffmpeg \
+    gcc \
+    g++ \
+    portaudio19-dev \
+    libsndfile1 \
+    git \
+    curl \
+    && apt-get clean && rm -rf /var/lib/apt/lists/*
+
+# Set working directory
+WORKDIR /app/whispertranscription
+
+# Salin requirements dulu (agar Docker bisa cache layer ini)
+COPY whispertranscription/ /app/whispertranscription/
+
+# Salin folder hasil & hasil_summarize agar path-nya tersedia
+COPY hasil/ /app/hasil/
+COPY hasil_summarize/ /app/hasil_summarize/
+
+# Install library Python
+# PyTorch versi CPU (lebih kecil & kompatibel universal)
+RUN pip install --no-cache-dir torch torchaudio --index-url https://download.pytorch.org/whl/cpu
+
+RUN pip install --no-cache-dir \
+    openai-whisper \
+    flask \
+    flask-socketio \
+    flask-cors \
+    noisereduce \
+    soundfile \
+    sounddevice \
+    numpy \
+    scipy \
+    scikit-learn \
+    rich \
+    pymysql \
+    python-engineio \
+    python-socketio
+
+# Buat folder output yang dibutuhkan
+RUN mkdir -p /app/hasil \
+    && mkdir -p /app/hasil_summarize/Lexrank \
+    && mkdir -p /app/hasil_summarize/Ollama \
+    && mkdir -p /app/whispertranscription/uploads
+
+# Expose port Flask
+EXPOSE 5000
+
+# Jalankan server.py
+CMD ["python", "server.py"]

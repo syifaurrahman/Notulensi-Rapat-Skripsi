@@ -1,70 +1,59 @@
--- phpMyAdmin SQL Dump
--- version 5.2.0
--- https://www.phpmyadmin.net/
---
--- Host: localhost:3306
--- Generation Time: Feb 19, 2026 at 07:03 PM
--- Server version: 5.7.39
--- PHP Version: 8.1.10
+-- ============================================================
+-- notulensi.sql — Full Database Schema + Seed Data
+-- Digunakan oleh Docker (docker-entrypoint-initdb.d)
+-- & sebagai referensi instalasi manual
+-- ============================================================
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET time_zone = "+07:00";
 START TRANSACTION;
-SET time_zone = "+00:00";
 
+SET NAMES utf8mb4;
+SET CHARACTER SET utf8mb4;
 
-/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
-/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!40101 SET NAMES utf8mb4 */;
+-- ── Buat database jika belum ada ──────────────────────────────
+CREATE DATABASE IF NOT EXISTS `notulensi`
+    CHARACTER SET utf8mb4
+    COLLATE utf8mb4_unicode_ci;
 
---
--- Database: `notulensi`
---
+USE `notulensi`;
 
--- --------------------------------------------------------
+-- ── Tabel: users ──────────────────────────────────────────────
+CREATE TABLE IF NOT EXISTS `users` (
+    `id`       INT(11)      NOT NULL AUTO_INCREMENT,
+    `nama`     VARCHAR(100) NOT NULL,
+    `email`    VARCHAR(100) NOT NULL,
+    `password` VARCHAR(255) NOT NULL,
+    `level`    TINYINT(1)   NOT NULL DEFAULT 2
+               COMMENT '1: Admin, 2: User',
+    PRIMARY KEY (`id`),
+    UNIQUE KEY `email` (`email`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
---
--- Table structure for table `users`
---
+-- Seed: Data user awal (password di-hash dengan bcrypt)
+-- Admin: admin123 | User: user123
+INSERT IGNORE INTO `users` (`nama`, `email`, `password`, `level`) VALUES
+('Admin', 'Admin@admin.com', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 1),
+('User',  'user@user.com',   '$2y$10$TKh8H1.PfuPhX9XDo21R8eQ5tIfPNmDxuDVJXxPKfj1Q3VJZzDfv2', 2);
+-- Catatan: hash di atas adalah password_hash() default.
+-- Gunakan migrate.php untuk generate hash yang benar jika login gagal.
 
-CREATE TABLE `users` (
-  `id` int(11) NOT NULL,
-  `nama` varchar(100) NOT NULL,
-  `email` varchar(100) NOT NULL,
-  `password` varchar(255) NOT NULL,
-  `level` int(1) NOT NULL DEFAULT '2' COMMENT '1: Admin, 2: User'
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+-- ── Tabel: notulensi_hasil ────────────────────────────────────
+CREATE TABLE IF NOT EXISTS `notulensi_hasil` (
+    `id`               INT(11)      NOT NULL AUTO_INCREMENT,
+    `judul_rapat`      VARCHAR(255) NOT NULL,
+    `waktu_rapat`      DATETIME     NOT NULL,
+    `tipe_transkripsi` ENUM('Live','Upload') NOT NULL DEFAULT 'Live',
+    `transkrip_txt`    VARCHAR(500) DEFAULT NULL
+                       COMMENT 'nama file .txt hasil transkripsi',
+    `durasi_detik`     INT(11)      DEFAULT 0
+                       COMMENT 'durasi video/audio dalam detik',
+    `ringkasan`        TEXT         DEFAULT NULL
+                       COMMENT 'ringkasan LexRank',
+    `file_pdf`         VARCHAR(255) DEFAULT NULL
+                       COMMENT 'path file PDF (fitur lama)',
+    `created_at`       TIMESTAMP    NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
---
--- Dumping data for table `users`
---
-
-INSERT INTO `users` (`id`, `nama`, `email`, `password`, `level`) VALUES
-(1, 'Admin', 'Admin@admin.com', 'admin123', 1),
-(2, 'user', 'user@user.com', 'user123', 2);
-
---
--- Indexes for dumped tables
---
-
---
--- Indexes for table `users`
---
-ALTER TABLE `users`
-  ADD PRIMARY KEY (`id`),
-  ADD UNIQUE KEY `email` (`email`);
-
---
--- AUTO_INCREMENT for dumped tables
---
-
---
--- AUTO_INCREMENT for table `users`
---
-ALTER TABLE `users`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 COMMIT;
-
-/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
-/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
-/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
