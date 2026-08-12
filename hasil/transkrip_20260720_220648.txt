@@ -1,0 +1,6 @@
+=== TRANSKRIPSI RAPAT (LIVE — Web) ===
+Dibuat  : 20 July 2026, 22:06:48
+Model   : Whisper small
+========================================
+
+Baik berdasarkan hasil pengujian minggu lalu, fitur transkripsi secara umum sudah berjalan dengan baik, sistem mampu mengebah rekaman. Baik berdasarkan hasil pengujian minggu lalu, fitur transkripsi secara umum sudah berjalan dengan baik, sistem mampu mengebah rekaman suara menjadi teks dengan cukup cepat. Namun, kami masih menemukan beberapa kesalahan penulisan ketika berbicara. Atau ketika terdapat suara latar yang cukup besing pada kondisi tersebut, beberapa kata tidak dikenali dengan benar sehingga hasil transcripts perlu diperbekir secara manual. Baik berarti kualitas audio masih menjadi faktor yang cukup berpengaruh terhadap hasil transkripsi.

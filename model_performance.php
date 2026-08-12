@@ -136,10 +136,7 @@ if ($level_user != 1) {
 
     <!-- Tab Navigation -->
     <div class="mp-tabs">
-        <button class="mp-tab-btn active" onclick="switchTab(event, 'tab-dashboard')">
-            <i class="fas fa-chart-line"></i> Dasbor Ringkasan
-        </button>
-        <button class="mp-tab-btn" onclick="switchTab(event, 'tab-whisper')">
+        <button class="mp-tab-btn active" onclick="switchTab(event, 'tab-whisper')">
             <i class="fas fa-microphone-lines"></i> ASR Whisper
         </button>
         <button class="mp-tab-btn" onclick="switchTab(event, 'tab-filters')">
@@ -151,109 +148,9 @@ if ($level_user != 1) {
     </div>
 
     <!-- ══════════════════════════════════════════════
-         TAB 1: DASBOR RINGKASAN
+         TAB 1: ASR WHISPER
     ══════════════════════════════════════════════ -->
-    <div id="tab-dashboard" class="mp-tab-content active">
-        <!-- Dashboard Image Card -->
-        <div class="mp-image-card">
-            <div class="mp-image-title">
-                <i class="fas fa-desktop" style="color:#2196F3;"></i>
-                <span>Visual Dashboard Summary Kinerja Sistem</span>
-                <span style="margin-left:auto;font-size:0.78rem;color:#94a3b8;font-weight:400;">
-                    <i class="fas fa-clock" style="margin-right:4px;"></i>
-                    Diperbarui: <?php echo date('d M Y H:i', filemtime(__DIR__ . '/visual uji/0_dashboard_summary.png')); ?> WIB
-                </span>
-            </div>
-            <img src="visual%20uji/0_dashboard_summary.png?v=<?php echo filemtime(__DIR__ . '/visual uji/0_dashboard_summary.png'); ?>"
-                 alt="Dashboard Summary Kinerja Sistem"
-                 style="width:100%;border-radius:8px;display:block;">
-        </div>
-
-        <!-- Overall Table -->
-        <div class="mp-table-card">
-            <div class="mp-table-header">
-                <i class="fas fa-trophy" style="color:#3b82f6;"></i>
-                <span>Tabel Ringkasan Perbandingan Model (Akurasi Rata-rata)</span>
-            </div>
-            <div class="mp-table-wrap">
-                <table class="mp-table">
-                    <thead>
-                        <tr>
-                            <th>Model / Fitur</th>
-                            <th>Tugas Sistem</th>
-                            <th>Metrik Pengujian</th>
-                            <th>Skor Sebelum</th>
-                            <th>Skor Sesudah</th>
-                            <th>Peningkatan (Δ)</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td><strong>Whisper (Upload)</strong></td>
-                            <td>Transkripsi Rapat Rekaman</td>
-                            <td>Word Accuracy (WAcc)</td>
-                            <td>—</td>
-                            <td><strong>82.74%</strong></td>
-                            <td><span class="mp-badge best">Baik ✓</span></td>
-                        </tr>
-                        <tr>
-                            <td><strong>Whisper (Live)</strong></td>
-                            <td>Transkripsi Live Streaming</td>
-                            <td>Word Accuracy (WAcc)</td>
-                            <td>—</td>
-                            <td><strong>44.68%</strong></td>
-                            <td><span class="mp-badge warn">Butuh Latensi Rendah</span></td>
-                        </tr>
-                        <tr>
-                            <td><strong>Noise Reduction Filter</strong></td>
-                            <td>Audio Denoising Preprocessing</td>
-                            <td>Word Accuracy (WAcc)</td>
-                            <td>61.67%</td>
-                            <td><strong>96.11%</strong></td>
-                            <td><span class="mp-badge best">↑ +34.44%</span></td>
-                        </tr>
-                        <tr>
-                            <td><strong>Word Filler Removal</strong></td>
-                            <td>Penghapusan Filler Text</td>
-                            <td>F1-Score / Accuracy</td>
-                            <td>0.00% / 90.83%</td>
-                            <td><strong>97.58% / 99.55%</strong></td>
-                            <td><span class="mp-badge best">↑ +97.58% / +8.72%</span></td>
-                        </tr>
-                        <tr>
-                            <td><strong>Hallucination Filter</strong></td>
-                            <td>Pembersihan Teks Halusinasi</td>
-                            <td>Acc / Prec / Recall</td>
-                            <td>—</td>
-                            <td><strong>91.59% / 92.47% / 50.49%</strong></td>
-                            <td><span class="mp-badge good">Aman & Presisi</span></td>
-                        </tr>
-                        <tr>
-                            <td><strong>LexRank (Ekstraktif)</strong></td>
-                            <td>Peringkasan Kalimat Kunci</td>
-                            <td>Cosine Similarity</td>
-                            <td>—</td>
-                            <td><strong>62.52% (Up) / 69.15% (Live)</strong></td>
-                            <td><span class="mp-badge good">Coverage 100%</span></td>
-                        </tr>
-                        <tr>
-                            <td><strong>Ollama Llama 3.2 (Abstraktif)</strong></td>
-                            <td>Notulensi Naratif Paragraf</td>
-                            <td>BERTScore F1</td>
-                            <td>—</td>
-                            <td><strong>64.42% (Up) / 64.90% (Live)</strong></td>
-                            <td><span class="mp-badge good">Semantik Kuat</span></td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-    </div>
-
-    <!-- ══════════════════════════════════════════════
-         TAB 2: ASR WHISPER
-    ══════════════════════════════════════════════ -->
-    <div id="tab-whisper" class="mp-tab-content">
+    <div id="tab-whisper" class="mp-tab-content active">
         <!-- Live vs Upload KPI -->
         <div class="mp-grid-2">
             <!-- PANEL LIVE -->

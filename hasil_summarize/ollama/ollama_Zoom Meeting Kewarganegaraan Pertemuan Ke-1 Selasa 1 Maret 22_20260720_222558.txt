@@ -1,0 +1,35 @@
+=== HASIL OLLAMA ABSTRACTIVE ===
+Sumber    : transkrip_Zoom Meeting Kewarganegaraan Pertemuan Ke-1 Selasa 1 Maret 22_20260720_222558.txt
+Dibuat    : 20 July 2026, 22:26:16
+Model     : Whisper small + llama3.2:3b
+========================================
+
+adalah notulen rapat berdasar pada data yang diberikan:
+
+Judul: Pendidikan Pancasila dan Kewarganegaraan
+
+Tujuan: Membahas perbedaan antara warga negara, pendidikan ke warga negaraan, dan pendidikan kewarga negaraan.
+
+**Partisipan:**
+- Pak (saya) sebagai moderator
+- Lidith
+- Andra
+
+**Pertanyaan:**
+- Apa perbedaan antara warganegara dan warga negara?
+- Apa perbedaan antara pendidikan ke warga negaraan dan pendidikan kewarga negaraan?
+
+**Jawaban:**
+- Lidith menjelaskan bahwa warga negara adalah seseorang yang memiliki status sebagai warga negara yang ditunjukkan secara legal, secara undang-undang.
+- Andra menjelaskan bahwa pendidikan ke warga negaraan dan pendidikan kewarga negaraan memiliki perbedaan dalam hal definisi dan fokusnya.
+
+**Pertemuan Pertama:**
+- Saya akan membagikan materi untuk 12 pertemuan, dengan format presentasi paper, video presentasi, dan diskusi kelompok.
+- Pertemuan pertama dijadwalkan untuk ceramah dan biskul (diskusi), kemudian pertemuan kedua akan melanjutkan diskusi kelompok.
+
+**Tugas:**
+- Setiap kelompok harus membuat paper dan menyediakan video presentasi yang akan dikirimkan ke grup.
+- Saat 1 hari sebelum perkuliahan, kelompok harus menyediakan bahan presentasi dalam bentuk powerpoint atau sajian presentasi lainnya.
+
+**Nilai:**
+- Saya akan menilai kualitas paper dan video presentasi.

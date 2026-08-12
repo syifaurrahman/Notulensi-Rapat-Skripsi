@@ -1,0 +1,11 @@
+=== HASIL LEXRANK EXTRACTIVE (LIVE) ===
+Sumber    : transkrip_20260720_221452.txt
+Dibuat    : 20 July 2026, 22:15:47
+Model     : Whisper small
+========================================
+
+Hasil terbaik diperoleh pada rekaman dengan suara yang jelas dan minim gangguan, Itu bagaimana dengan proses pembuatan ringkasan otomatis. Teransekripsi membutuhkan waktu sekitar 1-2 menit tergantung spesifikasi perangkat. Transcription membutuhkan waktu sekitar 1 hingga 2 menit tergantung spesifikasi perangkat.
+
+Dokumen tersebut berisi informasi judul rapat, waktu pelaksanaan, hasil transkripsi, serta ringkasian pemimpin, Sehingga dapat langsung digunakan sehingga. Hasil ini memudahkan pengguna apabila ingin melihat hasil rapat sebelumn. Hasil ini memudahkan pengguna apabila ingin melihat hasil rapat sebelumnya, Baik, apakah masih ada kenderaan?
+
+Saya juga menyerangkan agar dilakukan pengujian menggunakan lebih banyak variasi data, misalnya rapat formal, diskusi kelompok, maupun seminar agar diketahui performa sistem pada berbagai kondisi anggot, Baik itu perlu menjadi proses prioritas perbai. Kami menarikadikan seluruh proses evaluasi selesai minggu depan sehingga setelah Baik, jadi keputusan rapat ini adalah menanjutkan penyempunan kualitas transcriptsi pada audio kondisi biasing, menambah variasi data uji, melakukan evaluasi menggunakan metrik yang telah disepakati, serta menyiapkan implementasi terbatas terhadap seluruh pengujian.

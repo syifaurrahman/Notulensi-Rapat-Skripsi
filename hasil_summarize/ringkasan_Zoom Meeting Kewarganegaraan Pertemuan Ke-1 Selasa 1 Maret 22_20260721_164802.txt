@@ -1,0 +1,27 @@
+=== RINGKASAN RAPAT (LexRank 6-Step) ===
+Sumber    : transkrip_Zoom Meeting Kewarganegaraan Pertemuan Ke-1 Selasa 1 Maret 22_20260721_164802.txt
+Dibuat    : 21 July 2026, 16:48:34
+Model     : Whisper small
+========================================
+
+adalah notulis dari rapat berdasarkan data yang diberikan:
+
+Judul: Pendidikan Pancasila dan Warganegaraan
+
+Pertanyaan: Apakah ada perbedaan antara warganegara dan pendidikan ke warganegaraan?
+
+**Jawaban:**
+- Warga negara adalah seseorang yang memiliki status sebagai warga negara yang ditunjukkan secara legal, secara undang-undang.
+- Pendidikan ke warganegaraan adalah proses belajar mengenal dan memahami nilai-nilai Pancasila dan konsep warganegaraan.
+
+**Pertemuan Pertama:**
+- Presentasi paper dan video presentasi akan disampaikan oleh setiap kelompok.
+- Setiap pertemuan, diskusi kelompok akan diadakan untuk membahas topik yang telah dibahas sebelumnya.
+- Bahan presentasi dalam bentuk powerpoint atau sediaan presentasi lain-lain akan disediakan dan nilai juga akan diberikan.
+
+**Pertemuan Kedua:**
+- Ceramah lagi akan disampaikan oleh Pak.
+- Diskusi kelompok akan diadakan untuk membahas topik yang telah dibahas sebelumnya.
+
+**Pertemuan Ketiga:**
+- Diskusi kelompok akan dimulai untuk membahas paper dan video presentasi yang telah disampaikan.

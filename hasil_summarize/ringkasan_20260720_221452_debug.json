@@ -1,0 +1,162 @@
+[
+  {
+    "rank": 1,
+    "score": 0.0512,
+    "sentence": "Hasil ini memudahkan pengguna apabila ingin melihat hasil rapat sebelumnya, Baik, apakah masih ada kenderaan?"
+  },
+  {
+    "rank": 2,
+    "score": 0.0491,
+    "sentence": "Hasil ini memudahkan pengguna apabila ingin melihat hasil rapat sebelumn."
+  },
+  {
+    "rank": 3,
+    "score": 0.0489,
+    "sentence": "Teransekripsi membutuhkan waktu sekitar 1-2 menit tergantung spesifikasi perangkat."
+  },
+  {
+    "rank": 4,
+    "score": 0.0456,
+    "sentence": "Hasil terbaik diperoleh pada rekaman dengan suara yang jelas dan minim gangguan, Itu bagaimana dengan proses pembuatan ringkasan otomatis."
+  },
+  {
+    "rank": 5,
+    "score": 0.0431,
+    "sentence": "Kami menarikadikan seluruh proses evaluasi selesai minggu depan sehingga setelah Baik, jadi keputusan rapat ini adalah menanjutkan penyempunan kualitas transcriptsi pada audio kondisi biasing, menambah variasi data uji, melakukan evaluasi menggunakan metrik yang telah disepakati, serta menyiapkan implementasi terbatas terhadap seluruh pengujian."
+  },
+  {
+    "rank": 6,
+    "score": 0.0429,
+    "sentence": "Saya juga menyerangkan agar dilakukan pengujian menggunakan lebih banyak variasi data, misalnya rapat formal, diskusi kelompok, maupun seminar agar diketahui performa sistem pada berbagai kondisi anggot, Baik itu perlu menjadi proses prioritas perbai."
+  },
+  {
+    "rank": 7,
+    "score": 0.0419,
+    "sentence": "Transcription membutuhkan waktu sekitar 1 hingga 2 menit tergantung spesifikasi perangkat."
+  },
+  {
+    "rank": 8,
+    "score": 0.0393,
+    "sentence": "Dokumen tersebut berisi informasi judul rapat, waktu pelaksanaan, hasil transkripsi, serta ringkasian pemimpin, Sehingga dapat langsung digunakan sehingga."
+  },
+  {
+    "rank": 9,
+    "score": 0.0392,
+    "sentence": "Apakah sistem sudah dapat menghasilkan dokumen hasil rapat secara otomatis?"
+  },
+  {
+    "rank": 10,
+    "score": 0.0346,
+    "sentence": "Saya juga menyerangkan agar dilakukan pengujian menggunakan lebih banyak variasi data, misalnya rapat formal, diskusi kelompok maupun seminar agar diketahui performa sistem pada berbagai kondisi."
+  },
+  {
+    "rank": 11,
+    "score": 0.0312,
+    "sentence": "Berdasarkan hasil pengujian minggu lalu, fitur transkripsi secara umum sudah berjalan dengan baik."
+  },
+  {
+    "rank": 12,
+    "score": 0.0312,
+    "sentence": "Mengidentifikasi kendala yang masih ada serta menentukan tindak lanjut sebelum sistem Baik berdasarkan hasil pengujian minggu lalu, fitur transkripsi secara umum sudah berjalan dengan baik."
+  },
+  {
+    "rank": 13,
+    "score": 0.0304,
+    "sentence": "Selain itu apabila audio mengandung terlalu banyak pelacakapan yang saling tumpang tidih kualitas Baik itu perlu menjadi proses prioritas perbai."
+  },
+  {
+    "rank": 14,
+    "score": 0.0299,
+    "sentence": "Setelah setan sekripsi selesai, proses pembuatan ringkasan berlangsung kurang dari 1 menit hingga keseluruhan proses relatif cepat."
+  },
+  {
+    "rank": 15,
+    "score": 0.0296,
+    "sentence": "Menambah variasi data uji, melakukan evaluasi menggunakan metrik yang telah disepakati, serta menyiapkan implementasi terbatas terhadap seluruh pengujian selesai."
+  },
+  {
+    "rank": 16,
+    "score": 0.025,
+    "sentence": "Judul ini adalah evaluasi sistem nutrensi rapat otomatis."
+  },
+  {
+    "rank": 17,
+    "score": 0.0217,
+    "sentence": "Selain itu apabila audio mengandung terlalu banyak aplikasi."
+  },
+  {
+    "rank": 18,
+    "score": 0.0206,
+    "sentence": "Ada beberapa hal, pertama, apabila koneksi internet tidak stabil, proses unggah file menjadi lebih lambat, kedua, model bahasa membutuhkan kapasitas memory yang cukup besar, sehingga pada perangkat dengan spesifikasi rendah proses peringkasan sedikit lebih lama."
+  },
+  {
+    "rank": 19,
+    "score": 0.0183,
+    "sentence": "Sistem mampu mengubah rekaman suara menjadi teks dengan cukup cepat, namun kami masih menemukan beberapa kesalahan penulisan ketika pembiaga."
+  },
+  {
+    "rank": 20,
+    "score": 0.0172,
+    "sentence": "Tapi juga sudah menambahkan halaman diwayat sehingga seluruh hasil rapat yang pernah diproses dapat dicari kembali berdasarkan judul maupun tanggal pelaksanaan."
+  },
+  {
+    "rank": 21,
+    "score": 0.0164,
+    "sentence": "Keputusan rapat ini adalah menanjutkan penyempungan kualitas transcriptsi pada audio kondisi biasing."
+  },
+  {
+    "rank": 22,
+    "score": 0.0152,
+    "sentence": "Berapa kata tidak dikenali dengan benar sehingga hasil transkripsi perlu diperbaiki secara manual."
+  },
+  {
+    "rank": 23,
+    "score": 0.0139,
+    "sentence": "Agenda utama kita adalah membahas perkembangan implementasi sistem Natulansi Rapat, Yang sedang dikembang."
+  },
+  {
+    "rank": 24,
+    "score": 0.0136,
+    "sentence": "Untuk ringkasan sistem sudah menggunakan pendekatan high-speed, tahap pertama menggunakan lecternya untuk memilih kalimat-kalimat paling penting dalam hasil transkripsi, setelah itu hasil tersebut di proses kembali menggunakan model bahasa, Stamie juga menambahkan proses."
+  },
+  {
+    "rank": 25,
+    "score": 0.0047,
+    "sentence": "Apabila tidak ada tambahan lagi, rapat kita tutup selamat siang."
+  },
+  {
+    "rank": 26,
+    "score": 0.0047,
+    "sentence": "Anggut, baik kami akan menyiapkan Menggunakan metric word error rate, karakter error rate, word akurasi, serta berscore untuk mengakur kualitas seringkasan terhadap, seringkasan referensi."
+  },
+  {
+    "rank": 27,
+    "score": 0.0047,
+    "sentence": "Ng muncul berulang dapat dihapus hingga kualitas transcript menjadi lebih baik, selain itu terdapat proses penyaringan untuk mengorangi kemungkinan munculnya kalimat yang tidak relevan akibat kesalahan pengenalan suara, Bagus."
+  },
+  {
+    "rank": 28,
+    "score": 0.0047,
+    "sentence": "Text sebelum dilakukan peringkasan, kata-kata pengisi seperti anu, jadi, atau nah."
+  },
+  {
+    "rank": 29,
+    "score": 0.0047,
+    "sentence": "Sudah kami menguji menggunakan rekaman rapat dari rekaman presentasi serta rekaman diskusi yang memiliki lebih dari dua pembicara."
+  },
+  {
+    "rank": 30,
+    "score": 0.0047,
+    "sentence": "Berarti, kualitas audio masih menjadi faktor yang cukup berpengaruh terhadap hasil transkripsi, Apakah sudah dilakukan?"
+  },
+  {
+    "rank": 31,
+    "score": 0.0047,
+    "sentence": "Saya berharap hari ini kita dapat mengevaluasi hasil uji coba."
+  },
+  {
+    "rank": 32,
+    "score": 0.0047,
+    "sentence": "Selamat pagi semuanya, terima kasih sudah hadir pada Rapat Co-Ordonasi pagi."
+  }
+]

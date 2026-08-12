@@ -1,0 +1,40 @@
+=== RINGKASAN RAPAT (LIVE — LexRank 6-Step) ===
+Sumber    : transkrip_20260721_163554.txt
+Dibuat    : 21 July 2026, 16:36:15
+Model     : Whisper small
+========================================
+
+adalah notulensi rapat berdasarkan data yang diberikan:
+
+Judul: Sistem Notolensi Rapat Menggunakan Whisper dengan Extractive Summarization dan Abstractive Summarization
+
+**Penyampaian Hasil Penelitian:**
+
+1. Sifau Rahman memberikan kesempatan untuk membaca hasil penelitiannya.
+2. Penyampai mengucapkan syukur kepada Allah SWT atas kesahitan yang diberikan pada hari ini.
+3. Penghormatan disampaikan kepada Bapak pembimbing dua, yaitu Bapak Mohammad Dadulman dan penghormatan juga disampaikan kepada Bapak Penguji Satu dan Tiga.
+
+**Penggahan Sistem:**
+
+1. Sifau Rahman menjelaskan bahwa sistem notolensi rapat menggunakan whisper dengan extractive summarization dan abstractive summarization.
+2. Penggahan audio dan video dilakukan menggunakan REST API dan teknik penggahan yang sesuai.
+3. Audio dan gambar dipisahkan, dan gambar dibuang untuk menghasilkan video dalam bentuk MP3.
+
+**Proses Normalisasi:**
+
+1. Sifau Rahman menjelaskan bahwa standar whisper dari inggutan suara yang ditirimkan diterungkan menjadi 16 kHz.
+2. Audio normalisasi dilakukan menjadi 16 kHz dan dipotong menjadi bagian-bagian kecil.
+
+**Hasil Penertean:**
+
+1. Sifau Rahman menjelaskan bahwa hasil penertean untuk halus masyarakat dengan akurasi Call 50,47 dan everyone's call.
+2. Extractive summarization memperoleh akurasi 99,55 dan F1 score 97,58.
+
+**Kesimpulan:**
+
+1. Sifau Rahman menjelaskan bahwa usaha-usaha di sini berhasil memutang situasi rapat dan melepaskan whisper, next-line, dan tiga komponen pendukung.
+2. Penghormatan disampaikan kepada Bapak pembimbing dua dan penghormatan juga disampaikan kepada Bapak Penguji Satu dan Tiga.
+
+**Akurasi:**
+
+1. Sifau Rahman menjelaskan bahwa hasil penertean memperoleh akurasi yang tinggi, yaitu 99,55 untuk extractive summarization dan F1 score 97,58.

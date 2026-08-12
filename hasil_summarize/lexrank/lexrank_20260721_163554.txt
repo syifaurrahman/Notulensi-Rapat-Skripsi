@@ -1,0 +1,21 @@
+=== HASIL LEXRANK EXTRACTIVE (LIVE) ===
+Sumber    : transkrip_20260721_163554.txt
+Dibuat    : 21 July 2026, 16:36:15
+Model     : Whisper small
+========================================
+
+Menjabarkan hasil penelitiannya yang berjudul sistem notolensi rapat menggunakan whisper dengan extractive summarization menggunakan leg strength dan abstractive summarization menggunakan olama, Kepada Sifau Rahman, saya beri waktu, Assalamualaikum warahmatullahi wabaraka. System Natalansi Rapan menggunakan whisper dengan extractive summarization menggunakan extreme dan abstractive summarization menggunakan polangan. Ng akan tersebut, saya disini, solusinya yaitu dengan membuat sistem nautolensi rapat, yang mana sistem nautolensi rapat ini mempunyai 2 fitur, yaitu fitur light dan outdoor.
+
+Ng akan tersebut, saya disini, solusinya yaitu dengan membuat sistem nautolensi rapat, yang mana sistem nautolensi rapat ini mempunyai 2 fitur, yaitu petrol light dan petrol light ini, dia bisa mendengarkan rapat secara langsung, secara real time, Kemudian, menjadikan sebuah transisi. Diterima oleh info system, yaitu lectern ini, kemudian disusun dengan baik dan rapi dalam bentuk format, yaitu oleh LLA-MBAH 3.2, atau bahasa Kemudian, saya juga menggunakan di sini model pendepung pada sistem melalui sirapat saya, yaitu mengisuaikan yang namanya kondisi dalam sebuah ruangan rapat untuk supaya sistem ini bisa beradaptasi sebagai mananya jalannya sebuah rapat di dalam sebuah ruangan. Ng pertama di sini saya menggunakan noise reduction filter, yang mana noise reduction ini adalah Menangkan kebisingan, tapi meminimalisir kebisingan yang ada dalam sebuah rapat, Misalnya, sedang ada yang berbicara mengenai rapat.
+
+Bunyi HP ini bisa diminimaliser atau diabaikan oleh sistem, jadi menggunakan noise reduction filter. Diterungkan menjadi 16 juga, atau lebih kurang dari 16 kahwin suara yang diterungah whisper. Dia bakal menormalisasi juga menjadi 16 kahwin standar wiltingputan whisper untuk sistem.
+
+Untuk yang 30 detik ini, 30 detik, artinya 2 detik terakhir ini, yang selanjutnya akan ada 30 detik. Supaya sistem tidak bingung sangat, dia mengextrak informasi dan menjadikan sebuah hasil informasi. Text writer ini melewati halusin asin filter tadi, mencegah imputan yang tidak disengaja oleh sistem karena mungkin dalam proses dalam kondisi learning dalam sebuah rapat.
+
+Untuk yang keujian saya di sini, ada 6, Kita tesuaikan suasana dalam sebuah rapat. Ada menggunakan data 9 upload file rapat untuk data yang fitur rapat. Dan bereskor alamannya dia itu update send registration, sama juga menggunakan data level 4 dan send data upload file 4.
+
+Untuk hasil transkripsi yang saya peroleh dari hasil R10 Gen itu, pada file upload, salahkan kata yang berhasil dikripsi adalah send blood 17. Pada file upload, salahkan kata yang berhasil dikripsi adalah send blood 17.26%. Pertahankan kata-kata saya menggunakan, namanya, ekolasi melalui gabang, saya tidak, grafik yang merah adalah sebelum noise reduction diterapkan dan biru adalah sesudah noise reduction diterapkan, memperoleh akurasi itu yang sebelum noise, 6.6 video, dan setelah after noise, setelah noise reduction.
+
+Pertahankan kata-kata ini menggunakan bahasa Inggris apa adanya, jangan diterjemah. Extracting menyegakkan sekian dari extractive summarization, pada extractive summarization untuk besok 6-7, 6-4, bahasa Indonesia. Dan jadi kesimpulan, kesimpulan yang saya perlu di sini, jadi bersetekan, usaha-usaha di sini, saya berhasil memutang situasi rapat dan melepaskan, menerapkan, whisper, next-line, dan tiga komponen pendukung tadi, word fillering mobile, nurse reduction, dan hallucination filter.
+
+Dan jadi kesimpulan, jadi kesimpulan yang saya paruh di sini, jadi bersetekan, usaha-usaha di sini, saya berhasil memperlukan sistem dan pelan-pelan serapat dan melepaskan, menerapkan, whisper, next-line, dan tiga komponen pendukung tadi, word fillering mobile, nurse reduction, dan hallucination filter, Dan memparoleh akurasi, Pertahankan kata-kata, menggunakan bahasa Indonesia yang dicampur.

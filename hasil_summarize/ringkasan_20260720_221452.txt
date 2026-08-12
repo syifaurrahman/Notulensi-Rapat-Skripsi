@@ -1,0 +1,38 @@
+=== RINGKASAN RAPAT (LIVE — LexRank 6-Step) ===
+Sumber    : transkrip_20260720_221452.txt
+Dibuat    : 20 July 2026, 22:15:47
+Model     : Whisper small
+========================================
+
+adalah notulisensi rapat berdasarkan data yang disampaikan:
+
+Judul: Evaluasi Sistem Transkripsi Rapat Otomatis
+Lokasi dan Waktu: [Tidak ada informasi tentang lokasi dan waktu]
+**Tujuan:**
+1. Menyelesaikan sistem transkripsi rapat otomatis dengan kualitas yang baik.
+2. Meningkatkan kemampuan sistem untuk menghadapi kondisi yang berbeda.
+
+**Kesempatan:**
+- Sistem mampu mengubah rekaman suara menjadi teks dengan cepat, namun masih ada kesalahan penulisan ketika pembicara terlalu cepat.
+- Kualitas audio masih menjadi faktor yang cukup berpengaruh terhadap hasil transkripsi.
+
+**Kinerja:**
+- Sistem telah diuji menggunakan rekaman rapat dari rekaman presentasi serta diskusi dengan lebih dari dua pembicara.
+- Hasil terbaik diperoleh pada rekaman dengan suara yang jelas dan minimal gangguan.
+- Transkripsi membutuhkan waktu sekitar 1 hingga 2 menit.
+
+**Evaluasi:**
+- Sistem akan diuji menggunakan lebih banyak variasi data, seperti rapat formal, diskusi kelompok, maupun seminar.
+- Evaluasi dilakukan dengan metrik yang telah disepakati, yaitu:
+ - Word Error Rate (WER)
+ - Karakter Error Rate (CER)
+ - Word Akurasi
+ - Scoring
+
+**Keputusan:**
+- Menyempurnakan kualitas transcriptsi pada audio kondisi biasing.
+- Meningkatkan variasi data uji.
+- Melakukan evaluasi menggunakan metrik yang telah disepakati.
+- Menyiapkan implementasi terbatas terhadap seluruh pengujian.
+
+Rapat Selesai: Rapat ini ditutup dengan selamat siang.

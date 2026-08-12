@@ -1,0 +1,23 @@
+=== HASIL OLLAMA ABSTRACTIVE ===
+Sumber    : transkrip_Zoom Meeting Kewarganegaraan Pertemuan Ke-1 Selasa 1 Maret 22_20260715_144655.txt
+Dibuat    : 15 July 2026, 14:47:24
+Model     : Whisper small + llama3.2:3b
+========================================
+
+adalah notulisn riap pertemuan:
+
+**Pertemuan 1: Pendahuluan:**
+- Pembicara memperkenalkan diri dan topik pembahas, yaitu PMP (Pendidikan Pancasila) dan perbedaan antara warganegara dan pendidikan ke warganegara.
+- Pembicara menjelaskan bahwa pendidikan kewarga negaraan sebelumnya disebut sebagai pendidikan moral pancasila.
+
+**Diskusi:**
+- Hadirin bertanya tentang perbedaan antara warganegara dan pendidikan ke warganegara, serta apa yang dimaksud dengan PMP.
+- Andra menjelaskan bahwa warga negara adalah orang yang memiliki status sebagai warga negara sesuai dengan undang-undang, sedangkan pendidikan ke warganegaraan adalah proses belajar mengenal dan menerapkan nilai-nilai pancasila.
+
+**Tindakan:**
+- Pembicara meminta hadirin untuk membuat video presentasi tentang topik yang dibahas dan mengirimkannya ke grup.
+- Pembicara juga meminta hadirin untuk menyediakan bahan presentasi dalam bentuk powerpoint atau saringan presentasi lainnya.
+
+**Tanggung Jawab:**
+- Pembicara bertanggung jawab atas pengelolaan pertemuan dan topik pembahas.
+- Hadirin diwajibkan untuk mempersiapkan diri dengan baik sebelum pertemuan berikutnya.
