@@ -46,8 +46,8 @@ docker exec notulensi_ollama ollama pull llama3.2:3b
 ### Login Bawaan
 | Email | Password | Level |
 |-------|----------|-------|
-| `Admin@admin.com` | `admin123` | Admin |
-| `user@user.com` | `user123` | User |
+| `Admin@admin.com` | `admin1234` | Admin |
+| `user@user.com` | `user1234` | User |
 
 ### Menghentikan Aplikasi
 ```bash
@@ -128,7 +128,7 @@ Dikembangkan oleh [Syifaurrahman](https://github.com/syifaurrahman)
 
 1. Login menggunakan akun default:
    - **Email**: `Admin@admin.com`
-   - **Password**: `admin123`
+   - **Password**: `admin1234`
 2. Navigasi ke menu **Notulensi** untuk memulai transkripsi langsung atau unggah video rapat.
 3. Hasil transkripsi dapat disimpan dan dilihat di menu **Report** (jika tersedia) atau Dashboard.
 
