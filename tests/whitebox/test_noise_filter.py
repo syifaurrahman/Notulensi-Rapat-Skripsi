@@ -48,7 +48,7 @@ class TestNoiseFilter:
         with patch.dict('sys.modules', {'noisereduce': MagicMock()}):
             import sys
             mock_nr = sys.modules['noisereduce']
-            mock_nr.reduce_noise = MagicMock(return_value=mock_reduced)
+            setattr(mock_nr, 'reduce_noise', MagicMock(return_value=mock_reduced))
             result = nf.apply(audio, 16000)
             # Harus mengembalikan audio yang telah diproses
             assert isinstance(result, np.ndarray)

@@ -78,6 +78,7 @@ def main():
         print(f"    [ERROR] Gagal koneksi: {e}")
         sys.exit(1)
 
+    target_id: int | None = None  # initialized before try to prevent uninitialized error
     try:
         with conn.cursor() as cur:
             # 3. Cari record berdasarkan txt_path

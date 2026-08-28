@@ -22,7 +22,7 @@ class TestHallucinationFilter:
         from whisperLiveTranscription.hallucination_filter import HallucinationFilter
         hf = HallucinationFilter(halluc_config)
         assert hf.is_hallucination("") is True
-        assert hf.is_hallucination(None) is True
+        assert hf.is_hallucination(None) is True  # type: ignore[arg-type]
 
     # ── TC-HF.2: Teks terlalu pendek → hallucination ─────────────
 

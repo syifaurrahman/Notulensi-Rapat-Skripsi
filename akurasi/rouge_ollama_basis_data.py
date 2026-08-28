@@ -115,22 +115,25 @@ def rouge_n(reference: str, hypothesis: str, n: int) -> dict:
 # ─── LIBRARY rouge-score ──────────────────────────────────────────────────────
 def hitung_dengan_library(reference: str, hypothesis: str):
     try:
-        from rouge_score import rouge_scorer
+        from rouge_score import rouge_scorer  # type: ignore[import-untyped]
         scorer = rouge_scorer.RougeScorer(
             ['rouge1', 'rouge2', 'rougeL'],
             use_stemmer=False
         )
         scores = scorer.score(reference, hypothesis)
+        rouge1: dict[str, float] = {"precision": scores['rouge1'].precision,
+                                    "recall":    scores['rouge1'].recall,
+                                    "fmeasure":  scores['rouge1'].fmeasure}
+        rouge2: dict[str, float] = {"precision": scores['rouge2'].precision,
+                                    "recall":    scores['rouge2'].recall,
+                                    "fmeasure":  scores['rouge2'].fmeasure}
+        rougeL: dict[str, float] = {"precision": scores['rougeL'].precision,
+                                    "recall":    scores['rougeL'].recall,
+                                    "fmeasure":  scores['rougeL'].fmeasure}
         return {
-            "rouge1": {"precision": scores['rouge1'].precision,
-                       "recall":    scores['rouge1'].recall,
-                       "fmeasure":  scores['rouge1'].fmeasure},
-            "rouge2": {"precision": scores['rouge2'].precision,
-                       "recall":    scores['rouge2'].recall,
-                       "fmeasure":  scores['rouge2'].fmeasure},
-            "rougeL": {"precision": scores['rougeL'].precision,
-                       "recall":    scores['rougeL'].recall,
-                       "fmeasure":  scores['rougeL'].fmeasure},
+            "rouge1": rouge1,
+            "rouge2": rouge2,
+            "rougeL": rougeL,
             "metode": "rouge-score (library)"
         }
     except ImportError:
@@ -170,10 +173,10 @@ def main():
 
     lib = hitung_dengan_library(ref_norm, hyp_norm)
     if lib:
-        metode = lib["metode"]
-        r1 = lib["rouge1"]
-        r2 = lib["rouge2"]
-        rl = lib["rougeL"]
+        metode: str = str(lib["metode"])
+        r1: dict[str, float] = dict(lib["rouge1"])  # type: ignore[arg-type]
+        r2: dict[str, float] = dict(lib["rouge2"])  # type: ignore[arg-type]
+        rl: dict[str, float] = dict(lib["rougeL"])  # type: ignore[arg-type]
     else:
         metode = "ROUGE Manual (N-gram + LCS)"
         r1 = rouge_n(ref_norm, hyp_norm, 1)

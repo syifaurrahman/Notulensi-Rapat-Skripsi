@@ -197,7 +197,7 @@ def process_live_audio(session: SessionState):
     if buf_dur < live_cfg.min_process_sec:
         return
 
-    latest = session.audio_buffer[-int(session.sample_rate):]
+    latest = session.audio_buffer[-session.sample_rate:]
     rms    = float(np.sqrt(np.mean(latest ** 2))) if len(latest) > 0 else 0.0
 
     if rms < live_cfg.vad_threshold:
@@ -207,12 +207,12 @@ def process_live_audio(session: SessionState):
             session.prev_text     = ""
         max_s = int(session.sample_rate * 1.0)
         if len(session.audio_buffer) > max_s:
-            session.audio_buffer = session.audio_buffer[-max_s:]
+            session.audio_buffer = session.audio_buffer[-max_s:].reshape(-1)
         return
 
     buf = session.audio_buffer.copy()
     live_transcriber.submit_and_wait(buf, session.sample_rate, timeout=8.0)
-    chunk_text = live_transcriber.pop_result()
+    chunk_text: str = live_transcriber.pop_result()
 
     if live_halluc_filter.is_hallucination(chunk_text):
         chunk_text = ""
@@ -425,11 +425,13 @@ def handle_request_summarize(data):
             if not ringkasan:
                 ringkasan = "Tidak ada ringkasan yang dihasilkan."
 
+            # Determine timestamp for filenames (always initialized)
+            ts_now = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
+
             # Simpan file ringkasan
             if fname and fname.startswith("transkrip_"):
                 sum_filename = fname.replace("transkrip_", "ringkasan_")
             else:
-                ts_now = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
                 sum_filename = f"ringkasan_live_{ts_now}.txt"
 
             # ── [1] Simpan ringkasan UTAMA ke hasil_summarize/ ──

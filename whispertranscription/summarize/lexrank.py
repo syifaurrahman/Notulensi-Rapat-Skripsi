@@ -600,7 +600,7 @@ class LexRankSummarizer:
 
     def _build_similarity_matrix(self, tfidf_matrix) -> np.ndarray:
         """Cosine similarity → adjacency matrix dengan threshold."""
-        sim = cosine_similarity(tfidf_matrix)
+        sim: np.ndarray = cosine_similarity(tfidf_matrix)  # type: ignore[assignment]
         np.fill_diagonal(sim, 0.0)
         sim[sim < self.cfg.similarity_threshold] = 0.0
 

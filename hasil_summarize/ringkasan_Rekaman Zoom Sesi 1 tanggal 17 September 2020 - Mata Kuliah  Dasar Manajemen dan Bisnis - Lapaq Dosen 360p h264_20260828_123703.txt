@@ -1,0 +1,30 @@
+=== RINGKASAN RAPAT (LexRank 6-Step) ===
+Sumber    : transkrip_Rekaman Zoom Sesi 1 tanggal 17 September 2020 - Mata Kuliah  Dasar Manajemen dan Bisnis - Lapaq Dosen 360p h264_20260828_123703.txt
+Dibuat    : 28 August 2026, 12:37:06
+Model     : Whisper small
+========================================
+
+adalah notulisensi rapat berdasarkan transkrip Rekaman Zoom Sesi 1 tanggal 17 September 2020 - Mata Kuliah Dasar Manajemen dan Bisnis:
+
+**Rapat: Definisi Organisasi dan Peran Sumber Daya Manusia:**
+
+Tujuan: Mengenai definisi organisasi dan peran sumber daya manusia dalam mencapai tujuan organisasi.
+
+Pertemuan: Diskusi tentang definisi organisasi, penjelasan tentang peran sumber daya manusia, dan pembicaraan tentang kepentingan dan sistem rekrutmen.
+
+**Poin Utama:**
+
+1. Definisi Organisasi: Perpaduan antara SEMI dan ilmu, berhubungan dengan orang, manusia, sumber daya manusia.
+2. Peran Sumber Daya Manusia: Bekerja dengan orang-orang untuk menentukan tujuan organisasi, menginterpretasikan dan mencapai tujuan-tujuan organisasi.
+3. Sistem Rekrutmen: Kepentingan dari sisi organisasi, bagaimana memilih kandidat yang tepat.
+
+Kesimpulan: Organisasi adalah perpaduan antara SEMI dan ilmu, berhubungan dengan orang, manusia, sumber daya manusia. Sumber daya manusia memiliki peran penting dalam mencapai tujuan organisasi melalui sistem rekrutmen yang efektif.
+
+**Tindakan:**
+- Beritahu teman-teman tentang definisi organisasi dan peran sumber daya manusia.
+- Minta informasi dari teman-teman tentang kepentingan dan sistem rekrutmen.
+- Bantu teman-teman dalam mencapai tujuan organisasi.
+
+**Lampiran:**
+- Transkrip Rekaman Zoom Sesi 1 tanggal 17 September 2020
+- Materi Mata Kuliah Dasar Manajemen dan Bisnis

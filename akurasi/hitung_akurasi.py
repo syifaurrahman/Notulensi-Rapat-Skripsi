@@ -333,7 +333,7 @@ def main():
     jiwer_result = hitung_dengan_jiwer(reference, hypothesis)
 
     if jiwer_result:
-        metode   = jiwer_result["metode"]
+        metode: str   = str(jiwer_result["metode"])
         wer_data = {"wer": jiwer_result["wer"], "wacc": jiwer_result["wacc"]}
         cer_data = {"cer": jiwer_result["cer"]}
     else:

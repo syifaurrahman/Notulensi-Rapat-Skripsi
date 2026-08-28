@@ -1,0 +1,13 @@
+{
+  "include": [
+    "."
+  ],
+  "extraPaths": [
+    "whispertranscription"
+  ],
+  "pythonVersion": "3.12",
+  "pythonPlatform": "Windows",
+  "typeCheckingMode": "basic",
+  "reportMissingImports": "warning",
+  "reportMissingModuleSource": "none"
+}
