@@ -1,0 +1,31 @@
+=== RINGKASAN RAPAT (LexRank 6-Step) ===
+Sumber    : transkrip_Zoom Meeting   Psikologi Sosial I C 2022 02 23 13 15 57_20260905_005701.txt
+Dibuat    : 05 September 2026, 00:57:38
+Model     : Whisper small
+========================================
+
+adalah notulen rapat berdasarkan data yang diberikan:
+
+Judul: Psikologi Sosial dan Perbedaannya dengan Ilmu Lain
+
+**Pembahasan:**
+
+1. Definisi Psikologi Sosial:
+- Menurut Alfort, psikologi sosial adalah ilmu yang meneliti konteks sosial dan bagaimana individu dipengaruhi oleh lingkungannya.
+2. Perbedaan Psikologi Sosial dengan Ilmu Lain:
+- Psikologi sosial berfokus pada aspek sosial, sedangkan biologi fokus pada aspek fisik.
+3. Perbandingan dengan Sosiologi dan Antropologi:
+- Sosiologi dan antropologi juga mempelajari aspek sosial, tetapi dari perspektif yang berbeda.
+
+**Pertanyaan:**
+
+1. Apakah ada pertanyaan tentang definisi psikologi sosial?
+2. Bagaimana perbedaan psikologi sosial dengan ilmu lain?
+
+**Kesimpulan:**
+Psikologi sosial adalah ilmu yang meneliti konteks sosial dan bagaimana individu dipengaruhi oleh lingkungannya. Perbedaannya dengan ilmu lain, seperti biologi, sosiologi, dan antropologi, terletak pada fokus aspek yang dijadikan sebagai tujuan penelitian.
+
+**Catatan:**
+- Psikologi sosial meneliti konteks sosial.
+- Biologi fokus pada aspek fisik.
+- Sosiologi dan antropologi juga mempelajari aspek sosial, tetapi dari perspektif yang berbeda.

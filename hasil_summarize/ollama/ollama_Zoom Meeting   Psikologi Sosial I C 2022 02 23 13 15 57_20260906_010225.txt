@@ -1,0 +1,41 @@
+=== HASIL OLLAMA ABSTRACTIVE ===
+Sumber    : transkrip_Zoom Meeting   Psikologi Sosial I C 2022 02 23 13 15 57_20260906_010225.txt
+Dibuat    : 06 September 2026, 01:02:44
+Model     : Whisper small + llama3.2:3b
+========================================
+
+adalah notulen rapat berdasarkan data yang diberikan:
+
+**Pertemuan dan Pengenalan:**
+
+- Rapat ini bertempat pada tanggal [tanggal] pukul [waktu]
+- Hadir: [nama-nama orang yang hadir]
+
+**Topik Diskusi:**
+
+- Psikologi Sosial
+ - Definisi psikologi sosial menurut Alfort
+ - Actual, imaging, dan implied presence
+
+**Pengenalan Psikologi Sosial:**
+
+- Psikologi sosial adalah ilmu yang mempelajari bagaimana individu dipengaruhi oleh lingkungannya.
+- Contoh: budaya, tradisi, kebiasaan
+ - Implied presence (kesadaran tidak langsung)
+ - Misalnya, ketika kita melihat orang lain melakukan sesuatu, kita bisa menduga apa yang mereka pikirkan atau perasaan mereka tanpa harus bertanya langsung.
+
+**Perbedaan Psikologi Sosial dengan Ilmu Lain:**
+
+- Perbandingan dengan sosiologi dan antropologi
+ - Sosiologi: fokus pada struktur sosial dan institusi
+ - Antropologi: fokus pada budaya dan kehidupan masyarakat
+
+**Pengalaman Pribadi:**
+
+- Pengalaman penulis (Andra) dalam melakukan penelitian dengan AI bukarya tourismnya
+ - Hasil pengujian dan interpretasi data untuk mengembangkan teori yang tepat.
+
+**Kesimpulan:**
+
+- Psikologi sosial adalah ilmu yang penting dalam memahami bagaimana individu dipengaruhi oleh lingkungannya.
+- Dengan memahami psikologi sosial, kita bisa lebih baik memahami perilaku manusia dan meningkatkan hubungan interpersonal.

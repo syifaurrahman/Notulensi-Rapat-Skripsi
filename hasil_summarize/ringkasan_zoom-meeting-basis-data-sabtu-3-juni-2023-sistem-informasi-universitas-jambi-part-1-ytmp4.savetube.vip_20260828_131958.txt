@@ -1,0 +1,21 @@
+=== RINGKASAN RAPAT (LexRank 6-Step) ===
+Sumber    : transkrip_zoom-meeting-basis-data-sabtu-3-juni-2023-sistem-informasi-universitas-jambi-part-1-ytmp4.savetube.vip_20260828_131958.txt
+Dibuat    : 28 August 2026, 13:21:11
+Model     : Whisper small
+========================================
+
+adalah ringkasan dari materi Subtype Mapping yang dibahas:
+
+1. Tujuan pembelajaran: Melihat proses bentuknya berapa table yang harus terbentuk.
+2. Konsep dasar: Table dapat terbentuk dari subtype mapping, yaitu gabungan antara single table dan 2 table.
+3. Implementasi:
+- Super type dan sub-type dipakai untuk menggabungkan data.
+- Dua kolom tambahan dibuat di table berdasarkan dari super type ini yang ini tadi ya.
+4. Pengecekan konstrinya atau integriti konstrinya: Kita pengecekan Pengecekan konstrinya atau integriti konstrinya, dua kolom tambahan dibuat untuk di, dua kolom tambahan dibuat di table berdasarkan dari super type ini yang ini tadi ya.
+5. Contoh:
+- Tabel kemeja dan tabel sepatu dapat terbentuk dari subtype mapping.
+6. Konstren-konstren tidak terlihat di database: Kita harus memperhatikan kokus terhadap waktu, seperti end time-nya lebih kecil daripada start time-nya jika tanggalnya berbeda.
+7. Contoh:
+- Waktu shift tidak boleh lebih dan tidak boleh overlap.
+
+Dengan demikian, kita dapat melihat bahwa subtype mapping memungkinkan pembentukan table yang lebih kompleks dari data yang aslinya hanya terdiri dari satu table.
